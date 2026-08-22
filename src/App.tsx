@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import Layout from "./component/Layout";
 import Footer from "./component/Footer";
 import MainContent from "./component/MainContent";
@@ -79,6 +80,7 @@ function App() {
         />
       )}
       <Footer />
+      <Analytics />
     </Layout>
   );
 }
