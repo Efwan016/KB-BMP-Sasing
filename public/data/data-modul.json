@@ -1,0 +1,62 @@
+[
+   {
+      "title": "Basic Reading",
+      "description": "Bangun cara membaca yang lebih tajam, terarah, dan percaya diri.",
+      "eyebrow": "English learning module",
+      "label": "Module 02",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/basicReading/Najwa_BasicReading_Modul2.pdf",
+      "highlights": ["Reading strategies", "Meaning in context", "Active comprehension"]
+   },
+   {
+      "title": "Basic Reading",
+      "description": "Latihan memahami bacaan dan menemukan gagasan utama dengan lebih efektif.",
+      "eyebrow": "English learning module",
+      "label": "Module 05",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/basicReading/Bayu_BasicReading_Modul5.docx",
+      "highlights": ["Main ideas", "Reading practice", "Text comprehension"]
+   },
+   {
+      "title": "Basic Reading",
+      "description": "Bangun cara membaca yang lebih tajam, terarah, dan percaya diri.",
+      "eyebrow": "English learning module",
+      "label": "Module 06",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/basicReading/Evan_BasicReading_Modul6.pdf",
+      "highlights": ["Reading strategies", "Meaning in context", "Active comprehension"]
+   },
+   {
+      "title": "Basic Reading",
+      "description": "Lanjutkan latihan membaca dengan teks dan strategi pemahaman yang lebih beragam.",
+      "eyebrow": "English learning module",
+      "label": "Module 07",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/basicReading/Basic%20Reading%20Modul%207.pdf",
+      "highlights": ["Reading practice", "Key information", "Text comprehension"]
+   },
+   {
+      "title": "Basic Reading",
+      "description": "Perkuat pemahaman bacaan melalui latihan yang terarah dan konsisten.",
+      "eyebrow": "English learning module",
+      "label": "Module 08",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/basicReading/putri_basicreadingmodul8.pdf",
+      "highlights": ["Reading fluency", "Meaning in context", "Active comprehension"]
+   },
+   {
+      "title": "Basic Writing",
+      "description": "Susun ide menjadi tulisan bahasa Inggris yang jelas, runtut, dan komunikatif.",
+      "eyebrow": "English learning module",
+      "label": "Module 06",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/basicWriting/Kholis_Basic%20Writing_%20Modul%206.pdf",
+      "highlights": ["Writing structure", "Clear sentences", "Organizing ideas"]
+   }
+]
