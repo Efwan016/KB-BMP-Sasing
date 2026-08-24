@@ -33,6 +33,7 @@ export default function MainContent({
           <p className="eyebrow"><span className="eyebrow-line" />{moduleData.eyebrow}</p>
           <h1 id="hero-title">Read with<br /><em>intention.</em></h1>
           <p className="hero-description">{moduleData.description}</p>
+          <p className="hero-meta">Kelompok Gabungan Belajar Mandiri Sasing Ganji 2026</p>
           <div className="hero-actions">
             <a className="text-link" href="#module">See what is inside <span aria-hidden="true">↓</span></a>
           </div>
@@ -77,7 +78,7 @@ export default function MainContent({
             <h2 id="catalog-title">Latest modules from<br /><em>your library.</em></h2>
             <p className="catalog-description">A quick selection of materials to keep your reading and writing practice moving forward.</p>
           </div>
-          {filteredModules.length > 3 && <button className="view-all-button" type="button" onClick={() => onOpenModule(filteredModules[0])}>View all modules <span aria-hidden="true">→</span></button>}
+          {filteredModules.length > 3 && <button className="view-all-button" type="button" onClick={() => onOpenModule(filteredModules[0])}>Show all <span aria-hidden="true">→</span></button>}
         </div>
         <div className="search-wrap">
           <label htmlFor="module-search">Search modules</label>
