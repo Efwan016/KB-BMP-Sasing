@@ -1,364 +1,518 @@
 [
    {
-      "title": "Bahasa Indonesia",
-      "description": "Modul 1 — Bahasa Indonesia (Qoni)",
-      "eyebrow": "Indonesian language module",
+      "title": "Bahasa_Indonesia",
+      "description": "Module 01 \u2014 Bahasa_Indonesia",
+      "eyebrow": "Bahasa_Indonesia module",
       "label": "Module 01",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Bahasa_Indonesia/Bahasa_Indonesia_Modul1_Qoni.pdf",
       "highlights": [
-         "Modul 1",
-         "Bahasa Indonesia",
+         "Module 01",
+         "Bahasa_Indonesia",
          "Learning material"
       ]
    },
    {
-      "title": "Bahasa Indonesia",
-      "description": "Modul 2 — Bahasa Indonesia (Lua)",
-      "eyebrow": "Indonesian language module",
+      "title": "Bahasa_Indonesia",
+      "description": "Module 02 \u2014 Bahasa_Indonesia",
+      "eyebrow": "Bahasa_Indonesia module",
       "label": "Module 02",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Bahasa_Indonesia/Bahasa_Indonesia_Modul2_Lua.pdf",
       "highlights": [
-         "Modul 2",
-         "Bahasa Indonesia",
+         "Module 02",
+         "Bahasa_Indonesia",
          "Learning material"
       ]
    },
    {
-      "title": "Bahasa Indonesia",
-      "description": "Modul 3 — Bahasa Indonesia (Thomas)",
-      "eyebrow": "Indonesian language module",
+      "title": "Bahasa_Indonesia",
+      "description": "Module 03 \u2014 Bahasa_Indonesia",
+      "eyebrow": "Bahasa_Indonesia module",
       "label": "Module 03",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Bahasa_Indonesia/Bahasa_Indonesia_Modul3_Thomas.pdf",
       "highlights": [
-         "Modul 3",
-         "Bahasa Indonesia",
+         "Module 03",
+         "Bahasa_Indonesia",
          "Learning material"
       ]
    },
    {
-      "title": "Bahasa Indonesia",
-      "description": "Modul 4 — Bahasa Indonesia (Kiran)",
-      "eyebrow": "Indonesian language module",
+      "title": "Bahasa_Indonesia",
+      "description": "Module 04 \u2014 Bahasa_Indonesia",
+      "eyebrow": "Bahasa_Indonesia module",
       "label": "Module 04",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Bahasa_Indonesia/Bahasa_Indonesia_Modul4_Kiran.pdf",
       "highlights": [
-         "Modul 4",
-         "Bahasa Indonesia",
+         "Module 04",
+         "Bahasa_Indonesia",
          "Learning material"
       ]
    },
    {
-      "title": "Bahasa Indonesia",
-      "description": "Modul 5 — Bahasa Indonesia (April)",
-      "eyebrow": "Indonesian language module",
+      "title": "Bahasa_Indonesia",
+      "description": "Module 05 \u2014 Bahasa_Indonesia",
+      "eyebrow": "Bahasa_Indonesia module",
       "label": "Module 05",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Bahasa_Indonesia/Bahasa_Indonesia_Modul5_April.pdf",
       "highlights": [
-         "Modul 5",
-         "Bahasa Indonesia",
+         "Module 05",
+         "Bahasa_Indonesia",
          "Learning material"
       ]
    },
    {
-      "title": "Bahasa Indonesia",
-      "description": "Modul 6 — Bahasa Indonesia (Lia)",
-      "eyebrow": "Indonesian language module",
+      "title": "Bahasa_Indonesia",
+      "description": "Module 06 \u2014 Bahasa_Indonesia",
+      "eyebrow": "Bahasa_Indonesia module",
       "label": "Module 06",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Bahasa_Indonesia/Bahasa_Indonesia_Modul6_Lia.pdf",
       "highlights": [
-         "Modul 6",
-         "Bahasa Indonesia",
+         "Module 06",
+         "Bahasa_Indonesia",
          "Learning material"
       ]
    },
    {
-      "title": "Basic Reading",
-      "description": "Modul 1 — Basic Reading (Heri)",
-      "eyebrow": "English learning module",
+      "title": "Basic_Reading",
+      "description": "Module 01 \u2014 Basic_Reading",
+      "eyebrow": "Basic_Reading module",
       "label": "Module 01",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Basic_Reading/BasicReading_Modul1_Heri.pdf",
       "highlights": [
-         "Modul 1",
-         "Basic Reading",
+         "Module 01",
+         "Basic_Reading",
          "Learning material"
       ]
    },
    {
-      "title": "Basic Reading",
-      "description": "Modul 2 — Basic Reading (Najwa)",
-      "eyebrow": "English learning module",
+      "title": "Basic_Reading",
+      "description": "Module 02 \u2014 Basic_Reading",
+      "eyebrow": "Basic_Reading module",
       "label": "Module 02",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Basic_Reading/BasicReading_Modul2_Najwa.pdf",
       "highlights": [
-         "Modul 2",
-         "Basic Reading",
+         "Module 02",
+         "Basic_Reading",
          "Learning material"
       ]
    },
    {
-      "title": "Basic Reading",
-      "description": "Modul 3 — Basic Reading (Zahra)",
-      "eyebrow": "English learning module",
+      "title": "Basic_Reading",
+      "description": "Module 03 \u2014 Basic_Reading",
+      "eyebrow": "Basic_Reading module",
       "label": "Module 03",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Basic_Reading/BasicReading_Modul3_Zahra.pdf",
       "highlights": [
-         "Modul 3",
-         "Basic Reading",
+         "Module 03",
+         "Basic_Reading",
          "Learning material"
       ]
    },
    {
-      "title": "Basic Reading",
-      "description": "Modul 4 — Basic Reading (Syazz)",
-      "eyebrow": "English learning module",
+      "title": "Basic_Reading",
+      "description": "Module 04 \u2014 Basic_Reading",
+      "eyebrow": "Basic_Reading module",
       "label": "Module 04",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Basic_Reading/BasicReading_Modul4_Syazz.pdf",
       "highlights": [
-         "Modul 4",
-         "Basic Reading",
+         "Module 04",
+         "Basic_Reading",
          "Learning material"
       ]
    },
    {
-      "title": "Basic Reading",
-      "description": "Modul 5 — Basic Reading (Bayu)",
-      "eyebrow": "English learning module",
+      "title": "Basic_Reading",
+      "description": "Module 05 \u2014 Basic_Reading",
+      "eyebrow": "Basic_Reading module",
       "label": "Module 05",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Basic_Reading/BasicReading_Modul5_Bayu.pdf",
       "highlights": [
-         "Modul 5",
-         "Basic Reading",
+         "Module 05",
+         "Basic_Reading",
          "Learning material"
       ]
    },
    {
-      "title": "Basic Reading",
-      "description": "Modul 6 — Basic Reading (Evan)",
-      "eyebrow": "English learning module",
+      "title": "Basic_Reading",
+      "description": "Module 06 \u2014 Basic_Reading",
+      "eyebrow": "Basic_Reading module",
       "label": "Module 06",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Basic_Reading/BasicReading_Modul6_Evan.pdf",
       "highlights": [
-         "Modul 6",
-         "Basic Reading",
+         "Module 06",
+         "Basic_Reading",
          "Learning material"
       ]
    },
    {
-      "title": "Basic Reading",
-      "description": "Modul 7 — Basic Reading (Maria)",
-      "eyebrow": "English learning module",
+      "title": "Basic_Reading",
+      "description": "Module 07 \u2014 Basic_Reading",
+      "eyebrow": "Basic_Reading module",
       "label": "Module 07",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Basic_Reading/BasicReading_Modul7_Maria.pdf",
       "highlights": [
-         "Modul 7",
-         "Basic Reading",
+         "Module 07",
+         "Basic_Reading",
          "Learning material"
       ]
    },
    {
-      "title": "Basic Reading",
-      "description": "Modul 8 — Basic Reading (Putri)",
-      "eyebrow": "English learning module",
+      "title": "Basic_Reading",
+      "description": "Module 08 \u2014 Basic_Reading",
+      "eyebrow": "Basic_Reading module",
       "label": "Module 08",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Basic_Reading/BasicReading_Modul8_Putri.pdf",
       "highlights": [
-         "Modul 8",
-         "Basic Reading",
+         "Module 08",
+         "Basic_Reading",
          "Learning material"
       ]
    },
    {
-      "title": "Basic Reading",
-      "description": "Modul 9 — Basic Reading (Ayu)",
-      "eyebrow": "English learning module",
+      "title": "Basic_Reading",
+      "description": "Module 09 \u2014 Basic_Reading",
+      "eyebrow": "Basic_Reading module",
       "label": "Module 09",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Basic_Reading/BasicReading_Modul9_Ayu.pdf",
       "highlights": [
-         "Modul 9",
-         "Basic Reading",
+         "Module 09",
+         "Basic_Reading",
          "Learning material"
       ]
    },
    {
-      "title": "Basic Writing",
-      "description": "Modul 1 — Basic Writing (Nillawati)",
-      "eyebrow": "English learning module",
+      "title": "Basic_Writting",
+      "description": "Module 01 \u2014 Basic_Writting",
+      "eyebrow": "Basic_Writting module",
       "label": "Module 01",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Basic_Writting/Basic Writing_Modul1_Nillawati.pdf",
       "highlights": [
-         "Modul 1",
-         "Basic Writing",
+         "Module 01",
+         "Basic_Writting",
          "Learning material"
       ]
    },
    {
-      "title": "Basic Writing",
-      "description": "Modul 2 — Basic Writing (Zaen)",
-      "eyebrow": "English learning module",
+      "title": "Basic_Writting",
+      "description": "Module 02 \u2014 Basic_Writting",
+      "eyebrow": "Basic_Writting module",
       "label": "Module 02",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Basic_Writting/Basic Writing_Modul2_Zaen.pdf",
       "highlights": [
-         "Modul 2",
-         "Basic Writing",
+         "Module 02",
+         "Basic_Writting",
          "Learning material"
       ]
    },
    {
-      "title": "Basic Writing",
-      "description": "Modul 3 — Basic Writing (Sayu)",
-      "eyebrow": "English learning module",
+      "title": "Basic_Writting",
+      "description": "Module 03 \u2014 Basic_Writting",
+      "eyebrow": "Basic_Writting module",
       "label": "Module 03",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Basic_Writting/Basic Writing_Modul3_Sayu.pdf",
       "highlights": [
-         "Modul 3",
-         "Basic Writing",
+         "Module 03",
+         "Basic_Writting",
          "Learning material"
       ]
    },
    {
-      "title": "Basic Writing",
-      "description": "Modul 5 — Basic Writing (Puput)",
-      "eyebrow": "English learning module",
-      "label": "Module 05",
-      "duration": "Self-paced",
-      "level": "Foundational",
-      "asset": "/assetMatkul/Basic_Writting/Basic Writing_Modul5_Puput.pdf",
-      "highlights": [
-         "Modul 5",
-         "Basic Writing",
-         "Learning material"
-      ]
-   },
-   {
-      "title": "Basic Writing",
-      "description": "Modul 6 — Basic Writing (Kholis)",
-      "eyebrow": "English learning module",
-      "label": "Module 06",
-      "duration": "Self-paced",
-      "level": "Foundational",
-      "asset": "/assetMatkul/Basic_Writting/Basic Writing_Modul6_Kholis.pdf",
-      "highlights": [
-         "Modul 6",
-         "Basic Writing",
-         "Learning material"
-      ]
-   },
-   {
-      "title": "Basic Writing",
-      "description": "Modul 7 — Basic Writing (Fauziah)",
-      "eyebrow": "English learning module",
-      "label": "Module 07",
-      "duration": "Self-paced",
-      "level": "Foundational",
-      "asset": "/assetMatkul/Basic_Writting/Basic Writing_Modul7_Fauziah.pdf",
-      "highlights": [
-         "Modul 7",
-         "Basic Writing",
-         "Learning material"
-      ]
-   },
-   {
-      "title": "Basic Writing",
-      "description": "Modul 4 — Basic Writing (Ocha)",
-      "eyebrow": "English learning module",
+      "title": "Basic_Writting",
+      "description": "Module 04 \u2014 Basic_Writting",
+      "eyebrow": "Basic_Writting module",
       "label": "Module 04",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Basic_Writting/Basic_Writing_Modul4_Ocha.pdf",
       "highlights": [
-         "Modul 4",
-         "Basic Writing",
+         "Module 04",
+         "Basic_Writting",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Basic_Writting",
+      "description": "Module 05 \u2014 Basic_Writting",
+      "eyebrow": "Basic_Writting module",
+      "label": "Module 05",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Basic_Writting/Basic Writing_Modul5_Puput.pdf",
+      "highlights": [
+         "Module 05",
+         "Basic_Writting",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Basic_Writting",
+      "description": "Module 06 \u2014 Basic_Writting",
+      "eyebrow": "Basic_Writting module",
+      "label": "Module 06",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Basic_Writting/Basic Writing_Modul6_Kholis.pdf",
+      "highlights": [
+         "Module 06",
+         "Basic_Writting",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Basic_Writting",
+      "description": "Module 07 \u2014 Basic_Writting",
+      "eyebrow": "Basic_Writting module",
+      "label": "Module 07",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Basic_Writting/Basic Writing_Modul7_Fauziah.pdf",
+      "highlights": [
+         "Module 07",
+         "Basic_Writting",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Cybermedia",
+      "description": "Module 01 \u2014 Cybermedia",
+      "eyebrow": "Cybermedia module",
+      "label": "Module 01",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Cybermedia/cybermedia_Modul1_hasna.pdf",
+      "highlights": [
+         "Module 01",
+         "Cybermedia",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Cybermedia",
+      "description": "Module 02 \u2014 Cybermedia",
+      "eyebrow": "Cybermedia module",
+      "label": "Module 02",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Cybermedia/Cybermedia_Modul2_Andra.pdf",
+      "highlights": [
+         "Module 02",
+         "Cybermedia",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Cybermedia",
+      "description": "Module 03 \u2014 Cybermedia",
+      "eyebrow": "Cybermedia module",
+      "label": "Module 03",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Cybermedia/Cybermedia_Modul3_Satya.pdf",
+      "highlights": [
+         "Module 03",
+         "Cybermedia",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Cybermedia",
+      "description": "Module 04 \u2014 Cybermedia",
+      "eyebrow": "Cybermedia module",
+      "label": "Module 04",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Cybermedia/Cybermedia_Modul4_Keisya.pdf",
+      "highlights": [
+         "Module 04",
+         "Cybermedia",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Cybermedia",
+      "description": "Module 05 \u2014 Cybermedia",
+      "eyebrow": "Cybermedia module",
+      "label": "Module 05",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Cybermedia/Cybermedia_Modul5_Medina.pdf",
+      "highlights": [
+         "Module 05",
+         "Cybermedia",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Cybermedia",
+      "description": "Module 06 \u2014 Cybermedia",
+      "eyebrow": "Cybermedia module",
+      "label": "Module 06",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Cybermedia/Cybermedia_Modul6_Indri.pdf",
+      "highlights": [
+         "Module 06",
+         "Cybermedia",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Cybermedia",
+      "description": "Module 07 \u2014 Cybermedia",
+      "eyebrow": "Cybermedia module",
+      "label": "Module 07",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Cybermedia/Cybermedia_Modul7_Wendy.pdf",
+      "highlights": [
+         "Module 07",
+         "Cybermedia",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Cybermedia",
+      "description": "Module 08 \u2014 Cybermedia",
+      "eyebrow": "Cybermedia module",
+      "label": "Module 08",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Cybermedia/Cybermedia_Modul8_Enji.pdf",
+      "highlights": [
+         "Module 08",
+         "Cybermedia",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Cybermedia",
+      "description": "Module 09 \u2014 Cybermedia",
+      "eyebrow": "Cybermedia module",
+      "label": "Module 09",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Cybermedia/Cybermedia_Modul9_Satya.pdf",
+      "highlights": [
+         "Module 09",
+         "Cybermedia",
          "Learning material"
       ]
    },
    {
       "title": "PKN",
-      "description": "Modul 2 — PKN (Repita)",
-      "eyebrow": "Civics module",
+      "description": "Module 01 \u2014 PKN",
+      "eyebrow": "PKN module",
+      "label": "Module 01",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/PKN/Pkn_Modul1_Kiran.pdf",
+      "highlights": [
+         "Module 01",
+         "PKN",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "PKN",
+      "description": "Module 02 \u2014 PKN",
+      "eyebrow": "PKN module",
       "label": "Module 02",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/PKN/Pkn_Modul2_Repita.pdf",
       "highlights": [
-         "Modul 2",
+         "Module 02",
          "PKN",
          "Learning material"
       ]
    },
    {
       "title": "PKN",
-      "description": "Modul 3 — PKN (Evi)",
-      "eyebrow": "Civics module",
+      "description": "Module 03 \u2014 PKN",
+      "eyebrow": "PKN module",
       "label": "Module 03",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/PKN/Pkn_Modul3_Evi.pdf",
       "highlights": [
-         "Modul 3",
+         "Module 03",
          "PKN",
          "Learning material"
       ]
    },
    {
       "title": "PKN",
-      "description": "Modul 4 — PKN (Herlin)",
-      "eyebrow": "Civics module",
+      "description": "Module 04 \u2014 PKN",
+      "eyebrow": "PKN module",
       "label": "Module 04",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/PKN/Pkn_Modul4_Herlin.pdf",
       "highlights": [
-         "Modul 4",
+         "Module 04",
          "PKN",
          "Learning material"
       ]
    },
    {
       "title": "PKN",
-      "description": "Modul 5 — PKN (Fahrezi)",
-      "eyebrow": "Civics module",
+      "description": "Module 05 \u2014 PKN",
+      "eyebrow": "PKN module",
       "label": "Module 05",
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/PKN/Pkn_Modul5_Fahrezi.pdf",
       "highlights": [
-         "Modul 5",
+         "Module 05",
+         "PKN",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "PKN",
+      "description": "Module 06 \u2014 PKN",
+      "eyebrow": "PKN module",
+      "label": "Module 06",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/PKN/Pkn_Modul6_Zidan.pdf",
+      "highlights": [
+         "Module 06",
          "PKN",
          "Learning material"
       ]

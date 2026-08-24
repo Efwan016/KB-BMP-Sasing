@@ -121,6 +121,13 @@ h1 em, h2 em { color: var(--coral); font-style: italic; }
 .light-button { color: var(--ink); background: var(--paper); }
 .light-button:hover { color: var(--paper); background: var(--ink); }
 footer { display: flex; justify-content: space-between; padding: 28px 0; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: 1.2px; }
+.clear-history-button { margin-top: 28px; padding: 13px 0; color: var(--ink); background: none; border: 0; border-bottom: 1px solid var(--ink); cursor: pointer; font-size: 12px; font-weight: 800; }
+.history-list { display: grid; gap: 14px; padding: 30px 0 0; border-top: 1px solid var(--line); }
+.history-item { display: grid; grid-template-columns: auto 1fr auto; gap: 24px; align-items: baseline; padding: 22px 0; border-bottom: 1px solid var(--line); }
+.history-item-info { display: flex; flex-direction: column; gap: 8px; }
+.history-label { color: var(--coral); font-size: 10px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; }
+.history-title { color: var(--ink); font: 21px var(--serif); }
+.history-time { color: var(--muted); font-size: 12px; }
 @keyframes appear { from { opacity: 0; transform: rotate(0) translateY(25px); } to { opacity: 1; transform: rotate(7deg) translateY(0); } }
 @media (max-width: 720px) {
   .site-nav, main, footer { width: 100%; }

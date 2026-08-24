@@ -1,5 +1,5 @@
 import type { ChangeEvent } from "react";
-import type { Module } from "../types";
+import type { Module, ReadingHistoryItem } from "../types";
 
 type MainContentProps = {
   moduleData: Module;
@@ -9,6 +9,8 @@ type MainContentProps = {
   onSearchChange: (event: ChangeEvent<HTMLInputElement>) => void;
   onClearSearch: () => void;
   onOpenModule: (module: Module) => void;
+  readingHistory: ReadingHistoryItem[];
+  clearHistory: () => void;
 };
 
 const getFileType = (asset: string) => asset.split(".").pop()?.toUpperCase() ?? "FILE";
@@ -21,6 +23,8 @@ export default function MainContent({
   onSearchChange,
   onClearSearch,
   onOpenModule,
+  readingHistory,
+  clearHistory,
 }: MainContentProps) {
   const previewGroups = Object.entries(moduleGroups).reduce<Record<string, Module[]>>((groups, [subject, subjectModules]) => {
     groups[subject] = subjectModules.slice(0, 3);
@@ -35,7 +39,17 @@ export default function MainContent({
           <p className="hero-description">{moduleData.description}</p>
           <p className="hero-meta">Kelompok Gabungan Belajar Mandiri Sasing Ganji 2026</p>
           <div className="hero-actions">
-            <a className="text-link" href="#module">See what is inside <span aria-hidden="true">↓</span></a>
+            <a className="text-link" href="#module">
+              See what is inside <span aria-hidden="true">↓</span>
+            </a>
+            <a
+              href="https://chat.whatsapp.com/BBvjqar5kPIDbrXxyKSZyh?s=cl&p=i&mlu=4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-link text-red-600"
+            >
+              ~ Join our WhatsApp group || Sastra Inggris Universitas Terbuka Only
+            </a>
           </div>
         </div>
         <div className="hero-visual" aria-hidden="true">
@@ -55,20 +69,38 @@ export default function MainContent({
 
       <section className="module-section" id="module" aria-labelledby="module-title">
         <div className="section-heading">
-          <p className="section-kicker">Inside the module</p>
-          <h2 id="module-title">A small shift<br /><em>in how you read.</em></h2>
+          <p className="section-kicker">{readingHistory.length > 0 ? "Your reading history" : "Inside the module"}</p>
+          <h2 id="module-title">{readingHistory.length > 0 ? "Modules you have opened" : <>A small shift<br /><em>in how you read.</em></>}</h2>
         </div>
-        <div className="module-details">
-          <p className="module-intro">A focused reading session designed to help you move from decoding words to understanding the ideas behind them.</p>
-          <div className="detail-grid">
-            <div><span>Module</span><strong>{moduleData.label}</strong></div>
-            <div><span>Format</span><strong>PDF / {moduleData.duration}</strong></div>
-            <div><span>Level</span><strong>{moduleData.level}</strong></div>
+        {readingHistory.length > 0 ? (
+          <div className="module-details">
+            <p className="module-intro">A list of modules you have opened, saved locally in your browser.</p>
+            <div className="history-list">
+              {readingHistory.map((item) => (
+                <div className="history-item" key={item.asset}>
+                  <div className="history-item-info">
+                    <span className="history-label">{item.label}</span>
+                    <span className="history-title">{item.title}</span>
+                  </div>
+                  <span className="history-time">{new Date(item.timestamp).toLocaleString()}</span>
+                </div>
+              ))}
+            </div>
+            <button className="clear-history-button" type="button" onClick={clearHistory}>Clear history</button>
           </div>
-          <ul className="highlight-list">
-            {moduleData.highlights.map((highlight) => <li key={highlight}><span aria-hidden="true">+</span>{highlight}</li>)}
-          </ul>
-        </div>
+        ) : (
+          <div className="module-details">
+            <p className="module-intro">A focused reading session designed to help you move from decoding words to understanding the ideas behind them.</p>
+            <div className="detail-grid">
+              <div><span>Module</span><strong>{moduleData.label}</strong></div>
+              <div><span>Format</span><strong>PDF / {moduleData.duration}</strong></div>
+              <div><span>Level</span><strong>{moduleData.level}</strong></div>
+            </div>
+            <ul className="highlight-list">
+              {moduleData.highlights.map((highlight) => <li key={highlight}><span aria-hidden="true">+</span>{highlight}</li>)}
+            </ul>
+          </div>
+        )}
       </section>
 
       <section className="catalog-section" id="modules" aria-labelledby="catalog-title">

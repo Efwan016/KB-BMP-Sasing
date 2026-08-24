@@ -8,3 +8,10 @@ export type Module = {
   asset: string;
   highlights: string[];
 };
+
+export type ReadingHistoryItem = {
+  asset: string;
+  label: string;
+  title: string;
+  timestamp: number;
+};
