@@ -1,7 +1,7 @@
 [
    {
       "title": "Bahasa_Indonesia",
-      "description": "Module 01 \u2014 Bahasa_Indonesia",
+      "description": "Module 01 — Bahasa_Indonesia",
       "eyebrow": "Bahasa_Indonesia module",
       "label": "Module 01",
       "duration": "Self-paced",
@@ -15,7 +15,7 @@
    },
    {
       "title": "Bahasa_Indonesia",
-      "description": "Module 02 \u2014 Bahasa_Indonesia",
+      "description": "Module 02 — Bahasa_Indonesia",
       "eyebrow": "Bahasa_Indonesia module",
       "label": "Module 02",
       "duration": "Self-paced",
@@ -29,7 +29,7 @@
    },
    {
       "title": "Bahasa_Indonesia",
-      "description": "Module 03 \u2014 Bahasa_Indonesia",
+      "description": "Module 03 — Bahasa_Indonesia",
       "eyebrow": "Bahasa_Indonesia module",
       "label": "Module 03",
       "duration": "Self-paced",
@@ -43,7 +43,7 @@
    },
    {
       "title": "Bahasa_Indonesia",
-      "description": "Module 04 \u2014 Bahasa_Indonesia",
+      "description": "Module 04 — Bahasa_Indonesia",
       "eyebrow": "Bahasa_Indonesia module",
       "label": "Module 04",
       "duration": "Self-paced",
@@ -57,7 +57,7 @@
    },
    {
       "title": "Bahasa_Indonesia",
-      "description": "Module 05 \u2014 Bahasa_Indonesia",
+      "description": "Module 05 — Bahasa_Indonesia",
       "eyebrow": "Bahasa_Indonesia module",
       "label": "Module 05",
       "duration": "Self-paced",
@@ -71,7 +71,7 @@
    },
    {
       "title": "Bahasa_Indonesia",
-      "description": "Module 06 \u2014 Bahasa_Indonesia",
+      "description": "Module 06 — Bahasa_Indonesia",
       "eyebrow": "Bahasa_Indonesia module",
       "label": "Module 06",
       "duration": "Self-paced",
@@ -85,7 +85,7 @@
    },
    {
       "title": "Basic_Reading",
-      "description": "Module 01 \u2014 Basic_Reading",
+      "description": "Module 01 — Basic_Reading",
       "eyebrow": "Basic_Reading module",
       "label": "Module 01",
       "duration": "Self-paced",
@@ -99,7 +99,7 @@
    },
    {
       "title": "Basic_Reading",
-      "description": "Module 02 \u2014 Basic_Reading",
+      "description": "Module 02 — Basic_Reading",
       "eyebrow": "Basic_Reading module",
       "label": "Module 02",
       "duration": "Self-paced",
@@ -113,7 +113,7 @@
    },
    {
       "title": "Basic_Reading",
-      "description": "Module 03 \u2014 Basic_Reading",
+      "description": "Module 03 — Basic_Reading",
       "eyebrow": "Basic_Reading module",
       "label": "Module 03",
       "duration": "Self-paced",
@@ -127,7 +127,7 @@
    },
    {
       "title": "Basic_Reading",
-      "description": "Module 04 \u2014 Basic_Reading",
+      "description": "Module 04 — Basic_Reading",
       "eyebrow": "Basic_Reading module",
       "label": "Module 04",
       "duration": "Self-paced",
@@ -141,7 +141,7 @@
    },
    {
       "title": "Basic_Reading",
-      "description": "Module 05 \u2014 Basic_Reading",
+      "description": "Module 05 — Basic_Reading",
       "eyebrow": "Basic_Reading module",
       "label": "Module 05",
       "duration": "Self-paced",
@@ -155,7 +155,7 @@
    },
    {
       "title": "Basic_Reading",
-      "description": "Module 06 \u2014 Basic_Reading",
+      "description": "Module 06 — Basic_Reading",
       "eyebrow": "Basic_Reading module",
       "label": "Module 06",
       "duration": "Self-paced",
@@ -169,7 +169,7 @@
    },
    {
       "title": "Basic_Reading",
-      "description": "Module 07 \u2014 Basic_Reading",
+      "description": "Module 07 — Basic_Reading",
       "eyebrow": "Basic_Reading module",
       "label": "Module 07",
       "duration": "Self-paced",
@@ -183,7 +183,7 @@
    },
    {
       "title": "Basic_Reading",
-      "description": "Module 08 \u2014 Basic_Reading",
+      "description": "Module 08 — Basic_Reading",
       "eyebrow": "Basic_Reading module",
       "label": "Module 08",
       "duration": "Self-paced",
@@ -197,7 +197,7 @@
    },
    {
       "title": "Basic_Reading",
-      "description": "Module 09 \u2014 Basic_Reading",
+      "description": "Module 09 — Basic_Reading",
       "eyebrow": "Basic_Reading module",
       "label": "Module 09",
       "duration": "Self-paced",
@@ -211,12 +211,12 @@
    },
    {
       "title": "Basic_Writting",
-      "description": "Module 01 \u2014 Basic_Writting",
+      "description": "Module 01 — Basic_Writting",
       "eyebrow": "Basic_Writting module",
       "label": "Module 01",
       "duration": "Self-paced",
       "level": "Foundational",
-      "asset": "/assetMatkul/Basic_Writting/Basic Writing_Modul1_Nillawati.pdf",
+      "asset": "/assetMatkul/Basic_Writting/Basic_Writing_Modul1_Nillawati.pdf",
       "highlights": [
          "Module 01",
          "Basic_Writting",
@@ -225,12 +225,12 @@
    },
    {
       "title": "Basic_Writting",
-      "description": "Module 02 \u2014 Basic_Writting",
+      "description": "Module 02 — Basic_Writting",
       "eyebrow": "Basic_Writting module",
       "label": "Module 02",
       "duration": "Self-paced",
       "level": "Foundational",
-      "asset": "/assetMatkul/Basic_Writting/Basic Writing_Modul2_Zaen.pdf",
+      "asset": "/assetMatkul/Basic_Writting/Basic_Writing_Modul2_Zaen.pdf",
       "highlights": [
          "Module 02",
          "Basic_Writting",
@@ -239,12 +239,12 @@
    },
    {
       "title": "Basic_Writting",
-      "description": "Module 03 \u2014 Basic_Writting",
+      "description": "Module 03 — Basic_Writting",
       "eyebrow": "Basic_Writting module",
       "label": "Module 03",
       "duration": "Self-paced",
       "level": "Foundational",
-      "asset": "/assetMatkul/Basic_Writting/Basic Writing_Modul3_Sayu.pdf",
+      "asset": "/assetMatkul/Basic_Writting/Basic_Writing_Modul3_Sayu.pdf",
       "highlights": [
          "Module 03",
          "Basic_Writting",
@@ -253,7 +253,7 @@
    },
    {
       "title": "Basic_Writting",
-      "description": "Module 04 \u2014 Basic_Writting",
+      "description": "Module 04 — Basic_Writting",
       "eyebrow": "Basic_Writting module",
       "label": "Module 04",
       "duration": "Self-paced",
@@ -267,12 +267,12 @@
    },
    {
       "title": "Basic_Writting",
-      "description": "Module 05 \u2014 Basic_Writting",
+      "description": "Module 05 — Basic_Writting",
       "eyebrow": "Basic_Writting module",
       "label": "Module 05",
       "duration": "Self-paced",
       "level": "Foundational",
-      "asset": "/assetMatkul/Basic_Writting/Basic Writing_Modul5_Puput.pdf",
+      "asset": "/assetMatkul/Basic_Writting/Basic_Writing_Modul5_Puput.pdf",
       "highlights": [
          "Module 05",
          "Basic_Writting",
@@ -281,12 +281,12 @@
    },
    {
       "title": "Basic_Writting",
-      "description": "Module 06 \u2014 Basic_Writting",
+      "description": "Module 06 — Basic_Writting",
       "eyebrow": "Basic_Writting module",
       "label": "Module 06",
       "duration": "Self-paced",
       "level": "Foundational",
-      "asset": "/assetMatkul/Basic_Writting/Basic Writing_Modul6_Kholis.pdf",
+      "asset": "/assetMatkul/Basic_Writting/Basic_Writing_Modul6_Kholis.pdf",
       "highlights": [
          "Module 06",
          "Basic_Writting",
@@ -295,12 +295,12 @@
    },
    {
       "title": "Basic_Writting",
-      "description": "Module 07 \u2014 Basic_Writting",
+      "description": "Module 07 — Basic_Writting",
       "eyebrow": "Basic_Writting module",
       "label": "Module 07",
       "duration": "Self-paced",
       "level": "Foundational",
-      "asset": "/assetMatkul/Basic_Writting/Basic Writing_Modul7_Fauziah.pdf",
+      "asset": "/assetMatkul/Basic_Writting/Basic_Writing_Modul7_Fauziah.pdf",
       "highlights": [
          "Module 07",
          "Basic_Writting",
@@ -308,8 +308,36 @@
       ]
    },
    {
+      "title": "Basic_Writting",
+      "description": "Module 08 — Basic_Writting",
+      "eyebrow": "Basic_Writting module",
+      "label": "Module 08",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Basic_Writting/Basic_Writing_Module8_Nillawati.pdf",
+      "highlights": [
+         "Module 08",
+         "Basic_Writting",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Basic_Writting",
+      "description": "Module 09 — Basic_Writting",
+      "eyebrow": "Basic_Writting module",
+      "label": "Module 09",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Basic_Writting/Basic_Writing_Module9_Bayu.pdf",
+      "highlights": [
+         "Module 09",
+         "Basic_Writting",
+         "Learning material"
+      ]
+   },
+   {
       "title": "Cybermedia",
-      "description": "Module 01 \u2014 Cybermedia",
+      "description": "Module 01 — Cybermedia",
       "eyebrow": "Cybermedia module",
       "label": "Module 01",
       "duration": "Self-paced",
@@ -323,7 +351,7 @@
    },
    {
       "title": "Cybermedia",
-      "description": "Module 02 \u2014 Cybermedia",
+      "description": "Module 02 — Cybermedia",
       "eyebrow": "Cybermedia module",
       "label": "Module 02",
       "duration": "Self-paced",
@@ -337,7 +365,7 @@
    },
    {
       "title": "Cybermedia",
-      "description": "Module 03 \u2014 Cybermedia",
+      "description": "Module 03 — Cybermedia",
       "eyebrow": "Cybermedia module",
       "label": "Module 03",
       "duration": "Self-paced",
@@ -351,7 +379,7 @@
    },
    {
       "title": "Cybermedia",
-      "description": "Module 04 \u2014 Cybermedia",
+      "description": "Module 04 — Cybermedia",
       "eyebrow": "Cybermedia module",
       "label": "Module 04",
       "duration": "Self-paced",
@@ -365,7 +393,7 @@
    },
    {
       "title": "Cybermedia",
-      "description": "Module 05 \u2014 Cybermedia",
+      "description": "Module 05 — Cybermedia",
       "eyebrow": "Cybermedia module",
       "label": "Module 05",
       "duration": "Self-paced",
@@ -379,7 +407,7 @@
    },
    {
       "title": "Cybermedia",
-      "description": "Module 06 \u2014 Cybermedia",
+      "description": "Module 06 — Cybermedia",
       "eyebrow": "Cybermedia module",
       "label": "Module 06",
       "duration": "Self-paced",
@@ -393,7 +421,7 @@
    },
    {
       "title": "Cybermedia",
-      "description": "Module 07 \u2014 Cybermedia",
+      "description": "Module 07 — Cybermedia",
       "eyebrow": "Cybermedia module",
       "label": "Module 07",
       "duration": "Self-paced",
@@ -407,7 +435,7 @@
    },
    {
       "title": "Cybermedia",
-      "description": "Module 08 \u2014 Cybermedia",
+      "description": "Module 08 — Cybermedia",
       "eyebrow": "Cybermedia module",
       "label": "Module 08",
       "duration": "Self-paced",
@@ -421,7 +449,7 @@
    },
    {
       "title": "Cybermedia",
-      "description": "Module 09 \u2014 Cybermedia",
+      "description": "Module 09 — Cybermedia",
       "eyebrow": "Cybermedia module",
       "label": "Module 09",
       "duration": "Self-paced",
@@ -435,7 +463,7 @@
    },
    {
       "title": "PKN",
-      "description": "Module 01 \u2014 PKN",
+      "description": "Module 01 — PKN",
       "eyebrow": "PKN module",
       "label": "Module 01",
       "duration": "Self-paced",
@@ -449,7 +477,7 @@
    },
    {
       "title": "PKN",
-      "description": "Module 02 \u2014 PKN",
+      "description": "Module 02 — PKN",
       "eyebrow": "PKN module",
       "label": "Module 02",
       "duration": "Self-paced",
@@ -463,7 +491,7 @@
    },
    {
       "title": "PKN",
-      "description": "Module 03 \u2014 PKN",
+      "description": "Module 03 — PKN",
       "eyebrow": "PKN module",
       "label": "Module 03",
       "duration": "Self-paced",
@@ -477,7 +505,7 @@
    },
    {
       "title": "PKN",
-      "description": "Module 04 \u2014 PKN",
+      "description": "Module 04 — PKN",
       "eyebrow": "PKN module",
       "label": "Module 04",
       "duration": "Self-paced",
@@ -491,7 +519,7 @@
    },
    {
       "title": "PKN",
-      "description": "Module 05 \u2014 PKN",
+      "description": "Module 05 — PKN",
       "eyebrow": "PKN module",
       "label": "Module 05",
       "duration": "Self-paced",
@@ -505,7 +533,7 @@
    },
    {
       "title": "PKN",
-      "description": "Module 06 \u2014 PKN",
+      "description": "Module 06 — PKN",
       "eyebrow": "PKN module",
       "label": "Module 06",
       "duration": "Self-paced",
@@ -514,6 +542,90 @@
       "highlights": [
          "Module 06",
          "PKN",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Pancasila",
+      "description": "Module 01 — Pancasila",
+      "eyebrow": "Pancasila module",
+      "label": "Module 01",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Pancasila/Pancasila_Module1_Rosyid.pdf",
+      "highlights": [
+         "Module 01",
+         "Pancasila",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Pancasila",
+      "description": "Module 02 — Pancasila",
+      "eyebrow": "Pancasila module",
+      "label": "Module 02",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Pancasila/Pancasila_Module2_Atsilah.pdf",
+      "highlights": [
+         "Module 02",
+         "Pancasila",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Pancasila",
+      "description": "Module 03 — Pancasila",
+      "eyebrow": "Pancasila module",
+      "label": "Module 03",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Pancasila/Pancasila_Module3_Fara.pdf",
+      "highlights": [
+         "Module 03",
+         "Pancasila",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Pancasila",
+      "description": "Module 04 — Pancasila",
+      "eyebrow": "Pancasila module",
+      "label": "Module 04",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Pancasila/Pancasila_Module4_Via.pdf",
+      "highlights": [
+         "Module 04",
+         "Pancasila",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Pancasila",
+      "description": "Module 05 — Pancasila",
+      "eyebrow": "Pancasila module",
+      "label": "Module 05",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Pancasila/Pancasila_Module5_Putri.pdf",
+      "highlights": [
+         "Module 05",
+         "Pancasila",
+         "Learning material"
+      ]
+   },
+   {
+      "title": "Pancasila",
+      "description": "Module 06 — Pancasila",
+      "eyebrow": "Pancasila module",
+      "label": "Module 06",
+      "duration": "Self-paced",
+      "level": "Foundational",
+      "asset": "/assetMatkul/Pancasila/Pancasila_Module6_LatifaChairanni.pdf",
+      "highlights": [
+         "Module 06",
+         "Pancasila",
          "Learning material"
       ]
    }
