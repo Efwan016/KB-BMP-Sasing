@@ -110,7 +110,6 @@ export default function MainContent({
             <h2 id="catalog-title">Latest modules from<br /><em>your library.</em></h2>
             <p className="catalog-description">A quick selection of materials to keep your reading and writing practice moving forward.</p>
           </div>
-          {filteredModules.length > 3 && <button className="view-all-button" type="button" onClick={() => onOpenModule(filteredModules[0])}>Show all <span aria-hidden="true">→</span></button>}
         </div>
         <div className="search-wrap">
           <label htmlFor="module-search">Search modules</label>
@@ -121,7 +120,12 @@ export default function MainContent({
         <div className="results-list card-results">
           {Object.entries(previewGroups).map(([subject, subjectModules]) => (
             <div className="subject-group" key={subject}>
-              <div className="subject-heading"><h3>{subject}</h3><span>{subjectModules.length} shown</span></div>
+              <div className="subject-heading">
+                <h3>{subject}</h3>
+                <button className="view-all-button" type="button" onClick={() => onOpenModule(subjectModules[0])}>
+                  Lihat selengkapnya <span aria-hidden="true">→</span>
+                </button>
+              </div>
               <div className="module-cards">
                 {subjectModules.map((module) => (
                   <article className="module-card" key={module.asset}>

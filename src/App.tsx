@@ -121,6 +121,10 @@ function App() {
     return () => window.removeEventListener("hashchange", syncDetail);
   }, []);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, [selectedAsset, selectedQuiz]);
+
   const openModule = (module: Module) => {
     window.location.hash = `module-detail=${encodeURIComponent(module.asset)}`;
   };

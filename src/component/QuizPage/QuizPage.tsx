@@ -127,11 +127,10 @@ export default function QuizPage({ mataKuliah: rawMK, modul, judulModul: judulPr
   const essay: SoalEssayT[] = soalModul.soal.essay.map((soal, index) => ({ ...soal, no: pilihanGanda.length + isianSingkat.length + index + 1 }));
   const aplikasiKonteks: SoalAK[] = soalModul.soal.aplikasiKonteks.map((soal, index) => ({ ...soal, no: pilihanGanda.length + isianSingkat.length + essay.length + index + 1 }));
   const totalSoal = pilihanGanda.length + isianSingkat.length + essay.length + aplikasiKonteks.length;
-  const totalObjektif = pilihanGanda.length + isianSingkat.length + aplikasiKonteks.length;
+  const totalObjektif = pilihanGanda.length + aplikasiKonteks.length;
   const jumlahTerjawab = Object.keys(jawabanUser).length;
   const jumlahBenar = [
     ...pilihanGanda.map((soal) => jawabanUser[soal.no] === soal.kunci),
-    ...isianSingkat.map((soal) => soal.kunci.some((kunci) => kunci.trim().toLowerCase() === (jawabanUser[soal.no] ?? '').trim().toLowerCase())),
     ...aplikasiKonteks.map((soal) => jawabanUser[soal.no] === soal.kunci),
   ].filter(Boolean).length;
   const nilaiOtomatis = totalObjektif === 0 ? 0 : Math.round((jumlahBenar / totalObjektif) * 100);
@@ -231,11 +230,11 @@ export default function QuizPage({ mataKuliah: rawMK, modul, judulModul: judulPr
         <footer className="mt-1 flex flex-col gap-4 border-t-2 border-[var(--ink)] pt-5 sm:flex-row sm:items-center sm:justify-between print:hidden">
           <div>
             <p className="text-sm font-bold text-[var(--ink)]">{jumlahTerjawab} dari {totalSoal} soal terjawab</p>
-            <p className="mt-1 text-xs leading-5 text-[var(--muted)]">Essay tetap perlu diperiksa secara manual.</p>
+            <p className="mt-1 text-xs leading-5 text-[var(--muted)]">Isian singkat dan essay tidak masuk nilai otomatis.</p>
           </div>
           {showKunci ? (
             <div className="border-l-2 border-[var(--coral)] pl-4 sm:text-right">
-              <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-[var(--muted)]">Nilai objektif</p>
+              <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-[var(--muted)]">Nilai otomatis</p>
               <p className="font-[var(--serif)] text-3xl leading-none text-[var(--coral)]">{nilaiOtomatis}<span className="text-base text-[var(--muted)]">/100</span></p>
               <p className="mt-1 text-xs text-[var(--muted)]">{jumlahBenar} benar dari {totalObjektif}</p>
             </div>
