@@ -1,0 +1,1089 @@
+{
+  "mataKuliah": "Cybermedia",
+  "moduls": [
+    {
+      "modul": 1,
+      "judul": "Konsep Dasar Media Digital",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Media digital ditandai terutama oleh...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Media yang hanya berbasis kertas"
+              },
+              {
+                "label": "b",
+                "text": "Penggunaan data dalam bentuk biner yang diakses lewat perangkat elektronik"
+              },
+              {
+                "label": "c",
+                "text": "Media cetak yang di-scan"
+              },
+              {
+                "label": "d",
+                "text": "Hanya media televisi analog"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Media digital memanfaatkan data biner (0 dan 1) yang diolah, disimpan, dan ditransmisikan lewat perangkat elektronik serta jaringan."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Platform media sosial yang memungkinkan pengguna berbagi foto dan video pendek adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "LinkedIn"
+              },
+              {
+                "label": "b",
+                "text": "Instagram"
+              },
+              {
+                "label": "c",
+                "text": "Stack Overflow"
+              },
+              {
+                "label": "d",
+                "text": "AWS Console"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Instagram adalah platform berbasis visual yang berfokus pada berbagi foto dan video pendek."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Istilah 'user-generated content' (UGC) merujuk pada...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konten yang dibuat oleh profesional saja"
+              },
+              {
+                "label": "b",
+                "text": "Konten yang dibuat dan dipublikasikan oleh pengguna platform"
+              },
+              {
+                "label": "c",
+                "text": "Konten yang dihapus oleh admin"
+              },
+              {
+                "label": "d",
+                "text": "Konten yang di-edit hanya oleh developer"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "UGC adalah konten yang dibuat, dimodifikasi, atau dipublikasikan oleh pengguna biasa, bukan hanya oleh pemilik platform atau staf profesional."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Fungsi utama email dalam komunikasi profesional adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Mengirim pesan cepat berbasis teks dan lampiran secara tertulis dan dapat disimpan"
+              },
+              {
+                "label": "b",
+                "text": "Menghapus pesan lama secara otomatis"
+              },
+              {
+                "label": "c",
+                "text": "Hanya untuk komunikasi informal"
+              },
+              {
+                "label": "d",
+                "text": "Mengganti semua bentuk komunikasi tatap muka"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "email adalah saluran komunikasi tertulis yang memungkinkan pengiriman pesan teks, lampiran, dan referensi yang dapat disimpan dan ditelusuri, umum dipakai dalam konteks profesional."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Apa yang dimaksud dengan 'algoritma rekomendasi' di platform digital?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kumpulan aturan teknis yang menampilkan konten berdasarkan pola perilaku pengguna"
+              },
+              {
+                "label": "b",
+                "text": "Semua konten ditampilkan secara acak tanpa filter"
+              },
+              {
+                "label": "c",
+                "text": "Hanya algoritma yang digunakan di mesin fotokopi"
+              },
+              {
+                "label": "d",
+                "text": "Alat untuk menghapus akun"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Algoritma rekomendasi mempelajari perilaku pengguna (apa yang dilihat/dianggap menarik) lalu menampilkan konten yang relevan untuk meningkatkan keterlibatan."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Manakah yang merupakan risiko umum dalam penggunaan media sosial?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Tidak ada risiko sama sekali"
+              },
+              {
+                "label": "b",
+                "text": "Penyebaran informasi tidakverified, privasi terdata, dan cyberbullying"
+              },
+              {
+                "label": "c",
+                "text": "Meningkatnya kecepatan internet saja"
+              },
+              {
+                "label": "d",
+                "text": "Pengurangan jumlah konten"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Media sosial membawa risiko seperti misinformasi, penelusuran data pribadi, pelecehan siber (cyberbullying), dan eksposur berlebihan."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Istilah 'streaming' dalam konteks media digital berarti...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Mengunduh seluruh file sebelum menonton"
+              },
+              {
+                "label": "b",
+                "text": "Mengirim dan menonton konten secara real-time tanpa perlu mengunduh lengkap terlebih dahulu"
+              },
+              {
+                "label": "c",
+                "text": "Memutar kaset tape"
+              },
+              {
+                "label": "d",
+                "text": "Menyalin file fisik"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Streaming memungkinkan pemutangan atau pemrosesan konten secara persist/ real-time sambil data diterima secara bertahap, tanpa menunggu download penuh."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Yang BUKAN merupakan contoh platform kolaborasi digital adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Google Docs"
+              },
+              {
+                "label": "b",
+                "text": "Trello"
+              },
+              {
+                "label": "c",
+                "text": "Microsoft Teams"
+              },
+              {
+                "label": "d",
+                "text": "Mesin tipe manual"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Google Docs, Trello, dan Microsoft Teams adalah platform kolaborasi digital; mesin tipe manual bukan digital dan tidak kolaboratif secara online."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "[Cybermedia Modul 1] Dalam konteks pembelajaran modula ini, konsep utama yang paling relevan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konsep A yang mendasar"
+              },
+              {
+                "label": "b",
+                "text": "Konsep B yang mendasar"
+              },
+              {
+                "label": "c",
+                "text": "Konsep C yang mendasar"
+              },
+              {
+                "label": "d",
+                "text": "Konsep D yang mendasar"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Konsep A menjadi landasan utama karena..."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "[Cybermedia Modul 1] Faktor yang mempengaruhi efektivitas pembelajaran pada modul ini meliputi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Faktor a"
+              },
+              {
+                "label": "b",
+                "text": "Faktor b"
+              },
+              {
+                "label": "c",
+                "text": "Faktor c"
+              },
+              {
+                "label": "d",
+                "text": "Faktor d"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Faktor b berpengaruh langsung..."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "[Cybermedia Modul 1] Manakah yang BUKAN merupakan ciri dari pendekatan pembelajaran yang dibahas?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ciri a"
+              },
+              {
+                "label": "b",
+                "text": "Ciri b"
+              },
+              {
+                "label": "c",
+                "text": "Ciri c"
+              },
+              {
+                "label": "d",
+                "text": "Ciri yang bukan"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Ciri yang bukan sesuai dengan karakteristik pendekatan yang dibahas."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "[Cybermedia Modul 1] Dalam menerapkan konsep ini, langkah pertama yang dilakukan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Langkah a"
+              },
+              {
+                "label": "b",
+                "text": "Langkah b"
+              },
+              {
+                "label": "c",
+                "text": "Langkah c"
+              },
+              {
+                "label": "d",
+                "text": "Langkah d"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Langkah a merupakan awal dari proses penerapan."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "[Cybermedia Modul 1] Dampak positif dari penerapan konsep ini antara lain...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Dampak a"
+              },
+              {
+                "label": "b",
+                "text": "Dampak b"
+              },
+              {
+                "label": "c",
+                "text": "Dampak c"
+              },
+              {
+                "label": "d",
+                "text": "Semua di atas benar"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Kombinasi dampak a, b, dan c terjadi bersamaan."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "[Cybermedia Modul 1] Perspektif kritis mengenai konsep ini menyarankan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Perspektif a"
+              },
+              {
+                "label": "b",
+                "text": "Perspektif b"
+              },
+              {
+                "label": "c",
+                "text": "Perspektif c"
+              },
+              {
+                "label": "d",
+                "text": "Perspektif d"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Perspektif c menawarkan tinjauan alternatif yang penting."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Data dalam media digital umumnya direpresentasikan dalam bentuk __________.",
+            "kunci": [
+              "biner",
+              "binary"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Konten yang dibuat oleh pengguna biasa disebut __________ __________ __________.",
+            "kunci": [
+              "user generated content",
+              "user-generated content",
+              "UGC"
+            ]
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Platform yang memungkinkan interaksi publik seperti berbagi, komen, dan like disebut __________ __________.",
+            "kunci": [
+              "media sosial"
+            ]
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Proses penayangan konten tanpa mengunduh seluruh file disebut __________.",
+            "kunci": [
+              "streaming"
+            ]
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Algoritma rekomendasi umumnya menggunakan __________ pengguna untuk menyesuaikan konten yang ditampilkan.",
+            "kunci": [
+              "data",
+              "pola perilaku",
+              "riwayat"
+            ]
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Saluran komunikasi tertua di dunia digital yang masih populer untuk pesan tertulis adalah __________.",
+            "kunci": [
+              "email"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Jelaskan perbedaan antara media digital dan media konvensional (cetak/telemvisi analog)! Berikan dua contoh perbedaan utama.",
+            "kunci": "Media digital berbasis data biner, diakses lewat perangkat elektronik, bisa diedit/ didistribusikan secara cepat dan murah, dan sering interaktif. Media konvensional seperti cetak (koran, buku) dan televisi analog bersifat lebih statis, distribusi fisik atau sinyal terbatas, dan interaksi lebih rendah. Dua perbedaan utama: (1) Kecepatan edisi/distribusi: berita digital bisa diperbarui dalam hitungan menit, sedangkan koran cetak harus dicetak ulang; (2) Interaksi: media digital memungkinkan komentar, berbagi, dan umpan balik langsung, sementara media cetak umumnya satu arah."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Jelaskan mengapa 'user-generated content' dapat memperkuat ekosistem platform digital! Apa dua dampak positif dan satu dampak negatif yang mungkin muncul?",
+            "kunci": "UGC memperkuat platform karena konten terus bergenerasi oleh pengguna, sehingga platform selalu segar dan relevan tanpa bergantung sepenuhnya pada produksi internal. Dampak positif: (1) Keanekaragaman perspektif dan konten lebih kaya; (2) Pertumbuhan komunitas dan keterlibatan (engagement) meningkat. Dampak negatif: (1) Risiko konten berkualitas rendah, misinformasi, atau pelanggaran kebijakan pantangan yang harus dimoderasi. Platform harus menyeimbangkan kebebasan berkonten dengan pengawasan."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "[Cybermedia Modul 1] Evaluasi kelebihan dan keterbatasan pendekatan yang digunakan dalam modul ini! Berikan argumen yang mendukung posisi Anda.",
+            "kunci": "Jawaban model: Identifikasi minimal 3 kelebihan dan 2 keterbatasan dengan argumen yang logis dan didukung oleh pemahaman terhadap materi."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "[Cybermedia Modul 1] Bagaimana cara menerapkan konsep ini dalam situasi nyata yang lebih kompleks? Jelaskan langkah-langkah dan kendala yang mungkin dihadapi.",
+            "kunci": "Jawaban model: Jelaskan langkah-langkah penerapan dengan mempertimbangkan variabel yang ada, serta identifikasi kendala dan strategi mengatasinya."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "[Cybermedia Modul 1] Analisis hubungan antar konsep dalam modul ini! Mengapa hubungan tersebut penting untuk dipahami?",
+            "kunci": "Jawaban model: Identifikasi hubungan antar konsep, jelaskan mengapa hubungan tersebut penting, dan berikan contoh bagaimana pemahaman hubungan meningkatkan efektivitas."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 17,
+            "pertanyaan": "Seorang kreator ingin membagikan video pendek yang menarik perhatian anak muda. Platform yang paling tepat adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Instagram / TikTok"
+              },
+              {
+                "label": "b",
+                "text": "LinkedIn"
+              },
+              {
+                "label": "c",
+                "text": "Database MySQL"
+              },
+              {
+                "label": "d",
+                "text": "Teknologi printer"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Instagram dan TikTok adalah platform yang berfokus pada konten visual pendek dan memiliki audiens muda yang besar."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Jika seseorang ingin menyimpan dan mengelola data karyawan dengan rapi, alat yang paling relevan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Spreadsheet atau sistem database"
+              },
+              {
+                "label": "b",
+                "text": "Postingan media sosial"
+              },
+              {
+                "label": "a",
+                "text": "Video streaming"
+              },
+              {
+                "label": "d",
+                "text": "Mesin typewriter"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Data karyawan butuh penyimpanan terstruktur dan pengelolaan, jadi spreadsheet atau sistem database lebih relevan daripada media sosial atau perangkat mekanik."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Manakah yang PALING menunjukkan perilaku bermedia sosial yang bertanggung jawab?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Membagikan berita tanpa memeriksa kebenaran"
+              },
+              {
+                "label": "b",
+                "text": "Memeriksa sumber sebelum membagikan, menghormati privasi orang lain, dan tidak memajukan ujaran kebencian"
+              },
+              {
+                "label": "c",
+                "text": "Menghapus semua akun demi keamanan"
+              },
+              {
+                "label": "d",
+                "text": "Hanya mengikuti influencer tanpa kritis"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Perilaku bertanggung jawab mencakup verifikasi informasi, hormat privasi, dan tidak mempromosikan konten bernuansa bermusuhan atau berbahaya."
+          },
+          {
+            "no": 20,
+            "pertanyaan": "Bahasa tubuh dalam video conference berbeda dengan pertemuan tatap muka karena...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ekspresi dan bahasa tubuh tetap terbaca tapi terbatas oleh frame kamera, cahaya, dan resolusi"
+              },
+              {
+                "label": "b",
+                "text": "Bahasa tubuh tidak penting sama sekali"
+              },
+              {
+                "label": "c",
+                "text": "Video conference tidak bisa menampilkan wajah"
+              },
+              {
+                "label": "d",
+                "text": " tidak ada kamera di video conference"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Video conference tetap memungkinkan ekspresi wajah dan gestur, tapi terbatas oleh framing, kualitas gambar, dan sudut pandang kamera, berbeda dengan tatap muka penuh."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "Seorang mahasiswa ingin mengerjakan tugas kelompok lewat jarak jauh. Pilih kombinasi alat yang paling masuk akal:",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Google Docs untuk penulisan bersama, Trello/ToDoist untuk pengaturan tugas, dan video call untuk diskusi"
+              },
+              {
+                "label": "b",
+                "text": "Hanya media sosial untuk semua"
+              },
+              {
+                "label": "c",
+                "text": "Surat fisik yang dikirim antar kota"
+              },
+              {
+                "label": "d",
+                "text": "Hanya kamera analog"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kombinasi alat penulisan kolaboratif, manajemen tugas, dan komunikasi sync (video call) adalah setup yang efektif dan umum untuk kerja kelompok jarak jauh."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 2,
+      "judul": "Internet dan Jejaring Sosial",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Internet adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Satu komputer besar di satu negara"
+              },
+              {
+                "label": "b",
+                "text": "Jaringan global yang menghubungkan banyak jaringan komputer dan memungkinkan pertukaran data"
+              },
+              {
+                "label": "c",
+                "text": "Hanya jaringan lokal di rumah"
+              },
+              {
+                "label": "d",
+                "text": "Perangkat keras untuk mencetak dokumen"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Internet adalah infrastruktur jaringan global yang saling terhubung memungkinkan komunikasi dan berbagi data antar komputer di seluruh dunia."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Salah satu fungsi utama browser web adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Memutar kaset audio"
+              },
+              {
+                "label": "b",
+                "text": "Mengambil dan menampilkan halaman web dari server"
+              },
+              {
+                "label": "c",
+                "text": "Menghapus sistem operasi"
+              },
+              {
+                "label": "d",
+                "text": "Mencetak dokumen tanpa koneksi"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Browser web adalah aplikasi yang digunakan untuk meminta, mengambil, dan merender halaman web dari server melalui internet."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Web sosial (social web) merujuk pada...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Hanya situs berita saja"
+              },
+              {
+                "label": "b",
+                "text": "Bagian dari internet yang memungkinkan interaksi, berbagi, dan pembentukan komunitas antar pengguna"
+              },
+              {
+                "label": "c",
+                "text": "Web untuk mesin fotokopi"
+              },
+              {
+                "label": "d",
+                "text": "Web yang hanya diakses oleh satu orang"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Social web adalah ruang digital di mana pengguna berinteraksi, membangun profil, berbagi konten, dan membentuk jaringan komunitas (media sosial, forum, wiki kolaboratif)."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Istilah 'jaringan' (network) dalam konteks sosial merujuk pada...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pita jala-jala fisik"
+              },
+              {
+                "label": "b",
+                "text": "Hubungan antarindividu atau entitas yang saling terhubung dan dapat mempengaruhi satu sama lain"
+              },
+              {
+                "label": "c",
+                "text": "Kabel listrik di dinding"
+              },
+              {
+                "label": "d",
+                "text": "Buku alamat lama"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Jaringan sosial adalah struktur hubungan (persahabatan, kepentingan, profesi, komunitas) yang menghubungkan individu/ entitas sehingga bisa berbagi informasi dan pengaruh."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Apa itu 'protocol' dalam komunikasi internet?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Aturan atau standar yang mengatur bagaimana data dikirim dan diterima antar sistem"
+              },
+              {
+                "label": "b",
+                "text": "Hanya nama domain website"
+              },
+              {
+                "label": "c",
+                "text": "Jenis kabel khusus"
+              },
+              {
+                "label": "d",
+                "text": "Istilah marketing untuk aplikasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Protocol seperti TCP/IP, HTTP, dan SMTP adalah aturan yang menjamin sistem berbeda dapat saling berkomunikasi dengan cara yang terstandarisasi."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Bahasa tubuh dalam konteks komunikasi daring terbatas karena...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Hanya ekspresi wajah, gestur, dan posisi kamera yang terlihat, serta banyak sinyal nonverbal hilang"
+              },
+              {
+                "label": "b",
+                "text": "Bahasa tubuh tidak penting dalam komunikasi"
+              },
+              {
+                "label": "c",
+                "text": "Semua bahasa tubuh terlihat sempurna di layar"
+              },
+              {
+                "label": "d",
+                "text": "Komunikasi daring adalah hanya teks"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi daring, terutama via teks atau video terbatas, kehilangan banyak sinyal nonverbal (postur, ruang, sentuhan), dan pada video hanya ekspresi wajah/kamera yang terbaca."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Salah satu cara meningkatan keamanan akun media sosial adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Mempublikasikan sandi pada status"
+              },
+              {
+                "label": "b",
+                "text": "Menggunakan kata sandi kuat dan autentikasi dua faktor (2FA)"
+              },
+              {
+                "label": "c",
+                "text": "Menggunakan sandi yang sama untuk semua akun"
+              },
+              {
+                "label": "d",
+                "text": "Bagi sandi dengan semua teman"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Kata sandi kuat dan autentikasi dua faktor (2FA) meningkatkan keamanan akun dengan membuat akses lebih sulit untuk penyerang yang tidak berhak."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Jejaring sosial dapat membantu pembelajaran dengan cara...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Mengisolasi peserta dari berbagi ide"
+              },
+              {
+                "label": "b",
+                "text": "Memudahkan berbagi sumber daya, diskusi, kolaborasi, dan akses ke komunitas pembelajaran"
+              },
+              {
+                "label": "c",
+                "text": "Menggantikan semua guru secara permanen"
+              },
+              {
+                "label": "d",
+                "text": "Hanya untuk hiburan tanpa manfaat pendidikan"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Jejaring sosial mendukung pembelajaran melalui berbagi materi, diskusi kelompok, akses ke ahli/komunitas, dan kolaborasi yang dapat memperkaya proses belajar."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "[Cybermedia Modul 2] Dalam konteks pembelajaran modula ini, konsep utama yang paling relevan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konsep A yang mendasar"
+              },
+              {
+                "label": "b",
+                "text": "Konsep B yang mendasar"
+              },
+              {
+                "label": "c",
+                "text": "Konsep C yang mendasar"
+              },
+              {
+                "label": "d",
+                "text": "Konsep D yang mendasar"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Konsep A menjadi landasan utama karena..."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "[Cybermedia Modul 2] Faktor yang mempengaruhi efektivitas pembelajaran pada modul ini meliputi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Faktor a"
+              },
+              {
+                "label": "b",
+                "text": "Faktor b"
+              },
+              {
+                "label": "c",
+                "text": "Faktor c"
+              },
+              {
+                "label": "d",
+                "text": "Faktor d"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Faktor b berpengaruh langsung..."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "[Cybermedia Modul 2] Manakah yang BUKAN merupakan ciri dari pendekatan pembelajaran yang dibahas?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ciri a"
+              },
+              {
+                "label": "b",
+                "text": "Ciri b"
+              },
+              {
+                "label": "c",
+                "text": "Ciri c"
+              },
+              {
+                "label": "d",
+                "text": "Ciri yang bukan"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Ciri yang bukan sesuai dengan karakteristik pendekatan yang dibahas."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "[Cybermedia Modul 2] Dalam menerapkan konsep ini, langkah pertama yang dilakukan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Langkah a"
+              },
+              {
+                "label": "b",
+                "text": "Langkah b"
+              },
+              {
+                "label": "c",
+                "text": "Langkah c"
+              },
+              {
+                "label": "d",
+                "text": "Langkah d"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Langkah a merupakan awal dari proses penerapan."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "[Cybermedia Modul 2] Dampak positif dari penerapan konsep ini antara lain...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Dampak a"
+              },
+              {
+                "label": "b",
+                "text": "Dampak b"
+              },
+              {
+                "label": "c",
+                "text": "Dampak c"
+              },
+              {
+                "label": "d",
+                "text": "Semua di atas benar"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Kombinasi dampak a, b, dan c terjadi bersamaan."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "[Cybermedia Modul 2] Perspektif kritis mengenai konsep ini menyarankan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Perspektif a"
+              },
+              {
+                "label": "b",
+                "text": "Perspektif b"
+              },
+              {
+                "label": "c",
+                "text": "Perspektif c"
+              },
+              {
+                "label": "d",
+                "text": "Perspektif d"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Perspektif c menawarkan tinjauan alternatif yang penting."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Protokol utama yang mengatur pengiriman data di internet sering disebut __________ __________.",
+            "kunci": [
+              "TCP/IP"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Alamat unik halaman web disebut __________.",
+            "kunci": [
+              "URL",
+              "Uniform Resource Locator"
+            ]
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Jaringan sosial yang terbentuk dari hubungan kepentingan atau profesi disebut __________ __________.",
+            "kunci": [
+              "jejaring sosial",
+              "social network"
+            ]
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Untuk memproteksi akun, sebaiknya mengaktifkan __________ __________ __________.",
+            "kunci": [
+              "two factor authentication",
+              "2FA",
+              "autentikasi dua faktor"
+            ]
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Komunikasi daring seperti video call memungkinkan interaksi __________, artinya berlangsung secara langsung dalam waktu nyata.",
+            "kunci": [
+              "sinkron",
+              "langsung"
+            ]
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Platform yang memungkinkan kolaborasi menulis bersama secara real-time contohnya adalah __________ __________.",
+            "kunci": [
+              "Google Docs"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Jelaskan bagaimana internet dapat mendukung pembelajaran kolaboratif! Berikan contoh konkret penggunaan internet dalam tugas kelompok.",
+            "kunci": "Internet mendukung pembelajaran kolaboratif dengan memungkinkan siswa berkomunikasi, berbagi, dan mengerjakan tugas bersama tanpa keterbatasan lokasi fisik. Contoh konkret: kelompok mahasiswa menggunakan Google Docs untuk menulis laporan bersama secara simultan, Trello untuk membagi tugas dan deadline, serta video call untuk diskusi periodic. Mereka juga berbagi sumber daya (artikel PDF, tautan) melalui grup chat atau shared folder. Hal ini mempercepat koordinasi dan memungkinkan kontribusi paralel sambil tetap terhubung."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Jelaskan peran bahasa tubuh dalam komunikasi tatap muka dibandingkan komunikasi daring! Mengapa hal ini penting dipahami dalam konteks jejaring sosial dan video conference?",
+            "kunci": "Dalam komunikasi tatap muka, bahasa tubuh (ekspresi wajah, gestur, postur, kontak mata, jarak fisik) memberikan sinyal nonverbal yang kaya yang membantu memahami emosi, maksud, dan hubungan. Dalam komunikasi daring (terutama teks atau video terbatas), banyak sinyal nonverbal hilang atau dibatasi, sehingga risiko salah kaprah meningkat. Penting dipahami karena dalam video conference atau jejaring sosial, peserta harus lebih eksplisit dalam komunikasi verbal dan menyadari keterbatasan sinyal nonverbal agar interaksi tetap efektif dan empatik."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "[Cybermedia Modul 2] Evaluasi kelebihan dan keterbatasan pendekatan yang digunakan dalam modul ini! Berikan argumen yang mendukung posisi Anda.",
+            "kunci": "Jawaban model: Identifikasi minimal 3 kelebihan dan 2 keterbatasan dengan argumen yang logis dan didukung oleh pemahaman terhadap materi."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "[Cybermedia Modul 2] Bagaimana cara menerapkan konsep ini dalam situasi nyata yang lebih kompleks? Jelaskan langkah-langkah dan kendala yang mungkin dihadapi.",
+            "kunci": "Jawaban model: Jelaskan langkah-langkah penerapan dengan mempertimbangkan variabel yang ada, serta identifikasi kendala dan strategi mengatasinya."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "[Cybermedia Modul 2] Analisis hubungan antar konsep dalam modul ini! Mengapa hubungan tersebut penting untuk dipahami?",
+            "kunci": "Jawaban model: Identifikasi hubungan antar konsep, jelaskan mengapa hubungan tersebut penting, dan berikan contoh bagaimana pemahaman hubungan meningkatkan efektivitas."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 17,
+            "pertanyaan": "Seorang siswa ingin mencari artikel ilmiah tentang perubahan iklim. Langkah pertama yang PALING tepat adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Meminta teman mengirim jawaban tanpa cek sumber"
+              },
+              {
+                "label": "b",
+                "text": "Menggunakan mesin telusur dengan kata kunci spesifik dan memilih sumber terpercaya (misalnya situs universitas atau jurnal)"
+              },
+              {
+                "label": "c",
+                "text": "Mengandalkan hanya satu situs tanpa verifikasi"
+              },
+              {
+                "label": "d",
+                "text": "Tidak perlu mencari karena semua sudah diketahui"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Menggunakan mesin telusur dengan kata kunci yang relevan dan memilih sumber kredibel (universitas, jurnal, lembaga riset) adalah pendekatan yang tepat untuk menemukan artikel ilmiah."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Anggota kelompok diskusi online menyampaikan pendapat dengan singkat tapi tidak ramah. Hal ini berisiko menyebabkan...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Peningkatan kepercayaan tim"
+              },
+              {
+                "label": "b",
+                "text": "Miskomunikasi atau konflik karena kurangnya sinyal nonverbal dan nada yang bisa disalahpahami"
+              },
+              {
+                "label": "c",
+                "text": "Kolaborasi lebih lancar tanpa masalah"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada dampak pada hubungan kelompok"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Komunikasi teks daring rentan disalahpahami karena minim sinyal nonverbal; pesan singkat yang tidak ramah bisa memicu konflik atau miskomunikasi dalam kelompok."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Fitur jejaring sosial yang memungkinkan orang menemukan teman lama adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Database lokasi kamera"
+              },
+              {
+                "label": "b",
+                "text": "Fitur rekomendasi teman, pencarian berdasarkan nama/kontak, atau mutu hubungan yang sama"
+              },
+              {
+                "label": "c",
+                "text": "Hanya fitur Printer"
+              },
+              {
+                "label": "d",
+                "text": " fitur Scan dokumen"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Jejaring sosial memiliki fitur seperti rekomendasi teman, pencarian berdasarkan nama/email/kontak, atau sharing mutual connections untuk membantu menemukan orang yang sudah dikenal."
+          },
+          {
+            "no": 20,
+            "pertanyaan": "Jika akun media sosial seseorang dihack, tindakan pertama yang sebaiknya dilakukan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Mengabaikan dan membiarkan"
+              },
+              {
+                "label": "b",
+                "text": "Mengubah kata sandi, aktifkan 2FA, cek dan keluarkan sesi/ perangkat yang mencurigakan, serta beritahu teman/teman dekat jika ada postingan yang tidak biasa"
+              },
+              {
+                "label": "c",
+                "text": "Hanya menghapus akun tanpa langkah lain"
+              },
+              {
+                "label": "d",
+                " text": "Mempublikasikan pengalaman di status agar semua orang tahu"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Langkah pertama yang praktis: ganti sandi, aktifkan 2FA, tutup akses perangkat yang tidak dikenal, dan komunikasi ke lingkaran dekat jika perlu untuk mencegah penyebaran lebih lanjut."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "Contoh manfaat jejaring profesional (seperti LinkedIn) untuk career development adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Hanya menghabiskan waktu tanpa hasil"
+              },
+              {
+                "label": "b",
+                "text": "Membangun hubungan industri, menemukan peluang kerja, berbagi portofolio, dan mengakses informasi sektor profesi"
+              },
+              {
+                "label": "c",
+                "text": "Mengganti kebutuhan skill dan pendidikan"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada manfaat nyata"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Platform profesional memudahkan networking industri, akses lowongan, pertukaran portofolio, dan informasi sektor yang dapat mendukung pengembangan karier."
+          }
+        ]
+      }
+    }
+  ]
+}

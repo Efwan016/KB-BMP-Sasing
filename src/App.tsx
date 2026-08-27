@@ -5,8 +5,9 @@ import Footer from "./component/Footer";
 import MainContent from "./component/MainContent";
 import ModuleDetail from "./component/ModuleDetail";
 import Navigation from "./component/Navigation";
+import QuizPage from "./component/QuizPage/QuizPage";
 import type { Module, ReadingHistoryItem } from "./types";
-import ".//App.css";
+import "./App.css";
 
 const STORAGE_KEY = "sasing-reading-history";
 const MAX_HISTORY = 20;
@@ -26,6 +27,7 @@ function App() {
   const [data, setData] = useState<Module[] | null>(null);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedAsset, setSelectedAsset] = useState<string | null>(null);
+  const [selectedQuiz, setSelectedQuiz] = useState<{ mataKuliah: string; modul: number; judul: string } | null>(null);
   const [readingHistory, setReadingHistory] = useState<ReadingHistoryItem[]>(() => {
     try {
       const stored = localStorage.getItem(STORAGE_KEY);
@@ -92,7 +94,28 @@ function App() {
   }, {}), [filteredModules]);
 
   useEffect(() => {
-    const syncDetail = () => setSelectedAsset(window.location.hash.startsWith("#module-detail=") ? decodeURIComponent(window.location.hash.replace("#module-detail=", "")) : null);
+    const syncDetail = () => {
+      const hash = window.location.hash;
+      if (hash.startsWith("#module-detail=")) {
+        setSelectedAsset(decodeURIComponent(hash.replace("#module-detail=", "")));
+        setSelectedQuiz(null);
+      } else if (hash.startsWith("#quiz=")) {
+        const payload = decodeURIComponent(hash.replace("#quiz=", ""));
+        const parts = payload.split("/");
+        const mataKuliahRaw = parts[0] ?? "";
+        const modulRaw = parts[1];
+        const modul = modulRaw ? parseInt(modulRaw.replace(/[^\d]/g, ""), 10) : NaN;
+        setSelectedAsset(null);
+        setSelectedQuiz({
+          mataKuliah: mataKuliahRaw,
+          modul: Number.isFinite(modul) ? modul : 1,
+          judul: mataKuliahRaw,
+        });
+      } else {
+        setSelectedAsset(null);
+        setSelectedQuiz(null);
+      }
+    };
     syncDetail();
     window.addEventListener("hashchange", syncDetail);
     return () => window.removeEventListener("hashchange", syncDetail);
@@ -108,7 +131,14 @@ function App() {
   return (
     <Layout>
       <Navigation />
-      {selectedModule ? (
+      {selectedQuiz ? (
+        <QuizPage
+          mataKuliah={selectedQuiz.mataKuliah}
+          modul={selectedQuiz.modul}
+          judulModul={selectedQuiz.judul}
+          onBack={() => window.history.back()}
+        />
+      ) : selectedModule ? (
         <ModuleDetail
           module={selectedModule}
           relatedModules={relatedModules}

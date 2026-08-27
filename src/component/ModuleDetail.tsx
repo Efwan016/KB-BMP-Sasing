@@ -22,6 +22,7 @@ export default function ModuleDetail({ module, relatedModules, onBack, onOpenMod
           <div className="detail-actions">
             <a className="primary-button light-button border border-sky-700" href={module.asset} target="_blank" rel="noreferrer" onClick={() => onRecordRead(module)}>Open {getFileType(module.asset)} <span aria-hidden="true">↗</span></a>
             <a className="primary-button border border-sky-700" href={module.asset} download>Download {getFileType(module.asset)} <span aria-hidden="true">↓</span></a>
+            <a className="quiz-button-link" href={`#quiz=${module.title.replace(/_/g, '-')}/${module.label.replace(/Module\s*0?/, '')}`} onClick={(e) => { e.preventDefault(); window.location.hash = `quiz=${module.title.replace(/_/g, '-')}/${module.label.replace(/Module\s*0?/, '')}`; }}>Latihan Soal <span aria-hidden="true">✎</span></a>
             <span className="detail-hint">Self-paced learning<br />for focused practice</span>
           </div>
         </div>

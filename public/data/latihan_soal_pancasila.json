@@ -1,0 +1,1096 @@
+{
+  "mataKuliah": "Pancasila",
+  "moduls": [
+    {
+      "modul": 1,
+      "judul": "Pengantar Pancasila dan Sejarah Perumusannya",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Pancasila dirumuskan oleh para pendiri bangsa dalam sidang BPUPKI/PPKI periode...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "1945 sebelum kemerdekaan"
+              },
+              {
+                "label": "b",
+                "text": "1960-an setelah Orde Lama"
+              },
+              {
+                "label": "c",
+                "text": "1998 setelah Reformasi"
+              },
+              {
+                "label": "d",
+                "text": "2000 setelah UU Pemekaran"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pancasila dirumuskan oleh para pendiri bangsa pada sidang BPUPKI dan PPKI tahun 1945, sebelum formalisasi kemerdekaan Indonesia."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Usulan Piagam Jakarta (Jakarta Charter) dalam penyusunan dasar negara mengandung kelima prinsip sila Pancasila, termasuk...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Sila Ketuhanan dengan kewajiban shalat bagi pemeluk Islam"
+              },
+              {
+                "label": "b",
+                "text": "Sila Ketuhanan Yang Maha Esa tanpa kewajiban syariat tertentu"
+              },
+              {
+                "label": "c",
+                "text": "Sila pajak dan pertahanan"
+              },
+              {
+                "label": "d",
+                "text": "Sila monarki"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Piagam Jakarta mengandung 5 sila dengan rumusan Ketuhanan Yang Maha Esa yang belum lagi memuat kewajiban syariat Islam bagi pemeluknya — isu yang dibahas sebelum finalisasi Pembukaan UUD 1945."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Sila Pancasila yang menekankan kemanusiaan yang adil dan beradab adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Sila 1"
+              },
+              {
+                "label": "b",
+                "text": "Sila 2"
+              },
+              {
+                "label": "c",
+                "text": "Sila 5"
+              },
+              {
+                "label": "d",
+                "text": "Sila 3"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Sila kedua (Kemanusiaan yang adil dan beradab) menekankan penghormatan martabat manusia, keadilan, dan sikap beradab dalam pergaulan."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Pancasila sebagai filosofi bangsa berfungsi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Hanya untuk keperluan ibadah"
+              },
+              {
+                "label": "b",
+                "text": "Sebagai pedoman perilaku dan identitas bangsa"
+              },
+              {
+                "label": "c",
+                "text": "Sebagai slogan kampanye politik"
+              },
+              {
+                "label": "d",
+                "text": "Hanya untuk kepentingan ekonomi"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Pancasila berfungsi sebagai filosofi, ideologi, dan pedoman perilaku bangsa secara keseharian, serta menjadi identitas dan kekuatan pemersatu Indonesia."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Menurut Soekarno, Pancasila adalah unifikasi yang lahir dari...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Hanya budaya Indonesia timur"
+              },
+              {
+                "label": "b",
+                "text": "Persilangan berbagai aliran pikiran bangsa Indonesia yang beragam"
+              },
+              {
+                "label": "c",
+                "text": "Sistem yang diturunkan dari universitas"
+              },
+              {
+                "label": "d",
+                "text": "Adat istiadat golongan tertentu"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Soekarno menekankan Pancasila lahir sebagai sintesis nilai-nilai berbagai aliran yang ada di Indonesia (religious, nasionalisme, sosialisme, demokrasi, dst.) menjadi satu dasar bersama."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Sila 'Persatuan Indonesia' dalam Pancasila mengandung makna...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pentingnya individu di atas semua"
+              },
+              {
+                "label": "b",
+                "text": "Mengutamakan kepentingan bangsa dan kesatuan di atas kepentingan pribadi atau golongan"
+              },
+              {
+                "label": "c",
+                "text": "Pemisahan wilayah"
+              },
+              {
+                "label": "d",
+                "text": "Eksklusivitas suku"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Sila 3 menekankan bahwa kepentingan bangsa dan kesatuan nasional diutamakan daripada kepentingan pribadi atau golongan tertentu."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Dalam genealogi Pancasila, sinkretisme yang dimaksud adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pemaduan nilai-nilai budaya dan filsafat bangsa menjadi satu dasar"
+              },
+              {
+                "label": "b",
+                "text": "Pemisahan nilai"
+              },
+              {
+                "label": "c",
+                "text": "Penghapusan keberagaman"
+              },
+              {
+                "label": "d",
+                "text": "Penerimaan nilai asing mutlak"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pancasila adalah hasil perkawinan/pemaduan berbagai nilai budaya, adat, dan filsafat bangsa yang beragam menjadi satu dasar negara yang koheren."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Apa hubungan Pancasila dengan UUD 1945?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pancasila dan UUD adalah dokumen terpisah tanpa hubungan"
+              },
+              {
+                "label": "b",
+                "text": "Pancasila merupakan dasar negara yang tertuang dalam Pembukaan UUD 1945 alinea 4"
+              },
+              {
+                "label": "c",
+                "text": "UUD 1945 menggantikan Pancasila"
+              },
+              {
+                "label": "d",
+                "text": "Pancasila hanya berlaku untuk pemerintah pusat"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Pancasila sebagai dasar negara tertuang dalam Pembukaan UUD 1945 alinea ke-4, sehingga memiliki kedudukan konstitusional sebagai sumber dari segala sumber hukum."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "[Pancasila Modul 1] Dalam konteks pembelajaran modula ini, konsep utama yang paling relevan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konsep A yang mendasar"
+              },
+              {
+                "label": "b",
+                "text": "Konsep B yang mendasar"
+              },
+              {
+                "label": "c",
+                "text": "Konsep C yang mendasar"
+              },
+              {
+                "label": "d",
+                "text": "Konsep D yang mendasar"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Konsep A menjadi landasan utama karena..."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "[Pancasila Modul 1] Faktor yang mempengaruhi efektivitas pembelajaran pada modul ini meliputi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Faktor a"
+              },
+              {
+                "label": "b",
+                "text": "Faktor b"
+              },
+              {
+                "label": "c",
+                "text": "Faktor c"
+              },
+              {
+                "label": "d",
+                "text": "Faktor d"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Faktor b berpengaruh langsung..."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "[Pancasila Modul 1] Manakah yang BUKAN merupakan ciri dari pendekatan pembelajaran yang dibahas?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ciri a"
+              },
+              {
+                "label": "b",
+                "text": "Ciri b"
+              },
+              {
+                "label": "c",
+                "text": "Ciri c"
+              },
+              {
+                "label": "d",
+                "text": "Ciri yang bukan"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Ciri yang bukan sesuai dengan karakteristik pendekatan yang dibahas."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "[Pancasila Modul 1] Dalam menerapkan konsep ini, langkah pertama yang dilakukan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Langkah a"
+              },
+              {
+                "label": "b",
+                "text": "Langkah b"
+              },
+              {
+                "label": "c",
+                "text": "Langkah c"
+              },
+              {
+                "label": "d",
+                "text": "Langkah d"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Langkah a merupakan awal dari proses penerapan."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "[Pancasila Modul 1] Dampak positif dari penerapan konsep ini antara lain...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Dampak a"
+              },
+              {
+                "label": "b",
+                "text": "Dampak b"
+              },
+              {
+                "label": "c",
+                "text": "Dampak c"
+              },
+              {
+                "label": "d",
+                "text": "Semua di atas benar"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Kombinasi dampak a, b, dan c terjadi bersamaan."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "[Pancasila Modul 1] Perspektif kritis mengenai konsep ini menyarankan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Perspektif a"
+              },
+              {
+                "label": "b",
+                "text": "Perspektif b"
+              },
+              {
+                "label": "c",
+                "text": "Perspektif c"
+              },
+              {
+                "label": "d",
+                "text": "Perspektif d"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Perspektif c menawarkan tinjauan alternatif yang penting."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Pancasila berasal dari bahasa Sanskerta: panca (__________) dan sila (__________).",
+            "kunci": [
+              "lima",
+              "prinsip",
+              "asas",
+              "tepi"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Rumusan final Pancasila ditetapkan melalui __________.",
+            "kunci": [
+              "Pembukaan UUD 1945",
+              "PPKI"
+            ]
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Tanggal 1 Juni diperingati sebagai __________.",
+            "kunci": [
+              "Hari Lahir Pancasila"
+            ]
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Lambang Pancasila adalah __________ dengan bintang dan tulisan Pancasila.",
+            "kunci": [
+              "Burung Garuda"
+            ]
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Sila 1 Pancasila berbunyi: Ketuhanan Yang __________.",
+            "kunci": [
+              "Maha Esa"
+            ]
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Pancasila memuat lima sila yang merupakan __________ bangsa Indonesia.",
+            "kunci": [
+              "dasar negara",
+              "identitas",
+              "ideologi"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Jelaskan mengapa Pancasila dapat dipandang sebagai sintesis (perkawinan) berbagai aliran pemikiran bangsa Indonesia! Sebutkan minimal 3 aliran yang dimaksud!",
+            "kunci": "Pancasila lahir sebagai hasil pemaduan/sintesis berbagai aliran yang hidup di masyarakat Indonesia sebelum dan pada masa perumusan dasar negara, antara lain: (1) Nasionalisme Indonesia (persatuan bangsa, pergerakan nasional), (2) Sosialisme Indonesia (keadilan sosial, gotong royong, kepentingan umum), (3) Islam/kemakmuran spiritual (nilai Ketuhanan dan moral), (4) Demokrasi (musyawarah, kebebasan berpendapat terbatas), (5) Tradisi adat gotong royong. Soekarno melihat bahwa kelima arus ini harus disatukan dalam satu dasar yang menjamin perwakilan semua pihak, tanpa dominasi satu golongan."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Bagaimana peran BPUPKI/PPKI dalam perumusan Pancasila? Jelaskan proses singkat perumusannya dari gagasan sampai finalisasi!",
+            "kunci": "BPUPKI dibentuk untuk mendiskusikan dasar negara; dalam sidangnya para pendiri (termasuk Soekarno, Mohammad Hatta, dan lain-lain) mengusulkan beberapa dasar negara. Soekarno pada 1 Juni 1945 mengusulkan lima asas (Pancasila). Setelah diskusi dan penyempurnaan, Panitia Sembilan merumuskan Piagam Jakarta yang kemudian disempurnakan menjadi rumusan Pancasila dalam Pembukaan UUD 1945 oleh PPKI pada 18 Agustus 1945."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "[Pancasila Modul 1] Evaluasi kelebihan dan keterbatasan pendekatan yang digunakan dalam modul ini! Berikan argumen yang mendukung posisi Anda.",
+            "kunci": "Jawaban model: Identifikasi minimal 3 kelebihan dan 2 keterbatasan dengan argumen yang logis dan didukung oleh pemahaman terhadap materi."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "[Pancasila Modul 1] Bagaimana cara menerapkan konsep ini dalam situasi nyata yang lebih kompleks? Jelaskan langkah-langkah dan kendala yang mungkin dihadapi.",
+            "kunci": "Jawaban model: Jelaskan langkah-langkah penerapan dengan mempertimbangkan variabel yang ada, serta identifikasi kendala dan strategi mengatasinya."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "[Pancasila Modul 1] Analisis hubungan antar konsep dalam modul ini! Mengapa hubungan tersebut penting untuk dipahami?",
+            "kunci": "Jawaban model: Identifikasi hubungan antar konsep, jelaskan mengapa hubungan tersebut penting, dan berikan contoh bagaimana pemahaman hubungan meningkatkan efektivitas."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 17,
+            "pertanyaan": "Contoh perilaku yang selaras dengan Sila 2 (Kemanusiaan yang adil dan beradab) dalam kehidupan sehari-hari adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menghormati hak orang lain dan bersikap sopan tidak membeda-bedakan"
+              },
+              {
+                "label": "b",
+                "text": "Mengikuti tren tanpa berpikir"
+              },
+              {
+                "label": "c",
+                "text": "Membully orang yang berbeda pendapat"
+              },
+              {
+                "label": "d",
+                "text": "Tidak peduli dengan keamanan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Sila 2 mengajarkan penghormatan martabat manusia, sikap adil, dan beradab, termasuk tidak membedakan perlakuan karena latar belakang."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Menentukan musyawarah untuk menyelesaikan masalah kepentingan bersama di RT/RW adalah contoh pengamalan Sila...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ke-4"
+              },
+              {
+                "label": "b",
+                "text": "Ke-5"
+              },
+              {
+                "label": "c",
+                "text": "Ke-3"
+              },
+              {
+                "label": "d",
+                "text": "Ke-1"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Sila 4 (Kerakyatan) mengandung demokrasi, musyawarah, dan mufakat; musyawarah RT/RW sebagai skala kecil adalah aplikasi nyata Sila 4."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Seorang warga menggunakan media sosial dengan menyebarkan informasi tanpa verifikasi yang merugikan orang lain. Ini melanggar nilai Pancasila, khususnya...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Sila Kemanusiaan dan Persatuan"
+              },
+              {
+                "label": "b",
+                "text": "Sila Ketuhanan saja"
+              },
+              {
+                "label": "c",
+                "text": "Sila demokrasi saja"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada hubungan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penyebaran informasi yang merugikan orang lain melanggar Sila 2 (keadilan, beradab) dan dapat merusak Sila 3 (persatuan)."
+          },
+          {
+            "no": 20,
+            "pertanyaan": "Ketika sarapan bersama keluarga, nilai Pancasila yang paling tepat untuk mengutamakan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Sila Kemanusiaan yang adil dan beradab (saling menghargai)"
+              },
+              {
+                "label": "b",
+                "text": "Sila Persatuan Indonesia"
+              },
+              {
+                "label": "c",
+                "text": "Sila Keadilan sosial"
+              },
+              {
+                "label": "d",
+                "text": "Sila Ketuhanan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Dalam konteks interaksi keluarga sehari-hari, Sila 2 tentang kemanusiaan yang adil dan beradab menekankan saling menghargai dan sikap sopan."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "Prioritas mitigasi bencana dengan gotong royong warga adalah aplikasi nyata Sila...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ke-5 dan Ke-4"
+              },
+              {
+                "label": "b",
+                "text": "Ke-2 saja"
+              },
+              {
+                "label": "c",
+                "text": "Ke-1 saja"
+              },
+              {
+                "label": "d",
+                "text": "Ke-3 saja"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Gotong royong dalam mitigasi bencana mencerminkan Sila 4 (Kerakyatan, gotong royong) dan Sila 5 (Keadilan sosial, membantu sesama dalam kesulitan)."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 2,
+      "judul": "Pancasila dalam Bidang Pendidikan dan Moral",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Di jenjang pendidikan formal, nilai Pancasila ditanamkan terutama melalui...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Hanya melalui pelajaran PPKn"
+              },
+              {
+                "label": "b",
+                "text": "Integrasi dalam PPKn, kegiatan OSIS, dan keteladanan guru"
+              },
+              {
+                "label": "c",
+                "text": "Tidak ada relevan"
+              },
+              {
+                "label": "d",
+                "text": "Hanya melalui ekstrakurikuler"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Nilai Pancasila tidak hanya diajarkan dalam PPKn, tetapi juga diintegrasikan dalam kegiatan sekolah, keteladanan guru, dan budaya sekolah."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Tujuan pendidikan Pancasila adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Hanya mencetak mahasiswa berprestasi"
+              },
+              {
+                "label": "b",
+                "text": "Membentuk pribadi yang beriman, berakhlak, dan bertanggung jawab sebagai warga negara"
+              },
+              {
+                "label": "c",
+                "text": "Menghasilkan tenaga kerja"
+              },
+              {
+                "label": "d",
+                "text": "Menanamkan hafalan tanpa makna"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Pendidikan Pancasila bertujuan membentuk pribadi yang beriman kepada Tuhan, berakhlak mulia, berwawasan lingkungan, dan bertanggung jawab sebagai warga negara serta anggota masyarakat."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Dalam konteks pendidikan, aplikasi Sila 1 (Ketuhanan Yang Maha Esa) antara lain...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menghormati beragama dan beribadah sesuai keyakinan"
+              },
+              {
+                "label": "b",
+                "text": "Mengabaikan agama"
+              },
+              {
+                "label": "c",
+                "text": "Memaksakan satu agama"
+              },
+              {
+                "label": "d",
+                "text": "Tidak relevan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Sila 1 mendorong penghormatan terhadap kebebasan beragama, hidup rukun antarumat beragama, dan menjaga nilai-nilai keimanan dalam kehidupan."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Guru yang memberikan perlakuan adil kepada semua siswa tanpa memandang latar belakang adalah pengamalan Sila...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ke-2"
+              },
+              {
+                "label": "b",
+                "text": "Ke-4"
+              },
+              {
+                "label": "c",
+                "text": "Ke-5"
+              },
+              {
+                "label": "d",
+                "text": "Ke-1"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Sila 2 (Kemanusiaan yang adil dan beradab) menekankan keadilan dan perlakuan yang sama kepada setiap individu tanpa diskriminasi."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Siswa yang suka mengerjakan tugas kelompok dan membantu teman yang sedang kesulitan mencerminkan nilai...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Gotong royong dan kerjasama (Sila 4)"
+              },
+              {
+                "label": "b",
+                "text": "Individualisme"
+              },
+              {
+                "label": "c",
+                "text": "Persaingan unhealthy"
+              },
+              {
+                "label": "d",
+                "text": "Kepentingan pribadi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Gotong royong dan kebersamaan adalah nilai yang terkandung dalam Sila 4 (Kerakyatan) dan juga Sila 5 (keadilan sosial) yang mendukung saling membantu."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Mengapa pendidikan Pancasila penting bagi generasi muda?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Karena hanya soal ujian"
+              },
+              {
+                "label": "b",
+                "text": "Sebagai fondasi moral, identitas, dan tanggung jawab kewarganegaraan agar tidak kehilangan arah"
+              },
+              {
+                "label": "c",
+                "text": "Karena tuntutan pemerintah saja"
+              },
+              {
+                "label": "d",
+                "text": "Tidak penting"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Pendidikan Pancasila penting agar generasi muda memiliki fondasi nilai, moral, identitas bangsa, dan kesiapan menjadi warga negara yang bertanggung jawab di era modern."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Dampak negatif yang mungkin muncul jika nilai Pancasila tidak diasah dalam diri siswa adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Potensi perilaku egois, diskriminatif, dan tidak bertanggung jawab"
+              },
+              {
+                "label": "b",
+                "text": "Prestasi Akademik meningkat"
+              },
+              {
+                "label": "c",
+                "text": "Lebih inovatif"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada dampak"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Tanpa penguatan nilai Pancasila, siswa berpotensi mengembangkan perilaku egoisme, less empathy, diskriminasi, dan rendahnya rasa tanggung jawab sosial."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Contoh pelaksanaan Pancasila di lingkungan sekolah yang paling konkret adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Peraturan sekolah yang memaksa satu keyakinan"
+              },
+              {
+                "label": "b",
+                "text": "Kegiatan gotong royong, toleransi, dan musyawarah dalam mengambil keputusan sekolah"
+              },
+              {
+                "label": "c",
+                "text": "Menjaga eksklusivitas"
+              },
+              {
+                "label": "d",
+                "text": "Mengabaikan siswa berkebutuhan khusus"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Kegiatan gotong royong, toleransi beragama, dan musyawarah adalah wujud konkret pengamalan Pancasila di sekolah."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "[Pancasila Modul 2] Dalam konteks pembelajaran modula ini, konsep utama yang paling relevan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konsep A yang mendasar"
+              },
+              {
+                "label": "b",
+                "text": "Konsep B yang mendasar"
+              },
+              {
+                "label": "c",
+                "text": "Konsep C yang mendasar"
+              },
+              {
+                "label": "d",
+                "text": "Konsep D yang mendasar"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Konsep A menjadi landasan utama karena..."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "[Pancasila Modul 2] Faktor yang mempengaruhi efektivitas pembelajaran pada modul ini meliputi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Faktor a"
+              },
+              {
+                "label": "b",
+                "text": "Faktor b"
+              },
+              {
+                "label": "c",
+                "text": "Faktor c"
+              },
+              {
+                "label": "d",
+                "text": "Faktor d"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Faktor b berpengaruh langsung..."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "[Pancasila Modul 2] Manakah yang BUKAN merupakan ciri dari pendekatan pembelajaran yang dibahas?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ciri a"
+              },
+              {
+                "label": "b",
+                "text": "Ciri b"
+              },
+              {
+                "label": "c",
+                "text": "Ciri c"
+              },
+              {
+                "label": "d",
+                "text": "Ciri yang bukan"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Ciri yang bukan sesuai dengan karakteristik pendekatan yang dibahas."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "[Pancasila Modul 2] Dalam menerapkan konsep ini, langkah pertama yang dilakukan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Langkah a"
+              },
+              {
+                "label": "b",
+                "text": "Langkah b"
+              },
+              {
+                "label": "c",
+                "text": "Langkah c"
+              },
+              {
+                "label": "d",
+                "text": "Langkah d"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Langkah a merupakan awal dari proses penerapan."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "[Pancasila Modul 2] Dampak positif dari penerapan konsep ini antara lain...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Dampak a"
+              },
+              {
+                "label": "b",
+                "text": "Dampak b"
+              },
+              {
+                "label": "c",
+                "text": "Dampak c"
+              },
+              {
+                "label": "d",
+                "text": "Semua di atas benar"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Kombinasi dampak a, b, dan c terjadi bersamaan."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "[Pancasila Modul 2] Perspektif kritis mengenai konsep ini menyarankan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Perspektif a"
+              },
+              {
+                "label": "b",
+                "text": "Perspektif b"
+              },
+              {
+                "label": "c",
+                "text": "Perspektif c"
+              },
+              {
+                "label": "d",
+                "text": "Perspektif d"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Perspektif c menawarkan tinjauan alternatif yang penting."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Pendidikan Pancasila sebaiknya tidak hanya transfer __________ tetapi juga pembentukan __________.",
+            "kunci": [
+              "gagasan",
+              "nilai",
+              "sikap"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Salah satu metode mengajar Pancasila yang efektif adalah __________ supaya siswa paham konteks, bukan hanya hafal.",
+            "kunci": [
+              "cerita",
+              "kontekstual",
+              "contoh"
+            ]
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Nilai toleransi dalam Sila 1 merujuk pada __________ antarumat beragama.",
+            "kunci": [
+              "kerukunan",
+              "harmoni"
+            ]
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Dalam musyawarah kelas, nilai __________ Pancasila (Sila 4) diterapkan secara langsung.",
+            "kunci": [
+              "kerakyatan",
+              "musyawarah",
+              "demokrasi"
+            ]
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Pendidikan karakter berbasis Pancasila menekankan sikap __________ dalam kehidupan sehari-hari.",
+            "kunci": [
+              "jujur",
+              "disiplin",
+              "responsibel",
+              "bertanggung jawab"
+            ]
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Guru harus memberikan contoh nyata (keteladanan) agar nilai Pancasila tidak hanya __________ tetapi juga __________.",
+            "kunci": [
+              "dihafal",
+              "diamalkan"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Uraikan tiga contoh nyata bagaimana nilai Pancasila dapat diintegrasikan ke dalam kegiatan ekstrakurikuler sekolah! Jelaskan dampaknya terhadap perilaku siswa.",
+            "kunci": "Tiga contoh: (1) Kegiatan lingkungan (kerja bakti, Jumat bersih) yang mendidik gotong royong dan kepedulian (Sila 4, Sila 5); (2) Peringatan hari besar nasional dan kegiatan keagamaan yang menghormati beragam agama (Sila 1, Sila 2); (3) Diskusi/debat terbimbing tentang isu sosial dengan tata krama menghargai pendapat berbeda (Sila 2, Sila 4). Dampak: siswa terbiasa berinteraksi secara inklusif, berempati, dan bertanggung jawab serta mengembangkan leadership yang beretika."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Jelaskan hubungan antara Pancasila, pendidikan karakter, dan pencegahan perilaku bermasalah di sekolah! Berikan dua contoh perilaku bermasalah yang dapat dicegah melalui pendidikan Pancasila.",
+            "kunci": "Pancasila sebagai landasan pendidikan karakter membentuk siswa yang beradab, beretika, dan peduli; melalui internalisasi nilai (jujur, toleransi, gotong royong, tanggung jawab) siswa cenderung lebih mampu mengendalikan perilaku impulsif. Dua contoh perilaku bermasalah yang dapat dicegah: (1) Bullying/perundungan — dicegah oleh Sila 2 (kemanusiaan, keadilan) dan Sila 1 (hormati martabat); (2) Kenakalan/perilaku tidak bertanggung jawab (misalnya mengakihi tugas, menyontek) — dicegah oleh internalisasi nilai kejujuran, disiplin, dan tanggung jawab (Sila 2, Sila 4)."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "[Pancasila Modul 2] Evaluasi kelebihan dan keterbatasan pendekatan yang digunakan dalam modul ini! Berikan argumen yang mendukung posisi Anda.",
+            "kunci": "Jawaban model: Identifikasi minimal 3 kelebihan dan 2 keterbatasan dengan argumen yang logis dan didukung oleh pemahaman terhadap materi."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "[Pancasila Modul 2] Bagaimana cara menerapkan konsep ini dalam situasi nyata yang lebih kompleks? Jelaskan langkah-langkah dan kendala yang mungkin dihadapi.",
+            "kunci": "Jawaban model: Jelaskan langkah-langkah penerapan dengan mempertimbangkan variabel yang ada, serta identifikasi kendala dan strategi mengatasinya."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "[Pancasila Modul 2] Analisis hubungan antar konsep dalam modul ini! Mengapa hubungan tersebut penting untuk dipahami?",
+            "kunci": "Jawaban model: Identifikasi hubungan antar konsep, jelaskan mengapa hubungan tersebut penting, dan berikan contoh bagaimana pemahaman hubungan meningkatkan efektivitas."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 17,
+            "pertanyaan": "Di kelas, seorang siswa sering tidak mau berpartisipasi dalam kelompok karena merasa pintar sendiri. Rekomendasi yang selaras dengan Nilai Pancasila adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Mengajaknya memahami keutamaan gotong royong dan keberhasilan bersama (Sila 4, Sila 5)"
+              },
+              {
+                "label": "b",
+                "text": "Membiarkannya sendiri agar nyaman"
+              },
+              {
+                "label": "c",
+                "text": "Memaksanya tanpa penjelasan"
+              },
+              {
+                "label": "d",
+                "text": "Mengabaikan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pendekatan yang selaras dengan nilai Pancasila adalah membina melalui edukasi nilai gotong royong dan keberhasilan bersama, bukan memaksa atau mengabaikan."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Ketika ada siswa baru dari daerah lain yang belum akrab dengan lingkungan sekolah, tindakan paling sesuai Sila 2 adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Memberikan teman sebaya dan menyambutnya dengan ramah agar tidak isolated"
+              },
+              {
+                "label": "b",
+                "text": "Mengasingkannya"
+              },
+              {
+                "label": "c",
+                "text": "Mengabaikan karena sudah ada teman lain"
+              },
+              {
+                "label": "d",
+                "text": "Menyuruhnya pindah sekolah"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Sila 2 menekankan kemanusiaan yang adil dan beradab; menyambut siswa baru dengan inklusi dan perlakuan adil adalah aplikasi nilai tersebut."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Materi pendidikan Pancasila di sekolah sebaiknya tidak hanya berupa hafalan tetapi juga...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pemahaman kontekstual, refleksi, dan praktik nilai dalam situasi nyata"
+              },
+              {
+                "label": "b",
+                "text": "Ujian tertulis saja"
+              },
+              {
+                "label": "c",
+                "text": "Tidak perlu praktik"
+              },
+              {
+                "label": "d",
+                "text": "Hanya ceramah"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pendidikan Pancasila efektif jika dilakukan melalui pemahaman kontekstual, refleksi, dan praktik nilai dalam situasi nyata agar siswa mengamalkannya, bukan hanya hafal."
+          },
+          {
+            "no": 20,
+            "pertanyaan": "Guru memberikan contoh nyata (keteladanan) agar nilai Pancasila tidak hanya dihafal tetapi juga diamalkan. Hal ini selaras dengan prinsip pendidikan...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Keteladanan dan experiential learning"
+              },
+              {
+                "label": "b",
+                "text": "Behavioristik murni"
+              },
+              {
+                "label": "c",
+                "text": "Testing"
+              },
+              {
+                "label": "d",
+                "text": "Hapalan saja"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pendidikan berbasis keteladanan dan experiential learning (pembelajaran beralaman) lebih efektif membentuk perilaku daripada hafalan semata."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "Di kantin sekolah, siswa sedang memilih makanan dengan mempertimbangkan keberagaman menu yang bisa diakses semua teman. Hal ini mencerminkan nilai Pancasila...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Persatuan dan kemanusiaan (Sila 2, Sila 3)"
+              },
+              {
+                "label": "b",
+                "text": "Hanya Sila Ketuhanan"
+              },
+              {
+                "label": "c",
+                "text": "Sila Keadilan sosial semata"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada nilai"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Ketersediaan menu yang dapat diakses semua teman mencerminkan nilai inklusivitas, keadilan, dan kepedulian (Sila 2, Sila 3)."
+          }
+        ]
+      }
+    }
+  ]
+}

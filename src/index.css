@@ -17,7 +17,16 @@
   -webkit-font-smoothing: antialiased;
 }
 
+:root[data-theme="dark"] {
+  --paper: #172522;
+  --ink: #edf1e9;
+  --coral: #f0836c;
+  --muted: #aebbb1;
+  --line: #35443e;
+  --line-strong: #65766d;
+}
+
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { min-width: 320px; margin: 0; background: var(--paper); }
+body { min-width: 320px; margin: 0; background: var(--paper); color: var(--ink); transition: background-color .3s ease, color .3s ease; }
 button, a { font: inherit; }

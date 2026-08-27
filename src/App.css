@@ -124,6 +124,9 @@ h1 em, h2 em { color: var(--coral); font-style: italic; }
 .cta-section h2 em { color: var(--ink); }
 .light-button { color: var(--ink); background: var(--paper); }
 .light-button:hover { color: var(--paper); background: var(--ink); }
+.quiz-button-link { padding: 15px 18px 15px 21px; color: var(--ink); background: var(--coral); font-size: 12px; font-weight: 800; text-decoration: none; transition: transform .2s ease, background .2s ease; display: inline-flex; align-items: center; gap: 28px; }
+.quiz-button-link:hover { background: var(--ink); transform: translateY(-2px); color: var(--paper); }
+.quiz-button-link span { font-size: 18px; }
 footer { display: flex; justify-content: space-between; padding: 28px 0; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: 1.2px; }
 .clear-history-button { margin-top: 28px; padding: 13px 0; color: var(--ink); background: none; border: 0; border-bottom: 1px solid var(--ink); cursor: pointer; font-size: 12px; font-weight: 800; }
 .history-list { display: grid; gap: 14px; padding: 30px 0 0; border-top: 1px solid var(--line); }

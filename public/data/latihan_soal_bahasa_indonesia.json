@@ -1,0 +1,3281 @@
+{
+  "mataKuliah": "Bahasa_Indonesia",
+  "moduls": [
+    {
+      "modul": 1,
+      "judul": "Tujuan dan Fungsi Komunikasi",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Tujuan utama komunikasi dalam kehidupan sehari-hari adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menyampaikan informasi"
+              },
+              {
+                "label": "b",
+                "text": "Mengontrol orang lain"
+              },
+              {
+                "label": "c",
+                "text": "Menghindari interaksi"
+              },
+              {
+                "label": "d",
+                "text": "Memperlihatkan keahlian"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi bertujuan utama untuk menyampaikan informasi, pikiran, perasaan, atau ide dari satu pihak ke pihak lain."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Berdasarkan perilaku pesan nonverbal yang mengejutkan, komunikasi dikategorikan menjadi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Komunikasi verbal dan nonverbal"
+              },
+              {
+                "label": "b",
+                "text": " Komunikasi formal dan informal"
+              },
+              {
+                "label": "c",
+                "text": " Komunikasi lisan dan tulisan"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi intrapersonal dan interpersonal"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi dibagi menjadi verbal (kata-kata lisan/tulisan) dan nonverbal (bahasa tubuh, ekspresi, dll)."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Peserta komunikasi yang aktif memberikan umpan balik disebut...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Komunikator"
+              },
+              {
+                "label": "b",
+                "text": " Komunikan"
+              },
+              {
+                "label": "c",
+                "text": "Mediator"
+              },
+              {
+                "label": "d",
+                "text": "Efek"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Komunikan adalah penerima pesan yang aktif merespons atau memberikan umpan balik."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Dalam model komunikasi Shannon-Weaver, elemen yang berfungsi sebagai penerima pesan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Encoder"
+              },
+              {
+                "label": "b",
+                "text": " Decoder"
+              },
+              {
+                "label": "c",
+                "text": " Channel"
+              },
+              {
+                "label": "d",
+                "text": " Receiver"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Receiver adalah elemen yang menerima pesan melalui kanal komunikasi."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Gangguan pada saluran komunikasi yang disebut 'noise' dapat berupa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Gangguan físik dan psikis"
+              },
+              {
+                "label": "b",
+                "text": " Peningkatan sinyal"
+              },
+              {
+                "label": "c",
+                "text": " Penekanan pesan"
+              },
+              {
+                "label": "d",
+                "text": " Pelebaran makna"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Noise adalah gangguan yang dapat berasal dari fisik (suara bising) maupun psikis (asumsi, bias)."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Bahasa tubuh yang menunjukkan ketertarikan atau perhatian adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Menghadap muka, kontak mata"
+              },
+              {
+                "label": "b",
+                "text": " Menunduk, kaku"
+              },
+              {
+                "label": "c",
+                "text": "Mengeluh, membolak-balik"
+              },
+              {
+                "label": "d",
+                "text": "Membuang pandangan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kontak mata dan tubuh yang menghadap ke arah pembicara menunjukkan keterlibatan."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Jika seseorang mengatakan 'oke' sambil mengangguk, pesan utamanya adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Persetujuan/terima"
+              },
+              {
+                "label": "b",
+                "text": " Penolakan"
+              },
+              {
+                "label": "c",
+                "text": " Ragu-ragu"
+              },
+              {
+                "label": "d",
+                "text": " Bingung"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kombinasi verbal 'oke' dan nonverbal mengangguk menunjukkan persetujuan."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Manakah yang BUKAN merupakan fungsi komunikasi menurut Kann (2010)?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Faktual"
+              },
+              {
+                "label": "b",
+                "text": " Perintah"
+              },
+              {
+                "label": "c",
+                "text": " Keluhan"
+              },
+              {
+                "label": "d",
+                "text": "Informasi"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Fungsi Kann: faktual, perintah, informasi — 'keluhan' bukan kategori utamanya."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "Tujuan komunikasi yang berupa menyampaikan kebenaran atau data disebut...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Komunikasi faktual"
+              },
+              {
+                "label": "b",
+                "text": "Komunikasi perintah"
+              },
+              {
+                "label": "c",
+                "text": "Komunikasi involusi"
+              },
+              {
+                "label": "d",
+                "text": "Komunikasi persuasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi faktual bertujuan menyampaikan data, kebenaran, atau informasi kejadian."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Kegiatan mengikuti pidato umumnya merupakan contoh komunikasi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Satu arah (one-way)"
+              },
+              {
+                "label": "b",
+                "text": " Dua arah (two-way)"
+              },
+              {
+                "label": "c",
+                "text": "Beberapa arah"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi massa"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pendengar mengikuti pidato tanpa interupsi — sifatnya satu arah."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Dalam proses komunikasi, peran 'encoder' adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Pengirim pesan yang menyandikan gagasan"
+              },
+              {
+                "label": "b",
+                "text": " Penerima yang menafsirkan pesan"
+              },
+              {
+                "label": "c",
+                "text": "Media penghubung"
+              },
+              {
+                "label": "d",
+                "text": " Interferensi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Encoder adalah komunikator yang mengubah gagasan menjadi pesan (bahasa, simbol, gerakan)."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Faktor yang berkontribusi dalam menentukan efektifitas komunikasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Keterampilan komunikator"
+              },
+              {
+                "label": "b",
+                "text": " Tingkat pendidikan komunikan"
+              },
+              {
+                "label": "c",
+                "text": " Media sosial"
+              },
+              {
+                "label": "d",
+                "text": "Posisi sosial"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Keterampilan komunikator (kejelasan, nada, kepercayaan diri) sangat menentukan efektivitas."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Manakah yang merupakan prinsip komunikasi yang efektif?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Kejelasan pesan"
+              },
+              {
+                "label": "b",
+                "text": " Jumlah pesan yang banyak"
+              },
+              {
+                "label": "c",
+                "text": "Menggunakan jargon teknis"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi satu arah"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kejelasan (clarity) adalah prinsip utama agar pesan dipahami oleh komunikan."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Dampak komunikasi yang efektif dalam organisasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Peningkatan kolaborasi dan efisiensi"
+              },
+              {
+                "label": "b",
+                "text": " Berkurangnya kepercayaan"
+              },
+              {
+                "label": "c",
+                "text": " Konflik yang meningkat"
+              },
+              {
+                "label": "d",
+                "text": " Keterlambatan informasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi efektif menjalin kolaborasi dan efisiensi operasional."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Komunikasi yang efektif umumnya melibatkan __________, __________, dan __________.",
+            "kunci": [
+              "komunikator",
+              "pesan",
+              "komunikan"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Dalam komunikasi verbal, pesan disampaikan melalui __________ dan __________.",
+            "kunci": [
+              "lalain",
+              "tulisan"
+            ]
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Komunikan yang aktif memberikan __________ disebut also memberi umpan balik.",
+            "kunci": [
+              "respon",
+              "tanggapan"
+            ]
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Bahasa tubuh yang positif antara lain __________, __________, dan __________.",
+            "kunci": [
+              "kontak mata",
+              "postur terbuka",
+              "menghadap"
+            ]
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Selama komunikasi berlangsung, 'feedback' berfungsi sebagai __________.",
+            "kunci": [
+              "tanggapan",
+              "respons"
+            ]
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Peserta didik yang tidak fokus dapat menunjukkan tanda __________, __________, atau __________.",
+            "kunci": [
+              "menunduk",
+              "handphone",
+              "menggeram"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Jelaskan perbedaan komunikasi verbal dan nonverbal! Berikan masing-masing dua contoh konkret dalam situasi sehari-hari.",
+            "kunci": "Jawaban model: Komunikasi verbal menggunakan kata-kata (lisan atau tulis) untuk menyampaikan makna (contoh: bicara, email). Komunikasi nonverbal menggunakan sinyal tanpa kata (contoh: bahasa tubuh, ekspresi wajah, grafik, warna). Apa yang dikomunikasikan bisa melebihi kata-kata verbal."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Analisislah bagaimana 'noise' dapat menganggu komunikasi! Identifikasi 3 bentuk noise dan berikan solusi praktis untuk masing-masing bentuk.",
+            "kunci": "Jawaban model: Noise adalah gangguan pada proses komunikasi. Bentuk: (1) Fisik — suara bising/lalu lintas; solusi: pilih lingkungan tenang. (2) Psikologis — bias, asumsi, stres; solusi: komunikasi sadar, clarifying questions. (3) Semantik — makna ambigu/gangguan leksikal; solusi: bahasa yang jelas, konfirmasi, contoh."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "Bagaimana feedback dapat meningkatkan efektivitas komunikasi? Jelaskan mekanisme umpan balik dan kapan feedback paling diperlukan!",
+            "kunci": "Jawaban model: Feedback (tanggapan/respons) memungkinkan komunikator mengetahui apakah pesan diterima dan dipahami dengan benar, lalu menyesuaikan komunikasi. Feedback berupa verbal (kata pengantar, pertanyaan), nonverbal (ekspresi, bahasa tubuh), atau tertulis. Feedback paling penting bila pesan kompleks, ambigu, atau komunikan butuh kejelasan."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Evaluasi komunikasi Anda dalam situasi tertentu (misalnya: presentasi di kelas, diskusi kelompok, atau percakapan dengan dosen). Identifikasi apa yang berhasil dan apa yang perlu diperbaiki! Sertakan rencana tindak lanjut.",
+            "kunci": "Jawaban model: Siswa mengidentifikasi situasi konkret, mencatat keberhasilan (mis. kejelasan, interaksi), serta area perbaikan (mis. kecepatan bicara, bahasa tubuh, penggunaan kontak mata). Rencana: latihan lebih, feedback dari teman/dosen, perencanaan materi lebih detil."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Komunikasi bukan sekadar pertukaran kata-kata, tetapi proses perspektif dan makna. Jelaskan peran konteks (situasi, budaya, hubungan antar individu) terhadap cara pesan ditafsirkan! Berikan contoh konkret!",
+            "kunci": "Jawaban model: Konteks sangat menentukan interpretasi pesan. Situasi (formal vs informal) mempengaruhi pilihan kata dan bahasa tubuh. Budaya (sikap terhadap otoritas, individualism/kolektivism, ruang personal) mengubah cara pesan ditangkap. Hubungan (akrab vs asing) menentukan tingkat kepercayaan dan keterbukaan. Tanpa memperhatikan konteeks, pesan bisa salah tafsir atau tidak efektif."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 20,
+            "pertanyaan": "Dalam situasi diskusi kelompok, Siswa A menyampaikan pendapat dengan tegas namun ekspresi wajahnya marah. Pesan yang Anda terima kemungkinan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pendapat Siswa A penting dan perlu didengarkan"
+              },
+              {
+                "label": "b",
+                "text": "Siswa A marah dan ingin dimusuh"
+              },
+              {
+                "label": "c",
+                "text": "Siswa A tidak tertarik dengan diskusi"
+              },
+              {
+                "label": "d",
+                "text": "Siswa A ingin menghentikan diskusi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Meskipun ekspresi marah, pesan verbalnya tetap bisa mengandung konten yang berharga. Penting memisahkan konten pesan dari emosi penyampainya."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "Karena Anda sedang bersemangat membahas topik tertentu, Anda bicara dengan cepat dan tidak memberi ruang bagi teman untuk menyela. Tindakan yang PALING sesuai dengan prinsip komunikasi efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Lanjut bicara karena ide Anda sedang mengalir"
+              },
+              {
+                "label": "b",
+                "text": "Berhenti sejenak, bertanya 'Ada yang ingin menyebutkan?' dan beri ruang"
+              },
+              {
+                "label": "c",
+                "text": "Mengomel karena teman tidak fokus"
+              },
+              {
+                "label": "d",
+                "text": "Mengabaikan teman dan mulai bicara dengan orang lain"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Komunikasi efektif memerlukan kesempatan bagi pihak lain untuk berpartisipasi (two-way communication). Memberi ruang adalah wujud menghargai."
+          },
+          {
+            "no": 22,
+            "pertanyaan": "Saat berbicara dengan orang yang berlatar belakang berbeda (misalnya dari daerah berbeda atau generasi berbeda), hal yang PALING perlu diutamakan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Penggunaan bahasa yang santai agar akrab"
+              },
+              {
+                "label": "b",
+                "text": " Penyesuaian pesan agar bisa dipahami (kontekstual)"
+              },
+              {
+                "label": "c",
+                "text": " Menunjukkan keunggulan pengetahuan"
+              },
+              {
+                "label": "d",
+                "text": "Menghindari kontak mata"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penyesuaian (adaptasi) terhadap konteks dan penerima adalah kunci komunikasi lintas budaya/generasi agar pesan dapat dipahami dengan benar."
+          },
+          {
+            "no": 23,
+            "pertanyaan": "Evaluator pemerintahan daerah melakukan survei komunikasi publik. Tiga elemen yang PALING penting untuk dinilai adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Pewarta, audiens, dan frekuensi siaran"
+              },
+              {
+                "label": "b",
+                "text": "Kejelasan informasi, aksesibilitas, dan feedback mekanisme"
+              },
+              {
+                "label": "c",
+                "text": "Biaya produksi, jumlah staf, dan lokasi kantor"
+              },
+              {
+                "label": "d",
+                "text": "Durasi siaran, warna logo, dan musik latar"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Efektivitas komunikasi publik dinilai dari: pesan sampai dengan jelas (kejelasan), bisa diakses semua kalangan (aksesibilitas), dan ada mekanisme tanggapan (feedback)."
+          },
+          {
+            "no": 24,
+            "pertanyaan": "Pada situasi di mana Anda harus menyampaikan kritik kepada kolega, strategi yang PALING tepat adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kritik di depan umum agar semua tahu"
+              },
+              {
+                "label": "b",
+                "text": "Sampaikan secara privat, fokus pada perilaku (bukan pribadi), tawarkan solusi"
+              },
+              {
+                "label": "c",
+                "text": "Tidak menyampaikan kritik agar tidak conflict"
+              },
+              {
+                "label": "d",
+                "text": "Kirim email panjang tanpa kejelasan"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Kritik konstruktif dilakukan secara privat, menggunakan bahasa deskriptif (fokus pada perilaku/Ade, bukan serangan personal), dan disertai rekomendasi solusi."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 2,
+      "judul": "Model dan Proses Komunikasi",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Tujuan utama komunikasi dalam kehidupan sehari-hari adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menyampaikan informasi"
+              },
+              {
+                "label": "b",
+                "text": "Mengontrol orang lain"
+              },
+              {
+                "label": "c",
+                "text": "Menghindari interaksi"
+              },
+              {
+                "label": "d",
+                "text": "Memperlihatkan keahlian"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi bertujuan utama untuk menyampaikan informasi, pikiran, perasaan, atau ide dari satu pihak ke pihak lain."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Berdasarkan perilaku pesan nonverbal yang mengejutkan, komunikasi dikategorikan menjadi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Komunikasi verbal dan nonverbal"
+              },
+              {
+                "label": "b",
+                "text": " Komunikasi formal dan informal"
+              },
+              {
+                "label": "c",
+                "text": " Komunikasi lisan dan tulisan"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi intrapersonal dan interpersonal"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi dibagi menjadi verbal (kata-kata lisan/tulisan) dan nonverbal (bahasa tubuh, ekspresi, dll)."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Peserta komunikasi yang aktif memberikan umpan balik disebut...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Komunikator"
+              },
+              {
+                "label": "b",
+                "text": " Komunikan"
+              },
+              {
+                "label": "c",
+                "text": "Mediator"
+              },
+              {
+                "label": "d",
+                "text": "Efek"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Komunikan adalah penerima pesan yang aktif merespons atau memberikan umpan balik."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Dalam model komunikasi Shannon-Weaver, elemen yang berfungsi sebagai penerima pesan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Encoder"
+              },
+              {
+                "label": "b",
+                "text": " Decoder"
+              },
+              {
+                "label": "c",
+                "text": " Channel"
+              },
+              {
+                "label": "d",
+                "text": " Receiver"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Receiver adalah elemen yang menerima pesan melalui kanal komunikasi."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Gangguan pada saluran komunikasi yang disebut 'noise' dapat berupa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Gangguan físik dan psikis"
+              },
+              {
+                "label": "b",
+                "text": " Peningkatan sinyal"
+              },
+              {
+                "label": "c",
+                "text": " Penekanan pesan"
+              },
+              {
+                "label": "d",
+                "text": " Pelebaran makna"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Noise adalah gangguan yang dapat berasal dari fisik (suara bising) maupun psikis (asumsi, bias)."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Bahasa tubuh yang menunjukkan ketertarikan atau perhatian adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Menghadap muka, kontak mata"
+              },
+              {
+                "label": "b",
+                "text": " Menunduk, kaku"
+              },
+              {
+                "label": "c",
+                "text": "Mengeluh, membolak-balik"
+              },
+              {
+                "label": "d",
+                "text": "Membuang pandangan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kontak mata dan tubuh yang menghadap ke arah pembicara menunjukkan keterlibatan."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Jika seseorang mengatakan 'oke' sambil mengangguk, pesan utamanya adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Persetujuan/terima"
+              },
+              {
+                "label": "b",
+                "text": " Penolakan"
+              },
+              {
+                "label": "c",
+                "text": " Ragu-ragu"
+              },
+              {
+                "label": "d",
+                "text": " Bingung"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kombinasi verbal 'oke' dan nonverbal mengangguk menunjukkan persetujuan."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Manakah yang BUKAN merupakan fungsi komunikasi menurut Kann (2010)?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Faktual"
+              },
+              {
+                "label": "b",
+                "text": " Perintah"
+              },
+              {
+                "label": "c",
+                "text": " Keluhan"
+              },
+              {
+                "label": "d",
+                "text": "Informasi"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Fungsi Kann: faktual, perintah, informasi — 'keluhan' bukan kategori utamanya."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "Tujuan komunikasi yang berupa menyampaikan kebenaran atau data disebut...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Komunikasi faktual"
+              },
+              {
+                "label": "b",
+                "text": "Komunikasi perintah"
+              },
+              {
+                "label": "c",
+                "text": "Komunikasi involusi"
+              },
+              {
+                "label": "d",
+                "text": "Komunikasi persuasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi faktual bertujuan menyampaikan data, kebenaran, atau informasi kejadian."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Kegiatan mengikuti pidato umumnya merupakan contoh komunikasi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Satu arah (one-way)"
+              },
+              {
+                "label": "b",
+                "text": " Dua arah (two-way)"
+              },
+              {
+                "label": "c",
+                "text": "Beberapa arah"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi massa"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pendengar mengikuti pidato tanpa interupsi — sifatnya satu arah."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Dalam proses komunikasi, peran 'encoder' adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Pengirim pesan yang menyandikan gagasan"
+              },
+              {
+                "label": "b",
+                "text": " Penerima yang menafsirkan pesan"
+              },
+              {
+                "label": "c",
+                "text": "Media penghubung"
+              },
+              {
+                "label": "d",
+                "text": " Interferensi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Encoder adalah komunikator yang mengubah gagasan menjadi pesan (bahasa, simbol, gerakan)."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Faktor yang berkontribusi dalam menentukan efektifitas komunikasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Keterampilan komunikator"
+              },
+              {
+                "label": "b",
+                "text": " Tingkat pendidikan komunikan"
+              },
+              {
+                "label": "c",
+                "text": " Media sosial"
+              },
+              {
+                "label": "d",
+                "text": "Posisi sosial"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Keterampilan komunikator (kejelasan, nada, kepercayaan diri) sangat menentukan efektivitas."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Manakah yang merupakan prinsip komunikasi yang efektif?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Kejelasan pesan"
+              },
+              {
+                "label": "b",
+                "text": " Jumlah pesan yang banyak"
+              },
+              {
+                "label": "c",
+                "text": "Menggunakan jargon teknis"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi satu arah"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kejelasan (clarity) adalah prinsip utama agar pesan dipahami oleh komunikan."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Dampak komunikasi yang efektif dalam organisasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Peningkatan kolaborasi dan efisiensi"
+              },
+              {
+                "label": "b",
+                "text": " Berkurangnya kepercayaan"
+              },
+              {
+                "label": "c",
+                "text": " Konflik yang meningkat"
+              },
+              {
+                "label": "d",
+                "text": " Keterlambatan informasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi efektif menjalin kolaborasi dan efisiensi operasional."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Komunikasi yang efektif umumnya melibatkan __________, __________, dan __________.",
+            "kunci": [
+              "komunikator",
+              "pesan",
+              "komunikan"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Dalam komunikasi verbal, pesan disampaikan melalui __________ dan __________.",
+            "kunci": [
+              "lalain",
+              "tulisan"
+            ]
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Komunikan yang aktif memberikan __________ disebut also memberi umpan balik.",
+            "kunci": [
+              "respon",
+              "tanggapan"
+            ]
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Bahasa tubuh yang positif antara lain __________, __________, dan __________.",
+            "kunci": [
+              "kontak mata",
+              "postur terbuka",
+              "menghadap"
+            ]
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Selama komunikasi berlangsung, 'feedback' berfungsi sebagai __________.",
+            "kunci": [
+              "tanggapan",
+              "respons"
+            ]
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Peserta didik yang tidak fokus dapat menunjukkan tanda __________, __________, atau __________.",
+            "kunci": [
+              "menunduk",
+              "handphone",
+              "menggeram"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Jelaskan perbedaan komunikasi verbal dan nonverbal! Berikan masing-masing dua contoh konkret dalam situasi sehari-hari.",
+            "kunci": "Jawaban model: Komunikasi verbal menggunakan kata-kata (lisan atau tulis) untuk menyampaikan makna (contoh: bicara, email). Komunikasi nonverbal menggunakan sinyal tanpa kata (contoh: bahasa tubuh, ekspresi wajah, grafik, warna). Apa yang dikomunikasikan bisa melebihi kata-kata verbal."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Analisislah bagaimana 'noise' dapat menganggu komunikasi! Identifikasi 3 bentuk noise dan berikan solusi praktis untuk masing-masing bentuk.",
+            "kunci": "Jawaban model: Noise adalah gangguan pada proses komunikasi. Bentuk: (1) Fisik — suara bising/lalu lintas; solusi: pilih lingkungan tenang. (2) Psikologis — bias, asumsi, stres; solusi: komunikasi sadar, clarifying questions. (3) Semantik — makna ambigu/gangguan leksikal; solusi: bahasa yang jelas, konfirmasi, contoh."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "Bagaimana feedback dapat meningkatkan efektivitas komunikasi? Jelaskan mekanisme umpan balik dan kapan feedback paling diperlukan!",
+            "kunci": "Jawaban model: Feedback (tanggapan/respons) memungkinkan komunikator mengetahui apakah pesan diterima dan dipahami dengan benar, lalu menyesuaikan komunikasi. Feedback berupa verbal (kata pengantar, pertanyaan), nonverbal (ekspresi, bahasa tubuh), atau tertulis. Feedback paling penting bila pesan kompleks, ambigu, atau komunikan butuh kejelasan."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Evaluasi komunikasi Anda dalam situasi tertentu (misalnya: presentasi di kelas, diskusi kelompok, atau percakapan dengan dosen). Identifikasi apa yang berhasil dan apa yang perlu diperbaiki! Sertakan rencana tindak lanjut.",
+            "kunci": "Jawaban model: Siswa mengidentifikasi situasi konkret, mencatat keberhasilan (mis. kejelasan, interaksi), serta area perbaikan (mis. kecepatan bicara, bahasa tubuh, penggunaan kontak mata). Rencana: latihan lebih, feedback dari teman/dosen, perencanaan materi lebih detil."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Komunikasi bukan sekadar pertukaran kata-kata, tetapi proses perspektif dan makna. Jelaskan peran konteks (situasi, budaya, hubungan antar individu) terhadap cara pesan ditafsirkan! Berikan contoh konkret!",
+            "kunci": "Jawaban model: Konteks sangat menentukan interpretasi pesan. Situasi (formal vs informal) mempengaruhi pilihan kata dan bahasa tubuh. Budaya (sikap terhadap otoritas, individualism/kolektivism, ruang personal) mengubah cara pesan ditangkap. Hubungan (akrab vs asing) menentukan tingkat kepercayaan dan keterbukaan. Tanpa memperhatikan konteeks, pesan bisa salah tafsir atau tidak efektif."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 20,
+            "pertanyaan": "Dalam situasi diskusi kelompok, Siswa A menyampaikan pendapat dengan tegas namun ekspresi wajahnya marah. Pesan yang Anda terima kemungkinan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pendapat Siswa A penting dan perlu didengarkan"
+              },
+              {
+                "label": "b",
+                "text": "Siswa A marah dan ingin dimusuh"
+              },
+              {
+                "label": "c",
+                "text": "Siswa A tidak tertarik dengan diskusi"
+              },
+              {
+                "label": "d",
+                "text": "Siswa A ingin menghentikan diskusi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Meskipun ekspresi marah, pesan verbalnya tetap bisa mengandung konten yang berharga. Penting memisahkan konten pesan dari emosi penyampainya."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "Karena Anda sedang bersemangat membahas topik tertentu, Anda bicara dengan cepat dan tidak memberi ruang bagi teman untuk menyela. Tindakan yang PALING sesuai dengan prinsip komunikasi efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Lanjut bicara karena ide Anda sedang mengalir"
+              },
+              {
+                "label": "b",
+                "text": "Berhenti sejenak, bertanya 'Ada yang ingin menyebutkan?' dan beri ruang"
+              },
+              {
+                "label": "c",
+                "text": "Mengomel karena teman tidak fokus"
+              },
+              {
+                "label": "d",
+                "text": "Mengabaikan teman dan mulai bicara dengan orang lain"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Komunikasi efektif memerlukan kesempatan bagi pihak lain untuk berpartisipasi (two-way communication). Memberi ruang adalah wujud menghargai."
+          },
+          {
+            "no": 22,
+            "pertanyaan": "Saat berbicara dengan orang yang berlatar belakang berbeda (misalnya dari daerah berbeda atau generasi berbeda), hal yang PALING perlu diutamakan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Penggunaan bahasa yang santai agar akrab"
+              },
+              {
+                "label": "b",
+                "text": " Penyesuaian pesan agar bisa dipahami (kontekstual)"
+              },
+              {
+                "label": "c",
+                "text": " Menunjukkan keunggulan pengetahuan"
+              },
+              {
+                "label": "d",
+                "text": "Menghindari kontak mata"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penyesuaian (adaptasi) terhadap konteks dan penerima adalah kunci komunikasi lintas budaya/generasi agar pesan dapat dipahami dengan benar."
+          },
+          {
+            "no": 23,
+            "pertanyaan": "Evaluator pemerintahan daerah melakukan survei komunikasi publik. Tiga elemen yang PALING penting untuk dinilai adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Pewarta, audiens, dan frekuensi siaran"
+              },
+              {
+                "label": "b",
+                "text": "Kejelasan informasi, aksesibilitas, dan feedback mekanisme"
+              },
+              {
+                "label": "c",
+                "text": "Biaya produksi, jumlah staf, dan lokasi kantor"
+              },
+              {
+                "label": "d",
+                "text": "Durasi siaran, warna logo, dan musik latar"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Efektivitas komunikasi publik dinilai dari: pesan sampai dengan jelas (kejelasan), bisa diakses semua kalangan (aksesibilitas), dan ada mekanisme tanggapan (feedback)."
+          },
+          {
+            "no": 24,
+            "pertanyaan": "Pada situasi di mana Anda harus menyampaikan kritik kepada kolega, strategi yang PALING tepat adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kritik di depan umum agar semua tahu"
+              },
+              {
+                "label": "b",
+                "text": "Sampaikan secara privat, fokus pada perilaku (bukan pribadi), tawarkan solusi"
+              },
+              {
+                "label": "c",
+                "text": "Tidak menyampaikan kritik agar tidak conflict"
+              },
+              {
+                "label": "d",
+                "text": "Kirim email panjang tanpa kejelasan"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Kritik konstruktif dilakukan secara privat, menggunakan bahasa deskriptif (fokus pada perilaku/Ade, bukan serangan personal), dan disertai rekomendasi solusi."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 3,
+      "judul": "Komunikasi Verbal dan Nonverbal",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Tujuan utama komunikasi dalam kehidupan sehari-hari adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menyampaikan informasi"
+              },
+              {
+                "label": "b",
+                "text": "Mengontrol orang lain"
+              },
+              {
+                "label": "c",
+                "text": "Menghindari interaksi"
+              },
+              {
+                "label": "d",
+                "text": "Memperlihatkan keahlian"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi bertujuan utama untuk menyampaikan informasi, pikiran, perasaan, atau ide dari satu pihak ke pihak lain."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Berdasarkan perilaku pesan nonverbal yang mengejutkan, komunikasi dikategorikan menjadi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Komunikasi verbal dan nonverbal"
+              },
+              {
+                "label": "b",
+                "text": " Komunikasi formal dan informal"
+              },
+              {
+                "label": "c",
+                "text": " Komunikasi lisan dan tulisan"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi intrapersonal dan interpersonal"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi dibagi menjadi verbal (kata-kata lisan/tulisan) dan nonverbal (bahasa tubuh, ekspresi, dll)."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Peserta komunikasi yang aktif memberikan umpan balik disebut...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Komunikator"
+              },
+              {
+                "label": "b",
+                "text": " Komunikan"
+              },
+              {
+                "label": "c",
+                "text": "Mediator"
+              },
+              {
+                "label": "d",
+                "text": "Efek"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Komunikan adalah penerima pesan yang aktif merespons atau memberikan umpan balik."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Dalam model komunikasi Shannon-Weaver, elemen yang berfungsi sebagai penerima pesan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Encoder"
+              },
+              {
+                "label": "b",
+                "text": " Decoder"
+              },
+              {
+                "label": "c",
+                "text": " Channel"
+              },
+              {
+                "label": "d",
+                "text": " Receiver"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Receiver adalah elemen yang menerima pesan melalui kanal komunikasi."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Gangguan pada saluran komunikasi yang disebut 'noise' dapat berupa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Gangguan físik dan psikis"
+              },
+              {
+                "label": "b",
+                "text": " Peningkatan sinyal"
+              },
+              {
+                "label": "c",
+                "text": " Penekanan pesan"
+              },
+              {
+                "label": "d",
+                "text": " Pelebaran makna"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Noise adalah gangguan yang dapat berasal dari fisik (suara bising) maupun psikis (asumsi, bias)."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Bahasa tubuh yang menunjukkan ketertarikan atau perhatian adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Menghadap muka, kontak mata"
+              },
+              {
+                "label": "b",
+                "text": " Menunduk, kaku"
+              },
+              {
+                "label": "c",
+                "text": "Mengeluh, membolak-balik"
+              },
+              {
+                "label": "d",
+                "text": "Membuang pandangan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kontak mata dan tubuh yang menghadap ke arah pembicara menunjukkan keterlibatan."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Jika seseorang mengatakan 'oke' sambil mengangguk, pesan utamanya adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Persetujuan/terima"
+              },
+              {
+                "label": "b",
+                "text": " Penolakan"
+              },
+              {
+                "label": "c",
+                "text": " Ragu-ragu"
+              },
+              {
+                "label": "d",
+                "text": " Bingung"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kombinasi verbal 'oke' dan nonverbal mengangguk menunjukkan persetujuan."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Manakah yang BUKAN merupakan fungsi komunikasi menurut Kann (2010)?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Faktual"
+              },
+              {
+                "label": "b",
+                "text": " Perintah"
+              },
+              {
+                "label": "c",
+                "text": " Keluhan"
+              },
+              {
+                "label": "d",
+                "text": "Informasi"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Fungsi Kann: faktual, perintah, informasi — 'keluhan' bukan kategori utamanya."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "Tujuan komunikasi yang berupa menyampaikan kebenaran atau data disebut...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Komunikasi faktual"
+              },
+              {
+                "label": "b",
+                "text": "Komunikasi perintah"
+              },
+              {
+                "label": "c",
+                "text": "Komunikasi involusi"
+              },
+              {
+                "label": "d",
+                "text": "Komunikasi persuasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi faktual bertujuan menyampaikan data, kebenaran, atau informasi kejadian."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Kegiatan mengikuti pidato umumnya merupakan contoh komunikasi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Satu arah (one-way)"
+              },
+              {
+                "label": "b",
+                "text": " Dua arah (two-way)"
+              },
+              {
+                "label": "c",
+                "text": "Beberapa arah"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi massa"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pendengar mengikuti pidato tanpa interupsi — sifatnya satu arah."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Dalam proses komunikasi, peran 'encoder' adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Pengirim pesan yang menyandikan gagasan"
+              },
+              {
+                "label": "b",
+                "text": " Penerima yang menafsirkan pesan"
+              },
+              {
+                "label": "c",
+                "text": "Media penghubung"
+              },
+              {
+                "label": "d",
+                "text": " Interferensi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Encoder adalah komunikator yang mengubah gagasan menjadi pesan (bahasa, simbol, gerakan)."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Faktor yang berkontribusi dalam menentukan efektifitas komunikasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Keterampilan komunikator"
+              },
+              {
+                "label": "b",
+                "text": " Tingkat pendidikan komunikan"
+              },
+              {
+                "label": "c",
+                "text": " Media sosial"
+              },
+              {
+                "label": "d",
+                "text": "Posisi sosial"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Keterampilan komunikator (kejelasan, nada, kepercayaan diri) sangat menentukan efektivitas."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Manakah yang merupakan prinsip komunikasi yang efektif?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Kejelasan pesan"
+              },
+              {
+                "label": "b",
+                "text": " Jumlah pesan yang banyak"
+              },
+              {
+                "label": "c",
+                "text": "Menggunakan jargon teknis"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi satu arah"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kejelasan (clarity) adalah prinsip utama agar pesan dipahami oleh komunikan."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Dampak komunikasi yang efektif dalam organisasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Peningkatan kolaborasi dan efisiensi"
+              },
+              {
+                "label": "b",
+                "text": " Berkurangnya kepercayaan"
+              },
+              {
+                "label": "c",
+                "text": " Konflik yang meningkat"
+              },
+              {
+                "label": "d",
+                "text": " Keterlambatan informasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi efektif menjalin kolaborasi dan efisiensi operasional."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Komunikasi yang efektif umumnya melibatkan __________, __________, dan __________.",
+            "kunci": [
+              "komunikator",
+              "pesan",
+              "komunikan"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Dalam komunikasi verbal, pesan disampaikan melalui __________ dan __________.",
+            "kunci": [
+              "lalain",
+              "tulisan"
+            ]
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Komunikan yang aktif memberikan __________ disebut also memberi umpan balik.",
+            "kunci": [
+              "respon",
+              "tanggapan"
+            ]
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Bahasa tubuh yang positif antara lain __________, __________, dan __________.",
+            "kunci": [
+              "kontak mata",
+              "postur terbuka",
+              "menghadap"
+            ]
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Selama komunikasi berlangsung, 'feedback' berfungsi sebagai __________.",
+            "kunci": [
+              "tanggapan",
+              "respons"
+            ]
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Peserta didik yang tidak fokus dapat menunjukkan tanda __________, __________, atau __________.",
+            "kunci": [
+              "menunduk",
+              "handphone",
+              "menggeram"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Jelaskan perbedaan komunikasi verbal dan nonverbal! Berikan masing-masing dua contoh konkret dalam situasi sehari-hari.",
+            "kunci": "Jawaban model: Komunikasi verbal menggunakan kata-kata (lisan atau tulis) untuk menyampaikan makna (contoh: bicara, email). Komunikasi nonverbal menggunakan sinyal tanpa kata (contoh: bahasa tubuh, ekspresi wajah, grafik, warna). Apa yang dikomunikasikan bisa melebihi kata-kata verbal."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Analisislah bagaimana 'noise' dapat menganggu komunikasi! Identifikasi 3 bentuk noise dan berikan solusi praktis untuk masing-masing bentuk.",
+            "kunci": "Jawaban model: Noise adalah gangguan pada proses komunikasi. Bentuk: (1) Fisik — suara bising/lalu lintas; solusi: pilih lingkungan tenang. (2) Psikologis — bias, asumsi, stres; solusi: komunikasi sadar, clarifying questions. (3) Semantik — makna ambigu/gangguan leksikal; solusi: bahasa yang jelas, konfirmasi, contoh."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "Bagaimana feedback dapat meningkatkan efektivitas komunikasi? Jelaskan mekanisme umpan balik dan kapan feedback paling diperlukan!",
+            "kunci": "Jawaban model: Feedback (tanggapan/respons) memungkinkan komunikator mengetahui apakah pesan diterima dan dipahami dengan benar, lalu menyesuaikan komunikasi. Feedback berupa verbal (kata pengantar, pertanyaan), nonverbal (ekspresi, bahasa tubuh), atau tertulis. Feedback paling penting bila pesan kompleks, ambigu, atau komunikan butuh kejelasan."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Evaluasi komunikasi Anda dalam situasi tertentu (misalnya: presentasi di kelas, diskusi kelompok, atau percakapan dengan dosen). Identifikasi apa yang berhasil dan apa yang perlu diperbaiki! Sertakan rencana tindak lanjut.",
+            "kunci": "Jawaban model: Siswa mengidentifikasi situasi konkret, mencatat keberhasilan (mis. kejelasan, interaksi), serta area perbaikan (mis. kecepatan bicara, bahasa tubuh, penggunaan kontak mata). Rencana: latihan lebih, feedback dari teman/dosen, perencanaan materi lebih detil."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Komunikasi bukan sekadar pertukaran kata-kata, tetapi proses perspektif dan makna. Jelaskan peran konteks (situasi, budaya, hubungan antar individu) terhadap cara pesan ditafsirkan! Berikan contoh konkret!",
+            "kunci": "Jawaban model: Konteks sangat menentukan interpretasi pesan. Situasi (formal vs informal) mempengaruhi pilihan kata dan bahasa tubuh. Budaya (sikap terhadap otoritas, individualism/kolektivism, ruang personal) mengubah cara pesan ditangkap. Hubungan (akrab vs asing) menentukan tingkat kepercayaan dan keterbukaan. Tanpa memperhatikan konteeks, pesan bisa salah tafsir atau tidak efektif."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 20,
+            "pertanyaan": "Dalam situasi diskusi kelompok, Siswa A menyampaikan pendapat dengan tegas namun ekspresi wajahnya marah. Pesan yang Anda terima kemungkinan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pendapat Siswa A penting dan perlu didengarkan"
+              },
+              {
+                "label": "b",
+                "text": "Siswa A marah dan ingin dimusuh"
+              },
+              {
+                "label": "c",
+                "text": "Siswa A tidak tertarik dengan diskusi"
+              },
+              {
+                "label": "d",
+                "text": "Siswa A ingin menghentikan diskusi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Meskipun ekspresi marah, pesan verbalnya tetap bisa mengandung konten yang berharga. Penting memisahkan konten pesan dari emosi penyampainya."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "Karena Anda sedang bersemangat membahas topik tertentu, Anda bicara dengan cepat dan tidak memberi ruang bagi teman untuk menyela. Tindakan yang PALING sesuai dengan prinsip komunikasi efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Lanjut bicara karena ide Anda sedang mengalir"
+              },
+              {
+                "label": "b",
+                "text": "Berhenti sejenak, bertanya 'Ada yang ingin menyebutkan?' dan beri ruang"
+              },
+              {
+                "label": "c",
+                "text": "Mengomel karena teman tidak fokus"
+              },
+              {
+                "label": "d",
+                "text": "Mengabaikan teman dan mulai bicara dengan orang lain"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Komunikasi efektif memerlukan kesempatan bagi pihak lain untuk berpartisipasi (two-way communication). Memberi ruang adalah wujud menghargai."
+          },
+          {
+            "no": 22,
+            "pertanyaan": "Saat berbicara dengan orang yang berlatar belakang berbeda (misalnya dari daerah berbeda atau generasi berbeda), hal yang PALING perlu diutamakan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Penggunaan bahasa yang santai agar akrab"
+              },
+              {
+                "label": "b",
+                "text": " Penyesuaian pesan agar bisa dipahami (kontekstual)"
+              },
+              {
+                "label": "c",
+                "text": " Menunjukkan keunggulan pengetahuan"
+              },
+              {
+                "label": "d",
+                "text": "Menghindari kontak mata"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penyesuaian (adaptasi) terhadap konteks dan penerima adalah kunci komunikasi lintas budaya/generasi agar pesan dapat dipahami dengan benar."
+          },
+          {
+            "no": 23,
+            "pertanyaan": "Evaluator pemerintahan daerah melakukan survei komunikasi publik. Tiga elemen yang PALING penting untuk dinilai adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Pewarta, audiens, dan frekuensi siaran"
+              },
+              {
+                "label": "b",
+                "text": "Kejelasan informasi, aksesibilitas, dan feedback mekanisme"
+              },
+              {
+                "label": "c",
+                "text": "Biaya produksi, jumlah staf, dan lokasi kantor"
+              },
+              {
+                "label": "d",
+                "text": "Durasi siaran, warna logo, dan musik latar"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Efektivitas komunikasi publik dinilai dari: pesan sampai dengan jelas (kejelasan), bisa diakses semua kalangan (aksesibilitas), dan ada mekanisme tanggapan (feedback)."
+          },
+          {
+            "no": 24,
+            "pertanyaan": "Pada situasi di mana Anda harus menyampaikan kritik kepada kolega, strategi yang PALING tepat adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kritik di depan umum agar semua tahu"
+              },
+              {
+                "label": "b",
+                "text": "Sampaikan secara privat, fokus pada perilaku (bukan pribadi), tawarkan solusi"
+              },
+              {
+                "label": "c",
+                "text": "Tidak menyampaikan kritik agar tidak conflict"
+              },
+              {
+                "label": "d",
+                "text": "Kirim email panjang tanpa kejelasan"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Kritik konstruktif dilakukan secara privat, menggunakan bahasa deskriptif (fokus pada perilaku/Ade, bukan serangan personal), dan disertai rekomendasi solusi."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 4,
+      "judul": "Efikasi dan Strategi Komunikasi",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Tujuan utama komunikasi dalam kehidupan sehari-hari adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menyampaikan informasi"
+              },
+              {
+                "label": "b",
+                "text": "Mengontrol orang lain"
+              },
+              {
+                "label": "c",
+                "text": "Menghindari interaksi"
+              },
+              {
+                "label": "d",
+                "text": "Memperlihatkan keahlian"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi bertujuan utama untuk menyampaikan informasi, pikiran, perasaan, atau ide dari satu pihak ke pihak lain."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Berdasarkan perilaku pesan nonverbal yang mengejutkan, komunikasi dikategorikan menjadi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Komunikasi verbal dan nonverbal"
+              },
+              {
+                "label": "b",
+                "text": " Komunikasi formal dan informal"
+              },
+              {
+                "label": "c",
+                "text": " Komunikasi lisan dan tulisan"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi intrapersonal dan interpersonal"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi dibagi menjadi verbal (kata-kata lisan/tulisan) dan nonverbal (bahasa tubuh, ekspresi, dll)."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Peserta komunikasi yang aktif memberikan umpan balik disebut...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Komunikator"
+              },
+              {
+                "label": "b",
+                "text": " Komunikan"
+              },
+              {
+                "label": "c",
+                "text": "Mediator"
+              },
+              {
+                "label": "d",
+                "text": "Efek"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Komunikan adalah penerima pesan yang aktif merespons atau memberikan umpan balik."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Dalam model komunikasi Shannon-Weaver, elemen yang berfungsi sebagai penerima pesan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Encoder"
+              },
+              {
+                "label": "b",
+                "text": " Decoder"
+              },
+              {
+                "label": "c",
+                "text": " Channel"
+              },
+              {
+                "label": "d",
+                "text": " Receiver"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Receiver adalah elemen yang menerima pesan melalui kanal komunikasi."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Gangguan pada saluran komunikasi yang disebut 'noise' dapat berupa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Gangguan físik dan psikis"
+              },
+              {
+                "label": "b",
+                "text": " Peningkatan sinyal"
+              },
+              {
+                "label": "c",
+                "text": " Penekanan pesan"
+              },
+              {
+                "label": "d",
+                "text": " Pelebaran makna"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Noise adalah gangguan yang dapat berasal dari fisik (suara bising) maupun psikis (asumsi, bias)."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Bahasa tubuh yang menunjukkan ketertarikan atau perhatian adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Menghadap muka, kontak mata"
+              },
+              {
+                "label": "b",
+                "text": " Menunduk, kaku"
+              },
+              {
+                "label": "c",
+                "text": "Mengeluh, membolak-balik"
+              },
+              {
+                "label": "d",
+                "text": "Membuang pandangan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kontak mata dan tubuh yang menghadap ke arah pembicara menunjukkan keterlibatan."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Jika seseorang mengatakan 'oke' sambil mengangguk, pesan utamanya adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Persetujuan/terima"
+              },
+              {
+                "label": "b",
+                "text": " Penolakan"
+              },
+              {
+                "label": "c",
+                "text": " Ragu-ragu"
+              },
+              {
+                "label": "d",
+                "text": " Bingung"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kombinasi verbal 'oke' dan nonverbal mengangguk menunjukkan persetujuan."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Manakah yang BUKAN merupakan fungsi komunikasi menurut Kann (2010)?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Faktual"
+              },
+              {
+                "label": "b",
+                "text": " Perintah"
+              },
+              {
+                "label": "c",
+                "text": " Keluhan"
+              },
+              {
+                "label": "d",
+                "text": "Informasi"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Fungsi Kann: faktual, perintah, informasi — 'keluhan' bukan kategori utamanya."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "Tujuan komunikasi yang berupa menyampaikan kebenaran atau data disebut...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Komunikasi faktual"
+              },
+              {
+                "label": "b",
+                "text": "Komunikasi perintah"
+              },
+              {
+                "label": "c",
+                "text": "Komunikasi involusi"
+              },
+              {
+                "label": "d",
+                "text": "Komunikasi persuasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi faktual bertujuan menyampaikan data, kebenaran, atau informasi kejadian."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Kegiatan mengikuti pidato umumnya merupakan contoh komunikasi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Satu arah (one-way)"
+              },
+              {
+                "label": "b",
+                "text": " Dua arah (two-way)"
+              },
+              {
+                "label": "c",
+                "text": "Beberapa arah"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi massa"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pendengar mengikuti pidato tanpa interupsi — sifatnya satu arah."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Dalam proses komunikasi, peran 'encoder' adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Pengirim pesan yang menyandikan gagasan"
+              },
+              {
+                "label": "b",
+                "text": " Penerima yang menafsirkan pesan"
+              },
+              {
+                "label": "c",
+                "text": "Media penghubung"
+              },
+              {
+                "label": "d",
+                "text": " Interferensi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Encoder adalah komunikator yang mengubah gagasan menjadi pesan (bahasa, simbol, gerakan)."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Faktor yang berkontribusi dalam menentukan efektifitas komunikasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Keterampilan komunikator"
+              },
+              {
+                "label": "b",
+                "text": " Tingkat pendidikan komunikan"
+              },
+              {
+                "label": "c",
+                "text": " Media sosial"
+              },
+              {
+                "label": "d",
+                "text": "Posisi sosial"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Keterampilan komunikator (kejelasan, nada, kepercayaan diri) sangat menentukan efektivitas."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Manakah yang merupakan prinsip komunikasi yang efektif?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Kejelasan pesan"
+              },
+              {
+                "label": "b",
+                "text": " Jumlah pesan yang banyak"
+              },
+              {
+                "label": "c",
+                "text": "Menggunakan jargon teknis"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi satu arah"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kejelasan (clarity) adalah prinsip utama agar pesan dipahami oleh komunikan."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Dampak komunikasi yang efektif dalam organisasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Peningkatan kolaborasi dan efisiensi"
+              },
+              {
+                "label": "b",
+                "text": " Berkurangnya kepercayaan"
+              },
+              {
+                "label": "c",
+                "text": " Konflik yang meningkat"
+              },
+              {
+                "label": "d",
+                "text": " Keterlambatan informasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi efektif menjalin kolaborasi dan efisiensi operasional."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Komunikasi yang efektif umumnya melibatkan __________, __________, dan __________.",
+            "kunci": [
+              "komunikator",
+              "pesan",
+              "komunikan"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Dalam komunikasi verbal, pesan disampaikan melalui __________ dan __________.",
+            "kunci": [
+              "lalain",
+              "tulisan"
+            ]
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Komunikan yang aktif memberikan __________ disebut also memberi umpan balik.",
+            "kunci": [
+              "respon",
+              "tanggapan"
+            ]
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Bahasa tubuh yang positif antara lain __________, __________, dan __________.",
+            "kunci": [
+              "kontak mata",
+              "postur terbuka",
+              "menghadap"
+            ]
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Selama komunikasi berlangsung, 'feedback' berfungsi sebagai __________.",
+            "kunci": [
+              "tanggapan",
+              "respons"
+            ]
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Peserta didik yang tidak fokus dapat menunjukkan tanda __________, __________, atau __________.",
+            "kunci": [
+              "menunduk",
+              "handphone",
+              "menggeram"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Jelaskan perbedaan komunikasi verbal dan nonverbal! Berikan masing-masing dua contoh konkret dalam situasi sehari-hari.",
+            "kunci": "Jawaban model: Komunikasi verbal menggunakan kata-kata (lisan atau tulis) untuk menyampaikan makna (contoh: bicara, email). Komunikasi nonverbal menggunakan sinyal tanpa kata (contoh: bahasa tubuh, ekspresi wajah, grafik, warna). Apa yang dikomunikasikan bisa melebihi kata-kata verbal."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Analisislah bagaimana 'noise' dapat menganggu komunikasi! Identifikasi 3 bentuk noise dan berikan solusi praktis untuk masing-masing bentuk.",
+            "kunci": "Jawaban model: Noise adalah gangguan pada proses komunikasi. Bentuk: (1) Fisik — suara bising/lalu lintas; solusi: pilih lingkungan tenang. (2) Psikologis — bias, asumsi, stres; solusi: komunikasi sadar, clarifying questions. (3) Semantik — makna ambigu/gangguan leksikal; solusi: bahasa yang jelas, konfirmasi, contoh."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "Bagaimana feedback dapat meningkatkan efektivitas komunikasi? Jelaskan mekanisme umpan balik dan kapan feedback paling diperlukan!",
+            "kunci": "Jawaban model: Feedback (tanggapan/respons) memungkinkan komunikator mengetahui apakah pesan diterima dan dipahami dengan benar, lalu menyesuaikan komunikasi. Feedback berupa verbal (kata pengantar, pertanyaan), nonverbal (ekspresi, bahasa tubuh), atau tertulis. Feedback paling penting bila pesan kompleks, ambigu, atau komunikan butuh kejelasan."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Evaluasi komunikasi Anda dalam situasi tertentu (misalnya: presentasi di kelas, diskusi kelompok, atau percakapan dengan dosen). Identifikasi apa yang berhasil dan apa yang perlu diperbaiki! Sertakan rencana tindak lanjut.",
+            "kunci": "Jawaban model: Siswa mengidentifikasi situasi konkret, mencatat keberhasilan (mis. kejelasan, interaksi), serta area perbaikan (mis. kecepatan bicara, bahasa tubuh, penggunaan kontak mata). Rencana: latihan lebih, feedback dari teman/dosen, perencanaan materi lebih detil."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Komunikasi bukan sekadar pertukaran kata-kata, tetapi proses perspektif dan makna. Jelaskan peran konteks (situasi, budaya, hubungan antar individu) terhadap cara pesan ditafsirkan! Berikan contoh konkret!",
+            "kunci": "Jawaban model: Konteks sangat menentukan interpretasi pesan. Situasi (formal vs informal) mempengaruhi pilihan kata dan bahasa tubuh. Budaya (sikap terhadap otoritas, individualism/kolektivism, ruang personal) mengubah cara pesan ditangkap. Hubungan (akrab vs asing) menentukan tingkat kepercayaan dan keterbukaan. Tanpa memperhatikan konteeks, pesan bisa salah tafsir atau tidak efektif."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 20,
+            "pertanyaan": "Dalam situasi diskusi kelompok, Siswa A menyampaikan pendapat dengan tegas namun ekspresi wajahnya marah. Pesan yang Anda terima kemungkinan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pendapat Siswa A penting dan perlu didengarkan"
+              },
+              {
+                "label": "b",
+                "text": "Siswa A marah dan ingin dimusuh"
+              },
+              {
+                "label": "c",
+                "text": "Siswa A tidak tertarik dengan diskusi"
+              },
+              {
+                "label": "d",
+                "text": "Siswa A ingin menghentikan diskusi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Meskipun ekspresi marah, pesan verbalnya tetap bisa mengandung konten yang berharga. Penting memisahkan konten pesan dari emosi penyampainya."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "Karena Anda sedang bersemangat membahas topik tertentu, Anda bicara dengan cepat dan tidak memberi ruang bagi teman untuk menyela. Tindakan yang PALING sesuai dengan prinsip komunikasi efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Lanjut bicara karena ide Anda sedang mengalir"
+              },
+              {
+                "label": "b",
+                "text": "Berhenti sejenak, bertanya 'Ada yang ingin menyebutkan?' dan beri ruang"
+              },
+              {
+                "label": "c",
+                "text": "Mengomel karena teman tidak fokus"
+              },
+              {
+                "label": "d",
+                "text": "Mengabaikan teman dan mulai bicara dengan orang lain"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Komunikasi efektif memerlukan kesempatan bagi pihak lain untuk berpartisipasi (two-way communication). Memberi ruang adalah wujud menghargai."
+          },
+          {
+            "no": 22,
+            "pertanyaan": "Saat berbicara dengan orang yang berlatar belakang berbeda (misalnya dari daerah berbeda atau generasi berbeda), hal yang PALING perlu diutamakan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Penggunaan bahasa yang santai agar akrab"
+              },
+              {
+                "label": "b",
+                "text": " Penyesuaian pesan agar bisa dipahami (kontekstual)"
+              },
+              {
+                "label": "c",
+                "text": " Menunjukkan keunggulan pengetahuan"
+              },
+              {
+                "label": "d",
+                "text": "Menghindari kontak mata"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penyesuaian (adaptasi) terhadap konteks dan penerima adalah kunci komunikasi lintas budaya/generasi agar pesan dapat dipahami dengan benar."
+          },
+          {
+            "no": 23,
+            "pertanyaan": "Evaluator pemerintahan daerah melakukan survei komunikasi publik. Tiga elemen yang PALING penting untuk dinilai adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Pewarta, audiens, dan frekuensi siaran"
+              },
+              {
+                "label": "b",
+                "text": "Kejelasan informasi, aksesibilitas, dan feedback mekanisme"
+              },
+              {
+                "label": "c",
+                "text": "Biaya produksi, jumlah staf, dan lokasi kantor"
+              },
+              {
+                "label": "d",
+                "text": "Durasi siaran, warna logo, dan musik latar"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Efektivitas komunikasi publik dinilai dari: pesan sampai dengan jelas (kejelasan), bisa diakses semua kalangan (aksesibilitas), dan ada mekanisme tanggapan (feedback)."
+          },
+          {
+            "no": 24,
+            "pertanyaan": "Pada situasi di mana Anda harus menyampaikan kritik kepada kolega, strategi yang PALING tepat adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kritik di depan umum agar semua tahu"
+              },
+              {
+                "label": "b",
+                "text": "Sampaikan secara privat, fokus pada perilaku (bukan pribadi), tawarkan solusi"
+              },
+              {
+                "label": "c",
+                "text": "Tidak menyampaikan kritik agar tidak conflict"
+              },
+              {
+                "label": "d",
+                "text": "Kirim email panjang tanpa kejelasan"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Kritik konstruktif dilakukan secara privat, menggunakan bahasa deskriptif (fokus pada perilaku/Ade, bukan serangan personal), dan disertai rekomendasi solusi."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 5,
+      "judul": "Komunikasi dalam Konteks Sosiokultural",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Tujuan utama komunikasi dalam kehidupan sehari-hari adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menyampaikan informasi"
+              },
+              {
+                "label": "b",
+                "text": "Mengontrol orang lain"
+              },
+              {
+                "label": "c",
+                "text": "Menghindari interaksi"
+              },
+              {
+                "label": "d",
+                "text": "Memperlihatkan keahlian"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi bertujuan utama untuk menyampaikan informasi, pikiran, perasaan, atau ide dari satu pihak ke pihak lain."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Berdasarkan perilaku pesan nonverbal yang mengejutkan, komunikasi dikategorikan menjadi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Komunikasi verbal dan nonverbal"
+              },
+              {
+                "label": "b",
+                "text": " Komunikasi formal dan informal"
+              },
+              {
+                "label": "c",
+                "text": " Komunikasi lisan dan tulisan"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi intrapersonal dan interpersonal"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi dibagi menjadi verbal (kata-kata lisan/tulisan) dan nonverbal (bahasa tubuh, ekspresi, dll)."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Peserta komunikasi yang aktif memberikan umpan balik disebut...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Komunikator"
+              },
+              {
+                "label": "b",
+                "text": " Komunikan"
+              },
+              {
+                "label": "c",
+                "text": "Mediator"
+              },
+              {
+                "label": "d",
+                "text": "Efek"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Komunikan adalah penerima pesan yang aktif merespons atau memberikan umpan balik."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Dalam model komunikasi Shannon-Weaver, elemen yang berfungsi sebagai penerima pesan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Encoder"
+              },
+              {
+                "label": "b",
+                "text": " Decoder"
+              },
+              {
+                "label": "c",
+                "text": " Channel"
+              },
+              {
+                "label": "d",
+                "text": " Receiver"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Receiver adalah elemen yang menerima pesan melalui kanal komunikasi."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Gangguan pada saluran komunikasi yang disebut 'noise' dapat berupa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Gangguan físik dan psikis"
+              },
+              {
+                "label": "b",
+                "text": " Peningkatan sinyal"
+              },
+              {
+                "label": "c",
+                "text": " Penekanan pesan"
+              },
+              {
+                "label": "d",
+                "text": " Pelebaran makna"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Noise adalah gangguan yang dapat berasal dari fisik (suara bising) maupun psikis (asumsi, bias)."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Bahasa tubuh yang menunjukkan ketertarikan atau perhatian adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Menghadap muka, kontak mata"
+              },
+              {
+                "label": "b",
+                "text": " Menunduk, kaku"
+              },
+              {
+                "label": "c",
+                "text": "Mengeluh, membolak-balik"
+              },
+              {
+                "label": "d",
+                "text": "Membuang pandangan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kontak mata dan tubuh yang menghadap ke arah pembicara menunjukkan keterlibatan."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Jika seseorang mengatakan 'oke' sambil mengangguk, pesan utamanya adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Persetujuan/terima"
+              },
+              {
+                "label": "b",
+                "text": " Penolakan"
+              },
+              {
+                "label": "c",
+                "text": " Ragu-ragu"
+              },
+              {
+                "label": "d",
+                "text": " Bingung"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kombinasi verbal 'oke' dan nonverbal mengangguk menunjukkan persetujuan."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Manakah yang BUKAN merupakan fungsi komunikasi menurut Kann (2010)?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Faktual"
+              },
+              {
+                "label": "b",
+                "text": " Perintah"
+              },
+              {
+                "label": "c",
+                "text": " Keluhan"
+              },
+              {
+                "label": "d",
+                "text": "Informasi"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Fungsi Kann: faktual, perintah, informasi — 'keluhan' bukan kategori utamanya."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "Tujuan komunikasi yang berupa menyampaikan kebenaran atau data disebut...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Komunikasi faktual"
+              },
+              {
+                "label": "b",
+                "text": "Komunikasi perintah"
+              },
+              {
+                "label": "c",
+                "text": "Komunikasi involusi"
+              },
+              {
+                "label": "d",
+                "text": "Komunikasi persuasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi faktual bertujuan menyampaikan data, kebenaran, atau informasi kejadian."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Kegiatan mengikuti pidato umumnya merupakan contoh komunikasi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Satu arah (one-way)"
+              },
+              {
+                "label": "b",
+                "text": " Dua arah (two-way)"
+              },
+              {
+                "label": "c",
+                "text": "Beberapa arah"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi massa"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pendengar mengikuti pidato tanpa interupsi — sifatnya satu arah."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Dalam proses komunikasi, peran 'encoder' adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Pengirim pesan yang menyandikan gagasan"
+              },
+              {
+                "label": "b",
+                "text": " Penerima yang menafsirkan pesan"
+              },
+              {
+                "label": "c",
+                "text": "Media penghubung"
+              },
+              {
+                "label": "d",
+                "text": " Interferensi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Encoder adalah komunikator yang mengubah gagasan menjadi pesan (bahasa, simbol, gerakan)."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Faktor yang berkontribusi dalam menentukan efektifitas komunikasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Keterampilan komunikator"
+              },
+              {
+                "label": "b",
+                "text": " Tingkat pendidikan komunikan"
+              },
+              {
+                "label": "c",
+                "text": " Media sosial"
+              },
+              {
+                "label": "d",
+                "text": "Posisi sosial"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Keterampilan komunikator (kejelasan, nada, kepercayaan diri) sangat menentukan efektivitas."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Manakah yang merupakan prinsip komunikasi yang efektif?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Kejelasan pesan"
+              },
+              {
+                "label": "b",
+                "text": " Jumlah pesan yang banyak"
+              },
+              {
+                "label": "c",
+                "text": "Menggunakan jargon teknis"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi satu arah"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kejelasan (clarity) adalah prinsip utama agar pesan dipahami oleh komunikan."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Dampak komunikasi yang efektif dalam organisasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Peningkatan kolaborasi dan efisiensi"
+              },
+              {
+                "label": "b",
+                "text": " Berkurangnya kepercayaan"
+              },
+              {
+                "label": "c",
+                "text": " Konflik yang meningkat"
+              },
+              {
+                "label": "d",
+                "text": " Keterlambatan informasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi efektif menjalin kolaborasi dan efisiensi operasional."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Komunikasi yang efektif umumnya melibatkan __________, __________, dan __________.",
+            "kunci": [
+              "komunikator",
+              "pesan",
+              "komunikan"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Dalam komunikasi verbal, pesan disampaikan melalui __________ dan __________.",
+            "kunci": [
+              "lalain",
+              "tulisan"
+            ]
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Komunikan yang aktif memberikan __________ disebut also memberi umpan balik.",
+            "kunci": [
+              "respon",
+              "tanggapan"
+            ]
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Bahasa tubuh yang positif antara lain __________, __________, dan __________.",
+            "kunci": [
+              "kontak mata",
+              "postur terbuka",
+              "menghadap"
+            ]
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Selama komunikasi berlangsung, 'feedback' berfungsi sebagai __________.",
+            "kunci": [
+              "tanggapan",
+              "respons"
+            ]
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Peserta didik yang tidak fokus dapat menunjukkan tanda __________, __________, atau __________.",
+            "kunci": [
+              "menunduk",
+              "handphone",
+              "menggeram"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Jelaskan perbedaan komunikasi verbal dan nonverbal! Berikan masing-masing dua contoh konkret dalam situasi sehari-hari.",
+            "kunci": "Jawaban model: Komunikasi verbal menggunakan kata-kata (lisan atau tulis) untuk menyampaikan makna (contoh: bicara, email). Komunikasi nonverbal menggunakan sinyal tanpa kata (contoh: bahasa tubuh, ekspresi wajah, grafik, warna). Apa yang dikomunikasikan bisa melebihi kata-kata verbal."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Analisislah bagaimana 'noise' dapat menganggu komunikasi! Identifikasi 3 bentuk noise dan berikan solusi praktis untuk masing-masing bentuk.",
+            "kunci": "Jawaban model: Noise adalah gangguan pada proses komunikasi. Bentuk: (1) Fisik — suara bising/lalu lintas; solusi: pilih lingkungan tenang. (2) Psikologis — bias, asumsi, stres; solusi: komunikasi sadar, clarifying questions. (3) Semantik — makna ambigu/gangguan leksikal; solusi: bahasa yang jelas, konfirmasi, contoh."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "Bagaimana feedback dapat meningkatkan efektivitas komunikasi? Jelaskan mekanisme umpan balik dan kapan feedback paling diperlukan!",
+            "kunci": "Jawaban model: Feedback (tanggapan/respons) memungkinkan komunikator mengetahui apakah pesan diterima dan dipahami dengan benar, lalu menyesuaikan komunikasi. Feedback berupa verbal (kata pengantar, pertanyaan), nonverbal (ekspresi, bahasa tubuh), atau tertulis. Feedback paling penting bila pesan kompleks, ambigu, atau komunikan butuh kejelasan."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Evaluasi komunikasi Anda dalam situasi tertentu (misalnya: presentasi di kelas, diskusi kelompok, atau percakapan dengan dosen). Identifikasi apa yang berhasil dan apa yang perlu diperbaiki! Sertakan rencana tindak lanjut.",
+            "kunci": "Jawaban model: Siswa mengidentifikasi situasi konkret, mencatat keberhasilan (mis. kejelasan, interaksi), serta area perbaikan (mis. kecepatan bicara, bahasa tubuh, penggunaan kontak mata). Rencana: latihan lebih, feedback dari teman/dosen, perencanaan materi lebih detil."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Komunikasi bukan sekadar pertukaran kata-kata, tetapi proses perspektif dan makna. Jelaskan peran konteks (situasi, budaya, hubungan antar individu) terhadap cara pesan ditafsirkan! Berikan contoh konkret!",
+            "kunci": "Jawaban model: Konteks sangat menentukan interpretasi pesan. Situasi (formal vs informal) mempengaruhi pilihan kata dan bahasa tubuh. Budaya (sikap terhadap otoritas, individualism/kolektivism, ruang personal) mengubah cara pesan ditangkap. Hubungan (akrab vs asing) menentukan tingkat kepercayaan dan keterbukaan. Tanpa memperhatikan konteeks, pesan bisa salah tafsir atau tidak efektif."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 20,
+            "pertanyaan": "Dalam situasi diskusi kelompok, Siswa A menyampaikan pendapat dengan tegas namun ekspresi wajahnya marah. Pesan yang Anda terima kemungkinan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pendapat Siswa A penting dan perlu didengarkan"
+              },
+              {
+                "label": "b",
+                "text": "Siswa A marah dan ingin dimusuh"
+              },
+              {
+                "label": "c",
+                "text": "Siswa A tidak tertarik dengan diskusi"
+              },
+              {
+                "label": "d",
+                "text": "Siswa A ingin menghentikan diskusi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Meskipun ekspresi marah, pesan verbalnya tetap bisa mengandung konten yang berharga. Penting memisahkan konten pesan dari emosi penyampainya."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "Karena Anda sedang bersemangat membahas topik tertentu, Anda bicara dengan cepat dan tidak memberi ruang bagi teman untuk menyela. Tindakan yang PALING sesuai dengan prinsip komunikasi efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Lanjut bicara karena ide Anda sedang mengalir"
+              },
+              {
+                "label": "b",
+                "text": "Berhenti sejenak, bertanya 'Ada yang ingin menyebutkan?' dan beri ruang"
+              },
+              {
+                "label": "c",
+                "text": "Mengomel karena teman tidak fokus"
+              },
+              {
+                "label": "d",
+                "text": "Mengabaikan teman dan mulai bicara dengan orang lain"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Komunikasi efektif memerlukan kesempatan bagi pihak lain untuk berpartisipasi (two-way communication). Memberi ruang adalah wujud menghargai."
+          },
+          {
+            "no": 22,
+            "pertanyaan": "Saat berbicara dengan orang yang berlatar belakang berbeda (misalnya dari daerah berbeda atau generasi berbeda), hal yang PALING perlu diutamakan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Penggunaan bahasa yang santai agar akrab"
+              },
+              {
+                "label": "b",
+                "text": " Penyesuaian pesan agar bisa dipahami (kontekstual)"
+              },
+              {
+                "label": "c",
+                "text": " Menunjukkan keunggulan pengetahuan"
+              },
+              {
+                "label": "d",
+                "text": "Menghindari kontak mata"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penyesuaian (adaptasi) terhadap konteks dan penerima adalah kunci komunikasi lintas budaya/generasi agar pesan dapat dipahami dengan benar."
+          },
+          {
+            "no": 23,
+            "pertanyaan": "Evaluator pemerintahan daerah melakukan survei komunikasi publik. Tiga elemen yang PALING penting untuk dinilai adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Pewarta, audiens, dan frekuensi siaran"
+              },
+              {
+                "label": "b",
+                "text": "Kejelasan informasi, aksesibilitas, dan feedback mekanisme"
+              },
+              {
+                "label": "c",
+                "text": "Biaya produksi, jumlah staf, dan lokasi kantor"
+              },
+              {
+                "label": "d",
+                "text": "Durasi siaran, warna logo, dan musik latar"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Efektivitas komunikasi publik dinilai dari: pesan sampai dengan jelas (kejelasan), bisa diakses semua kalangan (aksesibilitas), dan ada mekanisme tanggapan (feedback)."
+          },
+          {
+            "no": 24,
+            "pertanyaan": "Pada situasi di mana Anda harus menyampaikan kritik kepada kolega, strategi yang PALING tepat adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kritik di depan umum agar semua tahu"
+              },
+              {
+                "label": "b",
+                "text": "Sampaikan secara privat, fokus pada perilaku (bukan pribadi), tawarkan solusi"
+              },
+              {
+                "label": "c",
+                "text": "Tidak menyampaikan kritik agar tidak conflict"
+              },
+              {
+                "label": "d",
+                "text": "Kirim email panjang tanpa kejelasan"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Kritik konstruktif dilakukan secara privat, menggunakan bahasa deskriptif (fokus pada perilaku/Ade, bukan serangan personal), dan disertai rekomendasi solusi."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 6,
+      "judul": "Tantangan Komunikasi di Era Digital",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Tujuan utama komunikasi dalam kehidupan sehari-hari adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menyampaikan informasi"
+              },
+              {
+                "label": "b",
+                "text": "Mengontrol orang lain"
+              },
+              {
+                "label": "c",
+                "text": "Menghindari interaksi"
+              },
+              {
+                "label": "d",
+                "text": "Memperlihatkan keahlian"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi bertujuan utama untuk menyampaikan informasi, pikiran, perasaan, atau ide dari satu pihak ke pihak lain."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Berdasarkan perilaku pesan nonverbal yang mengejutkan, komunikasi dikategorikan menjadi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Komunikasi verbal dan nonverbal"
+              },
+              {
+                "label": "b",
+                "text": " Komunikasi formal dan informal"
+              },
+              {
+                "label": "c",
+                "text": " Komunikasi lisan dan tulisan"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi intrapersonal dan interpersonal"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi dibagi menjadi verbal (kata-kata lisan/tulisan) dan nonverbal (bahasa tubuh, ekspresi, dll)."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Peserta komunikasi yang aktif memberikan umpan balik disebut...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Komunikator"
+              },
+              {
+                "label": "b",
+                "text": " Komunikan"
+              },
+              {
+                "label": "c",
+                "text": "Mediator"
+              },
+              {
+                "label": "d",
+                "text": "Efek"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Komunikan adalah penerima pesan yang aktif merespons atau memberikan umpan balik."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Dalam model komunikasi Shannon-Weaver, elemen yang berfungsi sebagai penerima pesan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Encoder"
+              },
+              {
+                "label": "b",
+                "text": " Decoder"
+              },
+              {
+                "label": "c",
+                "text": " Channel"
+              },
+              {
+                "label": "d",
+                "text": " Receiver"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Receiver adalah elemen yang menerima pesan melalui kanal komunikasi."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Gangguan pada saluran komunikasi yang disebut 'noise' dapat berupa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Gangguan físik dan psikis"
+              },
+              {
+                "label": "b",
+                "text": " Peningkatan sinyal"
+              },
+              {
+                "label": "c",
+                "text": " Penekanan pesan"
+              },
+              {
+                "label": "d",
+                "text": " Pelebaran makna"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Noise adalah gangguan yang dapat berasal dari fisik (suara bising) maupun psikis (asumsi, bias)."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Bahasa tubuh yang menunjukkan ketertarikan atau perhatian adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Menghadap muka, kontak mata"
+              },
+              {
+                "label": "b",
+                "text": " Menunduk, kaku"
+              },
+              {
+                "label": "c",
+                "text": "Mengeluh, membolak-balik"
+              },
+              {
+                "label": "d",
+                "text": "Membuang pandangan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kontak mata dan tubuh yang menghadap ke arah pembicara menunjukkan keterlibatan."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Jika seseorang mengatakan 'oke' sambil mengangguk, pesan utamanya adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Persetujuan/terima"
+              },
+              {
+                "label": "b",
+                "text": " Penolakan"
+              },
+              {
+                "label": "c",
+                "text": " Ragu-ragu"
+              },
+              {
+                "label": "d",
+                "text": " Bingung"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kombinasi verbal 'oke' dan nonverbal mengangguk menunjukkan persetujuan."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Manakah yang BUKAN merupakan fungsi komunikasi menurut Kann (2010)?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Faktual"
+              },
+              {
+                "label": "b",
+                "text": " Perintah"
+              },
+              {
+                "label": "c",
+                "text": " Keluhan"
+              },
+              {
+                "label": "d",
+                "text": "Informasi"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Fungsi Kann: faktual, perintah, informasi — 'keluhan' bukan kategori utamanya."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "Tujuan komunikasi yang berupa menyampaikan kebenaran atau data disebut...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Komunikasi faktual"
+              },
+              {
+                "label": "b",
+                "text": "Komunikasi perintah"
+              },
+              {
+                "label": "c",
+                "text": "Komunikasi involusi"
+              },
+              {
+                "label": "d",
+                "text": "Komunikasi persuasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi faktual bertujuan menyampaikan data, kebenaran, atau informasi kejadian."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Kegiatan mengikuti pidato umumnya merupakan contoh komunikasi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Satu arah (one-way)"
+              },
+              {
+                "label": "b",
+                "text": " Dua arah (two-way)"
+              },
+              {
+                "label": "c",
+                "text": "Beberapa arah"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi massa"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pendengar mengikuti pidato tanpa interupsi — sifatnya satu arah."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Dalam proses komunikasi, peran 'encoder' adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Pengirim pesan yang menyandikan gagasan"
+              },
+              {
+                "label": "b",
+                "text": " Penerima yang menafsirkan pesan"
+              },
+              {
+                "label": "c",
+                "text": "Media penghubung"
+              },
+              {
+                "label": "d",
+                "text": " Interferensi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Encoder adalah komunikator yang mengubah gagasan menjadi pesan (bahasa, simbol, gerakan)."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Faktor yang berkontribusi dalam menentukan efektifitas komunikasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Keterampilan komunikator"
+              },
+              {
+                "label": "b",
+                "text": " Tingkat pendidikan komunikan"
+              },
+              {
+                "label": "c",
+                "text": " Media sosial"
+              },
+              {
+                "label": "d",
+                "text": "Posisi sosial"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Keterampilan komunikator (kejelasan, nada, kepercayaan diri) sangat menentukan efektivitas."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Manakah yang merupakan prinsip komunikasi yang efektif?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Kejelasan pesan"
+              },
+              {
+                "label": "b",
+                "text": " Jumlah pesan yang banyak"
+              },
+              {
+                "label": "c",
+                "text": "Menggunakan jargon teknis"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi satu arah"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kejelasan (clarity) adalah prinsip utama agar pesan dipahami oleh komunikan."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Dampak komunikasi yang efektif dalam organisasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Peningkatan kolaborasi dan efisiensi"
+              },
+              {
+                "label": "b",
+                "text": " Berkurangnya kepercayaan"
+              },
+              {
+                "label": "c",
+                "text": " Konflik yang meningkat"
+              },
+              {
+                "label": "d",
+                "text": " Keterlambatan informasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi efektif menjalin kolaborasi dan efisiensi operasional."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Komunikasi yang efektif umumnya melibatkan __________, __________, dan __________.",
+            "kunci": [
+              "komunikator",
+              "pesan",
+              "komunikan"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Dalam komunikasi verbal, pesan disampaikan melalui __________ dan __________.",
+            "kunci": [
+              "lalain",
+              "tulisan"
+            ]
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Komunikan yang aktif memberikan __________ disebut also memberi umpan balik.",
+            "kunci": [
+              "respon",
+              "tanggapan"
+            ]
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Bahasa tubuh yang positif antara lain __________, __________, dan __________.",
+            "kunci": [
+              "kontak mata",
+              "postur terbuka",
+              "menghadap"
+            ]
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Selama komunikasi berlangsung, 'feedback' berfungsi sebagai __________.",
+            "kunci": [
+              "tanggapan",
+              "respons"
+            ]
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Peserta didik yang tidak fokus dapat menunjukkan tanda __________, __________, atau __________.",
+            "kunci": [
+              "menunduk",
+              "handphone",
+              "menggeram"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Jelaskan perbedaan komunikasi verbal dan nonverbal! Berikan masing-masing dua contoh konkret dalam situasi sehari-hari.",
+            "kunci": "Jawaban model: Komunikasi verbal menggunakan kata-kata (lisan atau tulis) untuk menyampaikan makna (contoh: bicara, email). Komunikasi nonverbal menggunakan sinyal tanpa kata (contoh: bahasa tubuh, ekspresi wajah, grafik, warna). Apa yang dikomunikasikan bisa melebihi kata-kata verbal."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Analisislah bagaimana 'noise' dapat menganggu komunikasi! Identifikasi 3 bentuk noise dan berikan solusi praktis untuk masing-masing bentuk.",
+            "kunci": "Jawaban model: Noise adalah gangguan pada proses komunikasi. Bentuk: (1) Fisik — suara bising/lalu lintas; solusi: pilih lingkungan tenang. (2) Psikologis — bias, asumsi, stres; solusi: komunikasi sadar, clarifying questions. (3) Semantik — makna ambigu/gangguan leksikal; solusi: bahasa yang jelas, konfirmasi, contoh."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "Bagaimana feedback dapat meningkatkan efektivitas komunikasi? Jelaskan mekanisme umpan balik dan kapan feedback paling diperlukan!",
+            "kunci": "Jawaban model: Feedback (tanggapan/respons) memungkinkan komunikator mengetahui apakah pesan diterima dan dipahami dengan benar, lalu menyesuaikan komunikasi. Feedback berupa verbal (kata pengantar, pertanyaan), nonverbal (ekspresi, bahasa tubuh), atau tertulis. Feedback paling penting bila pesan kompleks, ambigu, atau komunikan butuh kejelasan."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Evaluasi komunikasi Anda dalam situasi tertentu (misalnya: presentasi di kelas, diskusi kelompok, atau percakapan dengan dosen). Identifikasi apa yang berhasil dan apa yang perlu diperbaiki! Sertakan rencana tindak lanjut.",
+            "kunci": "Jawaban model: Siswa mengidentifikasi situasi konkret, mencatat keberhasilan (mis. kejelasan, interaksi), serta area perbaikan (mis. kecepatan bicara, bahasa tubuh, penggunaan kontak mata). Rencana: latihan lebih, feedback dari teman/dosen, perencanaan materi lebih detil."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Komunikasi bukan sekadar pertukaran kata-kata, tetapi proses perspektif dan makna. Jelaskan peran konteks (situasi, budaya, hubungan antar individu) terhadap cara pesan ditafsirkan! Berikan contoh konkret!",
+            "kunci": "Jawaban model: Konteks sangat menentukan interpretasi pesan. Situasi (formal vs informal) mempengaruhi pilihan kata dan bahasa tubuh. Budaya (sikap terhadap otoritas, individualism/kolektivism, ruang personal) mengubah cara pesan ditangkap. Hubungan (akrab vs asing) menentukan tingkat kepercayaan dan keterbukaan. Tanpa memperhatikan konteeks, pesan bisa salah tafsir atau tidak efektif."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 20,
+            "pertanyaan": "Dalam situasi diskusi kelompok, Siswa A menyampaikan pendapat dengan tegas namun ekspresi wajahnya marah. Pesan yang Anda terima kemungkinan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pendapat Siswa A penting dan perlu didengarkan"
+              },
+              {
+                "label": "b",
+                "text": "Siswa A marah dan ingin dimusuh"
+              },
+              {
+                "label": "c",
+                "text": "Siswa A tidak tertarik dengan diskusi"
+              },
+              {
+                "label": "d",
+                "text": "Siswa A ingin menghentikan diskusi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Meskipun ekspresi marah, pesan verbalnya tetap bisa mengandung konten yang berharga. Penting memisahkan konten pesan dari emosi penyampainya."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "Karena Anda sedang bersemangat membahas topik tertentu, Anda bicara dengan cepat dan tidak memberi ruang bagi teman untuk menyela. Tindakan yang PALING sesuai dengan prinsip komunikasi efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Lanjut bicara karena ide Anda sedang mengalir"
+              },
+              {
+                "label": "b",
+                "text": "Berhenti sejenak, bertanya 'Ada yang ingin menyebutkan?' dan beri ruang"
+              },
+              {
+                "label": "c",
+                "text": "Mengomel karena teman tidak fokus"
+              },
+              {
+                "label": "d",
+                "text": "Mengabaikan teman dan mulai bicara dengan orang lain"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Komunikasi efektif memerlukan kesempatan bagi pihak lain untuk berpartisipasi (two-way communication). Memberi ruang adalah wujud menghargai."
+          },
+          {
+            "no": 22,
+            "pertanyaan": "Saat berbicara dengan orang yang berlatar belakang berbeda (misalnya dari daerah berbeda atau generasi berbeda), hal yang PALING perlu diutamakan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Penggunaan bahasa yang santai agar akrab"
+              },
+              {
+                "label": "b",
+                "text": " Penyesuaian pesan agar bisa dipahami (kontekstual)"
+              },
+              {
+                "label": "c",
+                "text": " Menunjukkan keunggulan pengetahuan"
+              },
+              {
+                "label": "d",
+                "text": "Menghindari kontak mata"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penyesuaian (adaptasi) terhadap konteks dan penerima adalah kunci komunikasi lintas budaya/generasi agar pesan dapat dipahami dengan benar."
+          },
+          {
+            "no": 23,
+            "pertanyaan": "Evaluator pemerintahan daerah melakukan survei komunikasi publik. Tiga elemen yang PALING penting untuk dinilai adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Pewarta, audiens, dan frekuensi siaran"
+              },
+              {
+                "label": "b",
+                "text": "Kejelasan informasi, aksesibilitas, dan feedback mekanisme"
+              },
+              {
+                "label": "c",
+                "text": "Biaya produksi, jumlah staf, dan lokasi kantor"
+              },
+              {
+                "label": "d",
+                "text": "Durasi siaran, warna logo, dan musik latar"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Efektivitas komunikasi publik dinilai dari: pesan sampai dengan jelas (kejelasan), bisa diakses semua kalangan (aksesibilitas), dan ada mekanisme tanggapan (feedback)."
+          },
+          {
+            "no": 24,
+            "pertanyaan": "Pada situasi di mana Anda harus menyampaikan kritik kepada kolega, strategi yang PALING tepat adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kritik di depan umum agar semua tahu"
+              },
+              {
+                "label": "b",
+                "text": "Sampaikan secara privat, fokus pada perilaku (bukan pribadi), tawarkan solusi"
+              },
+              {
+                "label": "c",
+                "text": "Tidak menyampaikan kritik agar tidak conflict"
+              },
+              {
+                "label": "d",
+                "text": "Kirim email panjang tanpa kejelasan"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Kritik konstruktif dilakukan secara privat, menggunakan bahasa deskriptif (fokus pada perilaku/Ade, bukan serangan personal), dan disertai rekomendasi solusi."
+          }
+        ]
+      }
+    }
+  ]
+}

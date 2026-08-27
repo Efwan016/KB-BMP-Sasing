@@ -148,3 +148,21 @@ npm run lint      # eslint .
 - [ ] Dark mode / theme toggle (optional)
 - [ ] Error handling kalau file PDF tidak ada / rusak
 - [ ] Pagination / infinite scroll kalau module terlalu banyak (sekarang cuma 26, feel free skip)
+
+===== CATATAN =====
+    
+    - Jangan hardcode konten, gunakan data JSON
+    - Component QuizPage harus bisa handle semua modul (dinamis, berbasis props)
+    - Jika project pakai TypeScript strict mode, pastikan types di-definisi dengan benar
+    - Kalau ada component yang sudah ada untuk halaman detail modul, tambahkan button di sana, jangan buat dari nol
+    
+     ===== INFO TAMBAHAN =====
+    
+    - React + TypeScript project (bukan static HTML)
+    - Component-based architecture (bukan file HTML per halaman)
+    - Gunakan React Router untuk routing (jika project sudah pakai)
+    - Jika project belum pakai React Router, bisa pakai state-based navigation atau query params
+    - File JSON soal bisa di-load dengan fetch() atau import langsung (jika pakai bundler seperti Vite/Webpack)
+    - Styling: ikuti convention project yang ada (CSS Module, styled-components, Tailwind, atau inline)
+    - Responsif: mobile-friendly
+    
