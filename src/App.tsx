@@ -6,6 +6,7 @@ import MainContent from "./component/MainContent";
 import ModuleDetail from "./component/ModuleDetail";
 import Navigation from "./component/Navigation";
 import QuizPage from "./component/QuizPage/QuizPage";
+import PhotoBoothPage from "./pages/PhotoBoothPage";
 import type { Module, ReadingHistoryItem } from "./types";
 import "./App.css";
 
@@ -28,6 +29,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedAsset, setSelectedAsset] = useState<string | null>(null);
   const [selectedQuiz, setSelectedQuiz] = useState<{ mataKuliah: string; modul: number; judul: string } | null>(null);
+  const [activePage, setActivePage] = useState<"home" | "module" | "quiz" | "photo-booth">("home");
   const [readingHistory, setReadingHistory] = useState<ReadingHistoryItem[]>(() => {
     try {
       const stored = localStorage.getItem(STORAGE_KEY);
@@ -99,6 +101,7 @@ function App() {
       if (hash.startsWith("#module-detail=")) {
         setSelectedAsset(decodeURIComponent(hash.replace("#module-detail=", "")));
         setSelectedQuiz(null);
+        setActivePage("module");
       } else if (hash.startsWith("#quiz=")) {
         const payload = decodeURIComponent(hash.replace("#quiz=", ""));
         const parts = payload.split("/");
@@ -111,9 +114,15 @@ function App() {
           modul: Number.isFinite(modul) ? modul : 1,
           judul: mataKuliahRaw,
         });
+        setActivePage("quiz");
+      } else if (hash === "#photo-booth") {
+        setSelectedAsset(null);
+        setSelectedQuiz(null);
+        setActivePage("photo-booth");
       } else {
         setSelectedAsset(null);
         setSelectedQuiz(null);
+        setActivePage("home");
       }
     };
     syncDetail();
@@ -135,7 +144,9 @@ function App() {
   return (
     <Layout>
       <Navigation />
-      {selectedQuiz ? (
+      {activePage === "photo-booth" ? (
+        <PhotoBoothPage />
+      ) : selectedQuiz ? (
         <QuizPage
           mataKuliah={selectedQuiz.mataKuliah}
           modul={selectedQuiz.modul}

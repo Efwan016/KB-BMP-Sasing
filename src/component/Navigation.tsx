@@ -15,15 +15,44 @@ export default function Navigation() {
   }, [isDark]);
 
   return (
-    <nav className="site-nav transition-colors duration-300" aria-label="Navigasi utama">
+    <nav className="site-nav" aria-label="Navigasi utama">
       <a className="brand" href="#top" aria-label="Readwise home">
         <span className="brand-mark">UT</span>
-        <span>BMP UT<span className="brand-dot">.</span></span>
+        <span className="brand-text">
+          BMP UT<span className="brand-dot">.</span>
+        </span>
       </a>
-      <div className="flex items-center gap-4">
-        <a className="nav-link" href="#modules">Find a module <span aria-hidden="true">⌕</span></a>
+
+      <div className="nav-actions">
+        <a
+          className="nav-link"
+          href="#modules"
+          onClick={(e) => {
+            if (window.location.hash === "#photo-booth") {
+              e.preventDefault();
+              window.location.hash = "#top";
+            }
+          }}
+        >
+          <span className="nav-icon" aria-hidden="true">⌕</span>
+          Find a module
+        </a>
+
+        <a
+          className="nav-link"
+          href="#photo-booth"
+          onClick={(e) => {
+            if (window.location.hash !== "#photo-booth") {
+              e.preventDefault();
+              window.location.hash = "#photo-booth";
+            }
+          }}
+        >
+          Photo Booth
+        </a>
+
         <button
-          className="grid size-9 place-items-center border border-[var(--line-strong)] text-base text-[var(--ink)] transition hover:border-[var(--coral)] hover:text-[var(--coral)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--coral)]"
+          className="theme-toggle"
           type="button"
           aria-label={isDark ? "Aktifkan light mode" : "Aktifkan dark mode"}
           aria-pressed={isDark}
