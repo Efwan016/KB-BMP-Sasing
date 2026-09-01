@@ -795,7 +795,7 @@ export default function PhotoBooth() {
         )}
 
         {step === 'capture' && (
-          <div className="booth-stage">
+          <div className="booth-stage booth-stage-story">
             <div className="booth-step-heading"><span>02 / 03</span><h2>strike a <em>pose!</em></h2><p>Pilih nuansa, lalu ambil momenmu.</p></div>
             <div className="booth-controls"><p>pilih filter</p><div className="booth-chip-list">
               {FILTER_PRESETS.map((preset) => (
