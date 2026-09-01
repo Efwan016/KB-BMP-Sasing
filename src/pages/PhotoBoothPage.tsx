@@ -1,14 +1,14 @@
-import PhotoBooth from '../components/PhotoBooth'
+import PhotoBooth from '../components/PhotoBooth.tsx'
 import PhotoFeed from '../components/PhotoFeed'
 
 export default function PhotoBoothPage() {
   return (
     <>
       <PhotoBooth />
-      <section className="max-w-5xl mx-auto mt-12">
-        <div className="flex items-center gap-3 mb-4">
-          <h2 className="text-xl font-bold">Foto Terbaru</h2>
-          <div className="h-px flex-1 bg-gradient-to-r from-gray-700/50 to-transparent" />
+      <section className="booth-feed-section">
+        <div className="booth-feed-heading">
+          <p>memory lane</p>
+          <h2>Foto terbaru</h2>
         </div>
         <PhotoFeed />
       </section>
