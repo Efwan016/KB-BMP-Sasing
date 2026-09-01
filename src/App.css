@@ -328,7 +328,13 @@ footer { display: flex; justify-content: space-between; padding: 28px 0; color: 
 .booth-progress span + span { border-left: 0; }.booth-progress span:first-child { border-radius: 999px 0 0 999px; }.booth-progress span:last-child { border-radius: 0 999px 999px 0; }
 .booth-progress b { display: grid; width: 18px; height: 18px; place-items: center; border: 1px solid currentColor; border-radius: 50%; font-size: 9px; }.booth-progress .is-active { color: #fff; background: #a85072; border-color: #a85072; }
 .booth-stage { max-width: 780px; margin: auto; padding: clamp(25px, 5vw, 48px); text-align: center; background: rgba(255, 252, 253, .72); border: 1px solid rgba(168,80,114,.23); border-radius: 28px; box-shadow: 0 18px 55px rgba(151, 71, 107, .12); }
-.booth-hidden { display: none; }.booth-camera { position: relative; width: min(100%, 620px); margin: 25px auto 0; overflow: hidden; background: #e9b8cb; border: 10px solid #fff; border-radius: 8px; box-shadow: 8px 9px 0 #b395ca, 0 16px 32px rgba(75,46,67,.16); aspect-ratio: 16 / 9; }.booth-camera video { width: 100%; height: 100%; display: block; object-fit: cover; }.booth-camera-hero { margin-top: 0; }.booth-camera::after { position:absolute; inset: 10px; border: 1px solid rgba(255,255,255,.75); content:""; pointer-events: none; }.booth-camera-label { position: absolute; right: 12px; bottom: 11px; padding: 5px 8px; color: #fff; background: rgba(72,52,79,.68); font-size: 10px; font-weight: 800; letter-spacing: .8px; text-transform: uppercase; }
+.booth-hidden { display: none; }.booth-camera { position: relative; width: min(100%, 620px); margin: 25px auto 0; overflow: hidden; background: #e9b8cb; border: 10px solid #fff; border-radius: 8px; box-shadow: 8px 9px 0 #b395ca, 0 16px 32px rgba(75,46,67,.16); aspect-ratio: 16 / 9; }.booth-camera video { width: 100%; height: 100%; display: block; object-fit: cover; }.booth-camera-hero { margin-top: 0; }.booth-camera::before { position:absolute; inset:-18% -10%; background: radial-gradient(circle at 50% 20%, rgba(255,255,255,.55), transparent 35%), linear-gradient(135deg, rgba(255,255,255,.28), rgba(189,151,215,.14), rgba(233,93,129,.18)); filter: blur(16px); content:""; z-index:0; pointer-events:none; }.booth-camera::after { position:absolute; inset: 10px; border: 1px solid rgba(255,255,255,.75); content:""; pointer-events: none; z-index:2; }.booth-camera > * { position: relative; z-index: 1; }.booth-camera-label { position: absolute; right: 12px; bottom: 11px; padding: 5px 8px; color: #fff; background: rgba(72,52,79,.68); font-size: 10px; font-weight: 800; letter-spacing: .8px; text-transform: uppercase; }
+.booth-camera-status { position: absolute; top: 10px; left: 10px; right: 10px; display: flex; align-items: center; justify-content: space-between; gap: 8px; z-index: 3; }
+.status-pill { display: inline-flex; align-items: center; padding: 5px 9px; color: #fff; background: rgba(23, 17, 25, 0.38); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 999px; font-size: 9px; font-weight: 800; letter-spacing: .9px; text-transform: uppercase; backdrop-filter: blur(6px); }
+.status-live { background: rgba(235, 76, 124, 0.82); border-color: rgba(255, 255, 255, 0.24); }
+.status-time { color: #fff; font-size: 11px; font-weight: 800; letter-spacing: .8px; }
+.booth-shutter-floating { position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%); display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-width: 176px; padding: 14px 18px; box-shadow: 0 16px 32px rgba(68, 54, 75, 0.25); z-index: 4; }
+.booth-shutter-inline { display: none; }
 .booth-warning { margin: 17px 0 0; color: #bd3f68; font-size: 13px; }.booth-actions { display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; margin-top: 28px; }.booth-button, .booth-shutter, .layout-card, .booth-chip { font-family: inherit; cursor: pointer; }.booth-button { padding: 12px 17px; color: #fff; border: 0; border-radius: 999px; font-size: 12px; font-weight: 800; transition: transform .2s ease, box-shadow .2s ease; }.booth-button:hover, .booth-shutter:hover, .layout-card:hover { transform: translateY(-3px) rotate(-1deg); }.booth-button-primary { background: #d95583; box-shadow: 3px 4px 0 #8e4968; }.booth-button-primary span { margin-left: 12px; font-size: 16px; }.booth-button-quiet { color: #74475d; background: #fff; border: 1px solid #dfb4c6; }.booth-button-lilac { background: #9076bf; box-shadow: 3px 4px 0 #685188; }.booth-button-memory { color: #684d32; background: #f6d889; box-shadow: 3px 4px 0 #be9652; }.booth-button:disabled { cursor: default; opacity: .72; transform: none; }.booth-save-error { margin: 18px 0 0; color: #bd3f68; font-size: 12px; font-weight: 700; }
 .booth-step-heading { margin-bottom: 26px; }.booth-step-heading h2 { font-size: clamp(39px, 6vw, 62px); }.booth-step-heading p { max-width: 315px; margin: 0 auto; color: #806a78; font-size: 13px; line-height: 1.5; }
 .layout-picker { display: grid; grid-template-columns: repeat(4, 1fr); gap: 13px; }.layout-card { min-height: 145px; padding: 14px 7px; color: #604358; background: #fff; border: 2px solid #f0d2de; border-radius: 15px; transition: transform .2s ease, border-color .2s ease, background .2s ease; }.layout-card.is-selected { color: #fff; background: #d95583; border-color: #d95583; box-shadow: 4px 5px 0 #8e4968; }.layout-card strong { display: block; margin-top: 10px; font-size: 12px; }.layout-icon { display: grid; width: 68px; height: 76px; margin: auto; place-items: center; color: #d95583; background: #fff3f7; border: 2px solid currentColor; border-radius: 5px; font-size: 24px; }.layout-card.is-selected .layout-icon { color: #d95583; }.layout-strip { height: 82px; width: 42px; }.layout-grid { width: 68px; height: 68px; }.layout-polaroid { height: 70px; padding-bottom: 14px; }
@@ -371,10 +377,20 @@ footer { display: flex; justify-content: space-between; padding: 28px 0; color: 
     box-shadow: 0 18px 35px rgba(68, 39, 62, 0.2);
     aspect-ratio: 9 / 16;
   }
+  .booth-camera::before {
+    inset: -8% -6% 10% -6%;
+    background: radial-gradient(circle at 50% 16%, rgba(255,255,255,.7), transparent 30%), linear-gradient(180deg, rgba(255,255,255,.18), rgba(146,120,191,.12), rgba(233,93,129,.14));
+    filter: blur(10px);
+  }
   .booth-camera::after {
     inset: 0;
     border: 1px solid rgba(255, 255, 255, 0.28);
     border-radius: 28px;
+  }
+  .booth-camera-status {
+    top: 12px;
+    left: 12px;
+    right: 12px;
   }
   .booth-camera-label {
     left: 12px;
@@ -383,10 +399,16 @@ footer { display: flex; justify-content: space-between; padding: 28px 0; color: 
     padding: 7px 9px;
     border-radius: 999px;
   }
+  .booth-shutter-floating {
+    display: inline-flex;
+  }
+  .booth-shutter-inline {
+    display: none;
+  }
   .booth-actions {
     gap: 8px;
   }
-  .booth-button, .booth-shutter {
+  .booth-button {
     width: 100%;
     justify-content: center;
   }

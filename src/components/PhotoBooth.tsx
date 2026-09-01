@@ -808,7 +808,12 @@ export default function PhotoBooth() {
               ))}
             </div></div>
             {requiredShots > 1 && <p className="booth-shot-counter">Jepretan {capturedShots.length + 1} dari {requiredShots}</p>}
-            <div className="booth-camera">
+            <div className="booth-camera booth-camera-story">
+              <div className="booth-camera-status" aria-hidden="true">
+                <span className="status-pill status-live">Live</span>
+                <span className="status-pill">Front cam</span>
+                <span className="status-time">09:41</span>
+              </div>
               <video
                 ref={videoRef}
                 autoPlay
@@ -817,10 +822,14 @@ export default function PhotoBooth() {
                 style={{ filter: getLivePreviewFilter() }}
               />
               <span className="booth-camera-label">ready when you are</span>
+              <button className="booth-shutter booth-shutter-floating" onClick={capturePhoto} disabled={isCapturing} aria-label="Ambil foto">
+                <i>●</i>
+                {isCapturing ? 'Memproses...' : requiredShots > 1 ? `Ambil ${capturedShots.length + 1}/${requiredShots}` : 'Ambil foto'}
+              </button>
             </div>
             <div className="booth-actions">
               <button className="booth-button booth-button-quiet" onClick={() => { setCapturedShots([]); setStep('layout') }}>← Ganti gaya</button>
-              <button className="booth-shutter" onClick={capturePhoto} disabled={isCapturing}><i>●</i>{isCapturing ? 'Memproses...' : requiredShots > 1 ? `Ambil ${capturedShots.length + 1}/${requiredShots}` : 'Ambil foto'}</button>
+              <button className="booth-shutter booth-shutter-inline" onClick={capturePhoto} disabled={isCapturing}><i>●</i>{isCapturing ? 'Memproses...' : requiredShots > 1 ? `Ambil ${capturedShots.length + 1}/${requiredShots}` : 'Ambil foto'}</button>
             </div>
           </div>
         )}
