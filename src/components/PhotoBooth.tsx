@@ -1,8 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 import { supabase } from '../lib/supabase'
 
-type OverlayPreset = 'none' | 'frame' | 'heart' | 'confetti' | 'text'
-
 interface FilterParams {
   brightness: number
   contrast: number
@@ -25,17 +23,11 @@ const FILTER_PRESETS: { id: string; name: string; emoji: string; params: FilterP
   { id: 'none', name: 'Tanpa', emoji: '⛔', params: { brightness: 100, contrast: 100, saturation: 100, warmth: 0, tint: 0, vignette: 0, grain: 0 } },
 ]
 
-const OVERLAYS: { id: OverlayPreset; label: string; icon: string }[] = [
-  { id: 'none', label: 'Tanpa', icon: '⛔' },
-  { id: 'frame', label: 'Frame', icon: '🖼️' },
-  { id: 'heart', label: 'Heart', icon: '❤️' },
-  { id: 'confetti', label: 'Confetti', icon: '✨' },
-  { id: 'text', label: 'Text', icon: '📸' },
-]
-
 const LAYOUTS = [
   { id: 'single', label: 'Single', icon: '📷' },
-  { id: 'strip', label: 'Strip 3', icon: '🎞️' },
+  { id: 'strip-4', label: 'Strip 4', icon: '🖼️' },
+  { id: 'strip-vertical', label: 'Strip 3 Vertikal', icon: '📏' },
+  { id: 'strip-horizontal', label: 'Strip 3 Horizontal', icon: '📐' },
   { id: 'grid', label: 'Grid 2x2', icon: '🔲' },
   { id: 'polaroid', label: 'Polaroid', icon: '📸' },
 ]
@@ -43,7 +35,6 @@ const LAYOUTS = [
 export default function PhotoBooth() {
   const videoRef = useRef<HTMLVideoElement>(null)
   const canvasRef = useRef<HTMLCanvasElement>(null)
-  const overlayCanvasRef = useRef<HTMLCanvasElement>(null)
   const streamRef = useRef<MediaStream | null>(null)
   const animationRef = useRef<number>(0)
 
@@ -51,8 +42,9 @@ export default function PhotoBooth() {
   const [cameraError, setCameraError] = useState<string | null>(null)
   const [demoPreview, setDemoPreview] = useState(false)
   const [isCapturing, setIsCapturing] = useState(false)
-  const [selectedOverlay, setSelectedOverlay] = useState<OverlayPreset>('none')
   const [selectedFilter, setSelectedFilter] = useState<string>('none')
+  const [mirrorMode, setMirrorMode] = useState<'mirror' | 'normal'>('mirror')
+  const utLogoRef = useRef<HTMLImageElement | null>(null)
   const [customParams, setCustomParams] = useState<FilterParams>({
     brightness: 100, contrast: 100, saturation: 100, warmth: 0, tint: 0, vignette: 0, grain: 0,
   })
@@ -62,7 +54,7 @@ export default function PhotoBooth() {
   const [finalPhoto, setFinalPhoto] = useState<string | null>(null)
   const [saveStatus, setSaveStatus] = useState<'idle' | 'saving' | 'saved' | 'error'>('idle')
   const [selectedLayout, setSelectedLayout] = useState('single')
-  const requiredShots = selectedLayout === 'strip' ? 3 : selectedLayout === 'grid' ? 4 : 1
+  const requiredShots = ['strip-4', 'strip-vertical', 'strip-horizontal', 'strip'].includes(selectedLayout) ? (selectedLayout === 'strip-4' ? 4 : 3) : selectedLayout === 'grid' ? 4 : 1
 
   const stopCamera = useCallback(() => {
     streamRef.current?.getTracks().forEach((track) => track.stop())
@@ -83,7 +75,6 @@ export default function PhotoBooth() {
     setCameraError(null)
     setCustomParams({ brightness: 100, contrast: 100, saturation: 100, warmth: 0, tint: 0, vignette: 0, grain: 0 })
     setSelectedFilter('none')
-    setSelectedOverlay('none')
     stopCamera()
   }
 
@@ -184,6 +175,23 @@ export default function PhotoBooth() {
   }, [cameraReady, demoPreview])
 
   useEffect(() => {
+    const candidates = ['/ut-logo.png', '/ut-logo.svg']
+
+    const loadLogo = (src: string) => {
+      const image = new Image()
+      image.onload = () => {
+        utLogoRef.current = image
+      }
+      image.onerror = () => {
+        const next = candidates[candidates.indexOf(src) + 1]
+        if (next) loadLogo(next)
+        else console.warn('[photo-booth] UT logo failed to load, continuing without it.')
+      }
+      image.src = src
+    }
+
+    loadLogo(candidates[0])
+
     const animationId = animationRef.current
     return () => {
       stopCamera()
@@ -311,137 +319,6 @@ export default function PhotoBooth() {
     return resultCanvas
   }
 
-  const drawOverlayOnCanvas = (canvas: HTMLCanvasElement, overlay: OverlayPreset, width: number, height: number) => {
-    const ctx = canvas.getContext('2d')
-    if (!ctx) return
-
-    // The canvas already contains the filtered camera frame. Overlays must be
-    // painted on top of it; clearing here made the "Tanpa" result transparent.
-    if (overlay === 'none') return
-
-    const roundedRect = (x: number, y: number, w: number, h: number, r: number) => {
-      ctx.beginPath()
-      ctx.moveTo(x + r, y)
-      ctx.lineTo(x + w - r, y)
-      ctx.quadraticCurveTo(x + w, y, x + w, y + r)
-      ctx.lineTo(x + w, y + h - r)
-      ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h)
-      ctx.lineTo(x + r, y + h)
-      ctx.quadraticCurveTo(x, y + h, x, y + h - r)
-      ctx.lineTo(x, y + r)
-      ctx.quadraticCurveTo(x, y, x + r, y)
-      ctx.closePath()
-    }
-
-    if (overlay === 'frame') {
-      const inset = Math.min(width, height) * 0.045
-      const glow = ctx.createLinearGradient(0, 0, width, height)
-      glow.addColorStop(0, 'rgba(255,255,255,0.16)')
-      glow.addColorStop(0.5, 'rgba(255,255,255,0.04)')
-      glow.addColorStop(1, 'rgba(255,255,255,0.12)')
-
-      ctx.save()
-      roundedRect(inset, inset, width - inset * 2, height - inset * 2, Math.min(width, height) * 0.06)
-      ctx.fillStyle = glow
-      ctx.fill()
-
-      ctx.lineWidth = Math.min(width, height) * 0.012
-      ctx.strokeStyle = 'rgba(255,255,255,0.9)'
-      ctx.stroke()
-
-      ctx.lineWidth = 3
-      ctx.strokeStyle = 'rgba(255,121,153,0.9)'
-      roundedRect(inset + 10, inset + 10, width - inset * 2 - 20, height - inset * 2 - 20, Math.min(width, height) * 0.05)
-      ctx.stroke()
-
-      const cornerSize = Math.min(width, height) * 0.08
-      const corners = [
-        [inset, inset, 1, 1],
-        [width - inset, inset, -1, 1],
-        [inset, height - inset, 1, -1],
-        [width - inset, height - inset, -1, -1],
-      ]
-
-      ctx.lineWidth = 4
-      ctx.strokeStyle = '#ffbf69'
-      ctx.lineCap = 'round'
-      for (const [cx, cy, dx, dy] of corners) {
-        ctx.beginPath()
-        ctx.moveTo(cx + dx * cornerSize, cy)
-        ctx.lineTo(cx, cy)
-        ctx.lineTo(cx, cy + dy * cornerSize)
-        ctx.stroke()
-      }
-      ctx.restore()
-    }
-
-    if (overlay === 'heart') {
-      const heartSize = Math.min(width, height) * 0.26
-      const heartX = width / 2
-      const heartY = height / 2 + heartSize * 0.05
-
-      ctx.save()
-      ctx.shadowColor = 'rgba(255, 88, 120, 0.8)'
-      ctx.shadowBlur = heartSize * 0.5
-      ctx.fillStyle = 'rgba(255, 88, 120, 0.72)'
-      ctx.beginPath()
-      ctx.moveTo(heartX, heartY + heartSize * 0.28)
-      ctx.bezierCurveTo(
-        heartX - heartSize * 0.62, heartY - heartSize * 0.1,
-        heartX - heartSize * 0.95, heartY - heartSize * 0.55,
-        heartX, heartY - heartSize * 0.75,
-      )
-      ctx.bezierCurveTo(
-        heartX + heartSize * 0.95, heartY - heartSize * 0.55,
-        heartX + heartSize * 0.62, heartY - heartSize * 0.1,
-        heartX, heartY + heartSize * 0.28,
-      )
-      ctx.fill()
-      ctx.restore()
-
-      ctx.save()
-      ctx.fillStyle = 'rgba(255,255,255,0.18)'
-      ctx.beginPath()
-      ctx.ellipse(heartX - heartSize * 0.18, heartY - heartSize * 0.25, heartSize * 0.1, heartSize * 0.08, -0.4, 0, Math.PI * 2)
-      ctx.fill()
-      ctx.restore()
-    }
-
-    if (overlay === 'confetti') {
-      const particles = 48
-      const colors = ['#ff6b6b', '#48dbfb', '#ff9ff3', '#54a0ff', '#5f27cd', '#01a3a4', '#feca57', '#ffeaa7']
-      const now = Date.now() * 0.001
-      for (let i = 0; i < particles; i++) {
-        const seed = i * 137.508
-        const x = (Math.sin(seed + now * 0.5) * 0.5 + 0.5) * width
-        const y = (Math.cos(seed * 1.5 + now * 0.4) * 0.5 + 0.5) * height
-        const size = (Math.sin(seed * 0.7 + now) * 0.5 + 0.5) * 10 + 5
-        const color = colors[i % colors.length]
-        ctx.save()
-        ctx.translate(x, y)
-        ctx.rotate(seed + now)
-        ctx.fillStyle = color
-        ctx.globalAlpha = 0.9
-        ctx.fillRect(-size * 0.4, -size * 0.12, size * 0.8, size * 0.24)
-        ctx.fillRect(-size * 0.12, -size * 0.4, size * 0.24, size * 0.8)
-        ctx.restore()
-      }
-    }
-
-    if (overlay === 'text') {
-      ctx.save()
-      ctx.font = `700 ${Math.min(width, height) * 0.1}px sans-serif`
-      ctx.textAlign = 'center'
-      ctx.textBaseline = 'bottom'
-      ctx.shadowColor = 'rgba(0,0,0,0.55)'
-      ctx.shadowBlur = 12
-      ctx.shadowOffsetY = 4
-      ctx.fillStyle = '#ffffff'
-      ctx.fillText('📸 story', width / 2, height - Math.min(width, height) * 0.1)
-      ctx.restore()
-    }
-  }
-
   const getLivePreviewFilter = () => {
     if (selectedFilter === 'none') return `brightness(${customParams.brightness}%) contrast(${customParams.contrast}%) saturate(${customParams.saturation}%) sepia(${customParams.warmth > 0 ? customParams.warmth * 0.4 : 0}%) hue-rotate(${customParams.tint * 0.8}deg) invert(${customParams.warmth < 0 ? Math.abs(customParams.warmth) * 0.1 : 0}%)`
     const preset = FILTER_PRESETS.find((p) => p.id === selectedFilter)
@@ -481,6 +358,7 @@ export default function PhotoBooth() {
     const canvas = document.createElement('canvas')
     const ctx = canvas.getContext('2d')
     if (!ctx) return shots[0]
+
     const drawCover = (image: HTMLImageElement, x: number, y: number, width: number, height: number) => {
       const scale = Math.max(width / image.width, height / image.height)
       const sourceWidth = width / scale
@@ -488,46 +366,258 @@ export default function PhotoBooth() {
       ctx.drawImage(image, (image.width - sourceWidth) / 2, (image.height - sourceHeight) / 2, sourceWidth, sourceHeight, x, y, width, height)
     }
 
-    if (selectedLayout === 'strip') {
-      canvas.width = 720
-      canvas.height = 1740
-      ctx.fillStyle = '#fffafc'
-      ctx.fillRect(0, 0, canvas.width, canvas.height)
-      ctx.fillStyle = '#d95583'
-      ctx.font = '700 27px Trebuchet MS, sans-serif'
-      ctx.textAlign = 'center'
-      ctx.fillText('UT ENGLISH STUDIES · 2026', canvas.width / 2, 58)
-      images.forEach((image, index) => drawCover(image, 48, 92 + index * 526, 624, 470))
-      ctx.fillStyle = '#8c6075'
-      ctx.font = 'italic 28px Georgia, serif'
-      ctx.fillText('say cheese!', canvas.width / 2, 1685)
-    } else if (selectedLayout === 'grid') {
-      canvas.width = 1080
-      canvas.height = 1080
-      ctx.fillStyle = '#fffafc'
-      ctx.fillRect(0, 0, canvas.width, canvas.height)
-      images.forEach((image, index) => {
-        const column = index % 2
-        const row = Math.floor(index / 2)
-        drawCover(image, 38 + column * 510, 38 + row * 510, 494, 494)
-      })
-      ctx.fillStyle = '#d95583'
-      ctx.font = '700 20px Trebuchet MS, sans-serif'
-      ctx.textAlign = 'center'
-      ctx.fillText('UT ENGLISH STUDIES · 2026', canvas.width / 2, 1055)
-    } else {
-      // Layout Polaroid is a real single-photo layout, separate from decorations.
-      canvas.width = images[0].width
-      canvas.height = Math.round(images[0].height * 1.25)
-      ctx.fillStyle = '#fff'
-      ctx.fillRect(0, 0, canvas.width, canvas.height)
-      const margin = Math.round(canvas.width * .07)
-      drawCover(images[0], margin, margin, canvas.width - margin * 2, Math.round(images[0].height * .92))
-      ctx.fillStyle = '#8c6075'
-      ctx.font = `italic ${Math.max(22, canvas.width * .035)}px Georgia, serif`
-      ctx.textAlign = 'center'
-      ctx.fillText('UT English Studies · 2026', canvas.width / 2, canvas.height - margin * .7)
+    const drawRoundedRect = (x: number, y: number, w: number, h: number, r: number) => {
+      ctx.beginPath()
+      ctx.moveTo(x + r, y)
+      ctx.lineTo(x + w - r, y)
+      ctx.quadraticCurveTo(x + w, y, x + w, y + r)
+      ctx.lineTo(x + w, y + h - r)
+      ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h)
+      ctx.lineTo(x + r, y + h)
+      ctx.quadraticCurveTo(x, y + h, x, y + h - r)
+      ctx.lineTo(x, y + r)
+      ctx.quadraticCurveTo(x, y, x + r, y)
+      ctx.closePath()
     }
+
+    const drawFooter = (title: string, subtitle: string) => {
+      const logo = utLogoRef.current
+      const logoSize = 74
+      const footerHeight = 120
+      const footerY = canvas.height - footerHeight
+
+      ctx.fillStyle = '#f4dfe4'
+      ctx.fillRect(0, footerY, canvas.width, footerHeight)
+
+      if (logo) {
+        ctx.save()
+        ctx.globalAlpha = 0.98
+        ctx.drawImage(logo, 36, footerY + 16, logoSize, logoSize)
+        ctx.restore()
+      }
+
+      ctx.fillStyle = '#3a1d2a'
+      ctx.textAlign = 'center'
+      ctx.font = '700 28px "Trebuchet MS", sans-serif'
+      ctx.fillText(title, canvas.width / 2 + 18, footerY + 34)
+
+      ctx.font = '600 18px "Trebuchet MS", sans-serif'
+      ctx.fillText('say cheese!', canvas.width / 2 + 18, footerY + 64)
+
+      ctx.font = '700 16px "Trebuchet MS", sans-serif'
+      ctx.fillText(subtitle, canvas.width / 2 + 18, footerY + 92)
+    }
+
+    const treatLayoutBlock = (count: number, mode: 'stack' | 'row') => {
+      const safeCount = Math.min(count, images.length)
+      const marginX = 34
+      const marginTop = 126
+      const gap = 18
+      const footerHeight = 120
+      const totalInnerHeight = canvas.height - marginTop - footerHeight - 30
+
+      if (mode === 'stack') {
+        const panelHeight = (totalInnerHeight - gap * (safeCount - 1)) / safeCount
+        const panelWidth = canvas.width - marginX * 2
+        const startX = marginX
+
+        images.slice(0, safeCount).forEach((image, index) => {
+          const x = startX
+          const y = marginTop + index * (panelHeight + gap)
+          ctx.fillStyle = '#f4f0ee'
+          drawRoundedRect(x, y, panelWidth, panelHeight, 18)
+          ctx.fill()
+
+          ctx.strokeStyle = '#d8c2c9'
+          ctx.lineWidth = 3
+          drawRoundedRect(x + 12, y + 12, panelWidth - 24, panelHeight - 24, 14)
+          ctx.stroke()
+
+          drawCover(image, x + 22, y + 22, panelWidth - 44, panelHeight - 44)
+        })
+      } else {
+        const panelWidth = (canvas.width - marginX * 2 - gap * (safeCount - 1)) / safeCount
+        const panelHeight = totalInnerHeight * 0.8
+        const startY = marginTop + (totalInnerHeight - panelHeight) / 2
+
+        images.slice(0, safeCount).forEach((image, index) => {
+          const x = marginX + index * (panelWidth + gap)
+          const y = startY
+          ctx.fillStyle = '#f4f0ee'
+          drawRoundedRect(x, y, panelWidth, panelHeight, 18)
+          ctx.fill()
+
+          ctx.strokeStyle = '#d8c2c9'
+          ctx.lineWidth = 3
+          drawRoundedRect(x + 10, y + 10, panelWidth - 20, panelHeight - 20, 14)
+          ctx.stroke()
+
+          drawCover(image, x + 16, y + 16, panelWidth - 32, panelHeight - 32)
+        })
+      }
+    }
+
+    if (selectedLayout === 'strip-4' || selectedLayout === 'strip-vertical' || selectedLayout === 'strip' || selectedLayout === 'strip-horizontal') {
+      const isFour = selectedLayout === 'strip-4'
+      const isHorizontal = selectedLayout === 'strip-horizontal'
+
+      canvas.width = 760
+      canvas.height = 1280
+      ctx.fillStyle = '#f4dfe4'
+      ctx.fillRect(0, 0, canvas.width, canvas.height)
+
+      if (isFour) {
+        const margin = 14
+        const gap = 8
+        const footerGap = 14
+        const footerHeight = 120
+        const cardW = canvas.width - margin * 2
+        const cardH = (canvas.height - margin * 2 - gap * 3 - footerHeight - footerGap) / 4
+        let y = margin
+
+        images.slice(0, 4).forEach((image) => {
+          ctx.fillStyle = '#f7f0ee'
+          drawRoundedRect(margin, y, cardW, cardH, 12)
+          ctx.fill()
+
+          ctx.strokeStyle = '#e8d4d9'
+          ctx.lineWidth = 1
+          drawRoundedRect(margin + 2, y + 2, cardW - 4, cardH - 4, 10)
+          ctx.stroke()
+
+          drawCover(image, margin + 8, y + 8, cardW - 16, cardH - 16)
+          y += cardH + gap
+        })
+      } else if (isHorizontal) {
+        canvas.width = 1400
+        canvas.height = 900
+        ctx.fillStyle = '#f4dfe4'
+        ctx.fillRect(0, 0, canvas.width, canvas.height)
+
+        const marginX = 20
+        const marginY = 18
+        const gap = 12
+        const footerHeight = 120
+        const footerGap = 18
+        const cardW = (canvas.width - marginX * 2 - gap * 2) / 3
+        const cardH = canvas.height - marginY * 2 - footerHeight - footerGap
+        let x = marginX
+
+        images.slice(0, 3).forEach((image) => {
+          ctx.fillStyle = '#f7f0ee'
+          drawRoundedRect(x, marginY, cardW, cardH, 14)
+          ctx.fill()
+
+          ctx.strokeStyle = '#e8d4d9'
+          ctx.lineWidth = 1
+          drawRoundedRect(x + 2, marginY + 2, cardW - 4, cardH - 4, 12)
+          ctx.stroke()
+
+          drawCover(image, x + 8, marginY + 8, cardW - 16, cardH - 16)
+          x += cardW + gap
+        })
+      } else {
+        const margin = 14
+        const gap = 8
+        const footerGap = 14
+        const footerHeight = 120
+        const cardW = canvas.width - margin * 2
+        const cardH = (canvas.height - margin * 2 - gap * 2 - footerHeight - footerGap) / 3
+        let y = margin
+
+        images.slice(0, 3).forEach((image) => {
+          ctx.fillStyle = '#f7f0ee'
+          drawRoundedRect(margin, y, cardW, cardH, 12)
+          ctx.fill()
+
+          ctx.strokeStyle = '#e8d4d9'
+          ctx.lineWidth = 1
+          drawRoundedRect(margin + 2, y + 2, cardW - 4, cardH - 4, 10)
+          ctx.stroke()
+
+          drawCover(image, margin + 8, y + 8, cardW - 16, cardH - 16)
+          y += cardH + gap
+        })
+      }
+
+      drawFooter('UT English Studies', 'UT Sastra Inggris Study • 2026')
+      return canvas.toDataURL('image/png')
+    }
+
+    if (selectedLayout === 'strip-horizontal') {
+      canvas.width = 1400
+      canvas.height = 900
+      ctx.fillStyle = '#f8f3f0'
+      ctx.fillRect(0, 0, canvas.width, canvas.height)
+      treatLayoutBlock(3, 'row')
+      drawFooter('UT English Studies', 'UT Sastra Inggris Study • 2026')
+      return canvas.toDataURL('image/png')
+    }
+
+    if (selectedLayout === 'grid') {
+      canvas.width = 1100
+      canvas.height = 1100
+      ctx.fillStyle = '#f4dfe4'
+      ctx.fillRect(0, 0, canvas.width, canvas.height)
+
+      const columns = 2
+      const rows = 2
+      const margin = 24
+      const gap = 18
+      const footerHeight = 120
+      const footerGap = 18
+      const cellW = (canvas.width - margin * 2 - gap * (columns - 1)) / columns
+      const cellH = (canvas.height - margin * 2 - gap * (rows - 1) - footerHeight - footerGap) / rows
+
+      images.slice(0, 4).forEach((image, index) => {
+        const col = index % columns
+        const row = Math.floor(index / columns)
+        const x = margin + col * (cellW + gap)
+        const y = margin + row * (cellH + gap)
+
+        ctx.fillStyle = '#f7f0ee'
+        drawRoundedRect(x, y, cellW, cellH, 12)
+        ctx.fill()
+
+        ctx.strokeStyle = '#e8d4d9'
+        ctx.lineWidth = 1
+        drawRoundedRect(x + 2, y + 2, cellW - 4, cellH - 4, 10)
+        ctx.stroke()
+
+        drawCover(image, x + 8, y + 8, cellW - 16, cellH - 16)
+      })
+
+      drawFooter('UT English Studies', 'UT Sastra Inggris Study • 2026')
+      return canvas.toDataURL('image/png')
+    }
+
+    // Polaroid layout
+    canvas.width = 1000
+    canvas.height = 1200
+    ctx.fillStyle = '#f4dfe4'
+    ctx.fillRect(0, 0, canvas.width, canvas.height)
+
+    const cardX = 88
+    const cardY = 72
+    const cardW = canvas.width - cardX * 2
+    const cardH = 850
+    ctx.fillStyle = '#ffffff'
+    drawRoundedRect(cardX, cardY, cardW, cardH, 20)
+    ctx.fill()
+
+    ctx.strokeStyle = '#ead7db'
+    ctx.lineWidth = 1.5
+    drawRoundedRect(cardX + 6, cardY + 6, cardW - 12, cardH - 12, 16)
+    ctx.stroke()
+
+    drawCover(images[0], cardX + 18, cardY + 18, cardW - 36, cardH - 150)
+
+    ctx.fillStyle = '#3a1d2a'
+    ctx.textAlign = 'center'
+    ctx.font = '700 32px "Trebuchet MS", sans-serif'
+    ctx.fillText('say cheese!', canvas.width / 2, cardY + cardH - 42)
+
+    drawFooter('UT English Studies', 'UT Sastra Inggris Study • 2026')
     return canvas.toDataURL('image/png')
   }
 
@@ -567,7 +657,6 @@ export default function PhotoBooth() {
       return
     }
     finalCtx.drawImage(filtered, 0, 0)
-    drawOverlayOnCanvas(finalCanvas, selectedOverlay, w, h)
 
     finalCanvas.toBlob((blob) => {
       if (!blob) {
@@ -664,8 +753,14 @@ export default function PhotoBooth() {
       return
     }
 
+    srcCtx.save()
+    if (mirrorMode === 'mirror') {
+      srcCtx.translate(w, 0)
+      srcCtx.scale(-1, 1)
+    }
     srcCtx.drawImage(video, 0, 0, w, h)
-    console.log('[capture] frame drawn to source canvas')
+    srcCtx.restore()
+    console.log('[capture] frame drawn to source canvas', { mirrorMode })
 
     // Delegate to processCapture which handles filter + overlay + toBlob correctly
     processCapture(srcCanvas, w, h)
@@ -760,7 +855,6 @@ export default function PhotoBooth() {
         </div>
 
         <canvas ref={canvasRef} className="booth-hidden" />
-        <canvas ref={overlayCanvasRef} className="booth-hidden" />
 
         {step === 'start' && (
           <div className="booth-stage booth-start">
@@ -769,9 +863,6 @@ export default function PhotoBooth() {
             )}
             <div className="booth-actions">
               <button className="booth-button booth-button-primary" onClick={() => setStep('layout')}>Mulai sesi <span>↗</span></button>
-              {!cameraReady && (
-                <button className="booth-button booth-button-quiet" onClick={() => { setDemoPreview(true); setStep('layout') }}>Coba demo</button>
-              )}
             </div>
           </div>
         )}
@@ -802,10 +893,9 @@ export default function PhotoBooth() {
                 <button key={preset.id} onClick={() => setSelectedFilter(preset.id)} className={`booth-chip ${selectedFilter === preset.id ? 'is-selected' : ''}`}>{preset.emoji} {preset.name}</button>
               ))}
             </div></div>
-            <div className="booth-controls"><p>tambahkan dekorasi</p><div className="booth-chip-list">
-              {OVERLAYS.map((ov) => (
-                <button key={ov.id} onClick={() => setSelectedOverlay(ov.id)} className={`booth-chip booth-chip-decoration ${selectedOverlay === ov.id ? 'is-selected' : ''}`}>{ov.icon} {ov.label}</button>
-              ))}
+            <div className="booth-controls"><p>opsi tampilan</p><div className="booth-chip-list">
+              <button type="button" onClick={() => setMirrorMode('mirror')} className={`booth-chip ${mirrorMode === 'mirror' ? 'is-selected' : ''}`}>Mirror</button>
+              <button type="button" onClick={() => setMirrorMode('normal')} className={`booth-chip ${mirrorMode === 'normal' ? 'is-selected' : ''}`}>Tanpa mirror</button>
             </div></div>
             {requiredShots > 1 && <p className="booth-shot-counter">Jepretan {capturedShots.length + 1} dari {requiredShots}</p>}
             <div className="booth-camera booth-camera-story">
@@ -819,7 +909,7 @@ export default function PhotoBooth() {
                 autoPlay
                 playsInline
                 muted
-                style={{ filter: getLivePreviewFilter() }}
+                style={{ filter: getLivePreviewFilter(), transform: mirrorMode === 'mirror' ? 'scaleX(-1)' : 'none', WebkitTransform: mirrorMode === 'mirror' ? 'scaleX(-1)' : 'none' }}
               />
               <span className="booth-camera-label">ready when you are</span>
               <button className="booth-shutter booth-shutter-floating" onClick={capturePhoto} disabled={isCapturing} aria-label="Ambil foto">
@@ -837,7 +927,7 @@ export default function PhotoBooth() {
         {step === 'review' && capturedPhoto && (
           <div className="booth-stage booth-result">
             <div className="booth-step-heading"><span>03 / 03</span><h2>that’s a <em>wrap!</em></h2><p>Jadikan momen ini kenangan yang bisa kamu bawa pulang.</p></div>
-            <div className="booth-photo-print"><img src={capturedPhoto} alt="Hasil foto" /><p>UT English Studies · 2026</p></div>
+            <div className="booth-photo-print"><img src={capturedPhoto} alt="Hasil foto" /></div>
             <div className="booth-actions">
               <button className="booth-button booth-button-quiet" onClick={() => { setCapturedShots([]); setStep('capture') }}>↻ Foto ulang</button>
               <button className="booth-button booth-button-lilac" onClick={() => setStep('customize')}>✦ Atur foto</button>
