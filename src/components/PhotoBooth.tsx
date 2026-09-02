@@ -24,12 +24,12 @@ const FILTER_PRESETS: { id: string; name: string; emoji: string; params: FilterP
 ]
 
 const LAYOUTS = [
-  { id: 'single', label: 'Single', icon: '📷' },
-  { id: 'strip-4', label: 'Strip 4', icon: '🖼️' },
-  { id: 'strip-vertical', label: 'Strip 3 Vertikal', icon: '📏' },
-  { id: 'strip-horizontal', label: 'Strip 3 Horizontal', icon: '📐' },
-  { id: 'grid', label: 'Grid 2x2', icon: '🔲' },
-  { id: 'polaroid', label: 'Polaroid', icon: '📸' },
+  { id: 'single', label: 'Single' },
+  { id: 'strip-4', label: 'Strip 4' },
+  { id: 'strip-vertical', label: 'Strip 3 Portrait'},
+  { id: 'strip-horizontal', label: 'Strip 3 Landscape'},
+  { id: 'grid', label: 'Grid 2x2' },
+  { id: 'polaroid', label: 'Polaroid'},
 ]
 
 export default function PhotoBooth() {
