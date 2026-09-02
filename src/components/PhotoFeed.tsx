@@ -67,16 +67,33 @@ export default function PhotoFeed() {
     }
   }
 
-  const downloadPhoto = (photo: Photo) => {
-    const link = document.createElement('a')
-    link.href = photo.public_url
-    link.download = `memory-lane-${photo.id}.png`
-    link.target = '_blank'
-    link.rel = 'noopener noreferrer'
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
-    setMenuOpenId(null)
+  const downloadPhoto = async (photo: Photo) => {
+    try {
+      const response = await fetch(photo.public_url)
+      const blob = await response.blob()
+      const objectUrl = URL.createObjectURL(blob)
+      const link = document.createElement('a')
+      link.href = objectUrl
+      link.download = `memory-lane-${photo.id}.png`
+      link.target = '_blank'
+      link.rel = 'noopener noreferrer'
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+      setTimeout(() => URL.revokeObjectURL(objectUrl), 1000)
+    } catch (error) {
+      console.error('Download photo failed:', error)
+      const fallbackLink = document.createElement('a')
+      fallbackLink.href = photo.public_url
+      fallbackLink.download = `memory-lane-${photo.id}.png`
+      fallbackLink.target = '_blank'
+      fallbackLink.rel = 'noopener noreferrer'
+      document.body.appendChild(fallbackLink)
+      fallbackLink.click()
+      document.body.removeChild(fallbackLink)
+    } finally {
+      setMenuOpenId(null)
+    }
   }
 
   const sharePhoto = async (photo: Photo) => {
