@@ -873,7 +873,7 @@ export default function PhotoBooth() {
             <div className="layout-picker">
               {LAYOUTS.map((layout) => (
                 <button key={layout.id} onClick={() => { setSelectedLayout(layout.id); setCapturedShots([]) }} className={`layout-card ${selectedLayout === layout.id ? 'is-selected' : ''}`}>
-                  <span className={`layout-icon layout-${layout.id}`}>{layout.icon}</span>
+                  <span className={`layout-icon layout-${layout.id}`}></span>
                   <strong>{layout.label}</strong>
                 </button>
               ))}
