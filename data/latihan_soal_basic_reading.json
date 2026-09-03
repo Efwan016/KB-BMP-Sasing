@@ -1,0 +1,1092 @@
+{
+  "mataKuliah": "Basic_Reading",
+  "moduls": [
+    {
+      "modul": 1,
+      "judul": "Dealing with New Words: Using Context Clues",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "The film was only a B-movie, that is, a low-budget movie. What does B-movie mean?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "A high-budget film"
+              },
+              {
+                "label": "b",
+                "text": "A documentary film"
+              },
+              {
+                "label": "c",
+                "text": "A low-budget film"
+              },
+              {
+                "label": "d",
+                "text": "A blockbuster international film"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "'That is' menandai definisi langsung: B-movie = low-budget movie."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "The house has a detached garage, separated by a small garden. What is the synonym of 'detached'?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Separated"
+              },
+              {
+                "label": "b",
+                "text": "Attached"
+              },
+              {
+                "label": "c",
+                "text": "Large"
+              },
+              {
+                "label": "d",
+                "text": "Modern"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Konteks 'separated by a small garden' memberikan sinonim langsung: detached = separated."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Which of the following is NOT a contrast signal word?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "however"
+              },
+              {
+                "label": "b",
+                "text": "whereas"
+              },
+              {
+                "label": "c",
+                "text": "despite"
+              },
+              {
+                "label": "d",
+                "text": "therefore"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Therefore menandai kesimpulan/akibat, bukan pertentangan. Namun, however, whereas, dan despite adalah penanda kontras."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Alternative energy, such as wind and solar, is growing in popularity. What does 'such as' signal?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Contrast"
+              },
+              {
+                "label": "b",
+                "text": "Definition"
+              },
+              {
+                "label": "c",
+                "text": "Example"
+              },
+              {
+                "label": "d",
+                "text": "Cause"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "'Such as' adalah penanda contoh (example), diikuti oleh contoh konkret: wind and solar."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "The word 'corpulent' is an antonym of which word?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Slim"
+              },
+              {
+                "label": "b",
+                "text": "Tall"
+              },
+              {
+                "label": "c",
+                "text": "Rich"
+              },
+              {
+                "label": "d",
+                "text": "Fast"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Corpulent = obese/gemuk; antonimnya adalah slim (ramping)."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "\"Reticent means rarely speaking about one's feelings.\" What type of context clue is used here?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Synonym"
+              },
+              {
+                "label": "b",
+                "text": "Antonym"
+              },
+              {
+                "label": "c",
+                "text": "Definition/Explanation"
+              },
+              {
+                "label": "d",
+                "text": "Example"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Kalimat ini memberikan definisi langsung dari reticent, jadi ini clue tipe definisi/explanation."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Which of the following is a contrast signal?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "like"
+              },
+              {
+                "label": "a",
+                "text": "including"
+              },
+              {
+                "label": "c",
+                "text": "but"
+              },
+              {
+                "label": "d",
+                "text": "for example"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "'But' adalah konjungsi pertentangan (kontras). Like, including, for example adalah penanda contoh."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "\"The enigma of the ancient ruins puzzled scholars for decades.\" What does 'enigma' mean based on context?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Mystery"
+              },
+              {
+                "label": "b",
+                "text": "Building"
+              },
+              {
+                "label": "c",
+                "text": "Piece of art"
+              },
+              {
+                "label": "d",
+                "text": "Tourist attraction"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Konteks 'puzzled scholars' (menggelikan para sarjana) mengindikasikan enigma = mystery/teka-teki."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "Based on the text 'The film was only a B-movie, that is, a low-budget movie', the phrase 'that is' signals a(n) __________ context clue to explain 'B-movie'.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "definition/explanation (appositive)"
+              },
+              {
+                "label": "b",
+                "text": "contrast signal"
+              },
+              {
+                "label": "c",
+                "text": "example clue"
+              },
+              {
+                "label": "d",
+                "text": "cause-effect clue"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "'That is' (atau 'in other words') adalah contoh klasik dari appositive context clue yang memberikan definisi langsung dari kata yang tidak dikenal."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Read the sentence: 'Alternative energy, such as wind and solar, is growing in popularity.' What does the phrase 'such as' signal in this context?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "A contrast between ideas"
+              },
+              {
+                "label": "b",
+                "text": "Specific examples of 'alternative energy'"
+              },
+              {
+                "label": "c",
+                "text": "A definition of 'alternative energy'"
+              },
+              {
+                "label": "d",
+                "text": "A cause-and-effect relationship"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "'Such as' adalah contoh (example) signal yang memperkenalkan contoh-contoh spesifik dari kategori yang lebih luas (alternative energy)."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Consider: 'The house has a detached garage, separated by a small garden.' The word 'detached' is clarified by the phrase that follows the comma. What type of context clue is this?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Synonym — a similar word is used"
+              },
+              {
+                "label": "b",
+                "text": "Antonym — an opposite word is used"
+              },
+              {
+                "label": "c",
+                "text": "General context — the sentence gives enough surrounding information"
+              },
+              {
+                "label": "d",
+                "text": "Appositive — a phrase renames the word"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Kata 'separated by a small garden' memberikan informasi konteks umum (general context) yang membantu pembaca memahami bahwa 'detached' berarti terpisah atau terpisah dari rumah utama."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "The word 'corpulent' means fat or obese. What kind of context clue is used in: 'The corpulent man, or the very fat one, struggled to fit through the narrow door'?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Antonym clue — using an opposite word"
+              },
+              {
+                "label": "b",
+                "text": "Synonym clue — using 'or' to introduce a similar word"
+              },
+              {
+                "label": "c",
+                "text": "Example clue — listing examples"
+              },
+              {
+                "label": "d",
+                "text": "Comparison clue — comparing two things"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Frasa 'or the very fat one' adalah contoh klasik synonym context clue (penggunaan 'or' untuk memperkenalkan kata yang mirip/meaning sama)."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Look at this sentence: 'The combat between the two players was intense.' What does 'combat' mean based on the surrounding context?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "A friendly game"
+              },
+              {
+                "label": "b",
+                "text": "A physical fight or struggle"
+              },
+              {
+                "label": "c",
+                "text": "A conversation"
+              },
+              {
+                "label": "d",
+                "text": "A dance competition"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Kata 'intense' dan konteks 'combat' (pertempuran/pertarungan) memberikan general context clue bahwa ini adalah situasi pertandingan/pertarungan yang serius, bukan aktivitas santai."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "What signal words would you expect to find if a writer is about to give an example context clue?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "'but', 'however', 'whereas'"
+              },
+              {
+                "label": "b",
+                "text": "'such as', 'for example', 'including'"
+              },
+              {
+                "label": "c",
+                "text": "'that is', 'in other words', 'namely'"
+              },
+              {
+                "label": "d",
+                "text": "'unlike', 'in contrast to', 'on the other hand'"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "'Such as', 'for example', dan 'including' adalah signal words utama untuk example context clue — ketika penulis ingin memperkenalkan contoh-contoh spesifik."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Context clues help readers figure out the meaning of new words by using clues from the __________ and __________ words around them.",
+            "kunci": [
+              "surrounding",
+              "other"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "When a writer puts an unfamiliar word inside a __________ that gives clues, we call it apposition context clue.",
+            "kunci": [
+              "phrase",
+              "clause"
+            ]
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Three common contrast signal words are __________, __________, and __________.",
+            "kunci": [
+              "but",
+              "however",
+              "whereas"
+            ]
+          },
+          {
+            "no": 12,
+            "pertanyaan": "The word 'that is' or 'in other words' usually signals a __________ context clue.",
+            "kunci": [
+              "definition",
+              "explanation"
+            ]
+          },
+          {
+            "no": 13,
+            "pertanyaan": "An antonym clue is often signaled by words like 'unlike', 'in contrast to', 'as opposed to', or __________.",
+            "kunci": [
+              "whereas",
+              "while",
+              "although"
+            ]
+          },
+          {
+            "no": 14,
+            "pertanyaan": "If you see 'such as', 'for example', or 'including', the writer is giving you a __________ clue.",
+            "kunci": [
+              "example"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Explain the difference between a definition clue and a synonym clue in context! Give one example sentence for each type.",
+            "kunci": "Definition clue: penulis menjelaskan makna kata secara langsung dengan frasa seperti 'that is,' 'in other words,' atau dengan menyatakan 'X, which means Y.' Contoh: 'She was reticent, that is, she rarely spoke about her feelings.' Sinonim clue: penulis memberikan kata atau frasa yang memiliki makna mirip dengan kata yang tidak diketahui. Contoh: 'The house has a detached garage, separated by a small garden' — kata 'detached' dijelaskan lewat sinonim 'separated'."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Why is reading extensively considered one of the best ways to build vocabulary naturally? Describe at least two benefits.",
+            "kunci": "Extensive reading (membaca luas/banyak) membantu pembaca menemukan kata-kata baru berulang kali dalam konteks berbeda, sehingga makna perlahan terserap tanpa harus mengecek kamus setiap saat. Dua manfaat: (1) Pembaca belajar bagaimana kata digunakan dalam kalimat nyata, jadi tidak hanya hafal definisi tapi juga knows collocation dan nuance; (2) Exposure yang berulang meningkatkan retensi jangka panjang karena otak mengasosiasikan kata dengan konteks dan emosi yang diverse. Selain itu, pembaca juga belajar kosakata implicitly (tanpa kesadaran penuh) melalui pola dan repetisi."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "Describe how learning about English language history (e.g., the periods 450-1100 AD and 1100-1500 AD) can help a reader understand modern English vocabulary better.",
+            "kunci": "Sejarah bahasa Inggris terdiri dari beberapa periode utama: Old English (450-1100), Middle English (1100-1500), Early Modern English, dan Modern English. Memahami periode ini membantu pembaca sadar bahwa banyak kata modern berasal dari akar Old English (Anglo-Saxon), Latin, atau Norman French. Misalnya, kata Germanic dasar (house, water, eat) vs kata Latin/French yang lebih formal (residence, aqua, consume). Pengetahuan ini membantu pembaca: (1) menebak makna kata berdasarkan akar/asal kata; (2) mengenali pola borrowing yang memberi variasi register; (3) memahami mengapa English memiliki banyak sinonim dengan tingkat formalitas berbeda."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "A student reads: 'The politician's glib responses lacked sincerity.' If the student doesn't know 'glib', what context clues help, and what does it likely mean? Explain your reasoning.",
+            "kunci": "Konteks 'lacked sincerity' setelah koma menandakan bahwa 'glib' adalah sifat yang berlawanan dengan sincerity (kejujuran/tulus). Jadi glib kemungkinan berarti lancar tapi dangkal, tidak tulus, atau terlalu mudah/santai tanpa substance. Clue: (1) Adjective yang mendeskripsikan 'responses' (respons); (2) frasa 'lacked sincerity' memberi kontras negatif — sesuatu yang glib tidak tulus. Sehingga gloss: 'glib' = speak fluently but without sincerity or depth."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Read this sentence: 'The curator's exhaustive research, or the thorough and detailed study, revealed hidden details in the ancient manuscript.' What context clue type is used to explain 'exhaustive'? Explain how each clue in the sentence helps the reader understand the meaning.",
+            "kunci": "Jawaban model:\n\n1. Jenis context clue: Sinonim (synonym clue) — karena kata 'or the thorough and detailed study' memperkenalkan kata yang berarti sama dengan 'exhaustive'.\n\n2. Cara kerja: Frasa setelah koma dan kata 'or' berfungsi sebagai appositive yang langsung mendefinisikan 'exhaustive' dengan menerjemahkannya ke dalam bahasa yang lebih sederhana ('thorough and detailed'). Pembaca yang tidak mengetahui makna 'exhaustive' bisa langsung memahami bahwa ini berarti ' menyeluruh dan detail'.\n\n3. Selain itu, konteks kalimat secara umum (general context clue) juga membantu: 'exhaustive research' yang mengungkap 'hidden details' meng reinforced makna bahwa penelitian ini sangat mendalam dan menyeluruh."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 19,
+            "pertanyaan": "He was reticent, that is, he rarely spoke about his feelings. What does 'reticent' mean?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Quiet / reluctant to speak"
+              },
+              {
+                "label": "b",
+                "text": "Shy"
+              },
+              {
+                "label": "c",
+                "text": "Happy"
+              },
+              {
+                "label": "d",
+                "text": "Arrogant"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "'That is' + penjelasan 'rarely spoke about feelings' = definisi reticent = quiet/reluctant to speak about feelings."
+          },
+          {
+            "no": 20,
+            "pertanyaan": "The two ideas are contradictory, that is, they cannot both be true at the same time. What does 'contradictory' mean?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opposite, conflicting"
+              },
+              {
+                "label": "b",
+                "text": "Similar"
+              },
+              {
+                "label": "c",
+                "text": "Important"
+              },
+              {
+                "label": "d",
+                "text": "Complicated"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan 'cannot both be true' langsung mendefinisikan contradictory = opposite/conflicting."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "Select the sentence that uses an example context clue.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "He was reticent, that is, he rarely spoke about his feelings."
+              },
+              {
+                "label": "b",
+                "text": "Alternative energy, such as wind and solar, is growing in popularity."
+              },
+              {
+                "label": "c",
+                "text": "The house has a detached garage, separated by a small garden."
+              },
+              {
+                "label": "d",
+                "text": "Corpulent means fat or obese."
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "'Such as wind and solar' memberi contoh konkret dari alternative energy — ini clue tipe example."
+          },
+          {
+            "no": 22,
+            "pertanyaan": "If the text says 'William the Conqueror, who invaded England in 1066,' what type of context clue is this?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Antonym"
+              },
+              {
+                "label": "b",
+                "text": "Synonym"
+              },
+              {
+                "label": "c",
+                "text": "Definition/Explanation (apposition)"
+              },
+              {
+                "label": "d",
+                "text": "Contrast"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Frasa 'who invaded England in 1066' adalah apposition yang menjelaskan/didefiniskan siapa William the Conqueror — clue tipe definisi/explanation."
+          },
+          {
+            "no": 23,
+            "pertanyaan": "Which of these words would you expect to find in the same paragraph discussing CONTRAST?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "similarly"
+              },
+              {
+                "label": "b",
+                "text": "in contrast"
+              },
+              {
+                "label": "c",
+                "text": "for example"
+              },
+              {
+                "label": "d",
+                "text": "such as"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "'In contrast' adalah frasa eksplisit untuk menandai pertentangan/kontras. 'Similarly' = persamaan, 'for example'/'such as' = contoh."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 2,
+      "judul": "Reading Strategies: Previewing and Predicting",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Previewing a text means...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Reading the entire text carefully from start to finish"
+              },
+              {
+                "label": "b",
+                "text": "Looking over the text quickly to get a general idea before detailed reading"
+              },
+              {
+                "label": "c",
+                "text": "Skipping the text entirely"
+              },
+              {
+                "label": "d",
+                "text": "Translating the text word by word"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Previewing = melihat sekilas teks (judul, subjudul, gambar, paragraf pembuka) untuk membentuk gambaran umum sebelum membaca mendalam."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Which of the following is a benefit of previewing?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "It guarantees you will understand everything"
+              },
+              {
+                "label": "b",
+                "text": "It helps activate prior knowledge and set reading purpose"
+              },
+              {
+                "label": "c",
+                "text": "It replaces the need to read the whole text"
+              },
+              {
+                "label": "d",
+                "text": "It only works for fiction texts"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Previewing mengaktifkan pengetahuan sebelumnya (schema) dan membantu menetapkan tujuan membaca, sehingga lebih siap menyerap isi teks."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Predicting in reading involves...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Guessing the author's name"
+              },
+              {
+                "label": "b",
+                "text": "Making informed guesses about what will come next based on clues"
+              },
+              {
+                "label": "c",
+                "text": "Memorizing all vocabulary before reading"
+              },
+              {
+                "label": "d",
+                "text": "Reading the last page first"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Predicting = membuat prediksi berdasarkan petunjuk dalam teks (judul, ilustrasi, kata kunci, konteks) tentang apa yang akan terjadi atau dibahas selanjutnya."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "When predicting content from a text titled 'The Effects of Social Media on Mental Health', you would expect the text to discuss...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Only the history of computers"
+              },
+              {
+                "label": "b",
+                "text": "Relationships between social media use and psychological wellbeing"
+              },
+              {
+                "label": "c",
+                "text": "How to build a social media app"
+              },
+              {
+                "label": "d",
+                "text": "Marketing strategies for Instagram"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Judul secara eksplisit menyebut 'Effects of Social Media on Mental Health' — prediksi logis adalah membahas hubungan penggunaan media sosial dengan kesehatan mental."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Which of these is NOT a good previewing strategy?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Reading the title and subtitles"
+              },
+              {
+                "label": "b",
+                "text": "Looking at images, graphs, or tables"
+              },
+              {
+                "label": "c",
+                "text": "Skimming the first sentence of each paragraph"
+              },
+              {
+                "label": "d",
+                "text": "Memorizing every unfamiliar word before reading"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Mendeskripsikan semua kata yang tidak dikenal sebelum membaca bukan strategi previewing yang efektif — itu menghambat kelancaran dan tidak praktis."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "A good reader makes predictions...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Only before reading"
+              },
+              {
+                "label": "b",
+                "text": "Before AND during reading, revising as new information appears"
+              },
+              {
+                "label": "c",
+                "text": "Only after finishing the text"
+              },
+              {
+                "label": "d",
+                "text": "Once and never changes them"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Prediksi dilakukan sebelum membaca (berdasarkan petunjuk awal) dan selama membaca (ketika ada informasi baru), lalu disesuaikan atau dikonfirmasi."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "The term 'schema' in reading refers to...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "A type of dictionary"
+              },
+              {
+                "label": "b",
+                "text": "The reader's prior knowledge and mental framework about a topic"
+              },
+              {
+                "label": "c",
+                "text": "The title of the text"
+              },
+              {
+                "label": "d",
+                "text": "The last paragraph of an essay"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Schema = kerangka pengetahuan sebelumnya yang dimiliki pembaca tentang topik tertentu, digunakan untuk memahami dan mengintegrasikan informasi baru."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Previewing helps reading comprehension primarily because it...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Makes the text shorter"
+              },
+              {
+                "label": "b",
+                "text": "Provides a mental framework that helps organize new information"
+              },
+              {
+                "label": "c",
+                "text": "Eliminates difficult vocabulary"
+              },
+              {
+                "label": "d",
+                "text": "Allows you to skip hard sections"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Previewing membangun kerangka mental (schema) sehingga informasi baru lebih mudah diorganisasikan dan dipahami saat pembacaan mendalam."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "[Basic_Reading Modul 2] Dalam konteks pembelajaran modula ini, konsep utama yang paling relevan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konsep A yang mendasar"
+              },
+              {
+                "label": "b",
+                "text": "Konsep B yang mendasar"
+              },
+              {
+                "label": "c",
+                "text": "Konsep C yang mendasar"
+              },
+              {
+                "label": "d",
+                "text": "Konsep D yang mendasar"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Konsep A menjadi landasan utama karena..."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "[Basic_Reading Modul 2] Faktor yang mempengaruhi efektivitas pembelajaran pada modul ini meliputi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Faktor a"
+              },
+              {
+                "label": "b",
+                "text": "Faktor b"
+              },
+              {
+                "label": "c",
+                "text": "Faktor c"
+              },
+              {
+                "label": "d",
+                "text": "Faktor d"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Faktor b berpengaruh langsung..."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "[Basic_Reading Modul 2] Manakah yang BUKAN merupakan ciri dari pendekatan pembelajaran yang dibahas?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ciri a"
+              },
+              {
+                "label": "b",
+                "text": "Ciri b"
+              },
+              {
+                "label": "c",
+                "text": "Ciri c"
+              },
+              {
+                "label": "d",
+                "text": "Ciri yang bukan"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Ciri yang bukan sesuai dengan karakteristik pendekatan yang dibahas."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "[Basic_Reading Modul 2] Dalam menerapkan konsep ini, langkah pertama yang dilakukan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Langkah a"
+              },
+              {
+                "label": "b",
+                "text": "Langkah b"
+              },
+              {
+                "label": "c",
+                "text": "Langkah c"
+              },
+              {
+                "label": "d",
+                "text": "Langkah d"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Langkah a merupakan awal dari proses penerapan."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "[Basic_Reading Modul 2] Dampak positif dari penerapan konsep ini antara lain...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Dampak a"
+              },
+              {
+                "label": "b",
+                "text": "Dampak b"
+              },
+              {
+                "label": "c",
+                "text": "Dampak c"
+              },
+              {
+                "label": "d",
+                "text": "Semua di atas benar"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Kombinasi dampak a, b, dan c terjadi bersamaan."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "[Basic_Reading Modul 2] Perspektif kritis mengenai konsep ini menyarankan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Perspektif a"
+              },
+              {
+                "label": "b",
+                "text": "Perspektif b"
+              },
+              {
+                "label": "c",
+                "text": "Perspektif c"
+              },
+              {
+                "label": "d",
+                "text": "Perspektif d"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Perspektif c menawarkan tinjauan alternatif yang penting."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Previewing a text can involve looking at the __________, subtitles, images, captions, and the first paragraph.",
+            "kunci": [
+              "title"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "When you __________ while reading, you use clues from the text and your own experience to guess what will happen or be explained next.",
+            "kunci": [
+              "predict"
+            ]
+          },
+          {
+            "no": 11,
+            "pertanyaan": "A reader's __________ is the collection of things they already know that helps them understand new information.",
+            "kunci": [
+              "schema",
+              "prior knowledge",
+              "background knowledge"
+            ]
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Good readers often __________ their predictions when the text provides new or conflicting information.",
+            "kunci": [
+              "revise",
+              "adjust",
+              "change"
+            ]
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Looking at the structure of a text — such as numbered sections, bullet points, and headings — is part of __________ strategy.",
+            "kunci": [
+              "previewing"
+            ]
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Predicting helps keep readers __________ because they have a reason to check whether their guess was correct.",
+            "kunci": [
+              "engaged",
+              "active",
+              "involved"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Explain the difference between previewing and predicting! How do these two strategies work together during reading?",
+            "kunci": "Previewing adalah tindakan melihat sekilas teks (judul, subjudul, gambar, struktur) untuk membangun gambaran umum sebelum membaca mendalam. Predicting adalah membuat dugaan/informed guess tentang apa yang akan datang berdasarkan petunjuk yang ada, termasuk hasil preview. Keduanya bekerja bersama: previewing memberikan bahan (judul, gambar, kata kunci) yang digunakan pembaca untuk membuat prediksi; prediksi selanjutnya memandu perhatian saat membaca, dan pembaca terus memperbarui prediksinya berdasarkan informasi baru. Jadi previewing = pengumpulan petunjuk awal; predicting = penggunaan petunjuk tersebut untuk menebak isi selanjutnya."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Describe a real-life situation (academic or daily life) where previewing a text would save time or improve understanding. What would you look at, and why?",
+            "kunci": "Contoh situasi: Sebelum membaca artikel jurnal panjang tentang 'Climate Change and Biodiversity', seorang mahasiswa melakukan previewing dengan membaca judul, abstrak, subjudul, melihat grafik, dan membaca kalimat topic sentence di setiap paragraf. Tujuannya: (1) mengenali fokus utama artikel; (2) mengidentifikasi bagian yang paling relevan dengan kebutuhan tugas; (3) mengaktifkan pengetahuan sebelumnya tentang climate change. Previewing menghemat waktu karena mahasiswa bisa fokus pada bagian penting, tidak terjebak membaca setiap kata dari awal, dan lebih siap menangkap argumen penulis."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "Why is it important to revise predictions during reading? What happens if a reader keeps a wrong prediction without adjusting it?",
+            "kunci": "Mengevaluasi dan merevisi prediksi penting karena: (1) memastikan pemahaman selaras dengan teks, bukan sekadar menegaskan asumsi awal yang salah; (2) mendorong keterlibatan aktif — pembaca terus memantau apakah teks mengonfirmasi atau menyangkal prediksi; (3) membangun pemahaman yang akurat dan fleksibel. Jika pembaca mempertahankan prediksi yang salah, ia berisiko misinterpretasi isi teks, melewatkan informasi penting yang bertentangan, atau sampai pada kesimpulan yang tidak didukung teks (misalnya membaca konteks 'efek negatif' tapi prediksi awalnya 'semua manipulasi sosial media sangat buruk', lalu teks justru membahas juga manfaatnya)."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "[Basic_Reading Modul 2] Bagaimana cara menerapkan konsep ini dalam situasi nyata yang lebih kompleks? Jelaskan langkah-langkah dan kendala yang mungkin dihadapi.",
+            "kunci": "Jawaban model: Jelaskan langkah-langkah penerapan dengan mempertimbangkan variabel yang ada, serta identifikasi kendala dan strategi mengatasinya."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "[Basic_Reading Modul 2] Analisis hubungan antar konsep dalam modul ini! Mengapa hubungan tersebut penting untuk dipahami?",
+            "kunci": "Jawaban model: Identifikasi hubungan antar konsep, jelaskan mengapa hubungan tersebut penting, dan berikan contoh bagaimana pemahaman hubungan meningkatkan efektivitas."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 18,
+            "pertanyaan": "You are about to read a long article titled 'The History of the Internet (1960-2000)'. Which previewing step would be MOST helpful first?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Memorize all dates mentioned"
+              },
+              {
+                "label": "b",
+                "text": "Look at the title, section headings, and timeline images if any"
+              },
+              {
+                "label": "c",
+                "text": "Read only the conclusion"
+              },
+              {
+                "label": "d",
+                "text": "Translate the article into your language first"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Melihat judul, subjudul, dan visual (timeline) memberi kerangka waktu dan struktur sebelum masuk ke detail — strategi previewing yang efektif."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "After previewing a chapter on 'Photosynthesis', you predict the text will explain... (choose the MOST likely)",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "How plants convert light into energy"
+              },
+              {
+                "label": "b",
+                "text": "How to cook vegetables"
+              },
+              {
+                "label": "c",
+                "text": "The history of gardening tools"
+              },
+              {
+                "label": "d",
+                "text": "Different types of soil only"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "'Photosynthesis' adalah proses fotosintesis — prediksi logis bahwa teks akan membahas konversi cahaya menjadi energi pada tumbuhan."
+          },
+          {
+            "no": 20,
+            "pertanyaan": "Which of the following is a sign that your prediction was incorrect and needs revision?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "The text confirms exactly what you guessed"
+              },
+              {
+                "label": "b",
+                "text": "You find information in the text that contradicts your prediction"
+              },
+              {
+                "label": "c",
+                "text": "You finish reading quickly"
+              },
+              {
+                "label": "d",
+                "text": "You used a dictionary"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Jika teks mengandung informasi yang bertentangan dengan prediksi, itu tanda prediksi perlu direvisi agar sesuai dengan isi sebenarnya."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "A student sees a heading 'Causes and Effects of Air Pollution.' What is a sensible prediction about the chapter structure?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "The chapter will list causes first, then describe effects"
+              },
+              {
+                "label": "b",
+                "text": "The chapter will be only about solutions"
+              },
+              {
+                "label": "c",
+                "text": "The chapter will focus exclusively on indoor air"
+              },
+              {
+                "label": "d",
+                "text": "The chapter has no logical order"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Heading 'Causes and Effects' mengindikasikan urutan logis: membahas penyebab terlebih dahulu, lalu dampak/efeknya — pola umum dalam teks eksposisi."
+          },
+          {
+            "no": 22,
+            "pertanyaan": "When previewing, you notice 'Figure 3.2: CO2 Emissions by Country, 1990-2020'. What does this tell you about the text likely content?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "The text will primarily discuss CO2 emissions and likely compare countries over time"
+              },
+              {
+                "label": "b",
+                "text": "The text is a fictional story"
+              },
+              {
+                "label": "c",
+                "text": "The text has nothing to do with environment"
+              },
+              {
+                "label": "d",
+                "text": "The text only discusses 1990"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Judul gambar menunjukkan teks akan membahas emisi CO2, perbandingan antar negara, dan tren dari 1990-2020 — petunjuk kuat tentang fokus konten."
+          }
+        ]
+      }
+    }
+  ]
+}

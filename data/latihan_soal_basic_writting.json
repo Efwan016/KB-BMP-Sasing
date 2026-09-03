@@ -1,0 +1,3220 @@
+{
+  "mataKuliah": "Basic_Writing",
+  "moduls": [
+    {
+      "modul": 1,
+      "judul": "Menulis Paragraf Terstruktur",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Unsur utama yang harus ada dalam setiap paragraf adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kalimat utama"
+              },
+              {
+                "label": "b",
+                "text": "Kalimat penutup"
+              },
+              {
+                "label": "c",
+                "text": "Kata-kata yang berlebihan"
+              },
+              {
+                "label": "d",
+                "text": " Kutipan dari buku"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Setiap paragraf minimal memiliki kalimat utama yang mengandung gagasan utama."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Fungsi kalimat utama dalam paragraf adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Memperkenalkan gagasan utama paragraf"
+              },
+              {
+                "label": "b",
+                "text": "Hanya sebagai pengantar"
+              },
+              {
+                "label": "c",
+                "text": "Mengulang ide yang sama"
+              },
+              {
+                "label": "d",
+                "text": "Mengakhiri paragraf"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kalimat utama berfungsi memperkenalkan gagasan utama yang akan dikembangkan dalam paragraf."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Paragraf yang kalimat utamanya terletak di awal disebut...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Paragraf deduktif"
+              },
+              {
+                "label": "b",
+                "text": "Paragraf induktif"
+              },
+              {
+                "label": "c",
+                "text": "Paragraf naratif"
+              },
+              {
+                "label": "d",
+                "text": "Paragraf campuran"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Paragraf deduktif menempatkan kalimat utama di awal, lalu diikuti kalimat penjelas."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Paragraf yang kalimat utamanya terletak di akhir paragraf disebut...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Paragraf induktif"
+              },
+              {
+                "label": "b",
+                "text": "Paragraf deduktif"
+              },
+              {
+                "label": "c",
+                "text": "Paragraf deskriptif"
+              },
+              {
+                "label": "d",
+                "text": "Paragraf eksposisi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Paragraf induktif menempatkan kalimat utama di akhir setelah kalimat penjelas."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Ciri-ciri paragraf yang baik, kecuali...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Koheren dan kohesif"
+              },
+              {
+                "label": "b",
+                "text": "Memiliki kalimat utama"
+              },
+              {
+                "label": "c",
+                "text": "Panjang paragraf seragam"
+              },
+              {
+                "label": "d",
+                "text": "Kalimat penyusun saling berkaitan"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Panjang paragraf tidak harus seragam; yang penting koherensi dan kohesi."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Transisi dalam paragraf berfungsi untuk...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menghubungkan antar kalimat atau antar paragraf"
+              },
+              {
+                "label": "b",
+                "text": "Menambah panjang tulisan"
+              },
+              {
+                "label": "c",
+                "text": "Mengulang gagasan"
+              },
+              {
+                "label": "d",
+                "text": "Memperkenalkan topik baru"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Transisi membantu aliran gagasan antar kalimat/konjungsi antar paragraf."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Struktur paragraf yang baik umumnya terdiri dari...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kalimat utama, kalimat penjelas, dan kalimat penutup"
+              },
+              {
+                "label": "b",
+                "text": "Hanya kalimat utama"
+              },
+              {
+                "label": "c",
+                "text": "Kalimat utama dan kata sambung"
+              },
+              {
+                "label": "d",
+                "text": "Kalimat pembuka, isi, dan kutipan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Paragraf efektif umumnya terdiri dari kalimat utama, penjelas, dan penutup."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Perhatikan paragraf berikut: 'Kesehatan adalah harta yang tak ternilai. Tubuh yang sehat dapat melakukan aktivitas dengan optimal. Selain itu, kesehatan juga mempengaruhi kualitas hidup. Oleh karena itu, menjaga kesehatan adalah kewajiban setiap orang.' Bagaimana pola pengembangan paragraf tersebut?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Deduktif: kalimat utama di awal, diikuti penjelas dan penutup"
+              },
+              {
+                "label": "b",
+                "text": "Induktif: diakhiri dengan kalimat utama"
+              },
+              {
+                "label": "c",
+                "text": "Naratif: menceritakan kejadian"
+              },
+              {
+                "label": "d",
+                "text": "Deskriptif: menggambarkan objek"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Paragraf dimulai dengan gagasan utama (kesehatan adalah harta), lalu dijelaskan dan ditutup dengan simpulan."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "Cara mengembangkan paragraf agar lebih menarik adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menggunakan variasi panjang kalimat dan kata konkret"
+              },
+              {
+                "label": "b",
+                "text": "Mengulang gagasan utama berulang kali"
+              },
+              {
+                "label": "c",
+                "text": "Hanya menggunakan kata sifat"
+              },
+              {
+                "label": "d",
+                "text": "Menambahkan angka sembarangan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Variasi panjang kalimat dan kata konkret membuat paragraf lebih hidup."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Paragraf yang kalimat utama terdapat di awal dan akhir paragraf disebut paragraf...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Campuran (deduktif-induktif)"
+              },
+              {
+                "label": "b",
+                "text": "Deduktif"
+              },
+              {
+                "label": "c",
+                "text": "Induktif"
+              },
+              {
+                "label": "d",
+                "text": "Naratif"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pola campuran menempatkan kalimat utama di awal dan menguatkan di akhir."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Kalimat yang SALAH secara tata bahasa adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Dia pergi ke sekolah dengan sepeda."
+              },
+              {
+                "label": "b",
+                "text": "Dia pergi ke sekolah."
+              },
+              {
+                "label": "c",
+                "text": "Dia ke sekolah pergi."
+              },
+              {
+                "label": "d",
+                "text": "Dia berjalan kaki ke sekolah."
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Urutan subjek-verb-objek yang benar: 'Dia pergi ke sekolah' — 'Dia ke sekolah pergi' salah."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Manakah yang termasuk kalimat efektif?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Murid-murid mengikuti pelajaran dengan aktif."
+              },
+              {
+                "label": "b",
+                "text": "Murid murid mengikuti pelajaran dengan aktif."
+              },
+              {
+                "label": "c",
+                "text": "Murid murid mengikuti pelajaran dengan aktif"
+              },
+              {
+                "label": "d",
+                "text": "Murid-murid mengikuti pelajaran dengan aktif,"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kalimat efektif: subjek-verb-objek jelas, tidak ada kata berulang tidak perlu, tanda baca tepat."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Fungsi kata penghubung (konjungsi) dalam paragraf adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menghubungkan antar kata/kalimat agar alur logis"
+              },
+              {
+                "label": "b",
+                "text": "Membuat tulisan terlihat lebih panjang"
+              },
+              {
+                "label": "c",
+                "text": "Mengantar topik baru"
+              },
+              {
+                "label": "d",
+                "text": "Mengakhiri paragraf"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Konjungsi berfungsi sebagai sambung antar elemen bahasa agar alur logis."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Kesalahan umum dalam membuat paragraf adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kalimat terlalu panjang tanpa batas"
+              },
+              {
+                "label": "b",
+                "text": "Menggunakan kata sambung yang tepat"
+              },
+              {
+                "label": "c",
+                "text": "Menyusun ide secara logis"
+              },
+              {
+                "label": "d",
+                "text": " Membatasi kalimat dalam satu ide"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Paragraf yang efektif tidak menggunakan kalimat yang terlalu panjang sehingga bingung."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Surat yang formal berisi salam pembuka, __________, __________ dan salam penutup.",
+            "kunci": [
+              "isi/message",
+              "penutup"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Dalam paragraf naratif, struktur umumnya ialah __________ → __________ → __________. (alin: orientasi-inisiasi → komplikasi → resolusi)",
+            "kunci": [
+              "orientasi",
+              "komplikasi",
+              "resolusi"
+            ]
+          },
+          {
+            "no": 3,
+            "pertanyaan": "[Basic_Writing Modul 1] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 4,
+            "pertanyaan": "[Basic_Writing Modul 1] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 5,
+            "pertanyaan": "[Basic_Writing Modul 1] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 6,
+            "pertanyaan": "[Basic_Writing Modul 1] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Analisislah struktur paragraf berikut! 'Hutan adalah paru-paru bumi. Ia menyerap karbon dioksida dan memproduksi oksigen. Selain itu, hutan menjadi habitat bagi ribuan spesies. Sayangnya, deforestation semakin mengancam keberlangsungan hutan. Oleh karena itu, kita harus melindungi hutan.' Kalimat utama, kalimat penjelas, dan kalimat penutupnya masing-masing mana?",
+            "kunci": "Jawaban: Kalimat utama di awal: 'Hutan adalah paru-paru bumi'. Kalimat penjelas: 'Ia menyerap karbon dioksida dan memproduksi oksigen. Selain itu, hutan menjadi habitat...'. Kalimat penutup: 'Sayangnya, deforestasi semakin mengancam... Oleh karena itu, kita harus melindungi hutan.' Paragraf ini menggunakan pola deduktif dengan penekanan di akhir."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Tulislah sebuah paragraf pendek (5 kalimat) dengan tema 'Manfaat membaca buku setiap hari'. Gunakan kalimat utama di awal dan pengembangan dengan kalimat penjelas yang konkret!",
+            "kunci": "Jawaban model: Membaca buku setiap hari memberikan manfaat yang luar biasa bagi pikiran dan emosi. Pertama, membaca memperluas kosakata dan meningkatkan pemahaman bahasa. Kedua, dengan membaca, kita belajar berpikir kritis melalui paparan ide yang beragam. Ketiga, membaca buku dapat menjadi pelarian dari stres dan meningkatkan fokus. Akhirnya, kebiasaan membaca terus-menerus mendukung pembelajaran seumur hidup."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "Jelaskan perbedaan paragraf deduktif dan induktif! Mengapa kedua pola ini penting dalam penulisan akademis?",
+            "kunci": "Jawaban: Paragraf deduktif menempatkan gagasan utama di awal dan memperjelas dengan contoh/data berikutnya; pola ini langsung memberi arah. Paragraf induktif bermula dengan detail dan menyimpulkan di akhir; pola ini membangun argumen bertahap. Keduanya penting dalam akademis karena deduktif efektif untuk kesimpulan/makna umum, induktif efektif untuk pembahasan bukti/observasi yang memimpin ke simpulan."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Analisislah paragraf berikut dan tunjukkan kesalahan strukturalnya! 'Makanan sehat itu penting. Kita perlu makan buah. Juga sayuran yang bagus. Seperti wortel, bayam, dan tomat. Juga protein seperti telur. Juga biji-bijian. Juga air putih. Juga olahraga.' Jelaskan dan sarankan perbaikan!",
+            "kunci": "Jawaban: Paragraf ini buruk karena terlalu banyak kalimat pendek yang tidak saling berkaitan, tanpa kalimat utama yang tegas, tanpa transisi, dan terlalu bersifat terpisah-pisah (semua daftar tanpa hubungan logis). Perbaikan: Mulai dengan kalimat utama mis. 'Makanan sehat harus terdiri dari kombinasi yang seimbang.' Lalu kembangkan dengan cara mengelompokkan: buah dan sayuran, protein, biji-bijian, air, dan aktivitas fisik dalam kalimat yang mengalir dengan kata sambung seperti 'selain itu', 'seperti', 'serta'."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Berikan contoh paragraf koheren yang baik dengan menggunakan kata transisi yang tepat! Jelaskan peran masing-masing transisi yang kamu gunakan dan bagaimana mereka meningkatkan alur tulisan!",
+            "kunci": "Jawaban: 'Pertama, belajar kelompok membantu siswa memahami materi yang sulit. Selain itu, diskusi ini juga melatih keterampilan komunikasi. Selanjutnya, kerja sama ini dapat mempersiapkan siswa menghadapi tantangan dunia nyata. Oleh karena itu, belajar kelompok sangat bermanfaat bagi pengembangan akademik dan sosial siswa.' Transisi yang digunakan: 'Pertama' untuk pengantar poin pertama, 'Selain itu' untuk menambah poin, 'Selanjutnya' untuk alur waktu/urutan, 'Oleh karena itu' untuk simpulan logis. Mereka memperkuat hubungan antar kalimat."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 20,
+            "pertanyaan": "Dalam berita online, sering ditemukan paragraf yang mengandung informasi penting di awal. Jenis paragraf yang cocok untuk berita adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Paragraf deduktif"
+              },
+              {
+                "label": "b",
+                "text": "Paragraf induktif"
+              },
+              {
+                "label": "c",
+                "text": "Paragraf deskriptif"
+              },
+              {
+                "label": "d",
+                "text": "Paragraf naratif"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Berita singkat membutuhkan informasi utama di awal agar pembaca cepat paham; itu karakteristik paragraf deduktif."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "Di perusahaan, Anda perlu mempresentasikan ide kepada rekan kerja. Struktur presentasi yang efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pendahuluan, argumen utama, bukti, simpulan"
+              },
+              {
+                "label": "b",
+                "text": "Hanya argumen tanpa pendahuluan"
+              },
+              {
+                "label": "c",
+                "text": "Secara acak ide yang paling menarik di awal"
+              },
+              {
+                "label": "d",
+                "text": "Pendahuluan, lalu langsung ke simpulan tanpa argumen"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Presentasi efektif: perkenalkan topik, buat argumen, berikan bukti, dan akhiri dengan simpulan."
+          },
+          {
+            "no": 22,
+            "pertanyaan": "Ketika menulis ulang paragraf yang sulit dipahami, langkah yang pertama dilakukan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Mengidentifikasi kalimat utama dan kalimat yang tidak relevan"
+              },
+              {
+                "label": "b",
+                "text": "Menambah kata untuk membuat lebih panjang"
+              },
+              {
+                "label": "c",
+                "text": "Mengganti semua kata dengan sinonim"
+              },
+              {
+                "label": "d",
+                "text": "Menghapus semua tanda baca"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Analisis: identifikasi gagasan utama, buang yang tidak relevan, kemudian susun ulang secara logis."
+          },
+          {
+            "no": 23,
+            "pertanyaan": "Strategi mengembangkan paragraf agar koheren adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Gunakan transisi yang tepat, jaga konsistensi ide, dan sambungkan kalimat secara logis"
+              },
+              {
+                "label": "b",
+                "text": "Biarkan kalimat berdiri sendiri"
+              },
+              {
+                "label": "c",
+                "text": "Gunakan kata yang berulang dalam setiap kalimat"
+              },
+              {
+                "label": "d",
+                "text": "Tulis seacak dengan tidak terkait"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kohesi dibangun lewat transisi, konsistensi, dan hubungan logis antar kalimat."
+          },
+          {
+            "no": 24,
+            "pertanyaan": "Untuk meningkatkan keterampil membaca Anda, Anda menyimpulkan ide pokok dan mengembangkan ide tersebut dalam paragraf. Metode yang tepat adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menulis ulang ide dalam bahasa sendiri, menambahkan contoh, dan tetap mematuhi struktur paragraf"
+              },
+              {
+                "label": "b",
+                "text": "Menyalin teks asli"
+              },
+              {
+                "label": "c",
+                "text": "Menulis ide buta-buta tanpa struktur"
+              },
+              {
+                "label": "d",
+                "text": "Hanya menulis kalimat terbuka tanpa penjelas"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Menulis ulang dengan bahasa sendiri + contoh + struktur paragraf yang baik meningkatkan pemahaman dan keterampilan."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 2,
+      "judul": "Kalimat Efektif: Subjek, Predikat, dan Objek",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Dalam kalimat efektif, urutan kata yang benar adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Subjek, predikat, objek"
+              },
+              {
+                "label": "b",
+                "text": "Objek, subjek, predikat"
+              },
+              {
+                "label": "c",
+                "text": "Predikat, subjek, objek"
+              },
+              {
+                "label": "d",
+                "text": "Subjek, objek, predikat"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kalimat efektif mengikuti urutan S-P-O agar logis dan mudah dipahami."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Kalimat yang tidak memiliki subjek dan predikat disebut kalimat...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Belakang (fragmen)"
+              },
+              {
+                "label": "b",
+                "text": "Efektif"
+              },
+              {
+                "label": "c",
+                "text": "Judul"
+              },
+              {
+                "label": "d",
+                "text": " Sempurna"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kalimat yang tidak lengkap (tidak ada subjek atau predikat) disebut kalimat terpotong/fragment."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Kalimat 'Buku itu dibaca oleh Budi' adalah kalimat...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pasif"
+              },
+              {
+                "label": "b",
+                "text": "Aktif"
+              },
+              {
+                "label": "c",
+                "text": "Tidak efektif"
+              },
+              {
+                "label": "d",
+                " text": "Kedua-duanya benar"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Subjek (buku) dikenai tindakan (dibaca) → kalimat pasif."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Manakah yang merupakan subjek dari kalimat 'Jika hujan, saya akan tetap datang'?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "saya"
+              },
+              {
+                "label": "b",
+                "text": "hujan"
+              },
+              {
+                "label": "c",
+                "text": "datang"
+              },
+              {
+                "label": "d",
+                "text": " Datang"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Siapa yang melakukan tindakan? 'saya' → subjek utama."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Dalam kalimat 'Mereka sangat senang mendapatkan hadiah', predikatnya adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "senang"
+              },
+              {
+                "label": "b",
+                "text": "sangat"
+              },
+              {
+                "label": "c",
+                "text": "mendapatkan"
+              },
+              {
+                "label": "d",
+                "text": "hadiah"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kata yang menunjukkan tindakan/keadaan subjek: 'senang' → predikat."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Lambang subjek yang tepat dalam kalimat aktif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Penggunaan kata ganti 'dia/aku/kami/dia' atau kata benda"
+              },
+              {
+                "label": "b",
+                "text": "Kata kerja"
+              },
+              {
+                "label": "c",
+                "text": "Kata sifat"
+              },
+              {
+                "label": "d",
+                "text": "Tanda baca"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Subjek biasanya kata benda atau kata ganti yang melakukan tindakan."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Fungsi objek dalam kalimat adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menerima tindakan dari subjek"
+              },
+              {
+                "label": "b",
+                "text": "Melakukan tindakan"
+              },
+              {
+                "label": "c",
+                "text": "Mendeskripsikan subjek"
+              },
+              {
+                "label": "d",
+                "text": "Menutup kalimat"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Objek menerima tindakan dari subjek/verb; objek tidak melakukan tindakan."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Perhatikan: 'Buku novel yang saya beli kemarin di toko buku уже membaca'. Kalimat ini SALAH karena...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Objek tidak jelas tempatnya"
+              },
+              {
+                "label": "b",
+                "text": "Subjek dan objek tertukar"
+              },
+              {
+                "label": "c",
+                "text": "Kata 'buku' diulang dua kali"
+              },
+              {
+                "label": "d",
+                "text": "Kalimat sudah benar"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kalimat ini memiliki masalah karena objek (yang dibaca) tidak jelas dan ada redundansi."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "Prosedur memperbaiki kalimat efektif antara lain...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menghapus kata yang tidak perlu, meratakan pola S-P-O, periksa tanda baca"
+              },
+              {
+                "label": "b",
+                "text": "Menambah kata"
+              },
+              {
+                "label": "c",
+                "text": "Mengganti subjek dengan kata lain"
+              },
+              {
+                "label": "d",
+                "text": "Menambahkan lebih banyak klausa"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Efektif: hilangkan yang tidak perlu, jaga pola S-P-O, dan perbaiki tanda baca."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Manakah yang merupakan kalimat efektif?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Dia sangat rajin belajar setiap malam."
+              },
+              {
+                "label": "b",
+                "text": "Dia sangat, sangat, sangat rajin belajar setiap malam."
+              },
+              {
+                "label": "c",
+                "text": "Dia rajin belajar setiap malam sangat."
+              },
+              {
+                "label": "d",
+                "text": "Setiap malam dia sangat sangat rajin belajar."
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kalimat efektif: tidak ada pengulangan kata yang berlebihan."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Fungsi konjungsi koordinatif antara lain...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menghubungkan dua klausa setara"
+              },
+              {
+                "label": "b",
+                "text": "Memimpin klausa dependen"
+              },
+              {
+                "label": "c",
+                "text": "Mengakhiri kalimat"
+              },
+              {
+                "label": "d",
+                "text": "Mengganti subjek"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Konjungsi koordinatif seperti 'dan', 'tetapi', 'atau' menghubungkan klausa setara."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Dalam kalimat 'Meskipun hujan, acara tetap dilanjutkan', konjungsi subordinatifnya adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Meskipun"
+              },
+              {
+                "label": "b",
+                "text": "tetap"
+              },
+              {
+                "label": "c",
+                "text": "acara"
+              },
+              {
+                "label": "d",
+                "text": "dilanjutkan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "'Meskipun' memperkenalkan klausa dependen (anak kalimat)."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Perbeda utama kalimat efektif versus tidak efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kalimat efektif: gagasan jelas, tata bahasa benar, dan langsung dipahami"
+              },
+              {
+                "label": "b",
+                "text": "Kalimat efektif selalu panjang"
+              },
+              {
+                "label": "c",
+                "text": "Kalimat tidak efektif lebih singkat"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada perbedaan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Efektif: jelas, benar tata bahasa, dan langsung dipahami oleh pembaca."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Langkah pertama dalam memodifikasi paragraf yang tidak efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Identifikasi kalimat yang bermasalah dan koreksi"
+              },
+              {
+                "label": "b",
+                "text": "Hapus semua kalimat"
+              },
+              {
+                "label": "c",
+                "text": "Ganti dengan kalimat yang lebih panjang"
+              },
+              {
+                "label": "d",
+                "text": "Salin dari sumber lain"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Identifikasi kalimat bermasalah, lalu perbaiki; jangan hapus sembarangan."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Dalam kalimat efektif, subjek harus sesuai dengan __________ dan predikat harus sesuai dengan _________.",
+            "kunci": [
+              "predikat",
+              "subjek"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Perbaikan kalimat yang sebagian besar salah (persamaan subjek dengan lebih dari satu kata) melibatkan __________.",
+            "kunci": [
+              "pengecekan",
+              "penyesuaian"
+            ]
+          },
+          {
+            "no": 3,
+            "pertanyaan": "[Basic_Writing Modul 2] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 4,
+            "pertanyaan": "[Basic_Writing Modul 2] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 5,
+            "pertanyaan": "[Basic_Writing Modul 2] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 6,
+            "pertanyaan": "[Basic_Writing Modul 2] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Bandingkan kalimat efektif dan tidak efektif berikut: (1) 'Ibu memasak nasi goreng yang sangat enak sekali untuk keluarga saya.' vs (2) 'Ibu memasak nasi goreng yang enak untuk keluarga.' Jelaskan perbaikan yang dilakukan dan mengapa kalimat kedua lebih efektif!",
+            "kunci": "Jawaban: Kalimat 1 bermasalah karena kata 'sekali', 'sangat' berlebihan dan redundan. Kalimat 2 lebih ringkas, langsung ke inti, dan tidak berulang. Efektifitas dicapai dengan membuang kata sifat yang tidak perlu dan mempertahankan makna yang sama."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Tuliskan kembali paragraf berikut dengan memperbaiki kalimat efektifnya! 'Pembangunan infrastruktur jalan raya di Indonesia, pemerintah berusaha meningkatkan kualitas jalan yang sudah ada, dan pemerintah juga membangun jalan baru. Dengan demikian, populasi kendaraan bertambah. Jadi, ini mengakibatkan masalah pada lalu lintas.'",
+            "kunci": "Jawaban model: Pembangunan infrastruktur jalan raya di Indonesia dilakukan pemerintah dengan meningkatkan kualitas jalan yang sudah ada dan membangun jalan baru. Hal ini mengakibatkan bertambahnya jumlah kendaraan dan pada gilirannya menimbulkan masalah lalu lintas. Perbaikan: hilangkan pengulangan 'pemerintah', gabung kalimat yang terpisah, dan susun logis."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "Jelaskan konsep kalimat efektif dan mengapa hal itu penting dalam komunikasi baik lisan maupun tulisan!",
+            "kunci": "Jawaban: Kalimat efektif adalah kalimat yang langsung dipahami, tepat, tidak berbelit, dan sesuai tata bahasa. Penting karena memungkinkan komunikasi yang efisien, meminimalkan kesalahpahaman, dan meningkatkan kredibilitas komunikator."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Analisislah struktur subjek-predikat-objek dalam kalimat-kalimat berikut! 'Ibu memasak nasi di dapur', 'Buku diterbaca oleh adik', 'Kami sangat senang mendengar kabar baik darinya'. Tuliskan subjek, predikat, dan objek masing-masing!",
+            "kunci": "Jawaban: (1) Ibu (S) memasak (P) nasi (O). (2) Buku (S) diterbaca (P) oleh adik (pelengkap). (3) Kami (S) sangat senang mendengar (P) kabar baik darinya (O). Catatan: 'oleh adik' bukan objek melainkan pelengkap."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "[Basic_Writing Modul 2] Analisislah paragraf berikut dan tunjukkan apakah strukturnya baik atau tidak! Jelaskan dan berikan saran perbaikan!",
+            "kunci": "Jawaban model: Analisis struktur (kalimat utama, penjelas, penutup), identifikasi kelemahan (kalimat terlalu panjang, kurang transisi, dll), dan berikan saran perbaikan yang konkret."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 20,
+            "pertanyaan": "Dalam email formal kepada atasan, Anda harus menyampaikan permintaan cuti. Kalimat yang paling efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Saya ingin cuti tiga hari minggu depan karena alasan keluarga."
+              },
+              {
+                "label": "b",
+                "text": "Hi boss, I want take leave 3 days next week penghuni keluarga reason."
+              },
+              {
+                "label": "c",
+                "text": "Assalamualaikum, saya minta izin cuti 3 hari pada minggu depan karena urusan keluarga yang mendesak."
+              },
+              {
+                "label": "d",
+                "text": "Kepada semua, saya mau cuti, bye."
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Kalimat efektif: sopan, lengkap (salam, permintaan konkret, alasan singkat), dan sesuai konteks formal."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "Di kelas, guru bertanya: 'Siapa yang bisa menjelaskan perbedaan subjek dan objek?' Jawaban yang efektif dari siswa adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Subjek melakukan tindakan; objek menerima tindakan."
+              },
+              {
+                "label": "b",
+                "text": "Subjek itu seperti orang yang melakukan, objekt itu orang yang dikenai."
+              },
+              {
+                "label": "c",
+                "text": "Kalo dalam kalimat Bahasa Inggris, subjek itu S, objekt O, gitu."
+              },
+              {
+                "label": "d",
+                "text": "Mungkin begini: subjekt itu pelaku, objekt itu yang dikenain pela."
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Jawaban efektif: jelas, ringkas, langsung menjawab pertanyaan dengan definisi yang tepat."
+          },
+          {
+            "no": 22,
+            "pertanyaan": "Anda perlu menulis laporan untuk dosen. Struktur yang paling efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pendahuluan (latar belakang), isi (pembahasan), dan penutup (kesimpulan)"
+              },
+              {
+                "label": "b",
+                "text": "Pendahuluan kemudian langsung simpulan"
+              },
+              {
+                "label": "c",
+                "text": "Hanya isi tanpa pendahuluan dan penutup"
+              },
+              {
+                "label": "d",
+                "text": "Pendahuluan, isi, kemudian ulang pendahuluan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Laporan efektif: pendahuluan (latar belakang/masalah), isi (pembahasan/data), dan penutup (simpulan/saran)."
+          },
+          {
+            "no": 23,
+            "pertanyaan": "Para siswa diminta menulis esai 'Mengapa membaca buku penting bagi generasi muda'. Argumen yang efektif yang pertama diberikan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Membaca buku meningkatkan kosakata, imajinasi, dan pengetahuan."
+              },
+              {
+                "label": "b",
+                "text": "Buku itu enak-enak saja."
+              },
+              {
+                "label": "c",
+                "text": "Buku itu bagus untuk tidur."
+              },
+              {
+                "label": "d",
+                "text": "Buku itu penting, jadi pentinglah."
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Argumen efektif: spesifik, relevan, dan mampu mengembangkan pembahasan tentang manfaat."
+          },
+          {
+            "no": 24,
+            "pertanyaan": "Untuk memperbaiki kalimat 'Murid-murid murid mengikuti pelajaran dengan aktif dalam pelajaran Bahasa Inggris yang sangat sangat sangat menarik', langkah yang tepat adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Hapus kata berulang dan kata sifat yang berlebihan, perbaiki tata bahasa"
+              },
+              {
+                "label": "b",
+                "text": "Tambahkan lebih banyak kata"
+              },
+              {
+                "label": "c",
+                "text": "Biarkan seperti itu, ini artinya jelas"
+              },
+              {
+                "label": "d",
+                "text": "Ganti mata pelajaran menjadi yang lain"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Perbaikan: hapus repetisi 'murid-murid murid' dan 'sangat sangat sangat', perbaiki pola."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 3,
+      "judul": "Kosakata dan Penggunaan Kata yang Tepat",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Dalam konteks menulis __________, elemen paling mendasar adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ide utama yang jelas"
+              },
+              {
+                "label": "b",
+                "text": "Kata bersambung yang tepat"
+              },
+              {
+                "label": "c",
+                "text": " Sumber yang cukup"
+              },
+              {
+                "label": "d",
+                "text": "Penulisan yang panjang"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Ide utama yang jelas menjadi fondasi efektif menulis."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Strategi yang paling efektif untuk _________ adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Praktik rutin dengan umpan balik"
+              },
+              {
+                "label": "b",
+                "text": "Menghafal kata"
+              },
+              {
+                "label": "c",
+                "text": "Menggunakan kata yang panjang"
+              },
+              {
+                "label": "d",
+                "text": "Menulis tanpa struktur"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Praktik rutin dengan umpan balik membangun keterampilan yang berkelanjutan."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Manakah yang BUKAN merupakan ciri paragraf yang baik?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Koheren"
+              },
+              {
+                "label": "b",
+                "text": "Terdiri dari ide yang berlebihan"
+              },
+              {
+                "label": "c",
+                "text": " Memiliki kalimat utama"
+              },
+              {
+                "label": "d",
+                "text": "Satu fokus"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Paragraf yang baik memiliki satu fokus dan tidak berlebihan."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Dampak dari penggunaan kalimat yang efektif dalam komunikasi terhadap pembaca adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pesan mudah dipahami dan meyakinkan"
+              },
+              {
+                "label": "b",
+                "text": "Pesan bagi dipahami karena panjang"
+              },
+              {
+                "label": "c",
+                "text": "Pembaca cepat bosan"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada dampak"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kalimat efektif memudahkan pemahaman dan meningkatkan dampak komunikasi."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Tujuan utama penggunaan transisi dalam paragraf adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menjaga aliran gagasan antar kalimat"
+              },
+              {
+                "label": "b",
+                "text": "Memperluas panjang paragraf"
+              },
+              {
+                "label": "c",
+                "text": "Mengulang poin yang sama"
+              },
+              {
+                "label": "d",
+                "text": "Memperkenalkan topik baru"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Transisi menjaga aliran logis antar kalimat dan paragraf."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Perilaku komunikasi yang paling sesuai dengan prinsip ________ adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menyampaikan pesan secara jelas dan singkat"
+              },
+              {
+                "label": "b",
+                "text": "Berbicara tanpa henti"
+              },
+              {
+                "label": "c",
+                "text": "Menggunakan kata yang rumit"
+              },
+              {
+                "label": "d",
+                "text": "Hanya menulis singkat tanpa penjelasan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kejelasan dan kesingkatan adalah kunci komunikasi efektif."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Faktor yang paling mempengaruhi efektivitas komunikasi dalam situasi formal adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kejelasan pesan, bahasa yang tepat, dan struktur yang logis"
+              },
+              {
+                "label": "b",
+                "text": "Banyaknya kata"
+              },
+              {
+                "label": "c",
+                "text": "Gaya bahasa yang santai"
+              },
+              {
+                "label": "d",
+                "text": "Jumlah orang yang hadir"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Faktor utama efektivitas komunikasi formal adalah kejelasan, tepat, dan logis."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Analisis hubungan antara _________ dan _________ menunjukkan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pertanyaan yang tepat"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Hubungan antar elemen dalam konteks komunikasi/writing perlu dianalisis untuk pemahaman yang lebih baik."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "Konsep __________ dalam menulis terstruktur mencakup elemen...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Struktur, gagasan utama, dan transisi"
+              },
+              {
+                "label": "b",
+                "text": "Hanya kata-kata"
+              },
+              {
+                "label": "c",
+                "text": "Desain grafis"
+              },
+              {
+                "label": "d",
+                "text": "Banyaknya halaman"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Struktur menulis mencakup gagasan utama yang disusun dengan transisi."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Perspektif kritis terhadap __________ menunjukkan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konteks dan interpretasi berperan penting"
+              },
+              {
+                "label": "b",
+                "text": "Tidak ada perspektif yang relevan"
+              },
+              {
+                "label": "c",
+                "text": "Hanya satu perspektif benar"
+              },
+              {
+                "label": "d",
+                "text": "Yang penting formatnya"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Interpretasi dan konteks memainkan peran penting dalam komunikasi dan menulis."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Kata __________ dalam konteks komunikasi formal bermakna...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Makna yang tepat sesuai situasi"
+              },
+              {
+                "label": "b",
+                "text": "Makna yang selalu sama"
+              },
+              {
+                "label": "c",
+                "text": "Tidak penting"
+              },
+              {
+                "label": "d",
+                "text": "Sifat informal"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pemilihan kata harus tepat sesuai konteks komunikasi."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Pelaksanaan komunikasi yang efektif dalam konteks _________ memerlukan...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pemahaman audiens dan tujuan komunikasi"
+              },
+              {
+                "label": "b",
+                "text": "Banyaknya kata"
+              },
+              {
+                "label": "c",
+                "text": "Hanya menyampaikan pesan"
+              },
+              {
+                "label": "d",
+                "text": "Menggunakan kata yang rumit"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Efektivitas komunikasi memerlukan paham audiens dan tujuan."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Manakah yang merupakan contoh komunikasi dua arah yang efektif?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Diskusi kelompok dengan partisipasi semua"
+              },
+              {
+                "label": "b",
+                "text": "Pidato satu arah"
+              },
+              {
+                "label": "c",
+                "text": "Bacaan tanpa diskusi"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi nonverbal murni"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi dua arah melibatkan partisipasi dan interaksi semua pihak."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Prinsip __________ dalam efektivitas komunikasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Feedback dan kejelasan pesan"
+              },
+              {
+                "label": "b",
+                "text": " Hanya mengeluarkan suara"
+              },
+              {
+                "label": "c",
+                "text": "Mengikuti semua kata"
+              },
+              {
+                "label": "d",
+                "text": "Mengabaikan respons"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Efektivitas komunikasi memerlukan feedback dan kejelasan pesan yang saling mendukung."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Menulis yang efektif menuntut fokus pada __________, __________ dan __________. (utamakan struktur, kejelasan, dan transisi)",
+            "kunci": [
+              "struktur",
+              "kejelasan",
+              "transisi"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Dalam paragraf yang baik, kalimat utama biasanya ditemukan di ________ atau __________.",
+            "kunci": [
+              "awal",
+              "akhir"
+            ]
+          },
+          {
+            "no": 3,
+            "pertanyaan": "[Basic_Writing Modul 3] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 4,
+            "pertanyaan": "[Basic_Writing Modul 3] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 5,
+            "pertanyaan": "[Basic_Writing Modul 3] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 6,
+            "pertanyaan": "[Basic_Writing Modul 3] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 11,
+            "pertanyaan": "Jelaskan perbedaan mendasar antar paragraf deduktif dan induktif! Bandingkan kelebihan dan kekurangannya dalam konteks penulisan akademis maupun populer!",
+            "kunci": "Paragraf deduktif menempatkan ide utama di awal, langsung menyingkap gagasan, cocok untuk tulisan yang memerlukan kejelasan cepat (laporan, artikel populer). Paragraf induktif mulai dari detail/contoh, melangsungkan pembahasan, dan menyimpulkan di akhir — tepat untuk argumen bertahap dan tulisan akademis yang membangun bukti. Kekurangan deduktif: kurang membangun tension; induktif: mungkin terasa lambat jika pembaca ingin informasi cepat."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Tuliskan sebuah paragraf yang mendemonstrasikan penggunaan transisi yang efektif! Gunakan minimal 3 jenis transisi (penambahan, perbandingan, sebab-akibat) dan jelaskan fungsi masing-masing!",
+            "kunci": "Contoh: 'Pertama, makan makanan bergizi membantu memperkuat sistem kekebalan tubuh. Selain itu, aktivitas fisik yang teratur juga turut meningkatkan stamina. Di sisi lain, kekurangan tidur dapat menurunkan daya tahan tubuh. Akibatnya, seseorang lebih rentan terhadap penyakit. Oleh karena itu, menjaga kesehatan melalui pola hidup seimbang sangat penting.' Transisi digunakan: 'Pertama' (penanda urutan/poin pertama), 'Selain itu' (penambahan), 'Di sisi lain' (perbandingan/kontras), 'Akibatnya' (sebab-akibat), 'Oleh karena itu' (simpulan)."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Evaluasi teks komunikasi yang diberikan (misalnya: iklan, berita, atau email formal). Identifikasi kelebihan dan kekurangan dalam hal efektivitas pesan, struktur, dan pemilihan kata! Sarankan perbaikan!",
+            "kunci": "Jawaban: Siswa mengidentifikasi teks yang diberikan, menganalisis kejelasan pesan, struktur, dan pemilihan kata. Kelebihan (mis. jelas, sopan, relevan), kekurangan (mis. ambigu, terlalu panjang/pendek, kurang sopan atau tidak sesuai audiens). Saran: perbaiki struktur, pilih kata yang lebih tepat, dan sesuaikan dengan tujuan komunikasi."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Dalam konteks komunikasi lintas budaya, apa tantangan utama yang dihadapi dan bagaimana strategi efektif untuk mengatasinya? Berikan contoh konkret!",
+            "kunci": "Tantangan utama: perbedaan makna kata/ekspresi nonverbal, perbedaan ekspektasi komunikasi (langsung/tidak langsung), dan norma budaya yang berbeda (hierarki, individualisme/kolektivisme). Strategi efektif: (1) Menggunakan bahasa yang jelas dan konkret, (2) menghindari slang/idioms yang sulit diterjemahkan, (3) memahami dan menghormati norma budaya penerima, (4) menggunakan umpan balik untuk memastikan pemahaman. Contoh: dalam komunikasi dengan rekan dari budaya yang menghargai kesopanan formal, email harus menggunakan salam yang tepat dan bahasa yang tidak terlalu kasual, serta menawarkan konfirmasi penerimaan."
+          },
+          {
+            "no": 15,
+            "pertanyaan": "Analisislah mengapa kalimat yang efektif lebih dari sekadar tata bahasa yang benar! Apa faktor lain yang menjadikan sebuah kalimat efektif? Berikan 3 contoh kalimat yang benar secara tata bahasa tetapi tidak efektif, dan perbaiki!",
+            "kunci": "Kalimat efektif tidak hanya benar tata bahasa, tetapi juga (1) jelas dan langsung dipahami, (2) relevan dengan audiens, (3) sesuai konteks dan tujuan komunikasi. Contoh tidak efektif tapi benar tata bahasa: (a) 'Saya pergi ke toko dan saya membeli sesuatu dan saya pulang dan saya makan.' — terlalu berulang, perbaiki: 'Saya ke toko, membeli sesuatu, lalu pulang dan makan.' (b) 'Buku yang dibaca oleh saya yang saya beli kemarin sudah dibaca oleh saya juga.' — redundan, perbaiki: 'Buku yang saya beli kemarin sudah saya baca.' (c) 'Dia adalah orang yang sangat sangat sangat bersifat yang sangat komunikatif.' — kata sifat berlebihan, perbaiki: 'Dia sangat komunikatif.'"
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 16,
+            "pertanyaan": "Dalam situasi komunikasi __________, pilihan yang PALING efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Menggunakan kalimat yang jelas, singkat dan relevan"
+              },
+              {
+                "label": "b",
+                "text": " Menggunakan banyak kata"
+              },
+              {
+                "label": "c",
+                "text": " Mengabaikan audiens"
+              },
+              {
+                "label": "d",
+                "text": " Hanya menyampaikan sebanyak mungkin informasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi efektif mengutamakan kejelasan, kesingkatan, dan relevansi dengan audiens."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "Di perusahaan, Anda perlu mempresentasikan ide penting kepada atasan. Pendekatan yang PALING sesuai adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Menyusun presentasi dengan pendahuluan, poin utama, bukti, dan simpulan"
+              },
+              {
+                "label": "b",
+                "text": " Bicara tanpa persiapan"
+              },
+              {
+                "label": "c",
+                "text": " Hanya menyampaikan perasaan tanpa data"
+              },
+              {
+                "label": "d",
+                "text": " Menggunakan istilah teknis yang rumit"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Presentasi efektif memerlukan struktur yang jelas dengan data pendukung."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Saat berdiskusi dengan teman yang memiliki pendapat berbeda, komunikasi yang paling produktif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Mendengarkan dengan terbuka, menghargai perbedaan, dan mencari titik temu"
+              },
+              {
+                "label": "b",
+                "text": " Mendominasi percakapan"
+              },
+              {
+                "label": "c",
+                "text": "Menghindari diskusi"
+              },
+              {
+                "label": "d",
+                "text": " Berdebat tanpa mendengarkan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi produktif melibatkan mendengarkan aktif, menghargai perbedaan, dan mencari kesepakatan."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Evaluasi efektivitas komunikasi dalam situasi berikut: 'Manajer memberikan instruksi yang tidak jelas, karyawan tidak bertanya karena takut, dan hasil pekerjaan tidak sesuai.' Apa masalah utama dan bagaimana solusi?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Masalah: komunikasi satu arah tidak jelas, solusi: mendorong feedback, klarifikasi, dan komunikasi dua arah"
+              },
+              {
+                "label": "b",
+                "text": "Masalah: karyawan terlalu banyak bertanya"
+              },
+              {
+                "label": "c",
+                "text": "Masalah: manajer terlalu jelas"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada masalah"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Masalah utama: komunikasi satu arah yang ambigu dan budaya takut bertanya. Solusi: komunikasi dua arah, feedback, dan klarifikasi."
+          },
+          {
+            "no": 20,
+            "pertanyaan": "Untuk meningkatkan keterampilan komunikasi efektif dalam kelompok belajar, strategi yang PALING tepat adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Berbagi peran, mendengarkan aktif, dan memberikan feedback yang konstruktif"
+              },
+              {
+                "label": "b",
+                "text": " Hanya satu orang yang bicara"
+              },
+              {
+                "label": "c",
+                "text": " Menghindari diskusi"
+              },
+              {
+                "label": "d",
+                "text": "Mengkomunikasikan tanpa persiapan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi efektif dalam kelompok memerlukan partisipasi aktif dan feedback konstruktif."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 4,
+      "judul": "Cohesion dan Coherence dalam Tulisan",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Dalam konteks menulis __________, elemen paling mendasar adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ide utama yang jelas"
+              },
+              {
+                "label": "b",
+                "text": "Kata bersambung yang tepat"
+              },
+              {
+                "label": "c",
+                "text": " Sumber yang cukup"
+              },
+              {
+                "label": "d",
+                "text": "Penulisan yang panjang"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Ide utama yang jelas menjadi fondasi efektif menulis."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Strategi yang paling efektif untuk _________ adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Praktik rutin dengan umpan balik"
+              },
+              {
+                "label": "b",
+                "text": "Menghafal kata"
+              },
+              {
+                "label": "c",
+                "text": "Menggunakan kata yang panjang"
+              },
+              {
+                "label": "d",
+                "text": "Menulis tanpa struktur"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Praktik rutin dengan umpan balik membangun keterampilan yang berkelanjutan."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Manakah yang BUKAN merupakan ciri paragraf yang baik?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Koheren"
+              },
+              {
+                "label": "b",
+                "text": "Terdiri dari ide yang berlebihan"
+              },
+              {
+                "label": "c",
+                "text": " Memiliki kalimat utama"
+              },
+              {
+                "label": "d",
+                "text": "Satu fokus"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Paragraf yang baik memiliki satu fokus dan tidak berlebihan."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Dampak dari penggunaan kalimat yang efektif dalam komunikasi terhadap pembaca adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pesan mudah dipahami dan meyakinkan"
+              },
+              {
+                "label": "b",
+                "text": "Pesan bagi dipahami karena panjang"
+              },
+              {
+                "label": "c",
+                "text": "Pembaca cepat bosan"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada dampak"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kalimat efektif memudahkan pemahaman dan meningkatkan dampak komunikasi."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Tujuan utama penggunaan transisi dalam paragraf adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menjaga aliran gagasan antar kalimat"
+              },
+              {
+                "label": "b",
+                "text": "Memperluas panjang paragraf"
+              },
+              {
+                "label": "c",
+                "text": "Mengulang poin yang sama"
+              },
+              {
+                "label": "d",
+                "text": "Memperkenalkan topik baru"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Transisi menjaga aliran logis antar kalimat dan paragraf."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Perilaku komunikasi yang paling sesuai dengan prinsip ________ adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menyampaikan pesan secara jelas dan singkat"
+              },
+              {
+                "label": "b",
+                "text": "Berbicara tanpa henti"
+              },
+              {
+                "label": "c",
+                "text": "Menggunakan kata yang rumit"
+              },
+              {
+                "label": "d",
+                "text": "Hanya menulis singkat tanpa penjelasan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kejelasan dan kesingkatan adalah kunci komunikasi efektif."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Faktor yang paling mempengaruhi efektivitas komunikasi dalam situasi formal adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kejelasan pesan, bahasa yang tepat, dan struktur yang logis"
+              },
+              {
+                "label": "b",
+                "text": "Banyaknya kata"
+              },
+              {
+                "label": "c",
+                "text": "Gaya bahasa yang santai"
+              },
+              {
+                "label": "d",
+                "text": "Jumlah orang yang hadir"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Faktor utama efektivitas komunikasi formal adalah kejelasan, tepat, dan logis."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Analisis hubungan antara _________ dan _________ menunjukkan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pertanyaan yang tepat"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Hubungan antar elemen dalam konteks komunikasi/writing perlu dianalisis untuk pemahaman yang lebih baik."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "Konsep __________ dalam menulis terstruktur mencakup elemen...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Struktur, gagasan utama, dan transisi"
+              },
+              {
+                "label": "b",
+                "text": "Hanya kata-kata"
+              },
+              {
+                "label": "c",
+                "text": "Desain grafis"
+              },
+              {
+                "label": "d",
+                "text": "Banyaknya halaman"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Struktur menulis mencakup gagasan utama yang disusun dengan transisi."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Perspektif kritis terhadap __________ menunjukkan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konteks dan interpretasi berperan penting"
+              },
+              {
+                "label": "b",
+                "text": "Tidak ada perspektif yang relevan"
+              },
+              {
+                "label": "c",
+                "text": "Hanya satu perspektif benar"
+              },
+              {
+                "label": "d",
+                "text": "Yang penting formatnya"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Interpretasi dan konteks memainkan peran penting dalam komunikasi dan menulis."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Kata __________ dalam konteks komunikasi formal bermakna...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Makna yang tepat sesuai situasi"
+              },
+              {
+                "label": "b",
+                "text": "Makna yang selalu sama"
+              },
+              {
+                "label": "c",
+                "text": "Tidak penting"
+              },
+              {
+                "label": "d",
+                "text": "Sifat informal"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pemilihan kata harus tepat sesuai konteks komunikasi."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Pelaksanaan komunikasi yang efektif dalam konteks _________ memerlukan...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pemahaman audiens dan tujuan komunikasi"
+              },
+              {
+                "label": "b",
+                "text": "Banyaknya kata"
+              },
+              {
+                "label": "c",
+                "text": "Hanya menyampaikan pesan"
+              },
+              {
+                "label": "d",
+                "text": "Menggunakan kata yang rumit"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Efektivitas komunikasi memerlukan paham audiens dan tujuan."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Manakah yang merupakan contoh komunikasi dua arah yang efektif?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Diskusi kelompok dengan partisipasi semua"
+              },
+              {
+                "label": "b",
+                "text": "Pidato satu arah"
+              },
+              {
+                "label": "c",
+                "text": "Bacaan tanpa diskusi"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi nonverbal murni"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi dua arah melibatkan partisipasi dan interaksi semua pihak."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Prinsip __________ dalam efektivitas komunikasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Feedback dan kejelasan pesan"
+              },
+              {
+                "label": "b",
+                "text": " Hanya mengeluarkan suara"
+              },
+              {
+                "label": "c",
+                "text": "Mengikuti semua kata"
+              },
+              {
+                "label": "d",
+                "text": "Mengabaikan respons"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Efektivitas komunikasi memerlukan feedback dan kejelasan pesan yang saling mendukung."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Menulis yang efektif menuntut fokus pada __________, __________ dan __________. (utamakan struktur, kejelasan, dan transisi)",
+            "kunci": [
+              "struktur",
+              "kejelasan",
+              "transisi"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Dalam paragraf yang baik, kalimat utama biasanya ditemukan di ________ atau __________.",
+            "kunci": [
+              "awal",
+              "akhir"
+            ]
+          },
+          {
+            "no": 3,
+            "pertanyaan": "[Basic_Writing Modul 4] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 4,
+            "pertanyaan": "[Basic_Writing Modul 4] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 5,
+            "pertanyaan": "[Basic_Writing Modul 4] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 6,
+            "pertanyaan": "[Basic_Writing Modul 4] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 11,
+            "pertanyaan": "Jelaskan perbedaan mendasar antar paragraf deduktif dan induktif! Bandingkan kelebihan dan kekurangannya dalam konteks penulisan akademis maupun populer!",
+            "kunci": "Paragraf deduktif menempatkan ide utama di awal, langsung menyingkap gagasan, cocok untuk tulisan yang memerlukan kejelasan cepat (laporan, artikel populer). Paragraf induktif mulai dari detail/contoh, melangsungkan pembahasan, dan menyimpulkan di akhir — tepat untuk argumen bertahap dan tulisan akademis yang membangun bukti. Kekurangan deduktif: kurang membangun tension; induktif: mungkin terasa lambat jika pembaca ingin informasi cepat."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Tuliskan sebuah paragraf yang mendemonstrasikan penggunaan transisi yang efektif! Gunakan minimal 3 jenis transisi (penambahan, perbandingan, sebab-akibat) dan jelaskan fungsi masing-masing!",
+            "kunci": "Contoh: 'Pertama, makan makanan bergizi membantu memperkuat sistem kekebalan tubuh. Selain itu, aktivitas fisik yang teratur juga turut meningkatkan stamina. Di sisi lain, kekurangan tidur dapat menurunkan daya tahan tubuh. Akibatnya, seseorang lebih rentan terhadap penyakit. Oleh karena itu, menjaga kesehatan melalui pola hidup seimbang sangat penting.' Transisi digunakan: 'Pertama' (penanda urutan/poin pertama), 'Selain itu' (penambahan), 'Di sisi lain' (perbandingan/kontras), 'Akibatnya' (sebab-akibat), 'Oleh karena itu' (simpulan)."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Evaluasi teks komunikasi yang diberikan (misalnya: iklan, berita, atau email formal). Identifikasi kelebihan dan kekurangan dalam hal efektivitas pesan, struktur, dan pemilihan kata! Sarankan perbaikan!",
+            "kunci": "Jawaban: Siswa mengidentifikasi teks yang diberikan, menganalisis kejelasan pesan, struktur, dan pemilihan kata. Kelebihan (mis. jelas, sopan, relevan), kekurangan (mis. ambigu, terlalu panjang/pendek, kurang sopan atau tidak sesuai audiens). Saran: perbaiki struktur, pilih kata yang lebih tepat, dan sesuaikan dengan tujuan komunikasi."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Dalam konteks komunikasi lintas budaya, apa tantangan utama yang dihadapi dan bagaimana strategi efektif untuk mengatasinya? Berikan contoh konkret!",
+            "kunci": "Tantangan utama: perbedaan makna kata/ekspresi nonverbal, perbedaan ekspektasi komunikasi (langsung/tidak langsung), dan norma budaya yang berbeda (hierarki, individualisme/kolektivisme). Strategi efektif: (1) Menggunakan bahasa yang jelas dan konkret, (2) menghindari slang/idioms yang sulit diterjemahkan, (3) memahami dan menghormati norma budaya penerima, (4) menggunakan umpan balik untuk memastikan pemahaman. Contoh: dalam komunikasi dengan rekan dari budaya yang menghargai kesopanan formal, email harus menggunakan salam yang tepat dan bahasa yang tidak terlalu kasual, serta menawarkan konfirmasi penerimaan."
+          },
+          {
+            "no": 15,
+            "pertanyaan": "Analisislah mengapa kalimat yang efektif lebih dari sekadar tata bahasa yang benar! Apa faktor lain yang menjadikan sebuah kalimat efektif? Berikan 3 contoh kalimat yang benar secara tata bahasa tetapi tidak efektif, dan perbaiki!",
+            "kunci": "Kalimat efektif tidak hanya benar tata bahasa, tetapi juga (1) jelas dan langsung dipahami, (2) relevan dengan audiens, (3) sesuai konteks dan tujuan komunikasi. Contoh tidak efektif tapi benar tata bahasa: (a) 'Saya pergi ke toko dan saya membeli sesuatu dan saya pulang dan saya makan.' — terlalu berulang, perbaiki: 'Saya ke toko, membeli sesuatu, lalu pulang dan makan.' (b) 'Buku yang dibaca oleh saya yang saya beli kemarin sudah dibaca oleh saya juga.' — redundan, perbaiki: 'Buku yang saya beli kemarin sudah saya baca.' (c) 'Dia adalah orang yang sangat sangat sangat bersifat yang sangat komunikatif.' — kata sifat berlebihan, perbaiki: 'Dia sangat komunikatif.'"
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 16,
+            "pertanyaan": "Dalam situasi komunikasi __________, pilihan yang PALING efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Menggunakan kalimat yang jelas, singkat dan relevan"
+              },
+              {
+                "label": "b",
+                "text": " Menggunakan banyak kata"
+              },
+              {
+                "label": "c",
+                "text": " Mengabaikan audiens"
+              },
+              {
+                "label": "d",
+                "text": " Hanya menyampaikan sebanyak mungkin informasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi efektif mengutamakan kejelasan, kesingkatan, dan relevansi dengan audiens."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "Di perusahaan, Anda perlu mempresentasikan ide penting kepada atasan. Pendekatan yang PALING sesuai adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Menyusun presentasi dengan pendahuluan, poin utama, bukti, dan simpulan"
+              },
+              {
+                "label": "b",
+                "text": " Bicara tanpa persiapan"
+              },
+              {
+                "label": "c",
+                "text": " Hanya menyampaikan perasaan tanpa data"
+              },
+              {
+                "label": "d",
+                "text": " Menggunakan istilah teknis yang rumit"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Presentasi efektif memerlukan struktur yang jelas dengan data pendukung."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Saat berdiskusi dengan teman yang memiliki pendapat berbeda, komunikasi yang paling produktif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Mendengarkan dengan terbuka, menghargai perbedaan, dan mencari titik temu"
+              },
+              {
+                "label": "b",
+                "text": " Mendominasi percakapan"
+              },
+              {
+                "label": "c",
+                "text": "Menghindari diskusi"
+              },
+              {
+                "label": "d",
+                "text": " Berdebat tanpa mendengarkan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi produktif melibatkan mendengarkan aktif, menghargai perbedaan, dan mencari kesepakatan."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Evaluasi efektivitas komunikasi dalam situasi berikut: 'Manajer memberikan instruksi yang tidak jelas, karyawan tidak bertanya karena takut, dan hasil pekerjaan tidak sesuai.' Apa masalah utama dan bagaimana solusi?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Masalah: komunikasi satu arah tidak jelas, solusi: mendorong feedback, klarifikasi, dan komunikasi dua arah"
+              },
+              {
+                "label": "b",
+                "text": "Masalah: karyawan terlalu banyak bertanya"
+              },
+              {
+                "label": "c",
+                "text": "Masalah: manajer terlalu jelas"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada masalah"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Masalah utama: komunikasi satu arah yang ambigu dan budaya takut bertanya. Solusi: komunikasi dua arah, feedback, dan klarifikasi."
+          },
+          {
+            "no": 20,
+            "pertanyaan": "Untuk meningkatkan keterampilan komunikasi efektif dalam kelompok belajar, strategi yang PALING tepat adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Berbagi peran, mendengarkan aktif, dan memberikan feedback yang konstruktif"
+              },
+              {
+                "label": "b",
+                "text": " Hanya satu orang yang bicara"
+              },
+              {
+                "label": "c",
+                "text": " Menghindari diskusi"
+              },
+              {
+                "label": "d",
+                "text": "Mengkomunikasikan tanpa persiapan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi efektif dalam kelompok memerlukan partisipasi aktif dan feedback konstruktif."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 5,
+      "judul": "Teks Prosedur dan Teks Laporan Observing",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Dalam konteks menulis __________, elemen paling mendasar adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ide utama yang jelas"
+              },
+              {
+                "label": "b",
+                "text": "Kata bersambung yang tepat"
+              },
+              {
+                "label": "c",
+                "text": " Sumber yang cukup"
+              },
+              {
+                "label": "d",
+                "text": "Penulisan yang panjang"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Ide utama yang jelas menjadi fondasi efektif menulis."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Strategi yang paling efektif untuk _________ adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Praktik rutin dengan umpan balik"
+              },
+              {
+                "label": "b",
+                "text": "Menghafal kata"
+              },
+              {
+                "label": "c",
+                "text": "Menggunakan kata yang panjang"
+              },
+              {
+                "label": "d",
+                "text": "Menulis tanpa struktur"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Praktik rutin dengan umpan balik membangun keterampilan yang berkelanjutan."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Manakah yang BUKAN merupakan ciri paragraf yang baik?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Koheren"
+              },
+              {
+                "label": "b",
+                "text": "Terdiri dari ide yang berlebihan"
+              },
+              {
+                "label": "c",
+                "text": " Memiliki kalimat utama"
+              },
+              {
+                "label": "d",
+                "text": "Satu fokus"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Paragraf yang baik memiliki satu fokus dan tidak berlebihan."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Dampak dari penggunaan kalimat yang efektif dalam komunikasi terhadap pembaca adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pesan mudah dipahami dan meyakinkan"
+              },
+              {
+                "label": "b",
+                "text": "Pesan bagi dipahami karena panjang"
+              },
+              {
+                "label": "c",
+                "text": "Pembaca cepat bosan"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada dampak"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kalimat efektif memudahkan pemahaman dan meningkatkan dampak komunikasi."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Tujuan utama penggunaan transisi dalam paragraf adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menjaga aliran gagasan antar kalimat"
+              },
+              {
+                "label": "b",
+                "text": "Memperluas panjang paragraf"
+              },
+              {
+                "label": "c",
+                "text": "Mengulang poin yang sama"
+              },
+              {
+                "label": "d",
+                "text": "Memperkenalkan topik baru"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Transisi menjaga aliran logis antar kalimat dan paragraf."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Perilaku komunikasi yang paling sesuai dengan prinsip ________ adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menyampaikan pesan secara jelas dan singkat"
+              },
+              {
+                "label": "b",
+                "text": "Berbicara tanpa henti"
+              },
+              {
+                "label": "c",
+                "text": "Menggunakan kata yang rumit"
+              },
+              {
+                "label": "d",
+                "text": "Hanya menulis singkat tanpa penjelasan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kejelasan dan kesingkatan adalah kunci komunikasi efektif."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Faktor yang paling mempengaruhi efektivitas komunikasi dalam situasi formal adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kejelasan pesan, bahasa yang tepat, dan struktur yang logis"
+              },
+              {
+                "label": "b",
+                "text": "Banyaknya kata"
+              },
+              {
+                "label": "c",
+                "text": "Gaya bahasa yang santai"
+              },
+              {
+                "label": "d",
+                "text": "Jumlah orang yang hadir"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Faktor utama efektivitas komunikasi formal adalah kejelasan, tepat, dan logis."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Analisis hubungan antara _________ dan _________ menunjukkan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pertanyaan yang tepat"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Hubungan antar elemen dalam konteks komunikasi/writing perlu dianalisis untuk pemahaman yang lebih baik."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "Konsep __________ dalam menulis terstruktur mencakup elemen...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Struktur, gagasan utama, dan transisi"
+              },
+              {
+                "label": "b",
+                "text": "Hanya kata-kata"
+              },
+              {
+                "label": "c",
+                "text": "Desain grafis"
+              },
+              {
+                "label": "d",
+                "text": "Banyaknya halaman"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Struktur menulis mencakup gagasan utama yang disusun dengan transisi."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Perspektif kritis terhadap __________ menunjukkan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konteks dan interpretasi berperan penting"
+              },
+              {
+                "label": "b",
+                "text": "Tidak ada perspektif yang relevan"
+              },
+              {
+                "label": "c",
+                "text": "Hanya satu perspektif benar"
+              },
+              {
+                "label": "d",
+                "text": "Yang penting formatnya"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Interpretasi dan konteks memainkan peran penting dalam komunikasi dan menulis."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Kata __________ dalam konteks komunikasi formal bermakna...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Makna yang tepat sesuai situasi"
+              },
+              {
+                "label": "b",
+                "text": "Makna yang selalu sama"
+              },
+              {
+                "label": "c",
+                "text": "Tidak penting"
+              },
+              {
+                "label": "d",
+                "text": "Sifat informal"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pemilihan kata harus tepat sesuai konteks komunikasi."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Pelaksanaan komunikasi yang efektif dalam konteks _________ memerlukan...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pemahaman audiens dan tujuan komunikasi"
+              },
+              {
+                "label": "b",
+                "text": "Banyaknya kata"
+              },
+              {
+                "label": "c",
+                "text": "Hanya menyampaikan pesan"
+              },
+              {
+                "label": "d",
+                "text": "Menggunakan kata yang rumit"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Efektivitas komunikasi memerlukan paham audiens dan tujuan."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Manakah yang merupakan contoh komunikasi dua arah yang efektif?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Diskusi kelompok dengan partisipasi semua"
+              },
+              {
+                "label": "b",
+                "text": "Pidato satu arah"
+              },
+              {
+                "label": "c",
+                "text": "Bacaan tanpa diskusi"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi nonverbal murni"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi dua arah melibatkan partisipasi dan interaksi semua pihak."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Prinsip __________ dalam efektivitas komunikasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Feedback dan kejelasan pesan"
+              },
+              {
+                "label": "b",
+                "text": " Hanya mengeluarkan suara"
+              },
+              {
+                "label": "c",
+                "text": "Mengikuti semua kata"
+              },
+              {
+                "label": "d",
+                "text": "Mengabaikan respons"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Efektivitas komunikasi memerlukan feedback dan kejelasan pesan yang saling mendukung."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Menulis yang efektif menuntut fokus pada __________, __________ dan __________. (utamakan struktur, kejelasan, dan transisi)",
+            "kunci": [
+              "struktur",
+              "kejelasan",
+              "transisi"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Dalam paragraf yang baik, kalimat utama biasanya ditemukan di ________ atau __________.",
+            "kunci": [
+              "awal",
+              "akhir"
+            ]
+          },
+          {
+            "no": 3,
+            "pertanyaan": "[Basic_Writing Modul 5] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 4,
+            "pertanyaan": "[Basic_Writing Modul 5] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 5,
+            "pertanyaan": "[Basic_Writing Modul 5] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 6,
+            "pertanyaan": "[Basic_Writing Modul 5] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 11,
+            "pertanyaan": "Jelaskan perbedaan mendasar antar paragraf deduktif dan induktif! Bandingkan kelebihan dan kekurangannya dalam konteks penulisan akademis maupun populer!",
+            "kunci": "Paragraf deduktif menempatkan ide utama di awal, langsung menyingkap gagasan, cocok untuk tulisan yang memerlukan kejelasan cepat (laporan, artikel populer). Paragraf induktif mulai dari detail/contoh, melangsungkan pembahasan, dan menyimpulkan di akhir — tepat untuk argumen bertahap dan tulisan akademis yang membangun bukti. Kekurangan deduktif: kurang membangun tension; induktif: mungkin terasa lambat jika pembaca ingin informasi cepat."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Tuliskan sebuah paragraf yang mendemonstrasikan penggunaan transisi yang efektif! Gunakan minimal 3 jenis transisi (penambahan, perbandingan, sebab-akibat) dan jelaskan fungsi masing-masing!",
+            "kunci": "Contoh: 'Pertama, makan makanan bergizi membantu memperkuat sistem kekebalan tubuh. Selain itu, aktivitas fisik yang teratur juga turut meningkatkan stamina. Di sisi lain, kekurangan tidur dapat menurunkan daya tahan tubuh. Akibatnya, seseorang lebih rentan terhadap penyakit. Oleh karena itu, menjaga kesehatan melalui pola hidup seimbang sangat penting.' Transisi digunakan: 'Pertama' (penanda urutan/poin pertama), 'Selain itu' (penambahan), 'Di sisi lain' (perbandingan/kontras), 'Akibatnya' (sebab-akibat), 'Oleh karena itu' (simpulan)."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Evaluasi teks komunikasi yang diberikan (misalnya: iklan, berita, atau email formal). Identifikasi kelebihan dan kekurangan dalam hal efektivitas pesan, struktur, dan pemilihan kata! Sarankan perbaikan!",
+            "kunci": "Jawaban: Siswa mengidentifikasi teks yang diberikan, menganalisis kejelasan pesan, struktur, dan pemilihan kata. Kelebihan (mis. jelas, sopan, relevan), kekurangan (mis. ambigu, terlalu panjang/pendek, kurang sopan atau tidak sesuai audiens). Saran: perbaiki struktur, pilih kata yang lebih tepat, dan sesuaikan dengan tujuan komunikasi."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Dalam konteks komunikasi lintas budaya, apa tantangan utama yang dihadapi dan bagaimana strategi efektif untuk mengatasinya? Berikan contoh konkret!",
+            "kunci": "Tantangan utama: perbedaan makna kata/ekspresi nonverbal, perbedaan ekspektasi komunikasi (langsung/tidak langsung), dan norma budaya yang berbeda (hierarki, individualisme/kolektivisme). Strategi efektif: (1) Menggunakan bahasa yang jelas dan konkret, (2) menghindari slang/idioms yang sulit diterjemahkan, (3) memahami dan menghormati norma budaya penerima, (4) menggunakan umpan balik untuk memastikan pemahaman. Contoh: dalam komunikasi dengan rekan dari budaya yang menghargai kesopanan formal, email harus menggunakan salam yang tepat dan bahasa yang tidak terlalu kasual, serta menawarkan konfirmasi penerimaan."
+          },
+          {
+            "no": 15,
+            "pertanyaan": "Analisislah mengapa kalimat yang efektif lebih dari sekadar tata bahasa yang benar! Apa faktor lain yang menjadikan sebuah kalimat efektif? Berikan 3 contoh kalimat yang benar secara tata bahasa tetapi tidak efektif, dan perbaiki!",
+            "kunci": "Kalimat efektif tidak hanya benar tata bahasa, tetapi juga (1) jelas dan langsung dipahami, (2) relevan dengan audiens, (3) sesuai konteks dan tujuan komunikasi. Contoh tidak efektif tapi benar tata bahasa: (a) 'Saya pergi ke toko dan saya membeli sesuatu dan saya pulang dan saya makan.' — terlalu berulang, perbaiki: 'Saya ke toko, membeli sesuatu, lalu pulang dan makan.' (b) 'Buku yang dibaca oleh saya yang saya beli kemarin sudah dibaca oleh saya juga.' — redundan, perbaiki: 'Buku yang saya beli kemarin sudah saya baca.' (c) 'Dia adalah orang yang sangat sangat sangat bersifat yang sangat komunikatif.' — kata sifat berlebihan, perbaiki: 'Dia sangat komunikatif.'"
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 16,
+            "pertanyaan": "Dalam situasi komunikasi __________, pilihan yang PALING efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Menggunakan kalimat yang jelas, singkat dan relevan"
+              },
+              {
+                "label": "b",
+                "text": " Menggunakan banyak kata"
+              },
+              {
+                "label": "c",
+                "text": " Mengabaikan audiens"
+              },
+              {
+                "label": "d",
+                "text": " Hanya menyampaikan sebanyak mungkin informasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi efektif mengutamakan kejelasan, kesingkatan, dan relevansi dengan audiens."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "Di perusahaan, Anda perlu mempresentasikan ide penting kepada atasan. Pendekatan yang PALING sesuai adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Menyusun presentasi dengan pendahuluan, poin utama, bukti, dan simpulan"
+              },
+              {
+                "label": "b",
+                "text": " Bicara tanpa persiapan"
+              },
+              {
+                "label": "c",
+                "text": " Hanya menyampaikan perasaan tanpa data"
+              },
+              {
+                "label": "d",
+                "text": " Menggunakan istilah teknis yang rumit"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Presentasi efektif memerlukan struktur yang jelas dengan data pendukung."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Saat berdiskusi dengan teman yang memiliki pendapat berbeda, komunikasi yang paling produktif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Mendengarkan dengan terbuka, menghargai perbedaan, dan mencari titik temu"
+              },
+              {
+                "label": "b",
+                "text": " Mendominasi percakapan"
+              },
+              {
+                "label": "c",
+                "text": "Menghindari diskusi"
+              },
+              {
+                "label": "d",
+                "text": " Berdebat tanpa mendengarkan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi produktif melibatkan mendengarkan aktif, menghargai perbedaan, dan mencari kesepakatan."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Evaluasi efektivitas komunikasi dalam situasi berikut: 'Manajer memberikan instruksi yang tidak jelas, karyawan tidak bertanya karena takut, dan hasil pekerjaan tidak sesuai.' Apa masalah utama dan bagaimana solusi?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Masalah: komunikasi satu arah tidak jelas, solusi: mendorong feedback, klarifikasi, dan komunikasi dua arah"
+              },
+              {
+                "label": "b",
+                "text": "Masalah: karyawan terlalu banyak bertanya"
+              },
+              {
+                "label": "c",
+                "text": "Masalah: manajer terlalu jelas"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada masalah"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Masalah utama: komunikasi satu arah yang ambigu dan budaya takut bertanya. Solusi: komunikasi dua arah, feedback, dan klarifikasi."
+          },
+          {
+            "no": 20,
+            "pertanyaan": "Untuk meningkatkan keterampilan komunikasi efektif dalam kelompok belajar, strategi yang PALING tepat adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Berbagi peran, mendengarkan aktif, dan memberikan feedback yang konstruktif"
+              },
+              {
+                "label": "b",
+                "text": " Hanya satu orang yang bicara"
+              },
+              {
+                "label": "c",
+                "text": " Menghindari diskusi"
+              },
+              {
+                "label": "d",
+                "text": "Mengkomunikasikan tanpa persiapan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi efektif dalam kelompok memerlukan partisipasi aktif dan feedback konstruktif."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 6,
+      "judul": "Menulis Esai dan Argumentasi",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Dalam konteks menulis __________, elemen paling mendasar adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ide utama yang jelas"
+              },
+              {
+                "label": "b",
+                "text": "Kata bersambung yang tepat"
+              },
+              {
+                "label": "c",
+                "text": " Sumber yang cukup"
+              },
+              {
+                "label": "d",
+                "text": "Penulisan yang panjang"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Ide utama yang jelas menjadi fondasi efektif menulis."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Strategi yang paling efektif untuk _________ adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Praktik rutin dengan umpan balik"
+              },
+              {
+                "label": "b",
+                "text": "Menghafal kata"
+              },
+              {
+                "label": "c",
+                "text": "Menggunakan kata yang panjang"
+              },
+              {
+                "label": "d",
+                "text": "Menulis tanpa struktur"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Praktik rutin dengan umpan balik membangun keterampilan yang berkelanjutan."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Manakah yang BUKAN merupakan ciri paragraf yang baik?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Koheren"
+              },
+              {
+                "label": "b",
+                "text": "Terdiri dari ide yang berlebihan"
+              },
+              {
+                "label": "c",
+                "text": " Memiliki kalimat utama"
+              },
+              {
+                "label": "d",
+                "text": "Satu fokus"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Paragraf yang baik memiliki satu fokus dan tidak berlebihan."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Dampak dari penggunaan kalimat yang efektif dalam komunikasi terhadap pembaca adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pesan mudah dipahami dan meyakinkan"
+              },
+              {
+                "label": "b",
+                "text": "Pesan bagi dipahami karena panjang"
+              },
+              {
+                "label": "c",
+                "text": "Pembaca cepat bosan"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada dampak"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kalimat efektif memudahkan pemahaman dan meningkatkan dampak komunikasi."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Tujuan utama penggunaan transisi dalam paragraf adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menjaga aliran gagasan antar kalimat"
+              },
+              {
+                "label": "b",
+                "text": "Memperluas panjang paragraf"
+              },
+              {
+                "label": "c",
+                "text": "Mengulang poin yang sama"
+              },
+              {
+                "label": "d",
+                "text": "Memperkenalkan topik baru"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Transisi menjaga aliran logis antar kalimat dan paragraf."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Perilaku komunikasi yang paling sesuai dengan prinsip ________ adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Menyampaikan pesan secara jelas dan singkat"
+              },
+              {
+                "label": "b",
+                "text": "Berbicara tanpa henti"
+              },
+              {
+                "label": "c",
+                "text": "Menggunakan kata yang rumit"
+              },
+              {
+                "label": "d",
+                "text": "Hanya menulis singkat tanpa penjelasan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Kejelasan dan kesingkatan adalah kunci komunikasi efektif."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Faktor yang paling mempengaruhi efektivitas komunikasi dalam situasi formal adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kejelasan pesan, bahasa yang tepat, dan struktur yang logis"
+              },
+              {
+                "label": "b",
+                "text": "Banyaknya kata"
+              },
+              {
+                "label": "c",
+                "text": "Gaya bahasa yang santai"
+              },
+              {
+                "label": "d",
+                "text": "Jumlah orang yang hadir"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Faktor utama efektivitas komunikasi formal adalah kejelasan, tepat, dan logis."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Analisis hubungan antara _________ dan _________ menunjukkan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pertanyaan yang tepat"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Hubungan antar elemen dalam konteks komunikasi/writing perlu dianalisis untuk pemahaman yang lebih baik."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "Konsep __________ dalam menulis terstruktur mencakup elemen...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Struktur, gagasan utama, dan transisi"
+              },
+              {
+                "label": "b",
+                "text": "Hanya kata-kata"
+              },
+              {
+                "label": "c",
+                "text": "Desain grafis"
+              },
+              {
+                "label": "d",
+                "text": "Banyaknya halaman"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Struktur menulis mencakup gagasan utama yang disusun dengan transisi."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Perspektif kritis terhadap __________ menunjukkan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konteks dan interpretasi berperan penting"
+              },
+              {
+                "label": "b",
+                "text": "Tidak ada perspektif yang relevan"
+              },
+              {
+                "label": "c",
+                "text": "Hanya satu perspektif benar"
+              },
+              {
+                "label": "d",
+                "text": "Yang penting formatnya"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Interpretasi dan konteks memainkan peran penting dalam komunikasi dan menulis."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Kata __________ dalam konteks komunikasi formal bermakna...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Makna yang tepat sesuai situasi"
+              },
+              {
+                "label": "b",
+                "text": "Makna yang selalu sama"
+              },
+              {
+                "label": "c",
+                "text": "Tidak penting"
+              },
+              {
+                "label": "d",
+                "text": "Sifat informal"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pemilihan kata harus tepat sesuai konteks komunikasi."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Pelaksanaan komunikasi yang efektif dalam konteks _________ memerlukan...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pemahaman audiens dan tujuan komunikasi"
+              },
+              {
+                "label": "b",
+                "text": "Banyaknya kata"
+              },
+              {
+                "label": "c",
+                "text": "Hanya menyampaikan pesan"
+              },
+              {
+                "label": "d",
+                "text": "Menggunakan kata yang rumit"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Efektivitas komunikasi memerlukan paham audiens dan tujuan."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Manakah yang merupakan contoh komunikasi dua arah yang efektif?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Diskusi kelompok dengan partisipasi semua"
+              },
+              {
+                "label": "b",
+                "text": "Pidato satu arah"
+              },
+              {
+                "label": "c",
+                "text": "Bacaan tanpa diskusi"
+              },
+              {
+                "label": "d",
+                "text": " Komunikasi nonverbal murni"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi dua arah melibatkan partisipasi dan interaksi semua pihak."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Prinsip __________ dalam efektivitas komunikasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Feedback dan kejelasan pesan"
+              },
+              {
+                "label": "b",
+                "text": " Hanya mengeluarkan suara"
+              },
+              {
+                "label": "c",
+                "text": "Mengikuti semua kata"
+              },
+              {
+                "label": "d",
+                "text": "Mengabaikan respons"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Efektivitas komunikasi memerlukan feedback dan kejelasan pesan yang saling mendukung."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Menulis yang efektif menuntut fokus pada __________, __________ dan __________. (utamakan struktur, kejelasan, dan transisi)",
+            "kunci": [
+              "struktur",
+              "kejelasan",
+              "transisi"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Dalam paragraf yang baik, kalimat utama biasanya ditemukan di ________ atau __________.",
+            "kunci": [
+              "awal",
+              "akhir"
+            ]
+          },
+          {
+            "no": 3,
+            "pertanyaan": "[Basic_Writing Modul 6] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 4,
+            "pertanyaan": "[Basic_Writing Modul 6] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 5,
+            "pertanyaan": "[Basic_Writing Modul 6] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          },
+          {
+            "no": 6,
+            "pertanyaan": "[Basic_Writing Modul 6] Istilah yang digunakan untuk menggambarkan hubungan antar kalimat dalam paragraf adalah __________.",
+            "kunci": [
+              "kohesi",
+              "koherensi"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 11,
+            "pertanyaan": "Jelaskan perbedaan mendasar antar paragraf deduktif dan induktif! Bandingkan kelebihan dan kekurangannya dalam konteks penulisan akademis maupun populer!",
+            "kunci": "Paragraf deduktif menempatkan ide utama di awal, langsung menyingkap gagasan, cocok untuk tulisan yang memerlukan kejelasan cepat (laporan, artikel populer). Paragraf induktif mulai dari detail/contoh, melangsungkan pembahasan, dan menyimpulkan di akhir — tepat untuk argumen bertahap dan tulisan akademis yang membangun bukti. Kekurangan deduktif: kurang membangun tension; induktif: mungkin terasa lambat jika pembaca ingin informasi cepat."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Tuliskan sebuah paragraf yang mendemonstrasikan penggunaan transisi yang efektif! Gunakan minimal 3 jenis transisi (penambahan, perbandingan, sebab-akibat) dan jelaskan fungsi masing-masing!",
+            "kunci": "Contoh: 'Pertama, makan makanan bergizi membantu memperkuat sistem kekebalan tubuh. Selain itu, aktivitas fisik yang teratur juga turut meningkatkan stamina. Di sisi lain, kekurangan tidur dapat menurunkan daya tahan tubuh. Akibatnya, seseorang lebih rentan terhadap penyakit. Oleh karena itu, menjaga kesehatan melalui pola hidup seimbang sangat penting.' Transisi digunakan: 'Pertama' (penanda urutan/poin pertama), 'Selain itu' (penambahan), 'Di sisi lain' (perbandingan/kontras), 'Akibatnya' (sebab-akibat), 'Oleh karena itu' (simpulan)."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Evaluasi teks komunikasi yang diberikan (misalnya: iklan, berita, atau email formal). Identifikasi kelebihan dan kekurangan dalam hal efektivitas pesan, struktur, dan pemilihan kata! Sarankan perbaikan!",
+            "kunci": "Jawaban: Siswa mengidentifikasi teks yang diberikan, menganalisis kejelasan pesan, struktur, dan pemilihan kata. Kelebihan (mis. jelas, sopan, relevan), kekurangan (mis. ambigu, terlalu panjang/pendek, kurang sopan atau tidak sesuai audiens). Saran: perbaiki struktur, pilih kata yang lebih tepat, dan sesuaikan dengan tujuan komunikasi."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Dalam konteks komunikasi lintas budaya, apa tantangan utama yang dihadapi dan bagaimana strategi efektif untuk mengatasinya? Berikan contoh konkret!",
+            "kunci": "Tantangan utama: perbedaan makna kata/ekspresi nonverbal, perbedaan ekspektasi komunikasi (langsung/tidak langsung), dan norma budaya yang berbeda (hierarki, individualisme/kolektivisme). Strategi efektif: (1) Menggunakan bahasa yang jelas dan konkret, (2) menghindari slang/idioms yang sulit diterjemahkan, (3) memahami dan menghormati norma budaya penerima, (4) menggunakan umpan balik untuk memastikan pemahaman. Contoh: dalam komunikasi dengan rekan dari budaya yang menghargai kesopanan formal, email harus menggunakan salam yang tepat dan bahasa yang tidak terlalu kasual, serta menawarkan konfirmasi penerimaan."
+          },
+          {
+            "no": 15,
+            "pertanyaan": "Analisislah mengapa kalimat yang efektif lebih dari sekadar tata bahasa yang benar! Apa faktor lain yang menjadikan sebuah kalimat efektif? Berikan 3 contoh kalimat yang benar secara tata bahasa tetapi tidak efektif, dan perbaiki!",
+            "kunci": "Kalimat efektif tidak hanya benar tata bahasa, tetapi juga (1) jelas dan langsung dipahami, (2) relevan dengan audiens, (3) sesuai konteks dan tujuan komunikasi. Contoh tidak efektif tapi benar tata bahasa: (a) 'Saya pergi ke toko dan saya membeli sesuatu dan saya pulang dan saya makan.' — terlalu berulang, perbaiki: 'Saya ke toko, membeli sesuatu, lalu pulang dan makan.' (b) 'Buku yang dibaca oleh saya yang saya beli kemarin sudah dibaca oleh saya juga.' — redundan, perbaiki: 'Buku yang saya beli kemarin sudah saya baca.' (c) 'Dia adalah orang yang sangat sangat sangat bersifat yang sangat komunikatif.' — kata sifat berlebihan, perbaiki: 'Dia sangat komunikatif.'"
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 16,
+            "pertanyaan": "Dalam situasi komunikasi __________, pilihan yang PALING efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Menggunakan kalimat yang jelas, singkat dan relevan"
+              },
+              {
+                "label": "b",
+                "text": " Menggunakan banyak kata"
+              },
+              {
+                "label": "c",
+                "text": " Mengabaikan audiens"
+              },
+              {
+                "label": "d",
+                "text": " Hanya menyampaikan sebanyak mungkin informasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi efektif mengutamakan kejelasan, kesingkatan, dan relevansi dengan audiens."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "Di perusahaan, Anda perlu mempresentasikan ide penting kepada atasan. Pendekatan yang PALING sesuai adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Menyusun presentasi dengan pendahuluan, poin utama, bukti, dan simpulan"
+              },
+              {
+                "label": "b",
+                "text": " Bicara tanpa persiapan"
+              },
+              {
+                "label": "c",
+                "text": " Hanya menyampaikan perasaan tanpa data"
+              },
+              {
+                "label": "d",
+                "text": " Menggunakan istilah teknis yang rumit"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Presentasi efektif memerlukan struktur yang jelas dengan data pendukung."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Saat berdiskusi dengan teman yang memiliki pendapat berbeda, komunikasi yang paling produktif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Mendengarkan dengan terbuka, menghargai perbedaan, dan mencari titik temu"
+              },
+              {
+                "label": "b",
+                "text": " Mendominasi percakapan"
+              },
+              {
+                "label": "c",
+                "text": "Menghindari diskusi"
+              },
+              {
+                "label": "d",
+                "text": " Berdebat tanpa mendengarkan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi produktif melibatkan mendengarkan aktif, menghargai perbedaan, dan mencari kesepakatan."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Evaluasi efektivitas komunikasi dalam situasi berikut: 'Manajer memberikan instruksi yang tidak jelas, karyawan tidak bertanya karena takut, dan hasil pekerjaan tidak sesuai.' Apa masalah utama dan bagaimana solusi?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Masalah: komunikasi satu arah tidak jelas, solusi: mendorong feedback, klarifikasi, dan komunikasi dua arah"
+              },
+              {
+                "label": "b",
+                "text": "Masalah: karyawan terlalu banyak bertanya"
+              },
+              {
+                "label": "c",
+                "text": "Masalah: manajer terlalu jelas"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada masalah"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Masalah utama: komunikasi satu arah yang ambigu dan budaya takut bertanya. Solusi: komunikasi dua arah, feedback, dan klarifikasi."
+          },
+          {
+            "no": 20,
+            "pertanyaan": "Untuk meningkatkan keterampilan komunikasi efektif dalam kelompok belajar, strategi yang PALING tepat adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": " Berbagi peran, mendengarkan aktif, dan memberikan feedback yang konstruktif"
+              },
+              {
+                "label": "b",
+                "text": " Hanya satu orang yang bicara"
+              },
+              {
+                "label": "c",
+                "text": " Menghindari diskusi"
+              },
+              {
+                "label": "d",
+                "text": "Mengkomunikasikan tanpa persiapan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Komunikasi efektif dalam kelompok memerlukan partisipasi aktif dan feedback konstruktif."
+          }
+        ]
+      }
+    }
+  ]
+}

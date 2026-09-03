@@ -1,0 +1,3262 @@
+{
+  "mataKuliah": "PKN",
+  "moduls": [
+    {
+      "modul": 1,
+      "judul": "Demokrasi dan Hak Asasi Manusia",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Demokrasi secara etimologi berasal dari bahasa Yunani, yaitu 'demos' yang berarti...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kekuasaan"
+              },
+              {
+                "label": "b",
+                "text": "Rakyat"
+              },
+              {
+                "label": "c",
+                "text": "Negara"
+              },
+              {
+                "label": "d",
+                "text": "Hukum"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Demokrasi berasal dari demos (rakyat) dan kratos/cratia (kekuasaan), sehingga demokrasi secara harfiah berarti kekuasaan di tangan rakyat."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Negara Indonesia menganut demokrasi dengan system...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Presidensial murni"
+              },
+              {
+                "label": "b",
+                "text": "Demokrasi Pancasila (dasar negara)"
+              },
+              {
+                "label": "c",
+                "text": "Monarki konstitusional"
+              },
+              {
+                "label": "d",
+                "text": "Oligarki"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Indonesia menganut demokrasi yang berlandaskan Pancasila, yang menekankan musyawarah mufakat, keadilan, dan perlindungan HAM."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Prinsip dasar demokrasi yang menekankan partisipasi rakyat dalam pengambilan keputusan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Determinasi penduduk"
+              },
+              {
+                "label": "b",
+                "text": "Perekonomian lebih"
+              },
+              {
+                "label": "c",
+                "text": "Deliberasi publik"
+              },
+              {
+                "label": "d",
+                "text": "Otoritas militer"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Deliberasi publik/partisipasi warga adalah esensi demokrasi; rakyat dilibatkan dalam diskusi dan keputusan bersama (musyawarah, pemilihan umum, referendum)."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Hak asasi manusia (HAM) adalah hak-hak yang melekat pada manusia yang...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Hanya berlaku di negara maju"
+              },
+              {
+                "label": "b",
+                "text": "Universal, inheren, dan tidak dapat dicabut"
+              },
+              {
+                "label": "c",
+                "text": "Dapat dipilih pemerintah"
+              },
+              {
+                "label": "d",
+                "text": "Bertukar dengan hak warga negara"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "HAM bersifat universal (berlaku untuk semua manusia di mana pun), inheren (bumiparibadi), dan tidak dapat dicabut/dianggap remeh oleh siapapun."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Di dalam UUD 1945 pasca amandemen, pengaturan HAM terdapat dalam...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pembukaan UUD 1945"
+              },
+              {
+                "label": "b",
+                "text": "Pasal 28A hingga 28J"
+              },
+              {
+                "label": "c",
+                "text": "Penjelasan UUD 1945"
+              },
+              {
+                "label": "d",
+                "text": "TAP MPR only"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Amandemen UUD 1945 memasukkan pengaturan HAM dari Pasal 28A sampai 28J, mencakup hak hidup, hak beragama, hak berpendapat, dll."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Berikut yang BUKAN merupakan prinsip HAM adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Keadilan"
+              },
+              {
+                "label": "b",
+                "text": "Keseimbangan"
+              },
+              {
+                "label": "c",
+                "text": "Diskriminasi"
+              },
+              {
+                "label": "d",
+                "text": "Kemanusiaan"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Diskriminasi adalah pelanggaran HAM, bukan prinsip HAM. Prinsip HAM meliputi keadilan, kesetaraan, kemanusiaan, tidak diskriminatif, dsb."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Perlindungan HAM di Indonesia juga diatur dalam...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "UU No. 39 Tahun 1999 tentang HAM"
+              },
+              {
+                "label": "b",
+                "text": "Peraturan daerah saja"
+              },
+              {
+                "label": "c",
+                "text": "Hanya putusan MPR"
+              },
+              {
+                "label": "d",
+                "text": "Kebiasaan lokal"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Undang-Undang No. 39 Tahun 1999 adalah payung hukum HAM di Indonesia, bersama UUD 1945 dan instrumen internasional yang diratifikasi."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Musyawarah untuk mufakat dalam Pancasila mencerminkan demokrasi yang...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Otoriter"
+              },
+              {
+                "label": "b",
+                "text": "Partisipatif dan kekeluargaan"
+              },
+              {
+                "label": "c",
+                "text": "Satu pihak"
+              },
+              {
+                "label": "d",
+                "text": "Militeristik"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Pancasila menekankan musyawarah/mufakat sebagai mekanisme demokrasi kekeluargaan yang menghargai pendapat semua pihak."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "[PKN Modul 1] Dalam konteks pembelajaran modula ini, konsep utama yang paling relevan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konsep A yang mendasar"
+              },
+              {
+                "label": "b",
+                "text": "Konsep B yang mendasar"
+              },
+              {
+                "label": "c",
+                "text": "Konsep C yang mendasar"
+              },
+              {
+                "label": "d",
+                "text": "Konsep D yang mendasar"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Konsep A menjadi landasan utama karena..."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "[PKN Modul 1] Faktor yang mempengaruhi efektivitas pembelajaran pada modul ini meliputi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Faktor a"
+              },
+              {
+                "label": "b",
+                "text": "Faktor b"
+              },
+              {
+                "label": "c",
+                "text": "Faktor c"
+              },
+              {
+                "label": "d",
+                "text": "Faktor d"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Faktor b berpengaruh langsung..."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "[PKN Modul 1] Manakah yang BUKAN merupakan ciri dari pendekatan pembelajaran yang dibahas?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ciri a"
+              },
+              {
+                "label": "b",
+                "text": "Ciri b"
+              },
+              {
+                "label": "c",
+                "text": "Ciri c"
+              },
+              {
+                "label": "d",
+                "text": "Ciri yang bukan"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Ciri yang bukan sesuai dengan karakteristik pendekatan yang dibahas."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "[PKN Modul 1] Dalam menerapkan konsep ini, langkah pertama yang dilakukan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Langkah a"
+              },
+              {
+                "label": "b",
+                "text": "Langkah b"
+              },
+              {
+                "label": "c",
+                "text": "Langkah c"
+              },
+              {
+                "label": "d",
+                "text": "Langkah d"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Langkah a merupakan awal dari proses penerapan."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "[PKN Modul 1] Dampak positif dari penerapan konsep ini antara lain...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Dampak a"
+              },
+              {
+                "label": "b",
+                "text": "Dampak b"
+              },
+              {
+                "label": "c",
+                "text": "Dampak c"
+              },
+              {
+                "label": "d",
+                "text": "Semua di atas benar"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Kombinasi dampak a, b, dan c terjadi bersamaan."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "[PKN Modul 1] Perspektif kritis mengenai konsep ini menyarankan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Perspektif a"
+              },
+              {
+                "label": "b",
+                "text": "Perspektif b"
+              },
+              {
+                "label": "c",
+                "text": "Perspektif c"
+              },
+              {
+                "label": "d",
+                "text": "Perspektif d"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Perspektif c menawarkan tinjauan alternatif yang penting."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Kata 'demokrasi' berasal dari bahasa Yunani: demos (__________) dan kratos (__________).",
+            "kunci": [
+              "rakyat",
+              "kekuasaan"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Hak konstitusional yang dijamin UUD 1945 Pasal 28A adalah hak setiap orang untuk __________.",
+            "kunci": [
+              "hidup"
+            ]
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Pancasila sila kedua adalah __________ yang mengandung prinsip persamaan dan keadilan.",
+            "kunci": [
+              "Kemanusiaan"
+            ]
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Lembaga internasional yang berperan dalam pengawasan HAM adalah __________.",
+            "kunci": [
+              "PBB",
+              "UN",
+              "United Nations"
+            ]
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Instrumen internasional HAM yang diratifikasi Indonesia adalah __________.",
+            "kunci": [
+              "ICCPR",
+              "UDHR",
+              "Konvensi Internasional"
+            ]
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Dalam pemilu, hak demokrasi diwujudkan melalui hak __________.",
+            "kunci": [
+              "vote",
+              "pilih"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Jelaskan hubungan antara demokrasi dan hak asasi manusia! Mengapa kedua konsep ini saling melengkapi?",
+            "kunci": "Demokrasi dan HAM saling melengkapi karena demokrasi menuntut perlindungan HAM agar warga bebas menyampaikan pendapat, berorganisasi, dan memilih; sebaliknya HAM menjamin hak individu yang merupakan syarat legitimasi demokrasi. Tanpa HAM, demokrasi berisiko hanya formal tanpa substansi. Tanpa demokrasi, HAM sulit dijamin karena tidak ada akuntabilitas publik. Kedua konsep menyuarakan martabat manusia, partisipasi, dan keadilan."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Uraikan tiga contoh bentuk partisipasi rakyat dalam demokrasi Indonesia di luar pemilu!",
+            "kunci": "Contoh partisipasi non-pemilu: (1) Musyawarah masyarakat (musrenbang, deliberasi lokal) untuk perencanaan pembangunan; (2) Partisipasi sosial/NGO dalam pengawasan kebijakan dan advokasi HAM; (3) Pengawasan publik lewat media dan platform digital (whistleblowing, petition, forum diskusi); (4) Kerja bakti/gotong royong yang membangun kohesi sosial dan gotong royong sebagai praktik demokrasi sehari-hari."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "[PKN Modul 1] Evaluasi kelebihan dan keterbatasan pendekatan yang digunakan dalam modul ini! Berikan argumen yang mendukung posisi Anda.",
+            "kunci": "Jawaban model: Identifikasi minimal 3 kelebihan dan 2 keterbatasan dengan argumen yang logis dan didukung oleh pemahaman terhadap materi."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "[PKN Modul 1] Bagaimana cara menerapkan konsep ini dalam situasi nyata yang lebih kompleks? Jelaskan langkah-langkah dan kendala yang mungkin dihadapi.",
+            "kunci": "Jawaban model: Jelaskan langkah-langkah penerapan dengan mempertimbangkan variabel yang ada, serta identifikasi kendala dan strategi mengatasinya."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "[PKN Modul 1] Analisis hubungan antar konsep dalam modul ini! Mengapa hubungan tersebut penting untuk dipahami?",
+            "kunci": "Jawaban model: Identifikasi hubungan antar konsep, jelaskan mengapa hubungan tersebut penting, dan berikan contoh bagaimana pemahaman hubungan meningkatkan efektivitas."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 17,
+            "pertanyaan": "Dalam musyawarah desa, warga buta aksara tetap berhak menyampaikan pendapat. Ini merujuk pada prinsip HAM...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Keadilan dan kesetaraan"
+              },
+              {
+                "label": "b",
+                "text": "Kebebasan berdagang"
+              },
+              {
+                "label": "c",
+                "text": "Privasi mutlak"
+              },
+              {
+                "label": "d",
+                "text": "Otoritas birokrasi"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Prinsip keadilan dan kesetaraan (equality before law) menjamin bahwa semua warga tanpa memandang latar belakang berhak berpartisipasi dalam keputusan bersama."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Siswa kelas X menemukan teman diskusi yang selalu dipotong bicaranya. Tindakan yang paling selaras dengan nilai demokrasi adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Membiarkan saja agar kelas cepat selesai"
+              },
+              {
+                "label": "b",
+                "text": "Mengusulkan setiap orang berkesempatan menyampaikan pendapat"
+              },
+              {
+                "label": "c",
+                "text": "Menunjuk satu orang sebagai pemimpin diskusi"
+              },
+              {
+                "label": "d",
+                "text": "Mengabaikan saran"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Demokrasi mengakui hak setiap individu untuk berpartisispasi dan didengar; mengusulkan kesempatan bicara yang setara adalah praktik demokrasi dalam ruang kelas."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Manakah yang PALING tepat sebagai contoh implementasi hak demokrasi di ruang kelas?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Guru memutuskan semua materi tanpa siswa"
+              },
+              {
+                "label": "b",
+                "text": "Siswa memilih jadwal presentasi kelompok melalui voting atau musyawarah"
+              },
+              {
+                "label": "c",
+                "text": "Hanya orang terpilih yang ikut diskusi"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada aturan kelas"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Voting atau musyawarah untuk keputusan bersama (misalnya jadwal presentasi) adalah implementasi nyata demokrasi di kelas."
+          },
+          {
+            "no": 20,
+            "pertanyaan": "Pernyataan yang PALING sesuai dengan hak asasi manusia dalam konteks pendidikan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Hak untuk mendapatkan pendidikan tanpa diskriminasi"
+              },
+              {
+                "label": "b",
+                "text": "Hak untuk hanya belajar jika orang kaya"
+              },
+              {
+                "label": "c",
+                "text": "Hak untuk membenci guru"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada hak pendidikan"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pendidikan adalah hak asasi manusia dan hak dasar; semua orang berhak atas pendidikan tanpa diskriminasi, sesuai UUD 1945 Pasal 28C dan instrumen internasional."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "Jika seorang pelajar ingin menggelar diskusi publik bebas tema demokrasi, hak yang dilakukannya adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Hak berpendapat dan berorganisasi"
+              },
+              {
+                "label": "b",
+                "text": "Hak penguasaan tanah"
+              },
+              {
+                "label": "c",
+                "text": "Hak atas kekayaan"
+              },
+              {
+                "label": "d",
+                "text": "Hak mutlak tanpa batas"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Hak berpendapat, lebur, dan berorganisasi (termasuk diskusi publik) adalah hak asasi manusia yang dijamin konstitusi dan undang-undang."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 2,
+      "judul": "Pancasila sebagai Dasar negara dan Ideologi",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "Pancasila sebagai dasar negara Indonesia dirumuskan dalam...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pembukaan UUD 1945 Alinea IV"
+              },
+              {
+                "label": "b",
+                "text": "Pasal 1 UUD 1945"
+              },
+              {
+                "label": "c",
+                "text": "Penjelasan UUD 1945 sebelum amandemen"
+              },
+              {
+                "label": "d",
+                "text": "Ketetapan MPR"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Rumusan Pancasila terdapat dalam Pembukaan UUD 1945 alinea ke-4, sebagai dasar negara dan idiologi."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "Sila pertama Pancasila yaitu 'Ketuhanan Yang Maha Esa' mencerminkan nilai...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Sekuler mutlak"
+              },
+              {
+                "label": "b",
+                "text": "Spiritualitas dan keberagaman agama"
+              },
+              {
+                "label": "c",
+                "text": "Militerisme"
+              },
+              {
+                "label": "d",
+                "text": "Positivisme"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Silai pertama menjamin kebebasan beragama dan menghormati Tuhan, sekaligus menjadi landasan nilai spiritual bagi bangsa Indonesia yang beragam."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "Pancasila sebagai ideologi negara berfungsi sebagai...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Hanya slogan harian"
+              },
+              {
+                "label": "b",
+                "text": "Panduan perilaku, norma dasar, dan sumber dari semua sumber hukum"
+              },
+              {
+                "label": "c",
+                "text": "Alat politik sesaat"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada fungsi"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Pancasila berfungsi sebagai idiologi negara (way of life), norma dasar, sumber dari segala sumber hukum, serta pedoman perilaku bangsa."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "Sila ke-5 Pancasila ialah 'Keadilan sosial bagi seluruh rakyat Indonesia'. Ini berkaitan erat dengan...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Kesenangan individu"
+              },
+              {
+                "label": "b",
+                "text": "Keadilan ekonomi dan kesejahteraan umum"
+              },
+              {
+                "label": "c",
+                "text": "Dominasi elit"
+              },
+              {
+                "label": "d",
+                "text": "Perang konvensional"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Sila kelima fokus pada keadilan sosial, pembagian peluang yang adil, dan kesejahteraan seluruh rakyat Indonesia."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "Pengamalan Pancasila dalam kehidupan bermasyarakat tercermin melalui...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Individuisme ekstrem"
+              },
+              {
+                "label": "b",
+                "text": "Gotong royong, toleransi, dan musyawarah"
+              },
+              {
+                "label": "c",
+                "text": "Kompetisi tanpa aturan"
+              },
+              {
+                "label": "d",
+                "text": "Eksklusivitas"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Gotong royong, toleransi beragama/bersuku, dan musyawarah adalah praktik nyata pengamalan Pancasila dalam kehidupan bermasyarakat."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "Negara Indonesia berdasarkan Pancasila, artinya...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Negara tidak memiliki dasar"
+              },
+              {
+                "label": "b",
+                "text": "Setiap kebijakan negara harus selaras dengan nilai-nilai Pancasila"
+              },
+              {
+                "label": "c",
+                "text": "Negara lebih diutamakan daripada rakyat"
+              },
+              {
+                "label": "d",
+                "text": "Pancasila hanya untuk masa lalu"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Seluruh penyelenggaraan negara dan kebijakan harus berpijak pada nilai-nilai Pancasila sebagai dasar negara."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "Internalisasi Pancasila merupakan upaya untuk...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Mengabaikan nilai dasar"
+              },
+              {
+                "label": "b",
+                "text": "Menanamkan nilai-nilai Pancasila dalam perilaku sehari-hari"
+              },
+              {
+                "label": "c",
+                "text": "Hanya pemahaman teoritis"
+              },
+              {
+                "label": "d",
+                "text": "Pamer sosio"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Internalisasi adalah proses mengintegrasikan nilai-nilai Pancasila ke dalam pola pikir dan perilaku sehari-hari warga negara."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "Pancasila memberikan landasan bagi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Perselisihan antarumat beragama"
+              },
+              {
+                "label": "b",
+                "text": "Persatuan dan kesatuan bangsa yang majemuk"
+              },
+              {
+                "label": "c",
+                "text": "Pemisahan adat dan negara"
+              },
+              {
+                "label": "d",
+                "text": "Monopoli budaya"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Pancasila menjadi perekat bangsa majemuk, memberikan landasan persatuan, kesatuan, dan penghormatan perbedaan dalam kerangka kesatuan Indonesia."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "[PKN Modul 2] Dalam konteks pembelajaran modula ini, konsep utama yang paling relevan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konsep A yang mendasar"
+              },
+              {
+                "label": "b",
+                "text": "Konsep B yang mendasar"
+              },
+              {
+                "label": "c",
+                "text": "Konsep C yang mendasar"
+              },
+              {
+                "label": "d",
+                "text": "Konsep D yang mendasar"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Konsep A menjadi landasan utama karena..."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "[PKN Modul 2] Faktor yang mempengaruhi efektivitas pembelajaran pada modul ini meliputi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Faktor a"
+              },
+              {
+                "label": "b",
+                "text": "Faktor b"
+              },
+              {
+                "label": "c",
+                "text": "Faktor c"
+              },
+              {
+                "label": "d",
+                "text": "Faktor d"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Faktor b berpengaruh langsung..."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "[PKN Modul 2] Manakah yang BUKAN merupakan ciri dari pendekatan pembelajaran yang dibahas?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ciri a"
+              },
+              {
+                "label": "b",
+                "text": "Ciri b"
+              },
+              {
+                "label": "c",
+                "text": "Ciri c"
+              },
+              {
+                "label": "d",
+                "text": "Ciri yang bukan"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Ciri yang bukan sesuai dengan karakteristik pendekatan yang dibahas."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "[PKN Modul 2] Dalam menerapkan konsep ini, langkah pertama yang dilakukan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Langkah a"
+              },
+              {
+                "label": "b",
+                "text": "Langkah b"
+              },
+              {
+                "label": "c",
+                "text": "Langkah c"
+              },
+              {
+                "label": "d",
+                "text": "Langkah d"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Langkah a merupakan awal dari proses penerapan."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "[PKN Modul 2] Dampak positif dari penerapan konsep ini antara lain...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Dampak a"
+              },
+              {
+                "label": "b",
+                "text": "Dampak b"
+              },
+              {
+                "label": "c",
+                "text": "Dampak c"
+              },
+              {
+                "label": "d",
+                "text": "Semua di atas benar"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Kombinasi dampak a, b, dan c terjadi bersamaan."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "[PKN Modul 2] Perspektif kritis mengenai konsep ini menyarankan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Perspektif a"
+              },
+              {
+                "label": "b",
+                "text": "Perspektif b"
+              },
+              {
+                "label": "c",
+                "text": "Perspektif c"
+              },
+              {
+                "label": "d",
+                "text": "Perspektif d"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Perspektif c menawarkan tinjauan alternatif yang penting."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "Lambang negara Indonesia adalah __________ yang mengandung makna Pancasila.",
+            "kunci": [
+              "Burung Garuda"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "Nomor urut sila 'Persatuan Indonesia' dalam Pancasila ialah __________.",
+            "kunci": [
+              "3",
+              "Sila ketiga"
+            ]
+          },
+          {
+            "no": 11,
+            "pertanyaan": "Pancasila diambil dari bahasa Sanskerta: panca (__________) dan sila (__________).",
+            "kunci": [
+              "lima",
+              "prinsip",
+              "asas"
+            ]
+          },
+          {
+            "no": 12,
+            "pertanyaan": "Rumusan Pancasila resmi ditetapkan melalui __________.",
+            "kunci": [
+              "Pembukaan UUD 1945"
+            ]
+          },
+          {
+            "no": 13,
+            "pertanyaan": "Pendidikan Pancasila dimulai di jenjang __________.",
+            "kunci": [
+              "sekolah",
+              "SD",
+              "formal"
+            ]
+          },
+          {
+            "no": 14,
+            "pertanyaan": "Nilai-nilai Pancasila dapat diamalkan melalui sikap __________ antarwarga.",
+            "kunci": [
+              "toleransi"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "Jelaskan mengapa Pancasila dianggap sebagai dasar negara dan idiologi sekaligus! Apa perbedaan keduanya dalam konteks Indonesia?",
+            "kunci": "Pancasila sebagai dasar negara berarti seluruh penyelenggaraan negara dan hukum harus berlandaskan nilai-nilai Pancasila; sebagai ideologi, Pancasila adalah sistem nilai yang menjadi pandangan hidup dan pegangan perilaku bangsa. Perbedaan: dasar negara lebih pada fungsi kelembagaan-hukum (sumber dari segala sumber hukum), sedangkan ideologi lebih pada dimensi budaya-nilai (panduan perilaku, worldview, identitas bangsa). Keduanya saling menopang."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "Sebutkan dan jelaskan tiga sila Pancasila yang paling relevan dengan kehidupan bermedia sosial! Hubungkan dengan perilaku digital.",
+            "kunci": "Tiga sila yang relevan: (1) Sila 1 (Ketuhanan Yang Maha Esa) mengajarkan hormat, tidak menyebarkan ujaran kebencian berdasarkan agama, menjaga kesucian nilai spiritual; (2) Sila 2 (Kemanusiaan yang adil dan beradab) mendorong tidak perundungan siber (cyberbullying), menghargai privasi, berbicara sopan, tidak menyebarkan hoaks; (3) Sila 3 (Persatuan Indonesia) mengajak warga menjaga kohesi bangsa di ruang digital, tidak membagi-bagi masyarakat berdasarkan SARA, dan mempromosikan sikap inklusif. Hubungan perilaku digital: media sosial dapat memperkuat atau merusak persatuan tergantung amalannya."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "[PKN Modul 2] Evaluasi kelebihan dan keterbatasan pendekatan yang digunakan dalam modul ini! Berikan argumen yang mendukung posisi Anda.",
+            "kunci": "Jawaban model: Identifikasi minimal 3 kelebihan dan 2 keterbatasan dengan argumen yang logis dan didukung oleh pemahaman terhadap materi."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "[PKN Modul 2] Bagaimana cara menerapkan konsep ini dalam situasi nyata yang lebih kompleks? Jelaskan langkah-langkah dan kendala yang mungkin dihadapi.",
+            "kunci": "Jawaban model: Jelaskan langkah-langkah penerapan dengan mempertimbangkan variabel yang ada, serta identifikasi kendala dan strategi mengatasinya."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "[PKN Modul 2] Analisis hubungan antar konsep dalam modul ini! Mengapa hubungan tersebut penting untuk dipahami?",
+            "kunci": "Jawaban model: Identifikasi hubungan antar konsep, jelaskan mengapa hubungan tersebut penting, dan berikan contoh bagaimana pemahaman hubungan meningkatkan efektivitas."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 17,
+            "pertanyaan": "Seorang siswa melihat temannya melakukan diskriminasi terhadap teman berbeda suku di media grup. Tindakan yang PALING sesuai nilai Pancasila adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Mengabaikan saja agar tidak ribet"
+              },
+              {
+                "label": "b",
+                "text": "Menegur etis, membela teman terdiskriminasi, dan mendorong sikap adil serta beretika"
+              },
+              {
+                "label": "c",
+                "text": "Ikut mengucilkan teman tersebut"
+              },
+              {
+                "label": "d",
+                "text": "Melaporkan ke polisi tanpa konteks"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Nilai Pancasila (terutama Sila 2 dan Sila 3) mendorong sikap adil, anti-diskriminasi, dan menegakkan keadilan dengan cara yang bijak dan etis."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "Manakah yang PALING mencerminkan pengamalan Sila 4 (Kerakyatan) dalam konteks organisasi kampus?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Anggota baru tidak boleh punya pendapat"
+              },
+              {
+                "label": "b",
+                "text": "Pengambilan keputusan dilakukan lewat musyawarah dan voting yang adil"
+              },
+              {
+                "label": "c",
+                "text": "Ketua organisasi memutuskan sepihak"
+              },
+              {
+                "label": "d",
+                "text": "Tidak ada proses diskusi"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Sila 4 menekankan demokrasi, musyawarah, dan keadilan; pengambilan keputusan organisasi yang melibatkan anggota melalui musyawarah/voting adalah bentuk pengamalan Sila 4."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "Seorang guru ingin mengajarkan Pancasila di kelas. Pendekatan yang PALING efektif adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Hanya menghafal nomor sila"
+              },
+              {
+                "label": "b",
+                "text": "Mengajak siswa memahami nilai, memberikan contoh kontekstual, dan mempraktikkannya dalam kegiatan sehari-hari"
+              },
+              {
+                "label": "c",
+                "text": "Menyuruh semua siswa setuju tanpa diskusi"
+              },
+              {
+                "label": "d",
+                "text": "Tidak perlu metodologi"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Pengajaran Pancasila efektif melalui pemahaman nilai, kontekstualisasi (contoh nyata), dan praktik langsung (diskusi, kegiatan kelompok) agar siswa tidak hanya hafal tapi mengamalkannya."
+          },
+          {
+            "no": 20,
+            "pertanyaan": "Seorang tokoh masyarakat mendukung program gotong royong membersihkan sungai. Hal ini selaras dengan nilai Pancasila sila...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ke-1"
+              },
+              {
+                "label": "b",
+                "text": "Ke-2 dan Ke-5"
+              },
+              {
+                "label": "c",
+                "text": "Ke-5 dan Ke-3"
+              },
+              {
+                "label": "d",
+                "text": "Ke-4 saja"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Gotong royong mencerminkan Sila 2 (kemanusiaan yang adil dan beradab) dan Sila 5 (keadilan sosial) karena bersama-sama mewujudkan kebermanfaatan umum dan kelestarian lingkungan."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "Manakah yang PALING tepat sebagai contoh Pancasila dalam kehidupan bernegara?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Pemimpin negara memimpin dengan musyawarah dan memihak semua golongan"
+              },
+              {
+                "label": "b",
+                "text": "Hanya satu golongan yang diuntungkan"
+              },
+              {
+                "label": "c",
+                "text": "Negara mengabaikan perbedaan"
+              },
+              {
+                "label": "d",
+                "text": "Tanpa dasar hukum"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Pemimpin yang memimpin dengan musyawarah dan mengayomi semua golongan adalah wujud nyata pengamalan Pancasila dalam kehidupan bernegara."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 3,
+      "judul": "Pancasila dalam Kehidupan Berbangsa dan Bernegara",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 1,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Soal PG 1 — topik utama mata kuliah.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A yang masuk akal"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B yang masuk akal"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C yang masuk akal"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D yang masuk akal"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan singkat jawaban benar."
+          },
+          {
+            "no": 2,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Soal PG 2 — variasi konsep.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penjelasan konsep."
+          },
+          {
+            "no": 3,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Soal PG 3 — aplikasi nilai.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Penjelasan aplikasi."
+          },
+          {
+            "no": 4,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Soal PG 4 — analisis kasus.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Penjelasan kasus."
+          },
+          {
+            "no": 5,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Soal PG 5 — prinsip dasar.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan prinsip."
+          },
+          {
+            "no": 6,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Soal PG 6 — konteks kekinian.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penjelasan konteks."
+          },
+          {
+            "no": 7,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Soal PG 7 — perspektif kritis.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Penjelasan perspektif."
+          },
+          {
+            "no": 8,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Soal PG 8 — sintesis konsep.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Penjelasan sintesis."
+          },
+          {
+            "no": 9,
+            "pertanyaan": "[PKN Modul 3] Dalam konteks pembelajaran modula ini, konsep utama yang paling relevan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konsep A yang mendasar"
+              },
+              {
+                "label": "b",
+                "text": "Konsep B yang mendasar"
+              },
+              {
+                "label": "c",
+                "text": "Konsep C yang mendasar"
+              },
+              {
+                "label": "d",
+                "text": "Konsep D yang mendasar"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Konsep A menjadi landasan utama karena..."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "[PKN Modul 3] Faktor yang mempengaruhi efektivitas pembelajaran pada modul ini meliputi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Faktor a"
+              },
+              {
+                "label": "b",
+                "text": "Faktor b"
+              },
+              {
+                "label": "c",
+                "text": "Faktor c"
+              },
+              {
+                "label": "d",
+                "text": "Faktor d"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Faktor b berpengaruh langsung..."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "[PKN Modul 3] Manakah yang BUKAN merupakan ciri dari pendekatan pembelajaran yang dibahas?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ciri a"
+              },
+              {
+                "label": "b",
+                "text": "Ciri b"
+              },
+              {
+                "label": "c",
+                "text": "Ciri c"
+              },
+              {
+                "label": "d",
+                "text": "Ciri yang bukan"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Ciri yang bukan sesuai dengan karakteristik pendekatan yang dibahas."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "[PKN Modul 3] Dalam menerapkan konsep ini, langkah pertama yang dilakukan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Langkah a"
+              },
+              {
+                "label": "b",
+                "text": "Langkah b"
+              },
+              {
+                "label": "c",
+                "text": "Langkah c"
+              },
+              {
+                "label": "d",
+                "text": "Langkah d"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Langkah a merupakan awal dari proses penerapan."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "[PKN Modul 3] Dampak positif dari penerapan konsep ini antara lain...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Dampak a"
+              },
+              {
+                "label": "b",
+                "text": "Dampak b"
+              },
+              {
+                "label": "c",
+                "text": "Dampak c"
+              },
+              {
+                "label": "d",
+                "text": "Semua di atas benar"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Kombinasi dampak a, b, dan c terjadi bersamaan."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "[PKN Modul 3] Perspektif kritis mengenai konsep ini menyarankan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Perspektif a"
+              },
+              {
+                "label": "b",
+                "text": "Perspektif b"
+              },
+              {
+                "label": "c",
+                "text": "Perspektif c"
+              },
+              {
+                "label": "d",
+                "text": "Perspektif d"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Perspektif c menawarkan tinjauan alternatif yang penting."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 9,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Isian 1 — definisi singkat.",
+            "kunci": [
+              "kata kunci 1",
+              "sinonim"
+            ]
+          },
+          {
+            "no": 10,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Isian 2 — istilah kunci.",
+            "kunci": [
+              "istilah utama",
+              "alternatif"
+            ]
+          },
+          {
+            "no": 11,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Isian 3 — prinsip yang diterapkan.",
+            "kunci": [
+              "prinsip",
+              "nilai"
+            ]
+          },
+          {
+            "no": 12,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Isian 4 — contoh konkret.",
+            "kunci": [
+              "contoh",
+              "fenomena"
+            ]
+          },
+          {
+            "no": 13,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Isian 5 — hubungan konsep.",
+            "kunci": [
+              "hubungan",
+              "dampak"
+            ]
+          },
+          {
+            "no": 14,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Isian 6 — solusi sederhana.",
+            "kunci": [
+              "solusi",
+              "pendekatan"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 15,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Essay 1 — analisis konsep.",
+            "kunci": "Jawaban model: penjelasan mendalam tentang konsep dengan contoh dan analisis kritis."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Essay 2 — evaluasi dampak.",
+            "kunci": "Jawaban model: evaluasi dampak positif dan negatif dengan argumen yang didukung."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Essay 3 — rekomendasi kebijakan.",
+            "kunci": "Jawaban model: rekomendasi yang konkret, feasible, dan berpijak pada nilai-nilai yang relevan."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Essay 4 — studi kasus.",
+            "kunci": "Jawaban model: analisis kasus dengan mengaitkan teori dan praktik yang selaras."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Essay 5 — perspektif masa depan.",
+            "kunci": "Jawaban model: prospek masa depan dengan mempertimbangkan tren dan tantangan yang dihadapi."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 20,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Aplikasi 1 — skenario keputusan.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A situasional"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B situasional"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C situasional"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D situasional"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan mengapa opsi A paling tepat dalam konteks skenario."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Aplikasi 2 — analisis perilaku.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A perilaku"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B perilaku"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C perilaku"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D perilaku"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penjelasan analisis perilaku."
+          },
+          {
+            "no": 22,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Aplikasi 3 — strategi respons.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A strategi"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B strategi"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C strategi"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D strategi"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Penjelasan strategi respons."
+          },
+          {
+            "no": 23,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Aplikasi 4 — evaluation etis.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A etika"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B etika"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C etika"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D etika"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Penjelasan evaluasi etis."
+          },
+          {
+            "no": 24,
+            "pertanyaan": "[Pancasila dalam Kehidupan Berbangsa dan Bernegara] Aplikasi 5 — wawasan kontekstual.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A konteks"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B konteks"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C konteks"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D konteks"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan wawasan kontekstual."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 4,
+      "judul": "Pancasila dan Globalisasi",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 9,
+            "pertanyaan": "[Pancasila dan Globalisasi] Soal PG 1 — topik utama mata kuliah.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A yang masuk akal"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B yang masuk akal"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C yang masuk akal"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D yang masuk akal"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan singkat jawaban benar."
+          },
+          {
+            "no": 10,
+            "pertanyaan": "[Pancasila dan Globalisasi] Soal PG 2 — variasi konsep.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penjelasan konsep."
+          },
+          {
+            "no": 11,
+            "pertanyaan": "[Pancasila dan Globalisasi] Soal PG 3 — aplikasi nilai.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Penjelasan aplikasi."
+          },
+          {
+            "no": 12,
+            "pertanyaan": "[Pancasila dan Globalisasi] Soal PG 4 — analisis kasus.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Penjelasan kasus."
+          },
+          {
+            "no": 13,
+            "pertanyaan": "[Pancasila dan Globalisasi] Soal PG 5 — prinsip dasar.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan prinsip."
+          },
+          {
+            "no": 14,
+            "pertanyaan": "[Pancasila dan Globalisasi] Soal PG 6 — konteks kekinian.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penjelasan konteks."
+          },
+          {
+            "no": 15,
+            "pertanyaan": "[Pancasila dan Globalisasi] Soal PG 7 — perspektif kritis.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Penjelasan perspektif."
+          },
+          {
+            "no": 16,
+            "pertanyaan": "[Pancasila dan Globalisasi] Soal PG 8 — sintesis konsep.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Penjelasan sintesis."
+          },
+          {
+            "no": 17,
+            "pertanyaan": "[PKN Modul 4] Dalam konteks pembelajaran modula ini, konsep utama yang paling relevan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konsep A yang mendasar"
+              },
+              {
+                "label": "b",
+                "text": "Konsep B yang mendasar"
+              },
+              {
+                "label": "c",
+                "text": "Konsep C yang mendasar"
+              },
+              {
+                "label": "d",
+                "text": "Konsep D yang mendasar"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Konsep A menjadi landasan utama karena..."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "[PKN Modul 4] Faktor yang mempengaruhi efektivitas pembelajaran pada modul ini meliputi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Faktor a"
+              },
+              {
+                "label": "b",
+                "text": "Faktor b"
+              },
+              {
+                "label": "c",
+                "text": "Faktor c"
+              },
+              {
+                "label": "d",
+                "text": "Faktor d"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Faktor b berpengaruh langsung..."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "[PKN Modul 4] Manakah yang BUKAN merupakan ciri dari pendekatan pembelajaran yang dibahas?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ciri a"
+              },
+              {
+                "label": "b",
+                "text": "Ciri b"
+              },
+              {
+                "label": "c",
+                "text": "Ciri c"
+              },
+              {
+                "label": "d",
+                "text": "Ciri yang bukan"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Ciri yang bukan sesuai dengan karakteristik pendekatan yang dibahas."
+          },
+          {
+            "no": 20,
+            "pertanyaan": "[PKN Modul 4] Dalam menerapkan konsep ini, langkah pertama yang dilakukan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Langkah a"
+              },
+              {
+                "label": "b",
+                "text": "Langkah b"
+              },
+              {
+                "label": "c",
+                "text": "Langkah c"
+              },
+              {
+                "label": "d",
+                "text": "Langkah d"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Langkah a merupakan awal dari proses penerapan."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "[PKN Modul 4] Dampak positif dari penerapan konsep ini antara lain...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Dampak a"
+              },
+              {
+                "label": "b",
+                "text": "Dampak b"
+              },
+              {
+                "label": "c",
+                "text": "Dampak c"
+              },
+              {
+                "label": "d",
+                "text": "Semua di atas benar"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Kombinasi dampak a, b, dan c terjadi bersamaan."
+          },
+          {
+            "no": 22,
+            "pertanyaan": "[PKN Modul 4] Perspektif kritis mengenai konsep ini menyarankan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Perspektif a"
+              },
+              {
+                "label": "b",
+                "text": "Perspektif b"
+              },
+              {
+                "label": "c",
+                "text": "Perspektif c"
+              },
+              {
+                "label": "d",
+                "text": "Perspektif d"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Perspektif c menawarkan tinjauan alternatif yang penting."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 15,
+            "pertanyaan": "[Pancasila dan Globalisasi] Isian 1 — definisi singkat.",
+            "kunci": [
+              "kata kunci 1",
+              "sinonim"
+            ]
+          },
+          {
+            "no": 16,
+            "pertanyaan": "[Pancasila dan Globalisasi] Isian 2 — istilah kunci.",
+            "kunci": [
+              "istilah utama",
+              "alternatif"
+            ]
+          },
+          {
+            "no": 17,
+            "pertanyaan": "[Pancasila dan Globalisasi] Isian 3 — prinsip yang diterapkan.",
+            "kunci": [
+              "prinsip",
+              "nilai"
+            ]
+          },
+          {
+            "no": 18,
+            "pertanyaan": "[Pancasila dan Globalisasi] Isian 4 — contoh konkret.",
+            "kunci": [
+              "contoh",
+              "fenomena"
+            ]
+          },
+          {
+            "no": 19,
+            "pertanyaan": "[Pancasila dan Globalisasi] Isian 5 — hubungan konsep.",
+            "kunci": [
+              "hubungan",
+              "dampak"
+            ]
+          },
+          {
+            "no": 20,
+            "pertanyaan": "[Pancasila dan Globalisasi] Isian 6 — solusi sederhana.",
+            "kunci": [
+              "solusi",
+              "pendekatan"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 20,
+            "pertanyaan": "[Pancasila dan Globalisasi] Essay 1 — analisis konsep.",
+            "kunci": "Jawaban model: penjelasan mendalam tentang konsep dengan contoh dan analisis kritis."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "[Pancasila dan Globalisasi] Essay 2 — evaluasi dampak.",
+            "kunci": "Jawaban model: evaluasi dampak positif dan negatif dengan argumen yang didukung."
+          },
+          {
+            "no": 22,
+            "pertanyaan": "[Pancasila dan Globalisasi] Essay 3 — rekomendasi kebijakan.",
+            "kunci": "Jawaban model: rekomendasi yang konkret, feasible, dan berpijak pada nilai-nilai yang relevan."
+          },
+          {
+            "no": 23,
+            "pertanyaan": "[Pancasila dan Globalisasi] Essay 4 — studi kasus.",
+            "kunci": "Jawaban model: analisis kasus dengan mengaitkan teori dan praktik yang selaras."
+          },
+          {
+            "no": 24,
+            "pertanyaan": "[Pancasila dan Globalisasi] Essay 5 — perspektif masa depan.",
+            "kunci": "Jawaban model: prospek masa depan dengan mempertimbangkan tren dan tantangan yang dihadapi."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 25,
+            "pertanyaan": "[Pancasila dan Globalisasi] Aplikasi 1 — skenario keputusan.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A situasional"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B situasional"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C situasional"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D situasional"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan mengapa opsi A paling tepat dalam konteks skenario."
+          },
+          {
+            "no": 26,
+            "pertanyaan": "[Pancasila dan Globalisasi] Aplikasi 2 — analisis perilaku.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A perilaku"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B perilaku"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C perilaku"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D perilaku"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penjelasan analisis perilaku."
+          },
+          {
+            "no": 27,
+            "pertanyaan": "[Pancasila dan Globalisasi] Aplikasi 3 — strategi respons.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A strategi"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B strategi"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C strategi"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D strategi"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Penjelasan strategi respons."
+          },
+          {
+            "no": 28,
+            "pertanyaan": "[Pancasila dan Globalisasi] Aplikasi 4 — evaluation etis.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A etika"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B etika"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C etika"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D etika"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Penjelasan evaluasi etis."
+          },
+          {
+            "no": 29,
+            "pertanyaan": "[Pancasila dan Globalisasi] Aplikasi 5 — wawasan kontekstual.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A konteks"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B konteks"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C konteks"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D konteks"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan wawasan kontekstual."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 5,
+      "judul": "Implementasi Nilai Pancasila dalam Berbagai Bidang",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 17,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Soal PG 1 — topik utama mata kuliah.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A yang masuk akal"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B yang masuk akal"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C yang masuk akal"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D yang masuk akal"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan singkat jawaban benar."
+          },
+          {
+            "no": 18,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Soal PG 2 — variasi konsep.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penjelasan konsep."
+          },
+          {
+            "no": 19,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Soal PG 3 — aplikasi nilai.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Penjelasan aplikasi."
+          },
+          {
+            "no": 20,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Soal PG 4 — analisis kasus.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Penjelasan kasus."
+          },
+          {
+            "no": 21,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Soal PG 5 — prinsip dasar.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan prinsip."
+          },
+          {
+            "no": 22,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Soal PG 6 — konteks kekinian.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penjelasan konteks."
+          },
+          {
+            "no": 23,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Soal PG 7 — perspektif kritis.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Penjelasan perspektif."
+          },
+          {
+            "no": 24,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Soal PG 8 — sintesis konsep.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Penjelasan sintesis."
+          },
+          {
+            "no": 25,
+            "pertanyaan": "[PKN Modul 5] Dalam konteks pembelajaran modula ini, konsep utama yang paling relevan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konsep A yang mendasar"
+              },
+              {
+                "label": "b",
+                "text": "Konsep B yang mendasar"
+              },
+              {
+                "label": "c",
+                "text": "Konsep C yang mendasar"
+              },
+              {
+                "label": "d",
+                "text": "Konsep D yang mendasar"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Konsep A menjadi landasan utama karena..."
+          },
+          {
+            "no": 26,
+            "pertanyaan": "[PKN Modul 5] Faktor yang mempengaruhi efektivitas pembelajaran pada modul ini meliputi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Faktor a"
+              },
+              {
+                "label": "b",
+                "text": "Faktor b"
+              },
+              {
+                "label": "c",
+                "text": "Faktor c"
+              },
+              {
+                "label": "d",
+                "text": "Faktor d"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Faktor b berpengaruh langsung..."
+          },
+          {
+            "no": 27,
+            "pertanyaan": "[PKN Modul 5] Manakah yang BUKAN merupakan ciri dari pendekatan pembelajaran yang dibahas?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ciri a"
+              },
+              {
+                "label": "b",
+                "text": "Ciri b"
+              },
+              {
+                "label": "c",
+                "text": "Ciri c"
+              },
+              {
+                "label": "d",
+                "text": "Ciri yang bukan"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Ciri yang bukan sesuai dengan karakteristik pendekatan yang dibahas."
+          },
+          {
+            "no": 28,
+            "pertanyaan": "[PKN Modul 5] Dalam menerapkan konsep ini, langkah pertama yang dilakukan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Langkah a"
+              },
+              {
+                "label": "b",
+                "text": "Langkah b"
+              },
+              {
+                "label": "c",
+                "text": "Langkah c"
+              },
+              {
+                "label": "d",
+                "text": "Langkah d"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Langkah a merupakan awal dari proses penerapan."
+          },
+          {
+            "no": 29,
+            "pertanyaan": "[PKN Modul 5] Dampak positif dari penerapan konsep ini antara lain...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Dampak a"
+              },
+              {
+                "label": "b",
+                "text": "Dampak b"
+              },
+              {
+                "label": "c",
+                "text": "Dampak c"
+              },
+              {
+                "label": "d",
+                "text": "Semua di atas benar"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Kombinasi dampak a, b, dan c terjadi bersamaan."
+          },
+          {
+            "no": 30,
+            "pertanyaan": "[PKN Modul 5] Perspektif kritis mengenai konsep ini menyarankan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Perspektif a"
+              },
+              {
+                "label": "b",
+                "text": "Perspektif b"
+              },
+              {
+                "label": "c",
+                "text": "Perspektif c"
+              },
+              {
+                "label": "d",
+                "text": "Perspektif d"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Perspektif c menawarkan tinjauan alternatif yang penting."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 21,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Isian 1 — definisi singkat.",
+            "kunci": [
+              "kata kunci 1",
+              "sinonim"
+            ]
+          },
+          {
+            "no": 22,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Isian 2 — istilah kunci.",
+            "kunci": [
+              "istilah utama",
+              "alternatif"
+            ]
+          },
+          {
+            "no": 23,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Isian 3 — prinsip yang diterapkan.",
+            "kunci": [
+              "prinsip",
+              "nilai"
+            ]
+          },
+          {
+            "no": 24,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Isian 4 — contoh konkret.",
+            "kunci": [
+              "contoh",
+              "fenomena"
+            ]
+          },
+          {
+            "no": 25,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Isian 5 — hubungan konsep.",
+            "kunci": [
+              "hubungan",
+              "dampak"
+            ]
+          },
+          {
+            "no": 26,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Isian 6 — solusi sederhana.",
+            "kunci": [
+              "solusi",
+              "pendekatan"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 25,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Essay 1 — analisis konsep.",
+            "kunci": "Jawaban model: penjelasan mendalam tentang konsep dengan contoh dan analisis kritis."
+          },
+          {
+            "no": 26,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Essay 2 — evaluasi dampak.",
+            "kunci": "Jawaban model: evaluasi dampak positif dan negatif dengan argumen yang didukung."
+          },
+          {
+            "no": 27,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Essay 3 — rekomendasi kebijakan.",
+            "kunci": "Jawaban model: rekomendasi yang konkret, feasible, dan berpijak pada nilai-nilai yang relevan."
+          },
+          {
+            "no": 28,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Essay 4 — studi kasus.",
+            "kunci": "Jawaban model: analisis kasus dengan mengaitkan teori dan praktik yang selaras."
+          },
+          {
+            "no": 29,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Essay 5 — perspektif masa depan.",
+            "kunci": "Jawaban model: prospek masa depan dengan mempertimbangkan tren dan tantangan yang dihadapi."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 30,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Aplikasi 1 — skenario keputusan.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A situasional"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B situasional"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C situasional"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D situasional"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan mengapa opsi A paling tepat dalam konteks skenario."
+          },
+          {
+            "no": 31,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Aplikasi 2 — analisis perilaku.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A perilaku"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B perilaku"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C perilaku"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D perilaku"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penjelasan analisis perilaku."
+          },
+          {
+            "no": 32,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Aplikasi 3 — strategi respons.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A strategi"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B strategi"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C strategi"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D strategi"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Penjelasan strategi respons."
+          },
+          {
+            "no": 33,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Aplikasi 4 — evaluation etis.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A etika"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B etika"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C etika"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D etika"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Penjelasan evaluasi etis."
+          },
+          {
+            "no": 34,
+            "pertanyaan": "[Implementasi Nilai Pancasila dalam Berbagai Bidang] Aplikasi 5 — wawasan kontekstual.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A konteks"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B konteks"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C konteks"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D konteks"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan wawasan kontekstual."
+          }
+        ]
+      }
+    },
+    {
+      "modul": 6,
+      "judul": "Tantangan dan Relevan Pancasila di Era Kontemporer",
+      "soal": {
+        "pilihanGanda": [
+          {
+            "no": 25,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Soal PG 1 — topik utama mata kuliah.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A yang masuk akal"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B yang masuk akal"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C yang masuk akal"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D yang masuk akal"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan singkat jawaban benar."
+          },
+          {
+            "no": 26,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Soal PG 2 — variasi konsep.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penjelasan konsep."
+          },
+          {
+            "no": 27,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Soal PG 3 — aplikasi nilai.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Penjelasan aplikasi."
+          },
+          {
+            "no": 28,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Soal PG 4 — analisis kasus.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Penjelasan kasus."
+          },
+          {
+            "no": 29,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Soal PG 5 — prinsip dasar.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan prinsip."
+          },
+          {
+            "no": 30,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Soal PG 6 — konteks kekinian.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penjelasan konteks."
+          },
+          {
+            "no": 31,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Soal PG 7 — perspektif kritis.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Penjelasan perspektif."
+          },
+          {
+            "no": 32,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Soal PG 8 — sintesis konsep.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Penjelasan sintesis."
+          },
+          {
+            "no": 33,
+            "pertanyaan": "[PKN Modul 6] Dalam konteks pembelajaran modula ini, konsep utama yang paling relevan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Konsep A yang mendasar"
+              },
+              {
+                "label": "b",
+                "text": "Konsep B yang mendasar"
+              },
+              {
+                "label": "c",
+                "text": "Konsep C yang mendasar"
+              },
+              {
+                "label": "d",
+                "text": "Konsep D yang mendasar"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Konsep A menjadi landasan utama karena..."
+          },
+          {
+            "no": 34,
+            "pertanyaan": "[PKN Modul 6] Faktor yang mempengaruhi efektivitas pembelajaran pada modul ini meliputi...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Faktor a"
+              },
+              {
+                "label": "b",
+                "text": "Faktor b"
+              },
+              {
+                "label": "c",
+                "text": "Faktor c"
+              },
+              {
+                "label": "d",
+                "text": "Faktor d"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Faktor b berpengaruh langsung..."
+          },
+          {
+            "no": 35,
+            "pertanyaan": "[PKN Modul 6] Manakah yang BUKAN merupakan ciri dari pendekatan pembelajaran yang dibahas?",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Ciri a"
+              },
+              {
+                "label": "b",
+                "text": "Ciri b"
+              },
+              {
+                "label": "c",
+                "text": "Ciri c"
+              },
+              {
+                "label": "d",
+                "text": "Ciri yang bukan"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Ciri yang bukan sesuai dengan karakteristik pendekatan yang dibahas."
+          },
+          {
+            "no": 36,
+            "pertanyaan": "[PKN Modul 6] Dalam menerapkan konsep ini, langkah pertama yang dilakukan adalah...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Langkah a"
+              },
+              {
+                "label": "b",
+                "text": "Langkah b"
+              },
+              {
+                "label": "c",
+                "text": "Langkah c"
+              },
+              {
+                "label": "d",
+                "text": "Langkah d"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Langkah a merupakan awal dari proses penerapan."
+          },
+          {
+            "no": 37,
+            "pertanyaan": "[PKN Modul 6] Dampak positif dari penerapan konsep ini antara lain...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Dampak a"
+              },
+              {
+                "label": "b",
+                "text": "Dampak b"
+              },
+              {
+                "label": "c",
+                "text": "Dampak c"
+              },
+              {
+                "label": "d",
+                "text": "Semua di atas benar"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Kombinasi dampak a, b, dan c terjadi bersamaan."
+          },
+          {
+            "no": 38,
+            "pertanyaan": "[PKN Modul 6] Perspektif kritis mengenai konsep ini menyarankan bahwa...",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Perspektif a"
+              },
+              {
+                "label": "b",
+                "text": "Perspektif b"
+              },
+              {
+                "label": "c",
+                "text": "Perspektif c"
+              },
+              {
+                "label": "d",
+                "text": "Perspektif d"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Perspektif c menawarkan tinjauan alternatif yang penting."
+          }
+        ],
+        "isianSingkat": [
+          {
+            "no": 27,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Isian 1 — definisi singkat.",
+            "kunci": [
+              "kata kunci 1",
+              "sinonim"
+            ]
+          },
+          {
+            "no": 28,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Isian 2 — istilah kunci.",
+            "kunci": [
+              "istilah utama",
+              "alternatif"
+            ]
+          },
+          {
+            "no": 29,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Isian 3 — prinsip yang diterapkan.",
+            "kunci": [
+              "prinsip",
+              "nilai"
+            ]
+          },
+          {
+            "no": 30,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Isian 4 — contoh konkret.",
+            "kunci": [
+              "contoh",
+              "fenomena"
+            ]
+          },
+          {
+            "no": 31,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Isian 5 — hubungan konsep.",
+            "kunci": [
+              "hubungan",
+              "dampak"
+            ]
+          },
+          {
+            "no": 32,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Isian 6 — solusi sederhana.",
+            "kunci": [
+              "solusi",
+              "pendekatan"
+            ]
+          }
+        ],
+        "essay": [
+          {
+            "no": 30,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Essay 1 — analisis konsep.",
+            "kunci": "Jawaban model: penjelasan mendalam tentang konsep dengan contoh dan analisis kritis."
+          },
+          {
+            "no": 31,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Essay 2 — evaluasi dampak.",
+            "kunci": "Jawaban model: evaluasi dampak positif dan negatif dengan argumen yang didukung."
+          },
+          {
+            "no": 32,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Essay 3 — rekomendasi kebijakan.",
+            "kunci": "Jawaban model: rekomendasi yang konkret, feasible, dan berpijak pada nilai-nilai yang relevan."
+          },
+          {
+            "no": 33,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Essay 4 — studi kasus.",
+            "kunci": "Jawaban model: analisis kasus dengan mengaitkan teori dan praktik yang selaras."
+          },
+          {
+            "no": 34,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Essay 5 — perspektif masa depan.",
+            "kunci": "Jawaban model: prospek masa depan dengan mempertimbangkan tren dan tantangan yang dihadapi."
+          }
+        ],
+        "aplikasiKonteks": [
+          {
+            "no": 35,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Aplikasi 1 — skenario keputusan.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A situasional"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B situasional"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C situasional"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D situasional"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan mengapa opsi A paling tepat dalam konteks skenario."
+          },
+          {
+            "no": 36,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Aplikasi 2 — analisis perilaku.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A perilaku"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B perilaku"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C perilaku"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D perilaku"
+              }
+            ],
+            "kunci": "b",
+            "penjelasan": "Penjelasan analisis perilaku."
+          },
+          {
+            "no": 37,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Aplikasi 3 — strategi respons.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A strategi"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B strategi"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C strategi"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D strategi"
+              }
+            ],
+            "kunci": "c",
+            "penjelasan": "Penjelasan strategi respons."
+          },
+          {
+            "no": 38,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Aplikasi 4 — evaluation etis.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A etika"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B etika"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C etika"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D etika"
+              }
+            ],
+            "kunci": "d",
+            "penjelasan": "Penjelasan evaluasi etis."
+          },
+          {
+            "no": 39,
+            "pertanyaan": "[Tantangan dan Relevan Pancasila di Era Kontemporer] Aplikasi 5 — wawasan kontekstual.",
+            "opsi": [
+              {
+                "label": "a",
+                "text": "Opsi A konteks"
+              },
+              {
+                "label": "b",
+                "text": "Opsi B konteks"
+              },
+              {
+                "label": "c",
+                "text": "Opsi C konteks"
+              },
+              {
+                "label": "d",
+                "text": "Opsi D konteks"
+              }
+            ],
+            "kunci": "a",
+            "penjelasan": "Penjelasan wawasan kontekstual."
+          }
+        ]
+      }
+    }
+  ]
+}

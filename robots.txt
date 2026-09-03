@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /assetMatkul/
+Disallow: /data/
+
+Sitemap: https://efwan016.github.io/KB-BMP-Sasing/sitemap.xml
