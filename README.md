@@ -1,10 +1,13 @@
-# BMP Sasing
+# KB-BMP-Sasing
 
-Platform belajar mandiri untuk mengakses bahan ajar dan latihan soal Sastra Inggris Universitas Terbuka.
+Kumpulan modul pembelajaran Bahasa Inggris: Basic Writing dan Basic Reading untuk mahasiswa Sasing Ganjil 26.
 
-## Akses Aplikasi
+Platform belajar mandiri berbasis React 19 + Vite 5 + TypeScript. Menyediakan akses bahan ajar berupa PDF dan latihan soal interaktif (pilihan ganda, isian singkat, essay, aplikasi konteks) untuk 6 mata kuliah.
 
-Kunjungi aplikasi melalui [bmpsasing.adzanitech.web.id](https://bmpsasing.adzanitech.web.id).
+## Link Penting
+
+- **Aplikasi langsung**: https://efwan016.github.io/KB-BMP-Sasing/
+- **Repo**: https://github.com/Efwan016/KB-BMP-Sasing
 
 ## Fitur
 
@@ -19,30 +22,31 @@ Kunjungi aplikasi melalui [bmpsasing.adzanitech.web.id](https://bmpsasing.adzani
 - Mendukung light mode dan dark mode.
 - Tampilan responsif untuk desktop dan perangkat mobile.
 
-## Alur Penggunaan
-
-1. Buka [bmpsasing.adzanitech.web.id](https://bmpsasing.adzanitech.web.id).
-2. Cari mata kuliah atau modul menggunakan kolom pencarian.
-3. Pilih **View module** untuk melihat detail modul.
-4. Dari halaman detail, buka atau unduh PDF, atau pilih **Latihan Soal**.
-5. Jawab soal, kemudian pilih **Selesai & Lihat Nilai**.
-6. Periksa nilai otomatis, kunci jawaban, dan penjelasan yang tersedia.
-
-Setiap modul berisi 30 soal. Nilai otomatis dihitung dari soal pilihan ganda dan aplikasi konteks. Soal isian singkat dan essay tetap tersedia untuk latihan, tetapi perlu diperiksa secara manual.
-
 ## Teknologi
 
 - React 19
 - TypeScript
-- Vite
+- Vite 5
 - Tailwind CSS 4
-- Vercel Analytics
+- @vercel/analytics (opsional)
+- localStorage (riwayat baca + tema)
 
-## Menjalankan Secara Lokal
+## Mata Kuliah
+
+6 mata kuliah, masing-masing 1–9 modul:
+
+- **Basic_Reading** (9 modul)
+- **Basic_Writting** (9 modul)
+- **Bahasa_Indonesia** (6 modul)
+- **PKN** (6 modul)
+- **Cybermedia** (9 modul)
+- **Pancasila** (6 modul)
+
+## Cara Menjalankan Secara Lokal
 
 ### Prasyarat
 
-- Node.js versi 20 atau lebih baru
+- Node.js >= 20
 - npm
 
 ### Instalasi
@@ -51,55 +55,119 @@ Setiap modul berisi 30 soal. Nilai otomatis dihitung dari soal pilihan ganda dan
 npm install
 ```
 
-### Development server
+### Development Server
 
 ```bash
 npm run dev
 ```
 
-Aplikasi tersedia di `http://localhost:5173`.
+Aplikasi tersedia di http://localhost:5173.
 
-### Validasi dan build
+### Build
 
 ```bash
-npm run lint
 npm run build
 ```
 
-Untuk menjalankan hasil build secara lokal:
+Output ada di folder `dist/`.
+
+### Preview Build
 
 ```bash
 npm run preview
 ```
 
+### Lint
+
+```bash
+npm run lint
+```
+
 ## Struktur Data
 
-Data katalog modul berada di `public/data/data-modul.json`.
+- Data katalog modul: `public/data/data-modul.json`
+- Data latihan soal: `public/data/latihan_soal_*.json`
+- Aset PDF: `public/assetMatkul/`
 
-Data latihan soal berada di `public/data/latihan_soal_*.json`.
+## SEO & Distribusi
 
-Bahan ajar PDF dan aset modul berada di `public/assetMatkul/`.
+### GitHub Pages
 
-## Struktur Utama Project
+Aplikasi di-deploy ke GitHub Pages lewat GitHub Actions.
 
-```text
-src/
-├── component/
-│   ├── MainContent.tsx
-│   ├── ModuleDetail.tsx
-│   ├── Navigation.tsx
-│   └── QuizPage/
-├── App.tsx
-├── App.css
-├── index.css
-└── types.ts
-public/
-├── assetMatkul/
-└── data/
+**Enable GitHub Pages** (kalau belum):
+
+1. Buka repo di GitHub → Settings → Pages
+2. Source: **GitHub Actions** (workflow `ci.yml` sudah handle deploy ke `gh-pages` branch)
+3. Atau pilih Branch: `gh-pages` (kalau workflow belum jalan)
+
+Setelah di-deploy, akses lewat:
+
+```
+https://efwan016.github.io/KB-BMP-Sasing/
+```
+
+### Sitemap
+
+Sitemap di-generate secara dinamis lewat script `scripts/generate_sitemap.py`. Output: `public/sitemap.xml`.
+
+Jalankan sebelum build:
+
+```bash
+python3 scripts/generate_sitemap.py
+```
+
+### JSON-LD Structured Data
+
+Script `scripts/generate_jsonld.py` menghasilkan:
+
+- `public/jsonld-modules.json` — array Course schema per modul
+- `public/jsonld-course_list.json` — ItemList schema seluruh modul
+
+Jalankan sebelum build:
+
+```bash
+python3 scripts/generate_jsonld.py
+```
+
+File JSON-LD bisa diintegrasikan ke `index.html` (bikin script tambahan di head) untuk dirender oleh search engine.
+
+### robots.txt
+
+Sudah disediakan di `public/robots.txt`. Mengizinkan semua crawler, kecuali folder `assetMatkul/` dan `data/`.
+
+## Project Structure
+
+```
+.
+├── public/
+│   ├── assetMatkul/     # PDF modul per mata kuliah
+│   ├── data/            # data-modul.json + latihan_soal_*.json
+│   ├── index.html       # template HTML (Vite entry)
+│   ├── robots.txt
+│   └── sitemap.xml     # di-generate oleh script
+├── src/
+│   ├── component/       # React components
+│   ├── App.tsx          # root + routing + state
+│   ├── index.css        # global styles + theme
+│   └── types.ts         # type definitions
+├── scripts/
+│   ├── generate_sitemap.py
+│   └── generate_jsonld.py
+├── .github/workflows/
+│   └── ci.yml          # lint + build + deploy GitHub Pages
+├── package.json
+├── vite.config.ts
+└── tsconfig.json
 ```
 
 ## Catatan
 
-- Riwayat modul dan preferensi tema disimpan menggunakan `localStorage` pada browser pengguna.
-- Aplikasi menggunakan hash URL untuk navigasi detail modul dan latihan soal.
-- Essay dan isian singkat tidak diberi nilai otomatis karena membutuhkan penilaian berdasarkan konteks jawaban.
+- Riwayat modul dan preferensi tema disimpan di `localStorage`.
+- Navigasi pakai hash URL (`#module-detail=...`, `#quiz=...`).
+- Essay dan isian singkat tidak diberi nilai otomatis.
+- Semua konten dan aset di-drive dari file JSON di `public/data/`. Jangan hardcode.
+
+## Lisensi
+
+Project ini tersedia untuk keperluan pembelajaran. Kursus dan modul bersifat edukatif.

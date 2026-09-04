@@ -1,0 +1,1082 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Bahasa Indonesia Modul Module 01",
+    "description": "Module 01 — Bahasa_Indonesia",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 01",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Bahasa Indonesia",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 01 — Bahasa Indonesia",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Bahasa_Indonesia/Bahasa_Indonesia_Modul1_Qoni.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 01"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Bahasa Indonesia Modul Module 02",
+    "description": "Module 02 — Bahasa_Indonesia",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 02",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Bahasa Indonesia",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 02 — Bahasa Indonesia",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Bahasa_Indonesia/Bahasa_Indonesia_Modul2_Lua.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 02"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Bahasa Indonesia Modul Module 03",
+    "description": "Module 03 — Bahasa_Indonesia",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 03",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Bahasa Indonesia",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 03 — Bahasa Indonesia",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Bahasa_Indonesia/Bahasa_Indonesia_Modul3_Thomas.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 03"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Bahasa Indonesia Modul Module 04",
+    "description": "Module 04 — Bahasa_Indonesia",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 04",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Bahasa Indonesia",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 04 — Bahasa Indonesia",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Bahasa_Indonesia/Bahasa_Indonesia_Modul4_Kiran.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 04"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Bahasa Indonesia Modul Module 05",
+    "description": "Module 05 — Bahasa_Indonesia",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 05",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Bahasa Indonesia",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 05 — Bahasa Indonesia",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Bahasa_Indonesia/Bahasa_Indonesia_Modul5_April.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 05"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Bahasa Indonesia Modul Module 06",
+    "description": "Module 06 — Bahasa_Indonesia",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 06",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Bahasa Indonesia",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 06 — Bahasa Indonesia",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Bahasa_Indonesia/Bahasa_Indonesia_Modul6_Lia.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 06"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Reading Modul Module 01",
+    "description": "Module 01 — Basic_Reading",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 01",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Reading",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 01 — Basic Reading",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Reading/BasicReading_Modul1_Heri.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 01"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Reading Modul Module 02",
+    "description": "Module 02 — Basic_Reading",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 02",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Reading",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 02 — Basic Reading",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Reading/BasicReading_Modul2_Najwa.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 02"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Reading Modul Module 03",
+    "description": "Module 03 — Basic_Reading",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 03",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Reading",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 03 — Basic Reading",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Reading/BasicReading_Modul3_Zahra.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 03"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Reading Modul Module 04",
+    "description": "Module 04 — Basic_Reading",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 04",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Reading",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 04 — Basic Reading",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Reading/BasicReading_Modul4_Syazz.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 04"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Reading Modul Module 05",
+    "description": "Module 05 — Basic_Reading",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 05",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Reading",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 05 — Basic Reading",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Reading/BasicReading_Modul5_Bayu.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 05"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Reading Modul Module 06",
+    "description": "Module 06 — Basic_Reading",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 06",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Reading",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 06 — Basic Reading",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Reading/BasicReading_Modul6_Evan.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 06"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Reading Modul Module 07",
+    "description": "Module 07 — Basic_Reading",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 07",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Reading",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 07 — Basic Reading",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Reading/BasicReading_Modul7_Maria.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 07"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Reading Modul Module 08",
+    "description": "Module 08 — Basic_Reading",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 08",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Reading",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 08 — Basic Reading",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Reading/BasicReading_Modul8_Putri.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 08"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Reading Modul Module 09",
+    "description": "Module 09 — Basic_Reading",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 09",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Reading",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 09 — Basic Reading",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Reading/BasicReading_Modul9_Ayu.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 09"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Writting Modul Module 01",
+    "description": "Module 01 — Basic_Writting",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 01",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Writing",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 01 — Basic Writting",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Writting/Basic_Writing_Modul1_Nillawati.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 01"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Writting Modul Module 02",
+    "description": "Module 02 — Basic_Writting",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 02",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Writing",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 02 — Basic Writting",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Writting/Basic_Writing_Modul2_Zaen.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 02"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Writting Modul Module 03",
+    "description": "Module 03 — Basic_Writting",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 03",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Writing",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 03 — Basic Writting",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Writting/Basic_Writing_Modul3_Sayu.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 03"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Writting Modul Module 04",
+    "description": "Module 04 — Basic_Writting",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 04",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Writing",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 04 — Basic Writting",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Writting/Basic_Writing_Modul4_Ocha.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 04"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Writting Modul Module 05",
+    "description": "Module 05 — Basic_Writting",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 05",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Writing",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 05 — Basic Writting",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Writting/Basic_Writing_Modul5_Puput.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 05"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Writting Modul Module 06",
+    "description": "Module 06 — Basic_Writting",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 06",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Writing",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 06 — Basic Writting",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Writting/Basic_Writing_Modul6_Kholis.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 06"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Writting Modul Module 07",
+    "description": "Module 07 — Basic_Writting",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 07",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Writing",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 07 — Basic Writting",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Writting/Basic_Writing_Modul7_Fauziah.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 07"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Writting Modul Module 08",
+    "description": "Module 08 — Basic_Writting",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 08",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Writing",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 08 — Basic Writting",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Writting/Basic_Writing_Module8_Nillawati.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 08"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Basic Writting Modul Module 09",
+    "description": "Module 09 — Basic_Writting",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 09",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Basic Writing",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 09 — Basic Writting",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Basic_Writting/Basic_Writing_Module9_Bayu.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 09"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Cybermedia Modul Module 01",
+    "description": "Module 01 — Cybermedia",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 01",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Cybermedia",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 01 — Cybermedia",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Cybermedia/cybermedia_Modul1_hasna.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 01"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Cybermedia Modul Module 02",
+    "description": "Module 02 — Cybermedia",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 02",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Cybermedia",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 02 — Cybermedia",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Cybermedia/Cybermedia_Modul2_Andra.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 02"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Cybermedia Modul Module 03",
+    "description": "Module 03 — Cybermedia",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 03",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Cybermedia",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 03 — Cybermedia",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Cybermedia/Cybermedia_Modul3_Satya.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 03"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Cybermedia Modul Module 04",
+    "description": "Module 04 — Cybermedia",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 04",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Cybermedia",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 04 — Cybermedia",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Cybermedia/Cybermedia_Modul4_Keisya.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 04"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Cybermedia Modul Module 05",
+    "description": "Module 05 — Cybermedia",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 05",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Cybermedia",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 05 — Cybermedia",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Cybermedia/Cybermedia_Modul5_Medina.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 05"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Cybermedia Modul Module 06",
+    "description": "Module 06 — Cybermedia",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 06",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Cybermedia",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 06 — Cybermedia",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Cybermedia/Cybermedia_Modul6_Indri.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 06"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Cybermedia Modul Module 07",
+    "description": "Module 07 — Cybermedia",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 07",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Cybermedia",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 07 — Cybermedia",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Cybermedia/Cybermedia_Modul7_Wendy.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 07"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Cybermedia Modul Module 08",
+    "description": "Module 08 — Cybermedia",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 08",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Cybermedia",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 08 — Cybermedia",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Cybermedia/Cybermedia_Modul8_Enji.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 08"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Cybermedia Modul Module 09",
+    "description": "Module 09 — Cybermedia",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 09",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Cybermedia",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 09 — Cybermedia",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Cybermedia/Cybermedia_Modul9_Satya.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 09"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "PKN Modul Module 01",
+    "description": "Module 01 — PKN",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 01",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Pendidikan Kewarganegaraan (PKN)",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 01 — PKN",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/PKN/Pkn_Modul1_Kiran.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 01"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "PKN Modul Module 02",
+    "description": "Module 02 — PKN",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 02",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Pendidikan Kewarganegaraan (PKN)",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 02 — PKN",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/PKN/Pkn_Modul2_Repita.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 02"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "PKN Modul Module 03",
+    "description": "Module 03 — PKN",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 03",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Pendidikan Kewarganegaraan (PKN)",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 03 — PKN",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/PKN/Pkn_Modul3_Evi.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 03"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "PKN Modul Module 04",
+    "description": "Module 04 — PKN",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 04",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Pendidikan Kewarganegaraan (PKN)",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 04 — PKN",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/PKN/Pkn_Modul4_Herlin.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 04"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "PKN Modul Module 05",
+    "description": "Module 05 — PKN",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 05",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Pendidikan Kewarganegaraan (PKN)",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 05 — PKN",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/PKN/Pkn_Modul5_Fahrezi.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 05"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "PKN Modul Module 06",
+    "description": "Module 06 — PKN",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 06",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Pendidikan Kewarganegaraan (PKN)",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 06 — PKN",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/PKN/Pkn_Modul6_Zidan.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 06"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Pancasila Modul Module 01",
+    "description": "Module 01 — Pancasila",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 01",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Pancasila",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 01 — Pancasila",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Pancasila/Pancasila_Module1_Rosyid.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 01"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Pancasila Modul Module 02",
+    "description": "Module 02 — Pancasila",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 02",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Pancasila",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 02 — Pancasila",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Pancasila/Pancasila_Module2_Atsilah.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 02"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Pancasila Modul Module 03",
+    "description": "Module 03 — Pancasila",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 03",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Pancasila",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 03 — Pancasila",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Pancasila/Pancasila_Module3_Fara.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 03"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Pancasila Modul Module 04",
+    "description": "Module 04 — Pancasila",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 04",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Pancasila",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 04 — Pancasila",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Pancasila/Pancasila_Module4_Via.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 04"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Pancasila Modul Module 05",
+    "description": "Module 05 — Pancasila",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 05",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Pancasila",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 05 — Pancasila",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Pancasila/Pancasila_Module5_Putri.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 05"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Pancasila Modul Module 06",
+    "description": "Module 06 — Pancasila",
+    "provider": {
+      "@type": "Organization",
+      "name": "Universitas Terbuka — KB-BMP Sasing",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing"
+    },
+    "courseCode": "Module 06",
+    "courseMode": "Self-paced",
+    "educationalLevel": "Foundational",
+    "inLanguage": "id",
+    "teaches": "Pancasila",
+    "hasPart": {
+      "@type": "LearningResource",
+      "name": "Modul Module 06 — Pancasila",
+      "learningResourceType": "Text",
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/assetMatkul/Pancasila/Pancasila_Module6_LatifaChairanni.pdf",
+      "inLanguage": "id"
+    },
+    "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 06"
+  }
+]
