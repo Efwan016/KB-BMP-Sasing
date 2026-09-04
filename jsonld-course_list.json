@@ -1,0 +1,277 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 01",
+      "name": "Bahasa Indonesia Modul Module 01"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 02",
+      "name": "Bahasa Indonesia Modul Module 02"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 03",
+      "name": "Bahasa Indonesia Modul Module 03"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 04",
+      "name": "Bahasa Indonesia Modul Module 04"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 05",
+      "name": "Bahasa Indonesia Modul Module 05"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 06",
+      "name": "Bahasa Indonesia Modul Module 06"
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 01",
+      "name": "Basic Reading Modul Module 01"
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 02",
+      "name": "Basic Reading Modul Module 02"
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 03",
+      "name": "Basic Reading Modul Module 03"
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 04",
+      "name": "Basic Reading Modul Module 04"
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 05",
+      "name": "Basic Reading Modul Module 05"
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 06",
+      "name": "Basic Reading Modul Module 06"
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 07",
+      "name": "Basic Reading Modul Module 07"
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 08",
+      "name": "Basic Reading Modul Module 08"
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 09",
+      "name": "Basic Reading Modul Module 09"
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 01",
+      "name": "Basic Writting Modul Module 01"
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 02",
+      "name": "Basic Writting Modul Module 02"
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 03",
+      "name": "Basic Writting Modul Module 03"
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 04",
+      "name": "Basic Writting Modul Module 04"
+    },
+    {
+      "@type": "ListItem",
+      "position": 20,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 05",
+      "name": "Basic Writting Modul Module 05"
+    },
+    {
+      "@type": "ListItem",
+      "position": 21,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 06",
+      "name": "Basic Writting Modul Module 06"
+    },
+    {
+      "@type": "ListItem",
+      "position": 22,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 07",
+      "name": "Basic Writting Modul Module 07"
+    },
+    {
+      "@type": "ListItem",
+      "position": 23,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 08",
+      "name": "Basic Writting Modul Module 08"
+    },
+    {
+      "@type": "ListItem",
+      "position": 24,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 09",
+      "name": "Basic Writting Modul Module 09"
+    },
+    {
+      "@type": "ListItem",
+      "position": 25,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 01",
+      "name": "Cybermedia Modul Module 01"
+    },
+    {
+      "@type": "ListItem",
+      "position": 26,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 02",
+      "name": "Cybermedia Modul Module 02"
+    },
+    {
+      "@type": "ListItem",
+      "position": 27,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 03",
+      "name": "Cybermedia Modul Module 03"
+    },
+    {
+      "@type": "ListItem",
+      "position": 28,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 04",
+      "name": "Cybermedia Modul Module 04"
+    },
+    {
+      "@type": "ListItem",
+      "position": 29,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 05",
+      "name": "Cybermedia Modul Module 05"
+    },
+    {
+      "@type": "ListItem",
+      "position": 30,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 06",
+      "name": "Cybermedia Modul Module 06"
+    },
+    {
+      "@type": "ListItem",
+      "position": 31,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 07",
+      "name": "Cybermedia Modul Module 07"
+    },
+    {
+      "@type": "ListItem",
+      "position": 32,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 08",
+      "name": "Cybermedia Modul Module 08"
+    },
+    {
+      "@type": "ListItem",
+      "position": 33,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 09",
+      "name": "Cybermedia Modul Module 09"
+    },
+    {
+      "@type": "ListItem",
+      "position": 34,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 01",
+      "name": "PKN Modul Module 01"
+    },
+    {
+      "@type": "ListItem",
+      "position": 35,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 02",
+      "name": "PKN Modul Module 02"
+    },
+    {
+      "@type": "ListItem",
+      "position": 36,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 03",
+      "name": "PKN Modul Module 03"
+    },
+    {
+      "@type": "ListItem",
+      "position": 37,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 04",
+      "name": "PKN Modul Module 04"
+    },
+    {
+      "@type": "ListItem",
+      "position": 38,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 05",
+      "name": "PKN Modul Module 05"
+    },
+    {
+      "@type": "ListItem",
+      "position": 39,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 06",
+      "name": "PKN Modul Module 06"
+    },
+    {
+      "@type": "ListItem",
+      "position": 40,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 01",
+      "name": "Pancasila Modul Module 01"
+    },
+    {
+      "@type": "ListItem",
+      "position": 41,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 02",
+      "name": "Pancasila Modul Module 02"
+    },
+    {
+      "@type": "ListItem",
+      "position": 42,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 03",
+      "name": "Pancasila Modul Module 03"
+    },
+    {
+      "@type": "ListItem",
+      "position": 43,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 04",
+      "name": "Pancasila Modul Module 04"
+    },
+    {
+      "@type": "ListItem",
+      "position": 44,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 05",
+      "name": "Pancasila Modul Module 05"
+    },
+    {
+      "@type": "ListItem",
+      "position": 45,
+      "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 06",
+      "name": "Pancasila Modul Module 06"
+    }
+  ],
+  "numberOfItems": 45
+}

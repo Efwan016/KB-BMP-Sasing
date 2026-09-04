@@ -1,61 +1,4 @@
-<!doctype html>
-<html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/thumbnail.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KB-BMP-Sasing | Modul Bahasa Inggris</title>
-    <meta name="description" content="Kumpulan modul pembelajaran Bahasa Inggris: Basic Writing dan Basic Reading untuk mahasiswa Sasing Ganjil 26." />
-    <meta name="author" content="Efwan016" />
-
-    <!-- Canonical & Crawler -->
-    <link rel="canonical" href="https://efwan016.github.io/KB-BMP-Sasing/" />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-    <meta name="googlebot" content="index, follow" />
-    <meta name="keywords" content="modul bahasa inggris, basic writing, basic reading, mahasiswa, sasing ganjil 26, pembelajaran bahasa inggris" />
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://efwan016.github.io/KB-BMP-Sasing/" />
-    <meta property="og:title" content="KB-BMP-Sasing | Modul Bahasa Inggris" />
-    <meta property="og:description" content="Kumpulan modul pembelajaran Bahasa Inggris: Basic Writing dan Basic Reading untuk mahasiswa Sasing Ganjil 26." />
-    <meta property="og:image" content="/thumbnail.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Tampilan halaman modul bahasa Inggris KB-BMP-Sasing" />
-    <meta property="og:locale" content="id_ID" />
-    <meta property="og:site_name" content="KB-BMP-Sasing" />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://efwan016.github.io/KB-BMP-Sasing/" />
-    <meta property="twitter:title" content="KB-BMP-Sasing | Modul Bahasa Inggris" />
-    <meta property="twitter:description" content="Kumpulan modul pembelajaran Bahasa Inggris: Basic Writing dan Basic Reading untuk mahasiswa Sasing Ganjil 26." />
-    <meta property="twitter:image" content="/thumbnail.png" />
-    <meta property="twitter:creator" content="@Efwan016" />
-
-    <!-- JSON-LD Structured Data: WebSite -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "KB-BMP-Sasing",
-      "alternateName": "Kumpulan Modul Bahasa Inggris Sasing Ganjil 26",
-      "url": "https://efwan016.github.io/KB-BMP-Sasing/",
-      "description": "Kumpulan modul pembelajaran Bahasa Inggris: Basic Writing dan Basic Reading untuk mahasiswa Sasing Ganjil 26.",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://efwan016.github.io/KB-BMP-Sasing/?search={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
-    }
-    </script>
-    <!-- JSON-LD Structured Data: ItemList (all modules) -->
-    <script type="application/ld+json">
-    {
+{
             "@context": "https://schema.org",
             "@type": "ItemList",
             "itemListElement": [
@@ -153,55 +96,55 @@
                                     "@type": "ListItem",
                                     "position": 16,
                                     "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 01",
-                                    "name": "Basic Writing Modul Module 01"
+                                    "name": "Basic Writting Modul Module 01"
                         },
                         {
                                     "@type": "ListItem",
                                     "position": 17,
                                     "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 02",
-                                    "name": "Basic Writing Modul Module 02"
+                                    "name": "Basic Writting Modul Module 02"
                         },
                         {
                                     "@type": "ListItem",
                                     "position": 18,
                                     "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 03",
-                                    "name": "Basic Writing Modul Module 03"
+                                    "name": "Basic Writting Modul Module 03"
                         },
                         {
                                     "@type": "ListItem",
                                     "position": 19,
                                     "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 04",
-                                    "name": "Basic Writing Modul Module 04"
+                                    "name": "Basic Writting Modul Module 04"
                         },
                         {
                                     "@type": "ListItem",
                                     "position": 20,
                                     "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 05",
-                                    "name": "Basic Writing Modul Module 05"
+                                    "name": "Basic Writting Modul Module 05"
                         },
                         {
                                     "@type": "ListItem",
                                     "position": 21,
                                     "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 06",
-                                    "name": "Basic Writing Modul Module 06"
+                                    "name": "Basic Writting Modul Module 06"
                         },
                         {
                                     "@type": "ListItem",
                                     "position": 22,
                                     "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 07",
-                                    "name": "Basic Writing Modul Module 07"
+                                    "name": "Basic Writting Modul Module 07"
                         },
                         {
                                     "@type": "ListItem",
                                     "position": 23,
                                     "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 08",
-                                    "name": "Basic Writing Module 08"
+                                    "name": "Basic Writting Modul Module 08"
                         },
                         {
                                     "@type": "ListItem",
                                     "position": 24,
                                     "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 09",
-                                    "name": "Basic Writing Module 09"
+                                    "name": "Basic Writting Modul Module 09"
                         },
                         {
                                     "@type": "ListItem",
@@ -329,14 +272,6 @@
                                     "url": "https://efwan016.github.io/KB-BMP-Sasing/?module=Module 06",
                                     "name": "Pancasila Modul Module 06"
                         }
-                    ],
-                    "numberOfItems": 45
-                    }
-    </script>
-    <script type="module" crossorigin src="/assets/index-BcYMYJkv.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BnZxnln7.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
-</html>
+            ],
+            "numberOfItems": 45
+}
