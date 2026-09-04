@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# SEO generate temporary files
+public/jsonld-itemlist-inline.json
+public/jsonld-*.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
