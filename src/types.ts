@@ -6,6 +6,7 @@ export type Module = {
   duration: string;
   level: string;
   asset: string;
+  videoUrl?: string;
   highlights: string[];
 };
 

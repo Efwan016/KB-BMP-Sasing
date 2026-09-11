@@ -10,6 +10,13 @@ type ModuleDetailProps = {
 
 const getFileType = (asset: string) => asset.split(".").pop()?.toUpperCase() ?? "FILE";
 
+const getVideoEmbedUrl = (videoUrl: string) => {
+  const fileMatch = videoUrl.match(/drive\.google\.com\/file\/d\/([^/]+)/);
+  if (fileMatch) return `https://drive.google.com/file/d/${fileMatch[1]}/preview`;
+
+  return videoUrl;
+};
+
 export default function ModuleDetail({ module, relatedModules, onBack, onOpenModule, onRecordRead }: ModuleDetailProps) {
   return (
     <main className="detail-page">
@@ -26,8 +33,23 @@ export default function ModuleDetail({ module, relatedModules, onBack, onOpenMod
             <span className="detail-hint">Self-paced learning<br />for focused practice</span>
           </div>
         </div>
+        {module.videoUrl && <section className="video-section" aria-labelledby="video-title">
+        <div>
+          <p className="section-kicker">Watch the lesson</p>
+          <h2 id="video-title">See it<br /><em>in motion.</em></h2>
+        </div>
+        <div className="video-frame">
+          <iframe
+            src={getVideoEmbedUrl(module.videoUrl)}
+            title={`Video pembelajaran ${module.label}`}
+            allow="autoplay; fullscreen"
+            allowFullScreen
+          />
+        </div>
+      </section>}
         <div className="detail-index" aria-hidden="true"><span>MODULE</span><strong>{module.label.replace(/\D/g, "") || "—"}</strong><small>{module.level}</small></div>
       </section>
+
       <section className="detail-body">
         <div>
           <p className="section-kicker">What you will practice</p>
@@ -38,6 +60,7 @@ export default function ModuleDetail({ module, relatedModules, onBack, onOpenMod
           <div className="detail-highlight-grid">{module.highlights.map((highlight, index) => <div className="detail-highlight-card" key={highlight}><span>0{index + 1}</span><strong>{highlight}</strong></div>)}</div>
         </div>
       </section>
+      
       {relatedModules.length > 0 && <section className="related-section" aria-labelledby="related-title">
         <div className="catalog-heading"><div><p className="section-kicker">Continue learning</p><h2 id="related-title">More from<br /><em>{module.title}.</em></h2></div></div>
         <div className="related-list">{relatedModules.map((related) => <button className="related-item" type="button" key={related.asset} onClick={() => onOpenModule(related)}><span>{related.label}</span><strong>{related.description}</strong><b aria-hidden="true">↗</b></button>)}</div>
