@@ -19,7 +19,7 @@ export default function Navigation() {
       <a className="brand" href="#top" aria-label="Readwise home">
         <span className="brand-mark">UT</span>
         <span className="brand-text">
-          BMP UT<span className="brand-dot">.</span>
+          Sasing Ganjil 2026<span className="brand-dot">.</span>
         </span>
       </a>
 

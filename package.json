@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "sitemap": "python3 scripts/generate_sitemap.py",
     "jsonld": "python3 scripts/generate_jsonld.py",
+    "questions:seed-sql": "python3 scripts/generate_question_bank_seed.py",
     "generate": "npm run sitemap && npm run jsonld"
   },
   "dependencies": {

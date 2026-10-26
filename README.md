@@ -18,6 +18,7 @@ Platform belajar mandiri berbasis React 19 + Vite 5 + TypeScript. Menyediakan ak
 - Menampilkan progres jumlah soal yang sudah dijawab.
 - Menghitung nilai otomatis untuk pilihan ganda dan aplikasi konteks.
 - Menampilkan kunci jawaban dan penjelasan setelah latihan selesai.
+- Simulasi ujian gabungan per mata kuliah untuk keenam mata kuliah, dengan 30 soal ujian tersendiri, timer, penyimpanan otomatis, guard pelanggaran, dan hasil di Supabase.
 - Menyimpan riwayat modul yang pernah dibuka di browser.
 - Mendukung light mode dan dark mode.
 - Tampilan responsif untuk desktop dan perangkat mobile.
@@ -83,10 +84,18 @@ npm run preview
 npm run lint
 ```
 
+## Mode Ujian (MVP)
+
+Mode Ujian tersedia satu kali per mata kuliah dan menggabungkan cakupan beberapa modul. Setiap ujian memiliki bank 30 soal pilihan ganda tersendiri, berbeda dari bank Latihan Soal. Konfigurasi jumlah soal, durasi, pengacakan, aturan, dan batas pelanggaran ada pada properti `exam` di modul pertama tiap mata kuliah dalam `public/data/data-modul.json`.
+
+Mode ini memerlukan `VITE_SUPABASE_URL` dan `VITE_SUPABASE_ANON_KEY`. Bank latihan dan ujian dimuat dari RPC Supabase, bukan file JSON di `public/data`. Untuk migrasi bank soal, jalankan `supabase/migrations/20261102000000_question_bank_storage.sql` setelah skema ujian dan sesi yang digunakan proyek. Kemudian buat SQL impor lokal dengan `npm run questions:seed-sql` dan salin isi `supabase/question_bank_seed.sql` ke SQL Editor. Bank sumber berada di `supabase/seed/question-banks/` dan kedua lokasi ini diabaikan Git: jangan deploy atau commit data seed. Jika belum diterapkan, jalankan migrasi leaderboard `20261031000000_exam_leaderboard.sql` sebelum `20261101000000_raise_exam_violation_limit.sql`. Setelah migrasi sesi, aktifkan **Allow anonymous sign-ins** di Supabase Dashboard → Authentication → Settings. Tabel bank soal berada di schema `private` dengan akses langsung dicabut. RPC latihan menyajikan bank latihan; RPC ujian hanya menyajikan soal untuk attempt yang terikat ke peserta dan menghapus kunci/penjelasan dari respons. Soal yang sudah dikirim ke browser tetap dapat diamati peserta melalui DevTools/network. RPC ujian juga menerbitkan ID attempt dan waktu mulai/kedaluwarsa, memvalidasi pelanggaran, menghitung skor di server, serta mewajibkan sesi Supabase yang terikat ke peserta. Login dibatasi di server per sesi anonim, ditambah rate limit Auth per IP. Batas pelanggaran untuk keenam ujian mata kuliah adalah lima.
+
+Hasil ujian bisa diunduh sebagai JSON atau dicetak/disimpan ke PDF. Leaderboard tersedia per mata kuliah dan menampilkan nama samaran, skor terbaik, serta durasi 10 peserta teratas; NIM tidak dipublikasikan. Pemantauan kamera/mikrofon meminta izin sebelum ujian, menganalisis perubahan gambar dan tingkat suara di perangkat, serta tidak merekam, menyimpan, atau mengunggah media mentah. Sensor hanya memberi peringatan dan tidak otomatis dihitung sebagai pelanggaran karena gerakan/suara normal dapat memicu deteksi; sensor tidak mengenali identitas orang, foto, kata, atau sumber suara. Lima pelanggaran guard ujian yang dicatat server menghentikan ujian. Nilai lokal yang belum tersinkron masih bersifat sementara; nilai tersimpan dihitung oleh RPC Supabase. Form login tetap memakai nama sebagai username dan NIM sebagai password. Sesi Auth mengikat panggilan RPC ke peserta dan mengurangi pemalsuan payload, tetapi pasangan nama+NIM bukan bukti identitas yang kuat: siapa pun yang mengetahui keduanya masih dapat mencoba masuk, dan sesi anonim tidak memverifikasi kepemilikan identitas. Kunci ujian tidak dikirim sebelum attempt, tetapi soal yang disajikan ke browser dapat diamati peserta aktif. Jangan gunakan Mode Ujian untuk penilaian resmi sampai autentikasi peserta yang lebih kuat dan penyajian bank soal privat dituntaskan. Jangan pernah menggunakan service role key di frontend.
+
 ## Struktur Data
 
 - Data katalog modul: `public/data/data-modul.json`
-- Data latihan soal: `public/data/latihan_soal_*.json`
+- Data latihan dan ujian lokal untuk impor: `supabase/seed/question-banks/` (diabaikan Git, bukan aset build)
 - Aset PDF: `public/assetMatkul/`
 
 ## SEO & Distribusi
@@ -142,7 +151,7 @@ Sudah disediakan di `public/robots.txt`. Mengizinkan semua crawler, kecuali fold
 .
 ├── public/
 │   ├── assetMatkul/     # PDF modul per mata kuliah
-│   ├── data/            # data-modul.json + latihan_soal_*.json
+│   ├── data/            # katalog data-modul.json
 │   ├── index.html       # template HTML (Vite entry)
 │   ├── robots.txt
 │   └── sitemap.xml     # di-generate oleh script

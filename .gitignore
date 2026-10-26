@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+/supabase/seed/question-banks/
+/supabase/question_bank_seed.sql
 
 # SEO generate temporary files
 public/jsonld-itemlist-inline.json

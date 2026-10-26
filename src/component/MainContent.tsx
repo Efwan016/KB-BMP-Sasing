@@ -5,10 +5,13 @@ type MainContentProps = {
   moduleData: Module;
   filteredModules: Module[];
   moduleGroups: Record<string, Module[]>;
+  examSubjects: string[];
   searchTerm: string;
   onSearchChange: (event: ChangeEvent<HTMLInputElement>) => void;
   onClearSearch: () => void;
   onOpenModule: (module: Module) => void;
+  onStartExam: (subject: string) => void;
+  onShowLeaderboard: (subject: string) => void;
   readingHistory: ReadingHistoryItem[];
   clearHistory: () => void;
 };
@@ -19,10 +22,13 @@ export default function MainContent({
   moduleData,
   filteredModules,
   moduleGroups,
+  examSubjects,
   searchTerm,
   onSearchChange,
   onClearSearch,
   onOpenModule,
+  onStartExam,
+  onShowLeaderboard,
   readingHistory,
   clearHistory,
 }: MainContentProps) {
@@ -122,9 +128,21 @@ export default function MainContent({
             <div className="subject-group" key={subject}>
               <div className="subject-heading">
                 <h3>{subject}</h3>
-                <button className="view-all-button" type="button" onClick={() => onOpenModule(subjectModules[0])}>
-                  Lihat selengkapnya <span aria-hidden="true">→</span>
-                </button>
+                <div className="flex flex-wrap items-center justify-end gap-3">
+                  {examSubjects.includes(subject) && (
+                    <>
+                      <button className="view-all-button" type="button" onClick={() => onStartExam(subject)}>
+                        Ujian Mata Kuliah <span aria-hidden="true">⏱</span>
+                      </button>
+                      <button className="view-all-button" type="button" onClick={() => onShowLeaderboard(subject)}>
+                        Leaderboard <span aria-hidden="true">🏆</span>
+                      </button>
+                    </>
+                  )}
+                  <button className="view-all-button" type="button" onClick={() => onOpenModule(subjectModules[0])}>
+                    Lihat selengkapnya <span aria-hidden="true">→</span>
+                  </button>
+                </div>
               </div>
               <div className="module-cards">
                 {subjectModules.map((module) => (

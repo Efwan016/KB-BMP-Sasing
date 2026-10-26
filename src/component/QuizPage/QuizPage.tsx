@@ -4,17 +4,9 @@ import SoalIsianSingkat from './SoalIsianSingkat';
 import SoalEssay from './SoalEssay';
 import SoalAplikasiKonteks from './SoalAplikasiKonteks';
 import type { LatihanSoalData, SoalPG, SoalIsian, SoalEssay as SoalEssayT, SoalAplikasiKonteks as SoalAK } from './types';
+import { supabase } from '../../lib/supabase';
 
 type MataKuliah = 'Bahasa_Indonesia' | 'Basic_Reading' | 'Basic_Writting' | 'Cybermedia' | 'PKN' | 'Pancasila';
-
-const DATA_MAP: Record<MataKuliah, string> = {
-  Bahasa_Indonesia: '/data/latihan_soal_bahasa_indonesia.json',
-  Basic_Reading: '/data/latihan_soal_basic_reading.json',
-  Basic_Writting: '/data/latihan_soal_basic_writting.json',
-  Cybermedia: '/data/latihan_soal_cybermedia.json',
-  PKN: '/data/latihan_soal_pkn.json',
-  Pancasila: '/data/latihan_soal_pancasila.json',
-};
 
 interface Props {
   mataKuliah: string;
@@ -38,20 +30,29 @@ const normalizeSubject = (raw: string): MataKuliah | null => {
   return map[raw.toLowerCase().replace(/[^a-z0-9-]/g, '')] ?? null;
 };
 
+const isLatihanSoalData = (value: unknown): value is LatihanSoalData => {
+  if (!value || typeof value !== 'object') return false;
+  const bank = value as Record<string, unknown>;
+  return typeof bank.mataKuliah === 'string' && Array.isArray(bank.moduls) &&
+    bank.moduls.every((module) => {
+      if (!module || typeof module !== 'object') return false;
+      const row = module as Record<string, unknown>;
+      return Number.isInteger(row.modul) && typeof row.judul === 'string' &&
+        Boolean(row.soal) && typeof row.soal === 'object';
+    });
+};
+
 export default function QuizPage({ mataKuliah: rawMK, modul, judulModul: judulProps, onBack }: Props) {
   const subject = normalizeSubject(rawMK);
-  const path = subject ? DATA_MAP[subject] : null;
 
   const [data, setData] = useState<LatihanSoalData | null>(null);
   const [showKunci, setShowKunci] = useState(false);
   const [jawabanUser, setJawabanUser] = useState<Record<number, string>>({});
 
   // Error & loading initial state 디결정 di render-time (bukan di dalam useEffect)
-  const initialLoading = !subject || !path ? false : true;
+  const initialLoading = Boolean(subject);
   const initialError: string | null = !subject
     ? 'Mata kuliah tidak dikenali.'
-    : !path
-    ? 'Data soal belum tersedia.'
     : null;
 
   const [loading, setLoading] = useState(initialLoading);
@@ -61,21 +62,26 @@ export default function QuizPage({ mataKuliah: rawMK, modul, judulModul: judulPr
   const dynamicJudul = soalModul?.judul ?? judulProps;
 
   useEffect(() => {
-    if (!subject || !path) return; // Early exit tanpa setState
-    fetch(path)
-      .then((res) => {
-        if (!res.ok) throw new Error(`Gagal load data: ${res.status}`);
-        return res.json() as Promise<LatihanSoalData>;
-      })
-      .then((json) => {
-        setData(json);
-        setLoading(false);
-      })
-      .catch((e) => {
-        setLoading(false);
-        setError(e.message);
-      });
-  }, [subject, path]);
+    if (!subject) return;
+    let active = true;
+    const loadBank = async () => {
+      try {
+        const { data: bank, error: bankError } = await supabase.rpc('ambil_latihan_soal', { p_matkul: subject });
+        if (bankError) throw bankError;
+        if (!isLatihanSoalData(bank)) throw new Error('Format bank latihan dari server tidak valid.');
+        if (bank.mataKuliah !== subject && !(subject === 'Basic_Writting' && bank.mataKuliah === 'Basic_Writing')) {
+          throw new Error('Bank latihan yang diterima tidak cocok dengan mata kuliah.');
+        }
+        if (active) setData(bank);
+      } catch (loadError) {
+        if (active) setError(loadError instanceof Error ? loadError.message : 'Gagal memuat bank latihan.');
+      } finally {
+        if (active) setLoading(false);
+      }
+    };
+    void loadBank();
+    return () => { active = false; };
+  }, [subject]);
 
   const handleJawabPG = useCallback((no: number, label: string) => {
     setJawabanUser((prev) => ({ ...prev, [no]: label }));

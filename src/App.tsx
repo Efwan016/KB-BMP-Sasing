@@ -6,6 +6,8 @@ import MainContent from "./component/MainContent";
 import ModuleDetail from "./component/ModuleDetail";
 import Navigation from "./component/Navigation";
 import QuizPage from "./component/QuizPage/QuizPage";
+import ExamPage from "./component/ExamPage";
+import LeaderboardPage from "./component/LeaderboardPage";
 import PhotoBoothPage from "./pages/PhotoBoothPage";
 import type { Module, ReadingHistoryItem } from "./types";
 import "./App.css";
@@ -29,7 +31,9 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedAsset, setSelectedAsset] = useState<string | null>(null);
   const [selectedQuiz, setSelectedQuiz] = useState<{ mataKuliah: string; modul: number; judul: string } | null>(null);
-  const [activePage, setActivePage] = useState<"home" | "module" | "quiz" | "photo-booth">("home");
+  const [selectedExam, setSelectedExam] = useState<{ mataKuliah: string } | null>(null);
+  const [selectedLeaderboard, setSelectedLeaderboard] = useState<string | null>(null);
+  const [activePage, setActivePage] = useState<"home" | "module" | "quiz" | "exam" | "leaderboard" | "photo-booth">("home");
   const [readingHistory, setReadingHistory] = useState<ReadingHistoryItem[]>(() => {
     try {
       const stored = localStorage.getItem(STORAGE_KEY);
@@ -94,6 +98,10 @@ function App() {
     groups[subject] = [...(groups[subject] ?? []), module];
     return groups;
   }, {}), [filteredModules]);
+  const examSubjects = useMemo(
+    () => [...new Set(modules.filter((module) => module.exam).map((module) => module.title))],
+    [modules],
+  );
 
   useEffect(() => {
     const syncDetail = () => {
@@ -101,6 +109,8 @@ function App() {
       if (hash.startsWith("#module-detail=")) {
         setSelectedAsset(decodeURIComponent(hash.replace("#module-detail=", "")));
         setSelectedQuiz(null);
+        setSelectedExam(null);
+        setSelectedLeaderboard(null);
         setActivePage("module");
       } else if (hash.startsWith("#quiz=")) {
         const payload = decodeURIComponent(hash.replace("#quiz=", ""));
@@ -114,28 +124,64 @@ function App() {
           modul: Number.isFinite(modul) ? modul : 1,
           judul: mataKuliahRaw,
         });
+        setSelectedExam(null);
+        setSelectedLeaderboard(null);
         setActivePage("quiz");
+      } else if (hash.startsWith("#exam=")) {
+        const [mataKuliah = ""] = decodeURIComponent(hash.replace("#exam=", "")).split("/");
+        setSelectedAsset(null);
+        setSelectedQuiz(null);
+        setSelectedLeaderboard(null);
+        if (modules.some((module) => module.title === mataKuliah && module.exam)) {
+          setSelectedExam({ mataKuliah });
+          setActivePage("exam");
+        } else {
+          setSelectedExam(null);
+          setActivePage("home");
+        }
+      } else if (hash.startsWith("#leaderboard=")) {
+        const mataKuliah = decodeURIComponent(hash.replace("#leaderboard=", ""));
+        setSelectedAsset(null);
+        setSelectedQuiz(null);
+        setSelectedExam(null);
+        if (modules.some((module) => module.title === mataKuliah && module.exam)) {
+          setSelectedLeaderboard(mataKuliah);
+          setActivePage("leaderboard");
+        } else {
+          setSelectedLeaderboard(null);
+          setActivePage("home");
+        }
       } else if (hash === "#photo-booth") {
         setSelectedAsset(null);
         setSelectedQuiz(null);
+        setSelectedExam(null);
+        setSelectedLeaderboard(null);
         setActivePage("photo-booth");
       } else {
         setSelectedAsset(null);
         setSelectedQuiz(null);
+        setSelectedExam(null);
+        setSelectedLeaderboard(null);
         setActivePage("home");
       }
     };
     syncDetail();
     window.addEventListener("hashchange", syncDetail);
     return () => window.removeEventListener("hashchange", syncDetail);
-  }, []);
+  }, [modules]);
 
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  }, [selectedAsset, selectedQuiz]);
+  }, [selectedAsset, selectedQuiz, selectedExam]);
 
   const openModule = (module: Module) => {
     window.location.hash = `module-detail=${encodeURIComponent(module.asset)}`;
+  };
+  const startExam = (mataKuliah: string) => {
+    window.location.hash = `exam=${encodeURIComponent(mataKuliah)}`;
+  };
+  const showLeaderboard = (mataKuliah: string) => {
+    window.location.hash = `leaderboard=${encodeURIComponent(mataKuliah)}`;
   };
   const closeDetail = () => window.history.back();
   const selectedModule = modules.find((module) => module.asset === selectedAsset);
@@ -146,6 +192,13 @@ function App() {
       <Navigation />
       {activePage === "photo-booth" ? (
         <PhotoBoothPage />
+      ) : selectedLeaderboard ? (
+        <LeaderboardPage key={selectedLeaderboard} mataKuliah={selectedLeaderboard} onBack={() => window.history.back()} />
+      ) : selectedExam ? (
+        (() => {
+          const module = modules.find((item) => item.title === selectedExam.mataKuliah && item.exam);
+          return module?.exam ? <ExamPage key={selectedExam.mataKuliah} mataKuliah={selectedExam.mataKuliah} modul={0} config={module.exam} onBack={() => window.history.back()} /> : <main className="mx-auto min-h-[70vh] max-w-3xl px-6 py-16 text-center"><h1 className="font-[var(--serif)] text-3xl text-[var(--coral)]">Ujian belum tersedia</h1><p className="mt-3 text-sm text-[var(--muted)]">Bank soal ujian untuk mata kuliah ini belum tersedia.</p></main>;
+        })()
       ) : selectedQuiz ? (
         <QuizPage
           mataKuliah={selectedQuiz.mataKuliah}
@@ -166,10 +219,13 @@ function App() {
           moduleData={moduleData}
           filteredModules={filteredModules}
           moduleGroups={moduleGroups}
+          examSubjects={examSubjects}
           searchTerm={searchTerm}
           onSearchChange={(event) => setSearchTerm(event.target.value)}
           onClearSearch={() => setSearchTerm("")}
           onOpenModule={openModule}
+          onStartExam={startExam}
+          onShowLeaderboard={showLeaderboard}
           readingHistory={readingHistory}
           clearHistory={clearHistory}
         />

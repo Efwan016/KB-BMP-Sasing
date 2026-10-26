@@ -5,6 +5,7 @@ export interface Opsi {
 
 export interface SoalPG {
   no: number;
+  sourceModul?: number;
   pertanyaan: string;
   opsi: Opsi[];
   kunci: string;
