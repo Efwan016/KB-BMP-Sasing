@@ -7,6 +7,21 @@
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Bahasa_Indonesia/Bahasa_Indonesia_Modul1_Qoni.pdf",
+      "exam": {
+         "durasiMenit": 60,
+         "jumlahSoal": 30,
+         "acak": true,
+         "maxPelanggaran": 5,
+         "cooldownJam": 4,
+         "cooldownScope": "modul",
+         "aturan": [
+            "Ujian ini merupakan simulasi latihan, bukan penilaian resmi.",
+            "Soal ujian disusun khusus dari gabungan materi beberapa modul, terpisah dari Latihan Soal.",
+            "Jangan berpindah tab, jendela, atau aplikasi selama ujian.",
+            "Jangan keluar dari mode layar penuh selama ujian.",
+            "Jawaban tersimpan otomatis di perangkat ini dan hasil dikirim ke server saat ujian selesai."
+         ]
+      },
       "highlights": [
          "Module 01",
          "Bahasa_Indonesia",
@@ -92,6 +107,21 @@
       "level": "Foundational",
       "asset": "/assetMatkul/Basic_Reading/BasicReading_Modul1_Heri.pdf",
       "videoUrl": "https://drive.google.com/file/d/1QOTJMJaQxUMa-pRbOHqVzdwTkZCoipg0/view?usp=sharing",
+      "exam": {
+         "durasiMenit": 60,
+         "jumlahSoal": 30,
+         "acak": true,
+         "maxPelanggaran": 5,
+         "cooldownJam": 4,
+         "cooldownScope": "modul",
+         "aturan": [
+            "Ujian ini merupakan simulasi latihan, bukan penilaian resmi.",
+            "Soal ujian disusun khusus dari gabungan materi beberapa modul, terpisah dari Latihan Soal.",
+            "Jangan berpindah tab, jendela, atau aplikasi selama ujian.",
+            "Jangan keluar dari mode layar penuh selama ujian.",
+            "Jawaban tersimpan otomatis di perangkat ini dan hasil dikirim ke server saat ujian selesai."
+         ]
+      },
       "highlights": [
          "Module 01",
          "Basic_Reading",
@@ -226,6 +256,21 @@
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Basic_Writting/Basic_Writing_Modul1_Nillawati.pdf",
+      "exam": {
+         "durasiMenit": 60,
+         "jumlahSoal": 30,
+         "acak": true,
+         "maxPelanggaran": 5,
+         "cooldownJam": 4,
+         "cooldownScope": "modul",
+         "aturan": [
+            "Ujian ini merupakan simulasi latihan, bukan penilaian resmi.",
+            "Soal ujian disusun khusus dari gabungan materi beberapa modul, terpisah dari Latihan Soal.",
+            "Jangan berpindah tab, jendela, atau aplikasi selama ujian.",
+            "Jangan keluar dari mode layar penuh selama ujian.",
+            "Jawaban tersimpan otomatis di perangkat ini dan hasil dikirim ke server saat ujian selesai."
+         ]
+      },
       "highlights": [
          "Module 01",
          "Basic_Writting",
@@ -352,6 +397,21 @@
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Cybermedia/cybermedia_Modul1_hasna.pdf",
+      "exam": {
+         "durasiMenit": 60,
+         "jumlahSoal": 30,
+         "acak": true,
+         "maxPelanggaran": 5,
+         "cooldownJam": 4,
+         "cooldownScope": "modul",
+         "aturan": [
+            "Ujian ini merupakan simulasi latihan, bukan penilaian resmi.",
+            "Soal ujian disusun khusus dari gabungan materi beberapa modul, terpisah dari Latihan Soal.",
+            "Jangan berpindah tab, jendela, atau aplikasi selama ujian.",
+            "Jangan keluar dari mode layar penuh selama ujian.",
+            "Jawaban tersimpan otomatis di perangkat ini dan hasil dikirim ke server saat ujian selesai."
+         ]
+      },
       "highlights": [
          "Module 01",
          "Cybermedia",
@@ -478,6 +538,21 @@
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/PKN/Pkn_Modul1_Kiran.pdf",
+      "exam": {
+         "durasiMenit": 60,
+         "jumlahSoal": 30,
+         "acak": true,
+         "maxPelanggaran": 5,
+         "cooldownJam": 4,
+         "cooldownScope": "modul",
+         "aturan": [
+            "Ujian ini merupakan simulasi latihan, bukan penilaian resmi.",
+            "Soal ujian disusun khusus dari gabungan materi beberapa modul, terpisah dari Latihan Soal.",
+            "Jangan berpindah tab, jendela, atau aplikasi selama ujian.",
+            "Jangan keluar dari mode layar penuh selama ujian.",
+            "Jawaban tersimpan otomatis di perangkat ini dan hasil dikirim ke server saat ujian selesai."
+         ]
+      },
       "highlights": [
          "Module 01",
          "PKN",
@@ -562,6 +637,21 @@
       "duration": "Self-paced",
       "level": "Foundational",
       "asset": "/assetMatkul/Pancasila/Pancasila_Module1_Rosyid.pdf",
+      "exam": {
+         "durasiMenit": 60,
+         "jumlahSoal": 30,
+         "acak": true,
+         "maxPelanggaran": 5,
+         "cooldownJam": 4,
+         "cooldownScope": "modul",
+         "aturan": [
+            "Ujian ini merupakan simulasi latihan, bukan penilaian resmi.",
+            "Soal ujian disusun khusus dari gabungan materi beberapa modul, terpisah dari Latihan Soal.",
+            "Jangan berpindah tab, jendela, atau aplikasi selama ujian.",
+            "Jangan keluar dari mode layar penuh selama ujian.",
+            "Jawaban tersimpan otomatis di perangkat ini dan hasil dikirim ke server saat ujian selesai."
+         ]
+      },
       "highlights": [
          "Module 01",
          "Pancasila",
