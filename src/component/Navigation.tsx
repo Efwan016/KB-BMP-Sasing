@@ -2,21 +2,35 @@ import { useEffect, useState } from "react";
 
 const THEME_KEY = "sasing-theme";
 
-export default function Navigation() {
-  const [isDark, setIsDark] = useState(() => {
+function getInitialTheme() {
+  try {
     const savedTheme = localStorage.getItem(THEME_KEY);
-    return savedTheme ? savedTheme === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
-  });
+    if (savedTheme === "dark" || savedTheme === "light") {
+      return savedTheme === "dark";
+    }
+  } catch (error) {
+    console.warn("Unable to read the saved theme preference.", error);
+  }
+
+  return window.matchMedia("(prefers-color-scheme: dark)").matches;
+}
+
+export default function Navigation() {
+  const [isDark, setIsDark] = useState(getInitialTheme);
 
   useEffect(() => {
     const theme = isDark ? "dark" : "light";
     document.documentElement.dataset.theme = theme;
-    localStorage.setItem(THEME_KEY, theme);
+    try {
+      localStorage.setItem(THEME_KEY, theme);
+    } catch (error) {
+      console.warn("Unable to save the theme preference.", error);
+    }
   }, [isDark]);
 
   return (
     <nav className="site-nav" aria-label="Navigasi utama">
-      <a className="brand" href="#top" aria-label="Readwise home">
+      <a className="brand" href="#top" aria-label="Sasing Ganjil 2026, beranda">
         <span className="brand-mark">UT</span>
         <span className="brand-text">
           Sasing Ganjil 2026<span className="brand-dot">.</span>
