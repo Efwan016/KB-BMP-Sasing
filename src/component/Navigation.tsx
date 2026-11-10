@@ -30,9 +30,9 @@ export default function Navigation() {
 
   return (
     <>
-      <a className="skip-link" href="#main-content">Lewati ke konten utama</a>
+      <a className="skip-link" href="#top">Lewati ke konten utama</a>
       <nav className="site-nav" aria-label="Navigasi utama">
-        <a className="brand" href="#main-content" aria-label="Sasing Ganjil 2026, beranda">
+        <a className="brand" href="#top" aria-label="Sasing Ganjil 2026, beranda">
           <span className="brand-mark" aria-hidden="true">UT</span>
           <span className="brand-text">
             Sasing Ganjil 2026<span className="brand-dot">.</span>
@@ -42,7 +42,7 @@ export default function Navigation() {
         <div className="nav-actions">
           <a className="nav-link" href="#modules">
             <span className="nav-icon" aria-hidden="true">⌕</span>
-            Jelajahi modul
+            Find a module
           </a>
 
           <a className="nav-link" href="#photo-booth">Photo Booth</a>
@@ -50,9 +50,9 @@ export default function Navigation() {
           <button
             className="theme-toggle"
             type="button"
-            aria-label={isDark ? "Aktifkan tema terang" : "Aktifkan tema gelap"}
+            aria-label={isDark ? "Aktifkan light mode" : "Aktifkan dark mode"}
             aria-pressed={isDark}
-            title={isDark ? "Tema terang" : "Tema gelap"}
+            title={isDark ? "Light mode" : "Dark mode"}
             onClick={() => setIsDark((theme) => !theme)}
           >
             <span aria-hidden="true">{isDark ? "☼" : "☾"}</span>

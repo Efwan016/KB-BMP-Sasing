@@ -14,14 +14,13 @@ type MainContentProps = {
   onStartExam: (subject: string) => void;
   onShowLeaderboard: (subject: string) => void;
   readingHistory: ReadingHistoryItem[];
-  recentModule?: Module;
-  totalModuleCount: number;
-  subjectCount: number;
   clearHistory: () => void;
 };
 
 const getFileType = (asset: string) => asset.split(".").pop()?.toUpperCase() ?? "FILE";
-const formatSubject = (subject: string) => subject.replace(/_/g, " ");
+const formatSubject = (subject: string) => subject.replace(/_/g, " ").replace("Basic Writting", "Basic Writing");
+const formatModuleDescription = (description: string) =>
+  description.replace(/_/g, " ").replace("Basic Writting", "Basic Writing");
 
 export default function MainContent({
   moduleData,
@@ -36,94 +35,92 @@ export default function MainContent({
   onStartExam,
   onShowLeaderboard,
   readingHistory,
-  recentModule,
-  totalModuleCount,
-  subjectCount,
   clearHistory,
 }: MainContentProps) {
   const previewGroups = Object.entries(moduleGroups).reduce<Record<string, Module[]>>((groups, [subject, subjectModules]) => {
     groups[subject] = searchTerm ? subjectModules : subjectModules.slice(0, 3);
     return groups;
   }, {});
-
   return (
-    <main className="home-page" id="top">
-      <section className="home-hero" aria-labelledby="hero-title">
+    <main id="top">
+      <section className="hero-section" aria-labelledby="hero-title">
         <div className="hero-copy">
-          <p className="home-eyebrow"><span className="eyebrow-line" />Ruang belajar mandiri · 2026</p>
-          <h1 id="hero-title">Belajar lebih<br /><em>terarah.</em></h1>
-          <p className="home-hero-description">
-            Temukan modul, lanjutkan bacaan, dan latihan sesuai waktumu—semua dalam satu ruang belajar.
-          </p>
-          <div className="home-hero-actions">
-            <a className="home-primary-button" href="#modules">
-              Jelajahi modul <span aria-hidden="true">↓</span>
+          <p className="eyebrow"><span className="eyebrow-line" />{moduleData.eyebrow}</p>
+          <h1 id="hero-title">Read with<br /><em>intention.</em></h1>
+          <p className="hero-description">{moduleData.description}</p>
+          <p className="hero-meta">Sastra Inggris · Universitas Terbuka · Ganjil 2026</p>
+          <div className="hero-actions">
+            <a className="text-link" href="#module">
+              Jelajahi materi <span aria-hidden="true">↓</span>
             </a>
             <a
               href="https://chat.whatsapp.com/BBvjqar5kPIDbrXxyKSZyh?s=cl&p=i&mlu=4"
               target="_blank"
               rel="noopener noreferrer"
-              className="home-secondary-link"
+              className="text-link text-red-600"
             >
-              Gabung komunitas belajar <span aria-hidden="true">↗</span>
+              Gabung grup belajar Sastra Inggris <span aria-hidden="true">↗</span>
             </a>
           </div>
         </div>
-        <aside className="home-overview" aria-label="Ringkasan perpustakaan belajar">
-          <div className="home-overview-heading">
-            <span className="overview-icon" aria-hidden="true">✦</span>
-            <p>Perpustakaan belajarmu</p>
+        <div className="hero-visual" aria-hidden="true">
+          <div className="orbit orbit-one" />
+          <div className="orbit orbit-two" />
+          <div className="visual-card">
+            <span className="visual-number">2026</span>
+            <span className="visual-caption">
+                Keep Growing, Keep Building, byte by byte
+                <br />
+                in attention</span>
+            <span className="visual-arrow">↗</span>
           </div>
-          <p className="overview-description">Materi tersusun agar kamu mudah memilih langkah berikutnya.</p>
-          <div className="overview-stats">
-            <div><strong>{totalModuleCount}</strong><span>modul</span></div>
-            <div><strong>{subjectCount}</strong><span>mata kuliah</span></div>
-            <div><strong>{examSubjects.length}</strong><span>ujian</span></div>
-          </div>
-          <span className="overview-note">Belajar sedikit demi sedikit tetap berarti.</span>
-        </aside>
+          <span className="visual-note">slow down<br />to notice more</span>
+        </div>
       </section>
 
-      <section className="resume-section" aria-labelledby="resume-title">
+      <section className="module-section" id="module" aria-labelledby="module-title">
         <div className="section-heading">
-          <p className="home-section-kicker">{recentModule ? "Lanjutkan belajar" : "Mulai belajar"}</p>
-          <h2 id="resume-title">
-            {recentModule ? <>Kembali ke<br />modulmu.</> : <>Pilih langkah<br />pertamamu.</>}
-          </h2>
+          <p className="section-kicker">{readingHistory.length > 0 ? "Your reading history" : "Inside the module"}</p>
+          <h2 id="module-title">{readingHistory.length > 0 ? "Modul yang pernah dibuka" : <>A small shift<br /><em>in how you read.</em></>}</h2>
         </div>
-        <div className="resume-card">
-          <span className="resume-card-icon" aria-hidden="true">{recentModule ? "↗" : "01"}</span>
-          <div className="resume-card-copy">
-            <p>{recentModule ? formatSubject(recentModule.title) : formatSubject(moduleData.title)} · {recentModule?.label ?? moduleData.label}</p>
-            <h3>{recentModule ? "Lanjutkan modul terakhir" : "Jelajahi modul pertama"}</h3>
-            <span>{recentModule?.description ?? moduleData.description}</span>
-          </div>
-          <button
-            className="resume-card-action"
-            type="button"
-            onClick={() => onOpenModule(recentModule ?? moduleData)}
-            aria-label={`Buka ${formatSubject(recentModule?.title ?? moduleData.title)} ${recentModule?.label ?? moduleData.label}`}
-          >
-            Buka modul <span aria-hidden="true">→</span>
-          </button>
-          {readingHistory.length > 0 && (
+        {readingHistory.length > 0 ? (
+          <div className="module-details">
+            <p className="module-intro">Riwayat baca tersimpan di browser ini.</p>
+            <div className="history-list">
+              {readingHistory.map((item) => (
+                <div className="history-item" key={item.asset}>
+                  <div className="history-item-info">
+                    <span className="history-label">{item.label}</span>
+                    <span className="history-title">{item.title}</span>
+                  </div>
+                  <span className="history-time">{new Date(item.timestamp).toLocaleString()}</span>
+                </div>
+              ))}
+            </div>
             <button className="clear-history-button" type="button" onClick={clearHistory}>Hapus riwayat</button>
-          )}
-        </div>
+          </div>
+        ) : (
+          <div className="module-details">
+            <p className="module-intro">Lihat ringkasan materi, lalu buka modul untuk membaca dan berlatih sesuai waktumu.</p>
+            <div className="detail-grid">
+              <div><span>Modul</span><strong>{moduleData.label.replace(/^Module\b/, "Modul")}</strong></div>
+              <div><span>Format</span><strong>PDF · Mandiri</strong></div>
+              <div><span>Tingkat</span><strong>{moduleData.level}</strong></div>
+            </div>
+            <ul className="highlight-list">
+              {moduleData.highlights.map((highlight) => <li key={highlight}><span aria-hidden="true">+</span>{highlight}</li>)}
+            </ul>
+          </div>
+        )}
       </section>
 
       <section className="catalog-section" id="modules" aria-labelledby="catalog-title">
-        <div className="catalog-heading">
+        <div className="catalog-heading catalog-toolbar">
           <div>
-            <p className="home-section-kicker">Perpustakaan</p>
-            <h2 id="catalog-title">Temukan modul<br /><em>berikutnya.</em></h2>
-            <p className="catalog-description">Cari berdasarkan mata kuliah, nomor modul, atau topik yang ingin kamu pelajari.</p>
+            <p className="catalog-badge"><span aria-hidden="true">✦</span> Perpustakaan belajar</p>
+            <h2 id="catalog-title">Materi belajar<br /><em>pilihanmu.</em></h2>
+            <p className="catalog-description">Cari berdasarkan mata kuliah, nomor modul, atau topik materi.</p>
           </div>
-          <p className="catalog-count" aria-live="polite">
-            {searchTerm
-              ? `${filteredModules.length} dari ${totalModuleCount} modul ditemukan`
-              : `${totalModuleCount} modul tersedia`}
-          </p>
         </div>
         <div className="search-wrap">
           <label htmlFor="module-search">Cari modul</label>
@@ -131,28 +128,28 @@ export default function MainContent({
           <input id="module-search" type="search" value={searchTerm} onChange={onSearchChange} placeholder="Contoh: Basic Reading atau modul 06" />
           {searchTerm && <button className="clear-search" type="button" onClick={onClearSearch} aria-label="Hapus pencarian">×</button>}
         </div>
+        <p className="catalog-count" aria-live="polite">
+          {searchTerm ? `${filteredModules.length} modul ditemukan` : `${filteredModules.length} modul tersedia`}
+        </p>
         <div className="results-list card-results">
           {Object.entries(previewGroups).map(([subject, subjectModules]) => (
             <div className="subject-group" key={subject}>
               <div className="subject-heading">
-                <div className="subject-title">
-                  <h3>{formatSubject(subject)}</h3>
-                  <span>{moduleGroups[subject].length} modul</span>
-                </div>
-                <div className="subject-actions">
+                <h3>{formatSubject(subject)}</h3>
+                <div className="flex flex-wrap items-center justify-end gap-3">
                   {examSubjects.includes(subject) && (
                     <>
                       <button className="view-all-button" type="button" onClick={() => onStartExam(subject)}>
-                        Mulai ujian <span aria-hidden="true">⏱</span>
+                        Ujian Mata Kuliah <span aria-hidden="true">⏱</span>
                       </button>
                       <button className="view-all-button" type="button" onClick={() => onShowLeaderboard(subject)}>
-                        Papan peringkat <span aria-hidden="true">🏆</span>
+                        Leaderboard <span aria-hidden="true">🏆</span>
                       </button>
                     </>
                   )}
                   {!searchTerm && moduleGroups[subject].length > subjectModules.length && (
                     <button className="view-all-button" type="button" onClick={() => onShowAllModules(subject)}>
-                      Semua modul <span aria-hidden="true">→</span>
+                      Lihat semua <span aria-hidden="true">→</span>
                     </button>
                   )}
                 </div>
@@ -160,10 +157,10 @@ export default function MainContent({
               <div className="module-cards">
                 {subjectModules.map((module) => (
                   <article className="module-card" key={module.asset}>
-                    <div className="module-card-top"><div className="module-icon" aria-hidden="true">{module.label.replace(/\D/g, "") || "—"}</div><span className="card-arrow" aria-hidden="true">{getFileType(module.asset)}</span></div>
-                    <p className="module-meta">{module.level}</p>
+                    <div className="module-card-top"><div className="module-icon" aria-hidden="true">{module.label.replace(/\D/g, "") || "—"}</div><span className="card-arrow" aria-hidden="true">↗</span></div>
+                    <p className="module-meta">{module.level} / {getFileType(module.asset)}</p>
                     <h3>{module.label}</h3>
-                    <p className="module-card-description">{module.description}</p>
+                    <p className="module-card-description">{formatModuleDescription(module.description)}</p>
                     <button className="module-card-link" type="button" onClick={() => onOpenModule(module)} aria-label={`Buka ${formatSubject(subject)} ${module.label}`}>
                       Buka modul <span aria-hidden="true">→</span>
                     </button>
@@ -182,12 +179,10 @@ export default function MainContent({
         </div>
       </section>
 
-      <section className="home-help" aria-label="Dukungan belajar">
-        <span aria-hidden="true">✦</span>
-        <p>Belajar bareng terasa lebih ringan.</p>
-        <a href="https://chat.whatsapp.com/BBvjqar5kPIDbrXxyKSZyh?s=cl&p=i&mlu=4" target="_blank" rel="noopener noreferrer">
-          Gabung komunitas WhatsApp <span aria-hidden="true">↗</span>
-        </a>
+      <section className="cta-section">
+        <p className="section-kicker">Belajar mandiri</p>
+        <h2>Mulai dari<br /><em>rasa ingin tahu.</em></h2>
+        <a className="primary-button light-button" href={moduleData.asset} target="_blank" rel="noreferrer">Buka modul <span aria-hidden="true">↗</span></a>
       </section>
     </main>
   );
