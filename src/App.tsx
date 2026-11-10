@@ -84,13 +84,12 @@ function App() {
   const modules = useMemo(() => data ?? fallbackData, [data]);
   const moduleData = modules[0];
   const filteredModules = useMemo(() => {
-    const normalizedSearch = searchTerm.trim().toLowerCase();
+    const normalize = (value: string) => value.replace(/_/g, " ").toLowerCase();
+    const normalizedSearch = normalize(searchTerm.trim());
     if (!normalizedSearch) return modules;
     return modules.filter((module) =>
       [module.title, module.description, module.label, module.level, ...module.highlights]
-        .join(" ")
-        .toLowerCase()
-        .includes(normalizedSearch),
+        .some((value) => normalize(value).includes(normalizedSearch)),
     );
   }, [modules, searchTerm]);
   const moduleGroups = useMemo(() => filteredModules.reduce<Record<string, Module[]>>((groups, module) => {
@@ -185,51 +184,60 @@ function App() {
   };
   const closeDetail = () => window.history.back();
   const selectedModule = modules.find((module) => module.asset === selectedAsset);
+  const recentModule = readingHistory[0]
+    ? modules.find((module) => module.asset === readingHistory[0].asset)
+    : undefined;
   const relatedModules = selectedModule ? modules.filter((module) => module.title === selectedModule.title && module.asset !== selectedModule.asset) : [];
 
   return (
     <Layout>
       <Navigation />
-      {activePage === "photo-booth" ? (
-        <PhotoBoothPage />
-      ) : selectedLeaderboard ? (
-        <LeaderboardPage key={selectedLeaderboard} mataKuliah={selectedLeaderboard} onBack={() => window.history.back()} />
-      ) : selectedExam ? (
-        (() => {
-          const module = modules.find((item) => item.title === selectedExam.mataKuliah && item.exam);
-          return module?.exam ? <ExamPage key={selectedExam.mataKuliah} mataKuliah={selectedExam.mataKuliah} modul={0} config={module.exam} onBack={() => window.history.back()} /> : <main className="mx-auto min-h-[70vh] max-w-3xl px-6 py-16 text-center"><h1 className="font-[var(--serif)] text-3xl text-[var(--coral)]">Ujian belum tersedia</h1><p className="mt-3 text-sm text-[var(--muted)]">Bank soal ujian untuk mata kuliah ini belum tersedia.</p></main>;
-        })()
-      ) : selectedQuiz ? (
-        <QuizPage
-          mataKuliah={selectedQuiz.mataKuliah}
-          modul={selectedQuiz.modul}
-          judulModul={selectedQuiz.judul}
-          onBack={() => window.history.back()}
-        />
-      ) : selectedModule ? (
-        <ModuleDetail
-          module={selectedModule}
-          relatedModules={relatedModules}
-          onBack={closeDetail}
-          onOpenModule={openModule}
-          onRecordRead={recordRead}
-        />
-      ) : (
-        <MainContent
-          moduleData={moduleData}
-          filteredModules={filteredModules}
-          moduleGroups={moduleGroups}
-          examSubjects={examSubjects}
-          searchTerm={searchTerm}
-          onSearchChange={(event) => setSearchTerm(event.target.value)}
-          onClearSearch={() => setSearchTerm("")}
-          onOpenModule={openModule}
-          onStartExam={startExam}
-          onShowLeaderboard={showLeaderboard}
-          readingHistory={readingHistory}
-          clearHistory={clearHistory}
-        />
-      )}
+      <div id="main-content" tabIndex={-1}>
+        {activePage === "photo-booth" ? (
+          <PhotoBoothPage />
+        ) : selectedLeaderboard ? (
+          <LeaderboardPage key={selectedLeaderboard} mataKuliah={selectedLeaderboard} onBack={() => window.history.back()} />
+        ) : selectedExam ? (
+          (() => {
+            const module = modules.find((item) => item.title === selectedExam.mataKuliah && item.exam);
+            return module?.exam ? <ExamPage key={selectedExam.mataKuliah} mataKuliah={selectedExam.mataKuliah} modul={0} config={module.exam} onBack={() => window.history.back()} /> : <main className="mx-auto min-h-[70vh] max-w-3xl px-6 py-16 text-center"><h1 className="font-[var(--serif)] text-3xl text-[var(--coral)]">Ujian belum tersedia</h1><p className="mt-3 text-sm text-[var(--muted)]">Bank soal ujian untuk mata kuliah ini belum tersedia.</p></main>;
+          })()
+        ) : selectedQuiz ? (
+          <QuizPage
+            mataKuliah={selectedQuiz.mataKuliah}
+            modul={selectedQuiz.modul}
+            judulModul={selectedQuiz.judul}
+            onBack={() => window.history.back()}
+          />
+        ) : selectedModule ? (
+          <ModuleDetail
+            module={selectedModule}
+            relatedModules={relatedModules}
+            onBack={closeDetail}
+            onOpenModule={openModule}
+            onRecordRead={recordRead}
+          />
+        ) : (
+          <MainContent
+            moduleData={moduleData}
+            filteredModules={filteredModules}
+            moduleGroups={moduleGroups}
+            examSubjects={examSubjects}
+            searchTerm={searchTerm}
+            onSearchChange={(event) => setSearchTerm(event.target.value)}
+            onClearSearch={() => setSearchTerm("")}
+            onShowAllModules={(subject) => setSearchTerm(subject.replace(/_/g, " "))}
+            onOpenModule={openModule}
+            onStartExam={startExam}
+            onShowLeaderboard={showLeaderboard}
+            readingHistory={readingHistory}
+            recentModule={recentModule}
+            totalModuleCount={modules.length}
+            subjectCount={new Set(modules.map((module) => module.title)).size}
+            clearHistory={clearHistory}
+          />
+        )}
+      </div>
       <Footer />
       <Analytics />
     </Layout>

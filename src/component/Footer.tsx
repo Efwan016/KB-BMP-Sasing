@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer>
-      <span>KEGIATAN BELAJAR SASING GANJIL</span>
+      <span>RUANG BELAJAR MANDIRI · SASTRA INGGRIS</span>
       <span>© 2026</span>
     </footer>
   );

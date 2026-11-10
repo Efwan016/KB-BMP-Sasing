@@ -29,53 +29,36 @@ export default function Navigation() {
   }, [isDark]);
 
   return (
-    <nav className="site-nav" aria-label="Navigasi utama">
-      <a className="brand" href="#top" aria-label="Sasing Ganjil 2026, beranda">
-        <span className="brand-mark">UT</span>
-        <span className="brand-text">
-          Sasing Ganjil 2026<span className="brand-dot">.</span>
-        </span>
-      </a>
-
-      <div className="nav-actions">
-        <a
-          className="nav-link"
-          href="#modules"
-          onClick={(e) => {
-            if (window.location.hash === "#photo-booth") {
-              e.preventDefault();
-              window.location.hash = "#top";
-            }
-          }}
-        >
-          <span className="nav-icon" aria-hidden="true">⌕</span>
-          Find a module
+    <>
+      <a className="skip-link" href="#main-content">Lewati ke konten utama</a>
+      <nav className="site-nav" aria-label="Navigasi utama">
+        <a className="brand" href="#main-content" aria-label="Sasing Ganjil 2026, beranda">
+          <span className="brand-mark" aria-hidden="true">UT</span>
+          <span className="brand-text">
+            Sasing Ganjil 2026<span className="brand-dot">.</span>
+          </span>
         </a>
 
-        <a
-          className="nav-link"
-          href="#photo-booth"
-          onClick={(e) => {
-            if (window.location.hash !== "#photo-booth") {
-              e.preventDefault();
-              window.location.hash = "#photo-booth";
-            }
-          }}
-        >
-          Photo Booth
-        </a>
+        <div className="nav-actions">
+          <a className="nav-link" href="#modules">
+            <span className="nav-icon" aria-hidden="true">⌕</span>
+            Jelajahi modul
+          </a>
 
-        <button
-          className="theme-toggle"
-          type="button"
-          aria-label={isDark ? "Aktifkan light mode" : "Aktifkan dark mode"}
-          aria-pressed={isDark}
-          title={isDark ? "Light mode" : "Dark mode"}
-          onClick={() => setIsDark((theme) => !theme)}
-        >
-          <span aria-hidden="true">{isDark ? "☼" : "☾"}</span>
-        </button>
-      </div>
-    </nav>
+          <a className="nav-link" href="#photo-booth">Photo Booth</a>
+
+          <button
+            className="theme-toggle"
+            type="button"
+            aria-label={isDark ? "Aktifkan tema terang" : "Aktifkan tema gelap"}
+            aria-pressed={isDark}
+            title={isDark ? "Tema terang" : "Tema gelap"}
+            onClick={() => setIsDark((theme) => !theme)}
+          >
+            <span aria-hidden="true">{isDark ? "☼" : "☾"}</span>
+          </button>
+        </div>
+      </nav>
+    </>
   );
 }
